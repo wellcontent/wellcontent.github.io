@@ -1,0 +1,54 @@
+// Styling for the footer
+footer {
+    color: $gray-500;
+    padding: 50px 0 65px;
+    margin-top: auto;
+
+    .list-inline {
+        margin: 0;
+        padding: 0px 0px 0px 15px;
+    }
+
+    .footer-header {
+        font-size: 14px;
+        margin: 0px 0px 8px 0px;
+    }
+
+    .footer-resources {
+        font-size: 14px;
+        text-decoration: none;
+        margin: 0px 0px 50px 0px;
+    }
+
+    .footer-resources-link {
+        font-size: 14px;
+        text-decoration: underline;
+        color: unset;
+        padding: 0px 15px 0px 0px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+    }
+
+    .copyright {
+        font-size: 14px;
+        margin: 0;
+        padding: 0px 15px 0px 0px;
+    }
+
+    .footer-link {
+        font-size: 14px;
+        display: block;
+        padding: 0px 15px 0px 0px;
+        text-decoration: none;
+        color: unset;
+      
+        @include hover-focus() {
+          text-decoration: none;
+        }
+    }
+}

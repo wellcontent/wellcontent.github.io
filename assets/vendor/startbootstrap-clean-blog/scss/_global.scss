@@ -1,0 +1,99 @@
+// Global styling for this template
+
+body {
+    background-color: $gray-900;
+    font-size: 20px;
+    color: $white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 30px;
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+.site-title {
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+a {
+    color: $primary;
+
+    &:focus,
+    &:hover {
+        color: $primary;
+    }
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: 700;
+    color: $gray-500;
+}
+
+.section-heading {
+    color: $white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.caption {
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+::-moz-selection {
+    color: $white;
+    background: $primary;
+    text-shadow: none;
+}
+
+::selection {
+    color: $white;
+    background: $primary;
+    text-shadow: none;
+}
+
+img::selection {
+    color: $white;
+    background: transparent;
+}
+
+img::-moz-selection {
+    color: $white;
+    background: transparent;
+}
+
+hr {
+    border-top: 1px solid $gray-800;
+}
+
+img {
+    width: 100%;
+}

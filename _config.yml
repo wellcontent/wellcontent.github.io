@@ -1,0 +1,27 @@
+title:              Well&Content
+email:              glitchedinorbit@gmail.com
+description:        Putting wellbeing ahead for content creators
+author:             Well&Content
+baseurl:            ""
+url:                "https://wellcontent.github.io"
+permalink:          /:slug/
+
+# Social Profiles
+twitter_username:   
+github_username:    
+facebook_username:  
+instagram_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   G-FP7E82B5MW # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-seo-tag
