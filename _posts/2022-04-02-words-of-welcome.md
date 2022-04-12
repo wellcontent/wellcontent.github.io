@@ -2,7 +2,7 @@
 layout: post
 title: "Words Of Welcome"
 subtitle: "Oh, we're live? Welcome to Well&Content! Prepare for creator insights and life lessons, with a focus on wellbeing in the online space."
-background: '/img/posts/01.jpg'
+background: '/img/posts/01.webp'
 ---
 
 *Welcome to Well&Content! Prepare for creator insights and life lessons, with a focus on wellbeing in the online space.*

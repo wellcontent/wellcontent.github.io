@@ -32,6 +32,8 @@ layout: default
 
         {{ content }}
 
+        {% include ads.html %}
+
         <hr>
 
         <div class="clearfix">
@@ -50,3 +52,15 @@ layout: default
       </div>
     </div>
   </div>
+
+  {% include utterances.html %}
+
+  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+  <script>
+    kofiWidgetOverlay.draw('glitchedinorbit', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#323842',
+    'floating-chat.donateButton.text-color': '#fff'
+    });
+  </script>
