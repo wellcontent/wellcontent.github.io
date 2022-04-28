@@ -32,8 +32,6 @@ layout: default
 
         {{ content }}
 
-        {% include ads.html %}
-
         <hr>
 
         <div class="clearfix">
@@ -49,12 +47,14 @@ layout: default
 
         </div>
 
+        <div class="comments">{% include utterances.html %}</div>
+
       </div>
     </div>
   </div>
-
-  {% include utterances.html %}
-
+  
+  
+  
   <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
   <script>
     kofiWidgetOverlay.draw('glitchedinorbit', {
