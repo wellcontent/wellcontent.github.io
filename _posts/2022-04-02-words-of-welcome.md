@@ -5,8 +5,6 @@ subtitle: "Oh, we're live? Welcome to Well&Content! Prepare for creator insights
 background: '/img/posts/01.webp'
 ---
 
-*Welcome to Well&Content! Prepare for creator insights and life lessons, with a focus on wellbeing in the online space.*
-
 My name's Chloe, and I'm the person behind Well&Content.
 
 I've spent **5+ years creating content** on the livestreaming platform [Twitch](https://www.digitaltrends.com/gaming/what-is-twitch/). I also started creating on YouTube quite recently.
@@ -33,6 +31,6 @@ This is my **first ever blog**, and I'm excited to share my experience and story
 
 I hope you're as excited as I am.
 
-Want to **connect** with me? You can find me on [Twitter](https://twitter.com/glitchedinorbit) or send me an [email](mailto:glitchedinorbit@gmail.com).
+Want to **connect** with me? You can comment below, find me on [Twitter](https://twitter.com/glitchedinorbit), or send me an [email](mailto:glitchedinorbit@gmail.com).
 
 I'd love to hear from you.

@@ -11,7 +11,7 @@ background: ''
 
 The content by Well&Content is intended purely for informational and educational purposes only, and does not substitute medical advice or consultations with healthcare professionals. Please seek consultations from healthcare professionals to receive personalized advice or treatment.
 
-### Amazon Associates Disclosure
+### Amazon Associates and Affiliate Links Disclosure
 
 As an Amazon Associate I earn from qualifying purchases. The website may contain links to affiliate websites, and I receive an affiliate commission for any purchases made by you on the affiliate website using such links.
 

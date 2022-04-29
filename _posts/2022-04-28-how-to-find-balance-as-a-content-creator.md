@@ -5,12 +5,6 @@ subtitle: "Struggling to find balance as a content creator? It can be difficult 
 background: '/img/posts/02.webp'
 ---
 
-# How To Find Balance As A Content Creator
-
-*This article lists actionable tips to improve your mental wellbeing while creating content.*
-
-<br>
-
 ### 1. Do what you love
 
 Okay.
@@ -35,7 +29,7 @@ I can highly recommend two books for an authentic Japanese perspective on ikigai
 
 According to Mogi and Mitsuhashi, you can find your ikigai in a wide range of conditions.
 
-Research has indicated that you are less likely to experience depression and more likely to measure well-being you have a sense of ikigai.
+Research has indicated that you are less likely to experience depression and more likely to measure well-being if you have a sense of ikigai.
 
 Invest time in discovering your ikigai.
 
@@ -51,8 +45,6 @@ You can provide value in different ways, be it educational, entertaining, or oth
 
 Only you can decide what you love doing.
 
-<br>
-
 ### 2. Compare yourself to yourself only
 
 It's very easy to get caught up in comparing yourself to others. It's happened to me. I would compare myself to other content creators, which lowered the confidence in my abilities.
@@ -67,19 +59,13 @@ Focus on what *you* want to contribute to the world and what you enjoy doing.
 
 Remind yourself that someone else's success isn't your failure. Look at the progress *you* have made over the past few days, weeks, or even years.
 
-<br>
-
 > "SOMEONE ELSE'S SUCCESS ISN'T YOUR FAILURE"
-
-<br>
 
 It's easy to forget how far you've come, but you can always make time to evaluate.
 
 In the end, you can only compare yourself to yourself, and grow from what you have done and learned the day(s) before.
 
 Success means something different for everyone.
-
-<br>
 
 ### 3. Diversify your content
 
@@ -99,8 +85,6 @@ However, do keep balance with diversifying. Every additional platform is extra w
 
 For example, I currently like to curate content for YouTube, livestream on Twitch, and post on Twitter.
 
-<br>
-
 ### 4. Generate streams of passive income
 
 Passive income is an amazing way to generate income even when you're not actively working.
@@ -113,9 +97,7 @@ There are many ways in which you can generate passive income.
 
 They don't all have to take up a lot of time either.
 
-<br>
-
-> #### Passive income ideas:
+##### Passive income ideas:
 - create an online course
 - write an e-book
 - start a blog (like me!)
@@ -127,13 +109,9 @@ They don't all have to take up a lot of time either.
 - ad placement
 - subscriptions
 
-<br>
-
 This idea list is non-exhaustive, and there are many other ways to generate passive income.
 
 Get creative!
-
-<br>
 
 ### 5. Take good care of yourself
 
@@ -143,17 +121,13 @@ You're also more efficient and productive if you take care of yourself. Plus, yo
 
 It's a win-win for everyone.
 
-<br>
-
-> #### Self care ideas:
+##### Self care ideas:
 - find a daily routine that works for you
 - prioritize sleep hygiene and a night-time routine
 - stay hydrated
 - feed your body and soul with nourishing foods
 - schedule breaks (I still struggle with this)
 - find ways to decompress, if only for 5 minutes - journal, meditate, exercise, read a book, take a walk in nature, take a hot bath/shower, etc.
-
-<br>
 
 Additionally, find ways to manage your energy.
 
@@ -172,8 +146,6 @@ Energy regenerates after a nap or a cup of tea, but depletes after spending time
 For me, it's been very helpful to make a list of what gives me energy and what drains my energy.
 
 I challenge you to make a list like this as well. If you need any inspiration, think of what you used to love doing as a kid.
-
-<br>
 
 ### 6. Do not focus on metrics, but do occasionally review them
 
@@ -204,8 +176,6 @@ Instead of worrying about numbers, get creative and elevate the content you have
 Review your metrics only every once in a while instead of multiple times per week.
 
 Take back a healthier headspace.
-
-<br>
 
 ### 7. Create the workflow that works for you
 
@@ -239,20 +209,21 @@ If you need to break larger projects into smaller tasks, do it!
 
 Everyone is different and no one works in the same way.
 
-<br>
+*I hope this list has helped you. What do you do to find balance as a content creator?* 🍵
+
+*Let me know what you think.* 💭
 
 *Thank you for reading! :)*
 
-*I hope this list has helped you. Let me know what you think in the comments below.* 💭
-
-*What do you do to find balance as a content creator?* 🍵
-
 <br>
 
-**Sources:**
+<hr>
 
-Fido, Dean, Yasuhiro Kotera, and Kenichi Asano. "English translation and validation of the Ikigai-9 in a UK Sample." *International Journal of Mental Health and Addiction* 18 (2019): 1352–1359. https://doi.org/10.1007/s11469-019-00150-w.
+<span style="font-size:14px;">Last edited on {{ 'now' | date: '%B %d, %Y' }}</span>
 
-Imai, Tadanori, Hisao Osada, and Yoshimitsu Nishimura. "The reliability and validity of a new scale for measuring the concept of Ikigai (Ikigai-9)." *Japanese Journal of Public Health* 59, no. 7 (2012): 433–439. https://doi.org/10.11236/jph.59.7_433.
+<span style="font-size:14px;">**Sources:**</span>  
+<span style="font-size:14px;">Fido, Dean, Yasuhiro Kotera, and Kenichi Asano. "English translation and validation of the Ikigai-9 in a UK Sample." *International Journal of Mental Health and Addiction* 18 (2019): 1352–1359. https://doi.org/10.1007/s11469-019-00150-w.</span>
 
-Wilkes, Juliet, Gulcan Garip, Yasuhiro Kotera, and Dean Fido. "Can Ikigai Predict Anxiety, Depression, and Well-being?" *International Journal of Mental Health and Addiction* (2022): 1-13. https://doi.org/10.1007/s11469-022-00764-7.
+<span style="font-size:14px;">Imai, Tadanori, Hisao Osada, and Yoshimitsu Nishimura. "The reliability and validity of a new scale for measuring the concept of Ikigai (Ikigai-9)." *Japanese Journal of Public Health* 59, no. 7 (2012): 433–439. https://doi.org/10.11236/jph.59.7_433.</span>
+
+<span style="font-size:14px;">Wilkes, Juliet, Gulcan Garip, Yasuhiro Kotera, and Dean Fido. "Can Ikigai Predict Anxiety, Depression, and Well-being?" *International Journal of Mental Health and Addiction* (2022): 1-13. https://doi.org/10.1007/s11469-022-00764-7.</span>
