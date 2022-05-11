@@ -159,7 +159,7 @@ I'd check my streaming analytics after streams to 'analyze' how I did, but I'd a
 
 The fact of the matter is that numbers fluctuate, especially during livestreams.
 
-Low(er) viewer count does not, I repeat DOES NOT, necesarilly mean you put out bad content. People hop in and out of streams, people go outside, real life happens...
+Low(er) viewer count does not, I repeat DOES NOT, necessarily mean you put out bad content. People hop in and out of streams, people go outside, real life happens...
 
 You might also not be discoverable enough. In this case, lack of proper discoverability on the platform itself plays a big role.
 
