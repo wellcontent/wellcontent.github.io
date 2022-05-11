@@ -3,7 +3,7 @@ email:              glitchedinorbit@gmail.com
 description:        Putting wellbeing ahead for content creators
 author:             Well&Content
 baseurl:            ""
-url:                "https://wellcontent.github.io"
+url:                "https://wellcontent.io"
 permalink:          /:slug/
 
 # Social Profiles
