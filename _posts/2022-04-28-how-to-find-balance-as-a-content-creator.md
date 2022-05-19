@@ -97,7 +97,7 @@ There are many ways in which you can generate passive income.
 
 They don't all have to take up a lot of time either.
 
-##### Passive income ideas:
+**Passive income ideas:**
 - create an online course
 - write an e-book
 - start a blog (like me!)
@@ -199,7 +199,7 @@ Maybe this works for you too.
 
 It has also helped me to make use of templates or pre-made assets to take the load off of having to start from scratch every single time.
 
-You can look into Ko-fi, [Fiverr](https://go.fiverr.com/visit/?bta=405967&brand=fiverrcpa), or Etsy for this.
+You can look into [Ko-fi](https://ko-fi.com/explore), [Fiverr](https://go.fiverr.com/visit/?bta=405967&brand=fiverrcpa), or [Etsy](https://etsy.com) for this.
 
 Whatever you do, it's important to adapt a workflow to your needs specifically.
 

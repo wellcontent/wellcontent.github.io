@@ -27,3 +27,8 @@ User-agent: *
 Disallow: /tags/
 Disallow: /category/
 Sitemap: {{ site.url }}/sitemap.xml
+
+User-agent: Twitterbot
+Disallow: *
+Allow: /img
+Allow: /posts
