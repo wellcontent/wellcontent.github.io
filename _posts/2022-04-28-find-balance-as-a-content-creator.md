@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How To Find Balance As A Content Creator"
-subtitle: "Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content."
+title: "7 Helpful Tips To Actually Make Balance A Priority As A Content Creator"
+subtitle: "Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists 7 actionable tips how you can improve your mental wellbeing while creating content."
 background: '/img/posts/02.webp'
 ---
 
