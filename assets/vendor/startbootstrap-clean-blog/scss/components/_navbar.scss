@@ -1,35 +1,103 @@
-// Styling for the navbar
+// Styling for the main navbar
 #mainNav {
     position: absolute;
-    border-bottom: 1px solid $gray-200;
-    background-color: white;
+    border-bottom: 1px solid $gray-800;
+    background-color: $gray-900;
     font-family: $headings-font-family;
 
     .navbar-brand {
         font-weight: 800;
-        color: $gray-800;
+        color: $white;
     }
 
     .navbar-toggler {
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 800;
         padding: 13px;
         text-transform: uppercase;
-        color: $gray-800;
+        color: $white;
         border: none;
     }
 
     .navbar-nav {
         >li.nav-item {
             >a {
-                font-size: 12px;
+                color: $white;
+                font-size: 14px;
                 font-weight: 800;
                 letter-spacing: 0.2em;
-                text-transform: uppercase;
+                text-transform: none;
             }
         }
     }
 
+// Styling for the navbar categories
+    #site-category li a{
+        display: block;
+        font-weight: normal;
+        line-height: 50px;
+        margin: 0px;
+        padding: 0px 25px;
+        text-align: center;
+        text-decoration: none;
+        }
+      
+      #site-category a:hover{
+        background: none;
+        color: fade-out($white, .2);
+        text-decoration: underline $primary 3px;
+        }
+      
+      #navbarResponsive li ul{
+        background: none;
+        display: none;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        position: absolute;
+        width: 200px;
+        z-index: 200;
+        /*top: 1em;
+        /*left: 0;*/
+        }
+      
+      #navbarResponsive li:hover ul{
+        display: block;
+        }
+      
+      #navbarResponsive li li {
+        display: block;
+        float: none;
+        margin: 0px;
+        padding: 0px;
+        width: 200px;
+        }
+      
+      #navbarResponsive li:hover li a{
+        background: $gray-900;
+        }
+      
+        #navbarResponsive li ul a{
+          display: block;
+          height: 50px;
+          font-size: 12px;
+          text-transform: uppercase;
+          color: white;
+          margin: 0px;
+          padding: 0px 10px 0px 20px;
+          text-align: left;
+          }
+      
+        #navbarResponsive li ul a:hover{
+          background: $gray-900;
+          border:0px;
+          color: white;
+          text-decoration: none;
+          }    
+
+
+// Styling for desktop devices
     @media only screen and (min-width: 992px) {
         border-bottom: 1px solid transparent;
         background: transparent;
@@ -81,7 +149,7 @@
             -moz-transition: -moz-transform 0.2s;
             transition: transform 0.2s;
             border-bottom: 1px solid darken($white, .05);
-            background-color: fade-out($white, .1);
+            background-color: white;
 
             .navbar-brand {
                 color: $gray-900;
@@ -103,6 +171,16 @@
                         }
                     }
                 }
+            }
+
+            #navbarResponsive li:hover li a{
+                color: $gray-900;
+                background: white;
+            }
+            
+            #site-category a:hover{
+                background: none;
+                color: $primary;
             }
         }
 

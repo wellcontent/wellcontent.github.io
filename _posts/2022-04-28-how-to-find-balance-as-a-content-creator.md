@@ -1,11 +1,23 @@
 ---
 layout: post
-title: "7 Helpful Tips For Content Creators To Actually Make Balance A Priority"
+title: "7 Tips For Content Creators To Make Balance A Priority"
 subtitle: "Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content."
 background: '/img/posts/02.webp'
+categories: [wellbeing, content creation]
 ---
 
-### 1. Do what you love
+**JUMP TO SECTION**:
+- [1. Do What You Love](#1-do-what-you-love)
+- [2. Compare Yourself To Yourself Only](#2-compare-yourself-to-yourself-only)
+- [3. Diversify Your Content](#3-diversify-your-content)
+- [4. Generate Streams Of Passive Income](#4-generate-streams-of-passive-income)
+- [5. Take Good Care Of Yourself](#5-take-good-care-of-yourself)
+- [6. Do Not Focus On Metrics](#6-do-not-focus-on-metrics)
+- [7. Create The Workflow That Works For You](#7-create-the-workflow-that-works-for-you)
+
+<br>
+
+### 1. Do What You Love
 
 Okay.
 
@@ -45,7 +57,9 @@ You can provide value in different ways, be it educational, entertaining, or oth
 
 Only you can decide what you love doing.
 
-### 2. Compare yourself to yourself only
+<br>
+
+### 2. Compare Yourself To Yourself Only
 
 It's very easy to get caught up in comparing yourself to others. It's happened to me. I would compare myself to other content creators, which lowered the confidence in my abilities.
 
@@ -59,7 +73,9 @@ Focus on what *you* want to contribute to the world and what you enjoy doing.
 
 Remind yourself that someone else's success isn't your failure. Look at the progress *you* have made over the past few days, weeks, or even years.
 
-> "SOMEONE ELSE'S SUCCESS ISN'T YOUR FAILURE"
+<div class="alert alert-secondary" role="alert">
+    ❝Someone else's success isn't your failure.❞
+</div>
 
 It's easy to forget how far you've come, but you can always make time to evaluate.
 
@@ -67,7 +83,9 @@ In the end, you can only compare yourself to yourself, and grow from what you ha
 
 Success means something different for everyone.
 
-### 3. Diversify your content
+<br>
+
+### 3. Diversify Your Content
 
 When it comes to any type of content creation, exposure is very important.
 
@@ -85,7 +103,13 @@ However, do keep balance with diversifying. Every additional platform is extra w
 
 For example, I currently like to curate content for YouTube, livestream on Twitch, and post on Twitter.
 
-### 4. Generate streams of passive income
+<br>
+
+{% include newsletter.html %}
+
+<br>
+
+### 4. Generate Streams Of Passive Income
 
 Passive income is an amazing way to generate income even when you're not actively working.
 
@@ -96,6 +120,8 @@ For example, I get income through YouTube ads, Twitch subscriptions, and Ko-fi t
 There are many ways in which you can generate passive income.
 
 They don't all have to take up a lot of time either.
+
+<br>
 
 **Passive income ideas:**
 - create an online course
@@ -109,17 +135,23 @@ They don't all have to take up a lot of time either.
 - ad placement
 - subscriptions
 
+<br>
+
 This idea list is non-exhaustive, and there are many other ways to generate passive income.
 
 Get creative!
 
-### 5. Take good care of yourself
+<br>
+
+### 5. Take Good Care Of Yourself
 
 As with all things in life, your endeavors need balance. You have to take care of yourself before you can take care of others - or work-related endeavors.
 
 You're also more efficient and productive if you take care of yourself. Plus, you can create higher quality content.
 
 It's a win-win for everyone.
+
+<br>
 
 ##### Self care ideas:
 - find a daily routine that works for you
@@ -128,6 +160,8 @@ It's a win-win for everyone.
 - feed your body and soul with nourishing foods
 - schedule breaks (I still struggle with this)
 - find ways to decompress, if only for 5 minutes - journal, meditate, exercise, read a book, take a walk in nature, take a hot bath/shower, etc.
+
+<br>
 
 Additionally, find ways to manage your energy.
 
@@ -147,7 +181,9 @@ For me, it's been very helpful to make a list of what gives me energy and what d
 
 I challenge you to make a list like this as well. If you need any inspiration, think of what you used to love doing as a kid.
 
-### 6. Do not focus on metrics, but do occasionally review them
+<br>
+
+### 6. Do Not Focus On Metrics
 
 Worrying about and overanalyzing metrics led me to burnout on numbers.
 
@@ -165,9 +201,11 @@ You might also not be discoverable enough. In this case, lack of proper discover
 
 Do NOT make the mistake of equating numbers with success or lack thereof.
 
-Do keep in mind though that there's always a person behind the number. Don't lose track of that.
+Keep in mind that there's always a person behind the number. Don't lose track of that.
 
-A good rule of thumb is to review your metrics over a 30 day, 60 day, or 90 day period. This gives you a good reference point for how you performed, and whether you need to pivot or not.
+Do occasionally review your metrics.
+
+A good rule of thumb is to review them over a 30 day, 60 day, or 90 day period. This gives you a good reference point for how you performed, and whether you need to pivot or not.
 
 For livestreams specifically, 90 days gives the most accurate depiction of performance.
 
@@ -177,7 +215,9 @@ Review your metrics only every once in a while instead of multiple times per wee
 
 Take back a healthier headspace.
 
-### 7. Create the workflow that works for you
+<br>
+
+### 7. Create The Workflow That Works For You
 
 There are many ways in which you can create a workflow specialized for you.
 
@@ -209,9 +249,11 @@ If you need to break larger projects into smaller tasks, do it!
 
 Everyone is different and no one works in the same way.
 
-*I hope this list has helped you. What do you do to find balance as a content creator?* 🍵
+<br>
 
-*Let me know what you think.* 💭
+*I hope this list has helped you. What do you do to find balance as a content creator?*
+
+*Let me know what you think.*
 
 *Thank you for reading! :)*
 
@@ -219,7 +261,7 @@ Everyone is different and no one works in the same way.
 
 <hr>
 
-<span style="font-size:14px;">Last edited on {{ 'now' | date: '%B %d, %Y' }}</span>
+<span style="font-size:14px;">Last updated on {{ 'now' | date: '%B %d, %Y' }}</span>
 
 <span style="font-size:14px;">**Sources:**</span>  
 <span style="font-size:14px;">Fido, Dean, Yasuhiro Kotera, and Kenichi Asano. "English translation and validation of the Ikigai-9 in a UK Sample." *International Journal of Mental Health and Addiction* 18 (2019): 1352–1359. https://doi.org/10.1007/s11469-019-00150-w.</span>

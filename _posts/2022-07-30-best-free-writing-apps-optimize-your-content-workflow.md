@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "The Best Free Writing Apps To Optimize Your Content Workflow"
+title: "The Best Free Writing Apps For Your Content Workflow"
 subtitle: "Need to get your thoughts on paper or get writing done? Look no further! Here's a list with the best distraction-free writing apps to optimize your content workflow - not to mention they're completely free."
 background: '/img/posts/04.webp'
+categories: [blogging, writing]
 ---
 
 Writing and content scheduling is still a very manual task, and sometimes (or often) you need distraction-free options to get you in the flow - I know I do.
@@ -22,9 +23,13 @@ Promise.
 * [MarkText](#6-marktext)
 * [Notepad++](#7-notepad)
 
+<br>
+
 #### Online use
 
 The following writing apps are for online use. If you enjoy working in the cloud for collaborative purposes or file-syncing, then these apps could be helpful for you.
+
+<br>
 
 ### 1. [Google Docs](https://www.google.com/docs/about/)
 Google Docs is a free online document editor, which allows you to easily collaborate with other users. 
@@ -42,6 +47,8 @@ One big downside for me is that there's no native dark mode. Google, please. Dar
 * **Compatibility**: Browser, Android, iOS
 * [Open Google Docs](https://docs.google.com/)
 
+<br>
+
 ### 2. [Notion](https://www.notion.so/)
 Notion is more of a visual note-taking program and is free for personal use. It goes far beyond simple note-taking because it also functions as an online workplace for roadmaps, trackers, wikis, and task lists.
 
@@ -51,10 +58,16 @@ You do need to be online while writing, which isn't always optimal. What if you 
 
 A huge plus is that it has native dark mode! Thank everything good in life. Honestly, any app that has native dark mode has a step up in my book. And to make your workflow easier, many templates are available for Notion.
 
+<div class="alert alert-primary" role="alert">
+    Get free <a href="https://ko-fi.com/glitchedinorbit/shop" class="alert-link">Notion templates</a>.
+</div>
+
 * **Pros**: device/account sync, easy online collaboration, native dark mode, many integrations, templates
 * **Cons**: account needed, online only
 * **Compatibility**: Windows, macOS, Browser, Android, iOS
 * [Download Notion](https://www.notion.so/personal/)
+
+<br>
 
 ### 3. [Simplenote](https://simplenote.com/)
 Simplenote is a free and *simple* (hehe) note-taking application. It fully supports Markdown, which is a markup language for creating formatted text using plain text. If you have a Jekyll blog (like this one!) and you enjoy writing in Markdown as opposed to HTML, an app with Markdown support will improve your workflow.
@@ -70,8 +83,16 @@ To install Simplenote, scroll down to 'Other Downloads' on the main page. It'll 
 * **Compatibility**: Windows, macOS, Linux, Android, iOS
 * [Download Simplenote](https://simplenote.com/)
 
+<br>
+
+{% include newsletter.html %}
+
+<br>
+
 #### Offline use
 The following writing apps are for offline use. If you enjoy more secure note-taking and don't mind no file-syncing, then these apps could be helpful for you.
+
+<br>
 
 ### 4. [Obsidian](https://obsidian.md/)
 Obsidian is an open-source knowledge base with full Markdown support. It's very minimalistic, so it won't distract you with extras you don't need.
@@ -86,10 +107,16 @@ Because Obsidian stores your notes in a local folder on your device, you can't s
 
 I personally like to have my entire content workflow in one place, so I don't need multiple apps. Obsidian allows me to do just that.
 
+<div class="alert alert-primary" role="alert">
+    Get free <a href="https://ko-fi.com/glitchedinorbit/shop" class="alert-link">Obsidian templates</a>.
+</div>
+
 * **Pros**: no account needed, local storage, secure, markdown support, autosave, minimalistic, dark mode, open-source, plugins, highly customizable
 * **Cons**: no (free) device/account sync
 * **Compatibility**: Windows, macOS, Linux, Android, iOS
 * [Download Obsidian](https://obsidian.md/)
+
+<br>
 
 ### 5. [Standard Notes](https://standardnotes.com/)
 Standard Notes is a free secure note-taking app. It uses end-to-end encryption to protect your notes and files. Plain text, Rich text, and Markdown are supported. It also features spreadsheets, code, and task lists.
@@ -105,6 +132,8 @@ If you are privacy conscious and need an app that allows for more secure note-ta
 * **Compatibility**: Windows, macOS, Linux, Browser, Android, iOS
 * [Download Standard Notes](https://standardnotes.com/)
 
+<br>
+
 ### 6. [MarkText](https://github.com/marktext/marktext)
 MarkText, as the name implies, is a Markdown text editor. It features a clean interface for ease of use.
 
@@ -116,6 +145,8 @@ MarkText includes various editing modes for distraction-free writing: Typewriter
 * **Cons**: offline only
 * **Compatibility**: Windows, macOS, Linux
 * [Download Mark Text](https://github.com/marktext/marktext)
+
+<br>
 
 ### 7. [Notepad++](https://notepad-plus-plus.org/)
 Notepad++ isn't your standard writing app, nor is it your standard Notepad. It is a source code and text editor, so it can easily be used as a Notepad replacer to take simple notes.
@@ -132,6 +163,8 @@ A downfall is that Notepad++ is only available on Windows. So you can't use it o
 * **Cons**: offline only, not available on multiple platforms
 * **Compatibility**: Windows
 * [Download Notepad++](https://notepad-plus-plus.org/)
+
+<br>
 
 #### To Wrap Up
 

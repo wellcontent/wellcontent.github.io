@@ -15,7 +15,7 @@ layout: default
           <div class="post-heading">
             <h1>{{ page.title }}</h1>
             <span class="meta">{{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
-              content=page.content %}
+              content=page.content %} &middot; {% include share-buttons.html %}
             </span>
           </div>
         </div>
@@ -31,6 +31,8 @@ layout: default
             <h2 class="subheading" style="font-size:24px;line-height:1.5">{{ page.subtitle }}</h2>
         {% endif %}
 
+        <br>
+
         {{ content }}
 
         <hr>
@@ -40,11 +42,11 @@ layout: default
         <div class="clearfix">
 
           {% if page.previous.url %}
-          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
+          <a class="btn btn-outline-secondary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
               Post</span></a>
           {% endif %}
           {% if page.next.url %}
-          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
+          <a class="btn btn-outline-secondary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
               Post</span> &rarr;</a>
           {% endif %}
 
@@ -58,14 +60,9 @@ layout: default
     </div>
   </div>
   
-  
-  
-  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-  <script>
-    kofiWidgetOverlay.draw('glitchedinorbit', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#323842',
-    'floating-chat.donateButton.text-color': '#fff'
-    });
-  </script>
+<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop({
+  diameter: 50,
+  backgroundColor: 'rgb(52,58,64)',
+  textColor: '#fff'
+})</script>
