@@ -259,13 +259,24 @@ Everyone is different and no one works in the same way.
 
 <br>
 
-<hr>
+<details>
+    <summary>Sources</summary>
+
+    <br>
+
+    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fido, Dean, Yasuhiro Kotera, and Kenichi Asano. "English translation and validation of the Ikigai-9 in a UK Sample." *International Journal of Mental Health and Addiction* 18 (2019): 1352–1359. https://doi.org/10.1007/s11469-019-00150-w.</span>
+
+    <br>
+    <br>
+
+    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Imai, Tadanori, Hisao Osada, and Yoshimitsu Nishimura. "The reliability and validity of a new scale for measuring the concept of Ikigai (Ikigai-9)." *Japanese Journal of Public Health* 59, no. 7 (2012): 433–439. https://doi.org/10.11236/jph.59.7_433.</span>
+
+    <br>
+    <br>
+
+    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wilkes, Juliet, Gulcan Garip, Yasuhiro Kotera, and Dean Fido. "Can Ikigai Predict Anxiety, Depression, and Well-being?" *International Journal of Mental Health and Addiction* (2022): 1-13. https://doi.org/10.1007/s11469-022-00764-7.</span>
+</details>
+
+<br>
 
 <span style="font-size:14px;">Last updated on {{ 'now' | date: '%B %d, %Y' }}</span>
-
-<span style="font-size:14px;">**Sources:**</span>  
-<span style="font-size:14px;">Fido, Dean, Yasuhiro Kotera, and Kenichi Asano. "English translation and validation of the Ikigai-9 in a UK Sample." *International Journal of Mental Health and Addiction* 18 (2019): 1352–1359. https://doi.org/10.1007/s11469-019-00150-w.</span>
-
-<span style="font-size:14px;">Imai, Tadanori, Hisao Osada, and Yoshimitsu Nishimura. "The reliability and validity of a new scale for measuring the concept of Ikigai (Ikigai-9)." *Japanese Journal of Public Health* 59, no. 7 (2012): 433–439. https://doi.org/10.11236/jph.59.7_433.</span>
-
-<span style="font-size:14px;">Wilkes, Juliet, Gulcan Garip, Yasuhiro Kotera, and Dean Fido. "Can Ikigai Predict Anxiety, Depression, and Well-being?" *International Journal of Mental Health and Addiction* (2022): 1-13. https://doi.org/10.1007/s11469-022-00764-7.</span>

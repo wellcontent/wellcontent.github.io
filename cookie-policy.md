@@ -21,22 +21,6 @@ Cookies are very tasty treats. They are also small data files that websites stor
 **Service**: Google Analytics  
 **Duration**: 2 years
 
-#### Advertising cookies
-**Cookie:** IDE  
-**Description**: Used to measure the conversion rate of ads presented to the user.  
-**Service**: DoubleClick  
-**Duration**: 1.5 years
-
-**Cookie**: google_experiment_mod  
-**Description**: Used by Google AdSense for experimenting with advertisement frequency across websites using their services.  
-**Service**: Google  
-**Duration**: persistent
-
-**Cookie**: goog_pem_mod  
-**Description**: To provide ad delivery or targeting  
-**Service**: Google Ads  
-**Duration**: persistent
-
 **Cookie**: test_cookie  
 **Description**: The test_cookie is set by doubleclick.net and is used to determine if the user's browser supports cookies.  
 **Service**: DoubleClick  
