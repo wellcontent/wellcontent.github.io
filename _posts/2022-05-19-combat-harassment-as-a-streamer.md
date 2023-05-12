@@ -6,6 +6,8 @@ background: '/img/posts/03_750x500.webp'
 categories: [streaming, wellbeing]
 ---
 
+![03_750x500.webp](\img\posts\03_750x500.webp)
+
 The fact of the matter is: as much as you may want to, you can't control other people and their actions. Thus, you can't *fully* combat harassment.
 
 Chances of getting harassed increase the more individual characteristics affect you. These can include gender, gender expression, sexuality, ethnicity, age, and disability.

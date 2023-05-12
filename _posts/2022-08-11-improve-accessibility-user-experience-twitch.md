@@ -6,6 +6,8 @@ background: '/img/posts/05_750x500.webp'
 categories: [streaming, wellbeing]
 ---
 
+![05_750x500.webp](\img\posts\05_750x500.webp)
+
 Accessibility is there to make sure every person has access to an equivalent user experience on any given site. It allows users of all abilities to enjoy a platform. Embedded within accessibility is a certain level of empathy for users who can't or don't use websites in a similar way as the majority of users.
 
 The benefit is better design for all.

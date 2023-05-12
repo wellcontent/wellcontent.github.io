@@ -6,6 +6,8 @@ background: '/img/posts/02_750x500.webp'
 categories: [wellbeing]
 ---
 
+![02_750x500.webp](\img\posts\02_750x500.webp)
+
 **JUMP TO SECTION**:
 - [1. Do What You Love](#1-do-what-you-love)
 - [2. Compare Yourself To Yourself Only](#2-compare-yourself-to-yourself-only)

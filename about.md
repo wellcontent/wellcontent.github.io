@@ -2,7 +2,7 @@
 layout: page
 title: About
 description: 
-background: '/img/bg-about.webp'
+background: '/img/about.webp'
 ---
 
 Hi. I'm Chloe, the person behind Well&Content!

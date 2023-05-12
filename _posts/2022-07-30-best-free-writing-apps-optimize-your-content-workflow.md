@@ -6,6 +6,8 @@ background: '/img/posts/04_750x500.webp'
 categories: [blogging]
 ---
 
+![04_750x500.webp](\img\posts\04_750x500.webp)
+
 Writing and content scheduling is still a very manual task, and sometimes (or often) you need distraction-free options to get you in the flow - I know I do.
 
 I really enjoy having my entire workflow in one place, including my daily and weekly to-do lists, brainstormed ideas, and content schedule.
@@ -34,7 +36,7 @@ The following writing apps are for online use. If you enjoy working in the cloud
 ### 1. [Google Docs](https://www.google.com/docs/about/)
 Google Docs is a free online document editor, which allows you to easily collaborate with other users. 
 
-![googledocs.png](\img\posts\2022-07-26-best-free-writing-apps\googledocs.webp)
+![googledocs.webp](\img\posts\2022-07-26-best-free-writing-apps\googledocs.webp)
 
 You can permit others to edit the document you're working on - and work on it at the same time! This feature is helpful for teams working on projects that need real-time feedback, or for taking collaborative notes. There's no need to worry about saving files every few minutes because everything is saved automatically.
 
@@ -52,7 +54,7 @@ One big downside for me is that there's no native dark mode. Google, please. Dar
 ### 2. [Notion](https://www.notion.so/)
 Notion is more of a visual note-taking program and is free for personal use. It goes far beyond simple note-taking because it also functions as an online workplace for roadmaps, trackers, wikis, and task lists.
 
-![notion.png](\img\posts\2022-07-26-best-free-writing-apps\notion.webp)
+![notion.webp](\img\posts\2022-07-26-best-free-writing-apps\notion.webp)
 
 You do need to be online while writing, which isn't always optimal. What if you want to seclude yourself to a beach or a forest to write, far enough away from the city life? You wouldn't be able to access your Notion notes. An account is also needed to use this writing app, for collaboration and syncing purposes.
 
