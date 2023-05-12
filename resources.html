@@ -11,12 +11,12 @@ background: '/img/bg-resources.webp'
   -->
   {% for resource in site.resources %}
     <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
-      <img class="card-img-top rounded" src="{{ resource.logo }}" alt="{{ resource.title }}" style="max-width: 2rem; margin: 20px">
+      <img class="card-img-top rounded" src="{{ resource.logo }}" alt="{{ resource.title }}" style="max-width: 2rem; margin: 20px;">
       <div class="card-body">
         <h4 class="card-title">{{ resource.title }}</h4>
         <p class="card-text">{{ resource.subtitle }}</p>
         <a href="{{ resource.external_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary stretched-link">
-          Learn More &#129109;
+          Learn more <i class="bi bi-box-arrow-up-right"></i>
         </a>
       </div>
     </div>

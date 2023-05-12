@@ -32,7 +32,7 @@ layout: default
         {{ content }}
 
         <!-- Home Recent Posts List -->
-        <h2>Recent Posts</h2>
+        <h2>Recent posts</h2>
         <div class="card-deck h-100">
           {% for post in site.posts limit:5 %}
             <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
@@ -44,7 +44,7 @@ layout: default
                 <h4 class="card-title">{{ post.title }}</h4>
                 <p class="card-text">{{ post.category }}</p>
                 <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-secondary stretched-link">
-                  Read More
+                  Read more
                 </a>
               </div>
             </div>
