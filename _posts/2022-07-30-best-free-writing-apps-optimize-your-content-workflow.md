@@ -2,7 +2,7 @@
 layout: post
 title: "The Best Free Writing Apps For Your Content Workflow"
 subtitle: "Need to get your thoughts on paper or get writing done? Look no further! Here's a list with the best distraction-free writing apps to optimize your content workflow - not to mention they're completely free."
-background: '/img/posts/04.webp'
+background: '/img/posts/04_750x500.webp'
 categories: [blogging]
 ---
 

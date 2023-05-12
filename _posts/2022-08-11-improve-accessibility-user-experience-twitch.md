@@ -2,7 +2,7 @@
 layout: post
 title: "Improve Accessibility & User Experience On Twitch"
 subtitle: "Want to make your Twitch stream more accessible or are you having a hard time navigating Twitch? This article lists helpful ways to improve accessibility and user experience on the site."
-background: '/img/posts/05.webp'
+background: '/img/posts/05_750x500.webp'
 categories: [streaming, wellbeing]
 ---
 

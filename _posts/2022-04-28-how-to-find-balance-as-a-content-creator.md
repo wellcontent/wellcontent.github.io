@@ -2,7 +2,7 @@
 layout: post
 title: "7 Tips For Content Creators To Make Balance A Priority"
 subtitle: "Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content."
-background: '/img/posts/02.webp'
+background: '/img/posts/02_750x500.webp'
 categories: [wellbeing]
 ---
 
