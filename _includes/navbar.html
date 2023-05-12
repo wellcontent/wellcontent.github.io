@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,21 +8,35 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         
+        <!--
         <li class="nav-item" id="site-category">
-          <a class="nav-link" href="/wellbeing">Wellbeing <!-- DROPDOWN CHEVRON <i class="bi bi-chevron-down"></i> --></a>
+          <a class="nav-link" href="/wellbeing">Wellbeing</a>
         </li>
 
         <li class="nav-item dropdown" id="site-category">
-          <a class="nav-link" href="/streaming">Streaming <!-- DROPDOWN CHEVRON <i class="bi bi-chevron-down"></i> --></a>
-          <!-- ADD DROPDOWN WITH MULTIPLE CATEGORIES
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/accessibility">Accessibility</a>
-          </div>
-          -->
+          <a class="nav-link" href="/streaming">Streaming</a>
         </li>
 
         <li class="nav-item" id="site-category">
-            <a class="nav-link" href="/blogging">Blogging <!-- DROPDOWN CHEVRON <i class="bi bi-chevron-down"></i> --></a>
+            <a class="nav-link" href="/blogging">Blogging</a>
+        </li>
+        -->
+
+        <!-- DROPDOWN WITH MULTIPLE CATEGORIES -->        
+        <li class="nav-item dropdown dropdown-center" id="site-category">
+          <a class="nav-link dropdown" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Articles <i class="bi bi-chevron-down"aria-hidden="true"></i>
+          </a>
+          
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="/wellbeing">Wellbeing</a></li>
+            <li><a class="dropdown-item" href="/streaming">Streaming</a></li>
+            <li><a class="dropdown-item" href="/blogging">Blogging</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown" id="site-category">
+          <a class="nav-link" href="/resources">Resources</a>
         </li>
 
         <li class="nav-item">
@@ -31,11 +45,13 @@
         <li class="nav-item">
           <a class="nav-link" href="mailto:info.wellcontent@gmail.com"><i class="bi bi-envelope"></i></a>
         </li>
-        <!-- ADD SEARCH BAR
+        
+        <!-- SEARCH BAR
         <li class="nav-item">
           <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
         </li>
         -->
+
       </ul>
     </div>
   </div>

@@ -21,7 +21,7 @@ layout: default
               {% else %}
                 {% assign categories = page.categories %}
               {% endif %}
-              {% for category in categories limit:1 %}
+              {% for category in categories limit:2 %}
               <a class="btn btn-outline-primary" href="{{site.baseurl}}/{{category|slugize}}">#{{category}}</a>
               {% unless forloop.last %}&nbsp;{% endunless %}
               {% endfor %}

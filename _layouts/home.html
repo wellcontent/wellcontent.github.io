@@ -17,6 +17,8 @@ layout: default
             {% if site.description %}
             <span class="subheading">{{ site.description }}</span>
             {% endif %}
+            <br>
+            {% include newsletter.html %}
           </div>
         </div>
       </div>
@@ -29,7 +31,8 @@ layout: default
 
         {{ content }}
 
-        <!-- Home Post List -->
+        <!-- Home Recent Posts List -->
+        <h2>Recent Posts</h2>
         <div class="card-deck h-100">
           {% for post in site.posts limit:5 %}
             <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
@@ -65,10 +68,11 @@ layout: default
 
         {% endfor %}
 
-        <!-- Pager -->
+        <!-- Pager
         <div class="clearfix">
           <a class="btn btn-outline-secondary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
         </div>
+        -->
 
       </div>
     </div>

@@ -81,8 +81,8 @@
         #navbarResponsive li ul a{
           display: block;
           height: 50px;
-          font-size: 12px;
-          text-transform: uppercase;
+          font-size: 14px;
+          text-transform: none;
           color: white;
           margin: 0px;
           padding: 0px 10px 0px 20px;
@@ -91,7 +91,7 @@
       
         #navbarResponsive li ul a:hover{
           background: $gray-900;
-          border:0px;
+          border: 0px;
           color: white;
           text-decoration: none;
           }    

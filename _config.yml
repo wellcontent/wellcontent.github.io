@@ -5,9 +5,12 @@ author:             Well&Content
 baseurl:            ""
 url:                "https://wellcontent.io"
 permalink:          /:slug/
+collections:
+  resources:
+    output: true
 
 # Social Profiles
-twitter_username:   
+twitter_username:   glitchedinorbit
 github_username:    
 facebook_username:  
 instagram_username:  
