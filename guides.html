@@ -1,0 +1,22 @@
+---
+layout: page
+title: Guides
+background: '/img/bg-guides.webp'
+---
+
+<!-- Guides Card Layout -->
+<div class="card-deck h-100">
+  {% for guide in site.guides %}
+  <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
+    <img class="card-img-top" src="{{ guide.cover }}" alt="{{ guide.title }}">
+    <div class="card-body">
+      <h4 class="card-title">{{ guide.title }}</h4>
+      <p class="card-text">{{ guide.subtitle }}</p>
+      <a href="{{ site.baseurl }}{{ guide.url }}" class="btn btn-primary stretched-link">
+        Get it for FREE
+      </a>
+    </div>
+  </div>
+{% endfor %}
+
+</div>

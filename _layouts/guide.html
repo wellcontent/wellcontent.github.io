@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <img src="{{ page.cover }}" class="img-thumbnail" alt="{{ page.title }}" style="max-width: 10rem; margin-bottom: 2rem;">
+            <h1>{{ page.title }}</h1>
+            <h2 class="subheading" style="font-size:24px;line-height:1.5">{{ page.subtitle }}</h2>
+            <a class="btn btn-primary" href="{{ page.external_url-gumroad }}" target="_blank" rel="noopener noreferrer">Get the guide on Gumroad</a> <br> <br>
+            <a class="btn btn-outline-primary" href="{{ page.external_url-kofi }}" target="_blank" rel="noopener noreferrer">Get the guide on Ko-fi</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+        <!-- Questions Panel
+        <h3>Questions?</h3>
+        <p>Find answers to the most frequently asked questions.</p>
+        
+        <br>
+        
+        <details>
+          <summary><b>Why is this guide free?</b></summary>
+          
+          <br>
+          
+          <p>This guide is free because I understand how difficult it is to get started as a content creator. Over the years, I've been able to collect information and resources that I now want to share with others to make your journey easier.</p>
+        </details>
+        
+        <br>
+        
+        <details>
+          <summary><b>Chan I share this guide?</b></summary>
+          
+          <br>
+          
+          <p>Yes! I even encourage you to share the guide with others, because I'd like to reach as many people as possible with this information. But please don't alter any of my content or sell the guide yourself.</p>
+        </details>
+        
+        <br>
+        
+        <details>
+          <summary><b>Will this guide be updated?</b></summary>
+          <br>
+          <p>My plan is to update the guide when I feel necessary to make sure the information stays current and relevant.</p>
+        </details>
+        
+        <br>
+        
+        <details>
+          <summary><b>Where can I contact you for more questions?</b></summary>
+          <br>
+          <p>You can contact me at glitchedinorbit@gmail.com and I'll be happy to answer any questions or concerns.</p>
+        </details>
+        -->
+
+      </div>
+    </div>
+  </div>

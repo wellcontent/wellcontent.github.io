@@ -8,6 +8,8 @@ permalink:          /:slug/
 collections:
   resources:
     output: true
+  guides:
+    output: true
 
 # Social Profiles
 twitter_username:   glitchedinorbit
