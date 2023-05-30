@@ -7,7 +7,7 @@ categories: [streaming, wellbeing]
 keywords: [twitch accessibility, twitch closed captions, twitch chat pronouns, twitch disable autoplay, twitch contrast tool, twitch chat font, twitch chat width]
 ---
 
-![05_750x500.webp](\img\posts\05_750x500.webp)
+![05_750x500.webp](/img/posts/05_750x500.webp)
 
 **Jump to section**:
 - [Introduction](#introduction)

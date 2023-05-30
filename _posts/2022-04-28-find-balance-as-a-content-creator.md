@@ -9,7 +9,7 @@ keywords: [content creator wellbeing, creator overwhelm, creator burnout]
 
 *Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of the links.*
 
-![02_750x500.webp](\img\posts\02_750x500.webp)
+![02_750x500.webp](/img/posts/02_750x500.webp)
 
 **Jump to section**:
 - [Introduction](#introduction)

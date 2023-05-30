@@ -7,7 +7,7 @@ categories: [streaming, wellbeing]
 keywords: [twitch hate raids, twitch harassment, twitch follower remover, twitch bot raids, twitch moderation, twitch bots]
 ---
 
-![03_750x500.webp](\img\posts\03_750x500.webp)
+![03_750x500.webp](/img/posts/03_750x500.webp)
 
 **Jump to section**:
 - [Introduction](#introduction)
@@ -198,7 +198,7 @@ With hate raids specifically, they can come in clutch.
 
 Below is an example of [GlitchedinOrbit](https://twitch.tv/glitchedinorbit)'s anti-hate raid multi-action on the Elgato Stream Deck.
 
-![GlitchedinOrbit's Elgato Stream Deck Multi-Action](\img\posts\2022-05-19-combat-harassment-as-a-streamer\elgato-stream-deck-multi-action.webp){:class="img-responsive"}
+![GlitchedinOrbit's Elgato Stream Deck Multi-Action](/img/posts/elgato-stream-deck-multi-action.webp){:class="img-responsive"}
 
 <br>
 
@@ -234,7 +234,7 @@ It is recommended to turn on email verification for chatters. This will prevent 
 
 Below is an overview of [GlitchedinOrbit](https://twitch.tv/glitchedinorbit)'s chat verification settings.
 
-![GlitchedinOrbit's Twitch Chat Verification Settings](\img\posts\2022-05-19-combat-harassment-as-a-streamer\twitch-chat-verification-settings.webp){:class="img-responsive"}
+![GlitchedinOrbit's Twitch Chat Verification Settings](/img/posts/twitch-chat-verification-settings.webp){:class="img-responsive"}
 
 <br>
 

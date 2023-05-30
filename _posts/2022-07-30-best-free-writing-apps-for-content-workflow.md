@@ -7,7 +7,7 @@ categories: [blogging]
 keywords: [best free writing apps, distraction free writing app, free offline writing apps, content workflow app]
 ---
 
-![04_750x500.webp](\img\posts\04_750x500.webp)
+![04_750x500.webp](/img/posts/04_750x500.webp)
 
 **Jump to section**:
 * [Introduction](#introduction)
@@ -47,7 +47,7 @@ The following writing apps are for online use. If you enjoy working in the cloud
 ### 1. [Google Docs](https://www.google.com/docs/about/)
 Google Docs is a free online document editor, which allows you to easily collaborate with other users. 
 
-![googledocs.webp](\img\posts\2022-07-26-best-free-writing-apps\googledocs.webp)
+![googledocs.webp](/img/posts/googledocs.webp)
 
 You can permit others to edit the document you're working on - and work on it at the same time! This feature is helpful for teams working on projects that need real-time feedback, or for taking collaborative notes. There's no need to worry about saving files every few minutes because everything is saved automatically.
 
@@ -66,7 +66,7 @@ One big downside for me is that there's no native dark mode. Google, please. Dar
 ### 2. [Notion](https://www.notion.so/)
 Notion is more of a visual note-taking program and is free for personal use. It goes far beyond simple note-taking because it also functions as an online workplace for roadmaps, trackers, wikis, and task lists.
 
-![notion.webp](\img\posts\2022-07-26-best-free-writing-apps\notion.webp)
+![notion.webp](/img/posts/notion.webp)
 
 You do need to be online while writing, which isn't always optimal. What if you want to seclude yourself to a beach or a forest to write, far enough away from the city life? You wouldn't be able to access your Notion notes. An account is also needed to use this writing app, for collaboration and syncing purposes.
 
@@ -87,7 +87,7 @@ A huge plus is that it has native dark mode! Thank everything good in life. Hone
 ### 3. [Simplenote](https://simplenote.com/)
 Simplenote is a free and *simple* (hehe) note-taking application. It fully supports Markdown, which is a markup language for creating formatted text using plain text. If you have a Jekyll blog (like this one!) and you enjoy writing in Markdown as opposed to HTML, an app with Markdown support will improve your workflow.
 
-![simplenote.png](\img\posts\2022-07-26-best-free-writing-apps\simplenote.webp)
+![simplenote.webp](/img/posts/simplenote.webp)
 
 Because everything's handled in the cloud, you do need to create an account to use Simplenote. But your notes stay updated across all your devices, automatically and in real-time. You can add tags to your notes to organize and quickly search them. Yet again, this writing app has native dark mode!
 
@@ -113,7 +113,7 @@ The following writing apps are for offline use. If you enjoy more secure note-ta
 ### 4. [Obsidian](https://obsidian.md/)
 Obsidian is an open-source knowledge base with full Markdown support. It's very minimalistic, so it won't distract you with extras you don't need.
 
-![obsidian.png](\img\posts\2022-07-26-best-free-writing-apps\obsidian.webp)
+![obsidian.webp](/img/posts/obsidian.webp)
 
 You can switch between 'editing' and 'reading' view, and even have split view. The dark theme is incredibly calming for the eyes while writing. Obsidian also comes with core plugins and many community plugins that enhance your writing experience. Examples are [Day Planner](https://github.com/lynchjames/obsidian-day-planner), [Kanban](https://github.com/mgmeyers/obsidian-kanban), and [Calendar](https://github.com/liamcain/obsidian-calendar-plugin).
 
@@ -138,7 +138,7 @@ I personally like to have my entire content workflow in one place, so I don't ne
 ### 5. [Standard Notes](https://standardnotes.com/)
 Standard Notes is a free secure note-taking app. It uses end-to-end encryption to protect your notes and files. Plain text, Rich text, and Markdown are supported. It also features spreadsheets, code, and task lists.
 
-![standard notes.png](\img\posts\2022-07-26-best-free-writing-apps\standard notes.webp)
+![standard-notes.webp](/img/posts/standard-notes.webp)
 
 An account is needed to ensure automatic encrypted data backup and cross-platform syncing. But even when you have an account, you can still use Standard Notes in case of limited network connection! Any changes are synced to your account as soon as connectivity is restored. The desktop application doesn't require an active connection to work. But the mobile application in most cases does.
 
@@ -155,7 +155,7 @@ If you are privacy conscious and need an app that allows for more secure note-ta
 ### 6. [MarkText](https://github.com/marktext/marktext)
 MarkText, as the name implies, is a Markdown text editor. It features a clean interface for ease of use.
 
-![marktext.png](\img\posts\2022-07-26-best-free-writing-apps\marktext.webp)
+![marktext.webp](/img/posts/marktext.webp)
 
 MarkText includes various editing modes for distraction-free writing: Typewriter mode, Focus mode, and Source Code mode. A big plus is that the app has a real-time preview to see the end result as you write. Another plus: MarkText has native dark mode!
 
@@ -170,7 +170,7 @@ MarkText includes various editing modes for distraction-free writing: Typewriter
 ### 7. [Notepad++](https://notepad-plus-plus.org/)
 Notepad++ isn't your standard writing app, nor is it your standard Notepad. It is a source code and text editor, so it can easily be used as a Notepad replacer to take simple notes.
 
-![notepad++](\img\posts\2022-07-26-best-free-writing-apps\notepad++.webp)
+![notepad++.webp](/img/posts/notepad++.webp)
 
 If coding is part of your content creation process, then Notepad++ could be an option for you. It is highly minimalistic and allows for distraction-free writing.
 
