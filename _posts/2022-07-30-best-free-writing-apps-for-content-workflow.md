@@ -4,30 +4,41 @@ title: "The Best Free Writing Apps For Your Content Workflow"
 subtitle: "Need to get your thoughts on paper or get writing done? Look no further! Here's a list with the best distraction-free writing apps to optimize your content workflow - not to mention they're completely free."
 background: '/img/posts/04_750x500.webp'
 categories: [blogging]
+keywords: [best free writing apps, distraction free writing app, free offline writing apps, content workflow app]
 ---
 
 ![04_750x500.webp](\img\posts\04_750x500.webp)
+
+**Jump to section**:
+* [Introduction](#introduction)
+* [Online Use](#online-use)
+    * [Google Docs](#1-google-docs)
+    * [Notion](#2-notion)
+    * [Simplenote](#3-simplenote)
+* [Offline Use](#online-use)
+    * [Obsidian](#4-obsidian)
+    * [Standard Notes](#5-standard-notes)
+    * [MarkText](#6-marktext)
+    * [Notepad++](#7-notepad)
+* [To Wrap Up](#to-wrap-up)
+
+<br>
+
+## Introduction
 
 Writing and content scheduling is still a very manual task, and sometimes (or often) you need distraction-free options to get you in the flow - I know I do.
 
 I really enjoy having my entire workflow in one place, including my daily and weekly to-do lists, brainstormed ideas, and content schedule.
 
-But with so many writing apps offering ridiculous fees or subscription models, it can be difficult to find one that works for *you*. The apps in this list have no hidden fees, bad storage limitations, or forced subscriptions.
+But with so many writing apps offering ridiculous fees or subscription models, it can be difficult to find one that works for *you*.
+
+The apps in this list have no hidden fees, bad storage limitations, or forced subscriptions.
 
 Promise.
 
-**JUMP TO SECTION**:
-* [Google Docs](#1-google-docs)
-* [Notion](#2-notion)
-* [Simplenote](#3-simplenote)
-* [Obsidian](#4-obsidian)
-* [Standard Notes](#5-standard-notes)
-* [MarkText](#6-marktext)
-* [Notepad++](#7-notepad)
-
 <br>
 
-#### Online use
+## Online Use
 
 The following writing apps are for online use. If you enjoy working in the cloud for collaborative purposes or file-syncing, then these apps could be helpful for you.
 
@@ -47,7 +58,8 @@ One big downside for me is that there's no native dark mode. Google, please. Dar
 * **Pros**: device/account sync, cloud service, autosave, easy real-time online collaboration
 * **Cons**: account needed, online-only, no native dark mode, formatting can change when downloading files
 * **Compatibility**: Browser, Android, iOS
-* [Open Google Docs](https://docs.google.com/)
+
+<a href="https://docs.google.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Open Google Docs <i class="bi bi-box-arrow-up-right"></i></a>
 
 <br>
 
@@ -67,7 +79,8 @@ A huge plus is that it has native dark mode! Thank everything good in life. Hone
 * **Pros**: device/account sync, easy online collaboration, native dark mode, many integrations, templates
 * **Cons**: account needed, online only
 * **Compatibility**: Windows, macOS, Browser, Android, iOS
-* [Download Notion](https://www.notion.so/personal/)
+
+<a href="https://www.notion.so/personal/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Sign up for Notion <i class="bi bi-box-arrow-up-right"></i></a>
 
 <br>
 
@@ -83,7 +96,8 @@ To install Simplenote, scroll down to 'Other Downloads' on the main page. It'll 
 * **Pros**: device/account sync, markdown support, easy organization, native dark mode
 * **Cons**: account needed
 * **Compatibility**: Windows, macOS, Linux, Android, iOS
-* [Download Simplenote](https://simplenote.com/)
+
+<a href="https://simplenote.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Sign up for Simplenote <i class="bi bi-box-arrow-up-right"></i></a>
 
 <br>
 
@@ -91,7 +105,7 @@ To install Simplenote, scroll down to 'Other Downloads' on the main page. It'll 
 
 <br>
 
-#### Offline use
+## Offline Use
 The following writing apps are for offline use. If you enjoy more secure note-taking and don't mind no file-syncing, then these apps could be helpful for you.
 
 <br>
@@ -116,7 +130,8 @@ I personally like to have my entire content workflow in one place, so I don't ne
 * **Pros**: no account needed, local storage, secure, markdown support, autosave, minimalistic, dark mode, open-source, plugins, highly customizable
 * **Cons**: no (free) device/account sync
 * **Compatibility**: Windows, macOS, Linux, Android, iOS
-* [Download Obsidian](https://obsidian.md/)
+
+<a href="https://obsidian.md/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Download Obsidian <i class="bi bi-box-arrow-up-right"></i></a>
 
 <br>
 
@@ -132,7 +147,8 @@ If you are privacy conscious and need an app that allows for more secure note-ta
 * **Pros**: device sync, cross-platform, versatile, simple, open-source, end-to-end encryption, secure, autosave, online and offline access, native dark mode
 * **Cons**: none that stood out
 * **Compatibility**: Windows, macOS, Linux, Browser, Android, iOS
-* [Download Standard Notes](https://standardnotes.com/)
+
+<a href="https://standardnotes.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Download Standard Notes <i class="bi bi-box-arrow-up-right"></i></a>
 
 <br>
 
@@ -146,7 +162,8 @@ MarkText includes various editing modes for distraction-free writing: Typewriter
 * **Pros**: open-source, markdown support, various editing modes, real-time preview, source code editor, native dark mode
 * **Cons**: offline only
 * **Compatibility**: Windows, macOS, Linux
-* [Download Mark Text](https://github.com/marktext/marktext)
+
+<a href="https://github.com/marktext/marktext" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Download Mark Text <i class="bi bi-box-arrow-up-right"></i></a>
 
 <br>
 
@@ -164,14 +181,15 @@ A downfall is that Notepad++ is only available on Windows. So you can't use it o
 * **Pros**: simple to use, versatile, powerful source code editor, autosave, dark mode, supports tabbed editing, open-source
 * **Cons**: offline only, not available on multiple platforms
 * **Compatibility**: Windows
-* [Download Notepad++](https://notepad-plus-plus.org/)
+
+<a href="https://notepad-plus-plus.org/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Download Notepad++ <i class="bi bi-box-arrow-up-right"></i></a>
 
 <br>
 
-#### To Wrap Up
+## To Wrap Up
 
 I hope one of these apps (or multiple) will help you optimize your workflow and power through your content creation process. You got this!
 
-*What do you think? Am I missing any must-have apps that you use? Leave them in the comments so I can extend this list!*
+Let me know if I'm missing any must-have apps that you use.
 
-*Thanks for reading. :)*
+*Thanks for reading!*

@@ -5,6 +5,7 @@ title: "The Best Microphones For Starting Streamers Under $100"
 subtitle: "Feeling overwhelmed by all the microphone choices for streaming, and don't know what to choose? Look no further than this guide."
 background: 'https://images.unsplash.com/photo-1650513737281-882e597ee5e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
 categories: [streaming]
+keywords: [streaming microphones, best budget microphones stream, best microphones starting streamers, streaming microphones under $100]
 
 ---
 
@@ -13,6 +14,7 @@ categories: [streaming]
 <img src="https://images.unsplash.com/photo-1650513737281-882e597ee5e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="The Best Microphones For Starting Streamers Under $100">
 
 **Jump to section**:
+* [Introduction](#introduction)
 * [Terminology](#terminology)
     * [Polar pattern](#polar-pattern)
     * [Frequency response](#frequency-response)
@@ -33,8 +35,11 @@ categories: [streaming]
     * [Behringer XM8500](#behringer-xm8500)
     * [Rode PodMic](#rode-podmic)
     * [Shure SM58](#shure-sm58)
+* [To Wrap Up](#to-wrap-up)
 
 <br>
+
+## Introduction
 
 Audio is the **most important factor** in a livestream. It's even a standard in the FILM industry that audio is more important than video. That's because it makes up the majority of the experience of those who consume the movie.
 
@@ -486,11 +491,13 @@ As with the other XLR only microphones, it's recommended to get this microphone 
 
 <br>
 
-*As you can see, you don't need to break the bank to get a good microphone for streaming, and there are many inexpensive options available in the current market.*
+## To Wrap Up
 
-*I hope this guide has helped you.*
+As you can see, you don't need to break the bank to get a good microphone for streaming, and there are many inexpensive options available in the current market.
 
-*Let me know if I missed any quality microphones under $100.*
+I hope this guide has helped you.
+
+Let me know if I missed any quality microphones under $100.
 
 *Thanks for reading!*
 

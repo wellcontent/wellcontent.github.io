@@ -15,8 +15,8 @@ collections:
 twitter_username:   glitchedinorbit
 github_username:    
 facebook_username:  
-instagram_username:  
-linkedin_username:
+instagram_username: 
+linkedin_username:  
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   G-FP7E82B5MW # out your google-analytics code
@@ -30,8 +30,9 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
-  - amp-jekyll
+# - amp-jekyll
 
+# Utterances / Comment Section
 utterances:
   repo: "wellcontent.github.io"
   issue-term: "pathname"

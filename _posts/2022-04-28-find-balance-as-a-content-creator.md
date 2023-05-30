@@ -4,22 +4,41 @@ title: "7 Tips For Content Creators To Make Balance A Priority"
 subtitle: "Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content."
 background: '/img/posts/02_750x500.webp'
 categories: [wellbeing]
+keywords: [content creator wellbeing, creator overwhelm, creator burnout]
 ---
+
+*Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of the links.*
 
 ![02_750x500.webp](\img\posts\02_750x500.webp)
 
-**JUMP TO SECTION**:
-- [1. Do What You Love](#1-do-what-you-love)
-- [2. Compare Yourself To Yourself Only](#2-compare-yourself-to-yourself-only)
-- [3. Diversify Your Content](#3-diversify-your-content)
-- [4. Generate Streams Of Passive Income](#4-generate-streams-of-passive-income)
-- [5. Take Good Care Of Yourself](#5-take-good-care-of-yourself)
-- [6. Do Not Focus On Metrics](#6-do-not-focus-on-metrics)
-- [7. Create The Workflow That Works For You](#7-create-the-workflow-that-works-for-you)
+**Jump to section**:
+- [Introduction](#introduction)
+- [Do What You Love](#1-do-what-you-love)
+- [Compare Yourself To Yourself Only](#2-compare-yourself-to-yourself-only)
+- [Diversify Your Content](#3-diversify-your-content)
+- [Generate Streams Of Passive Income](#4-generate-streams-of-passive-income)
+    - [Passive income ideas](#passive-income-ideas)
+- [Take Good Care Of Yourself](#5-take-good-care-of-yourself)
+    - [Self care ideas](#self-care-ideas)
+- [Do Not Focus On Metrics](#6-do-not-focus-on-metrics)
+- [Create The Workflow That Works For You](#7-create-the-workflow-that-works-for-you)
+- [To Wrap Up](#to-wrap-up)
 
 <br>
 
-### 1. Do What You Love
+## Introduction
+
+As a creator, the pressure to be 'on' all the time can become overwhelming. This can make it difficult to set boundaries and truly take time for yourself.
+
+This guide will give you some actionable tips to take control over your mental wellbeing in the digital space.
+
+All tips are taken from research and personal experience.
+
+Take a deep breath. Let's hop in.
+
+<br>
+
+## 1. Do What You Love
 
 Okay.
 
@@ -61,7 +80,7 @@ Only you can decide what you love doing.
 
 <br>
 
-### 2. Compare Yourself To Yourself Only
+## 2. Compare Yourself To Yourself Only
 
 It's very easy to get caught up in comparing yourself to others. It's happened to me. I would compare myself to other content creators, which lowered the confidence in my abilities.
 
@@ -87,7 +106,7 @@ Success means something different for everyone.
 
 <br>
 
-### 3. Diversify Your Content
+## 3. Diversify Your Content
 
 When it comes to any type of content creation, exposure is very important.
 
@@ -111,7 +130,7 @@ For example, I currently like to curate content for YouTube, livestream on Twitc
 
 <br>
 
-### 4. Generate Streams Of Passive Income
+## 4. Generate Streams Of Passive Income
 
 Passive income is an amazing way to generate income even when you're not actively working.
 
@@ -125,7 +144,7 @@ They don't all have to take up a lot of time either.
 
 <br>
 
-**Passive income ideas:**
+### Passive income ideas
 - create an online course
 - write an e-book
 - start a blog (like me!)
@@ -145,7 +164,7 @@ Get creative!
 
 <br>
 
-### 5. Take Good Care Of Yourself
+## 5. Take Good Care Of Yourself
 
 As with all things in life, your endeavors need balance. You have to take care of yourself before you can take care of others - or work-related endeavors.
 
@@ -155,12 +174,12 @@ It's a win-win for everyone.
 
 <br>
 
-##### Self care ideas:
+### Self care ideas
 - find a daily routine that works for you
 - prioritize sleep hygiene and a night-time routine
 - stay hydrated
 - feed your body and soul with nourishing foods
-- schedule breaks (I still struggle with this)
+- schedule breaks (I still struggle with this) - set alarms or use the Pomodoro Method
 - find ways to decompress, if only for 5 minutes - journal, meditate, exercise, read a book, take a walk in nature, take a hot bath/shower, etc.
 
 <br>
@@ -185,7 +204,7 @@ I challenge you to make a list like this as well. If you need any inspiration, t
 
 <br>
 
-### 6. Do Not Focus On Metrics
+## 6. Do Not Focus On Metrics
 
 Worrying about and overanalyzing metrics led me to burnout on numbers.
 
@@ -219,7 +238,7 @@ Take back a healthier headspace.
 
 <br>
 
-### 7. Create The Workflow That Works For You
+## 7. Create The Workflow That Works For You
 
 There are many ways in which you can create a workflow specialized for you.
 
@@ -253,11 +272,13 @@ Everyone is different and no one works in the same way.
 
 <br>
 
-*I hope this list has helped you. What do you do to find balance as a content creator?*
+## To Wrap Up
 
-*Let me know what you think.*
+This list has hopefully given you some helpful tips tp take care of you mental wellbeing in the digital creation sphere.
 
-*Thank you for reading! :)*
+Let me know what you do to find balance as a content creator.
+
+*Thanks for reading!*
 
 <br>
 
@@ -280,5 +301,7 @@ Everyone is different and no one works in the same way.
 </details>
 
 <br>
+
+<hr>
 
 <span style="font-size:14px;">Last updated on {{ 'now' | date: '%B %d, %Y' }}</span>

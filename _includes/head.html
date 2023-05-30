@@ -9,6 +9,12 @@
   </title>
 
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  {% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}">
+  {% else %}
+  <meta name="keywords" content="wellcontent, well content, well-content, creator wellbeing, creator guides, streamer guides, streaming, glitchedinorbit">
+  {% endif %}
   
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap">
@@ -58,6 +64,7 @@
   {% endif %}
   <!-- End of Twitter Cards -->
 
+  <!-- Google AMP Ads
   <script data-ad-client="ca-pub-6216107086354809" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
   <script async custom-element="amp-auto-ads"
@@ -65,8 +72,11 @@
   </script>
 
   <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+  -->
 
+  <!-- FontAwesome
   <script async src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+  -->
 
   {% seo %}
 

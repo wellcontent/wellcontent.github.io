@@ -4,19 +4,13 @@ title: "Improve Accessibility & User Experience On Twitch"
 subtitle: "Want to make your Twitch stream more accessible or are you having a hard time navigating Twitch? This article lists helpful ways to improve accessibility and user experience on the site."
 background: '/img/posts/05_750x500.webp'
 categories: [streaming, wellbeing]
+keywords: [twitch accessibility, twitch closed captions, twitch chat pronouns, twitch disable autoplay, twitch contrast tool, twitch chat font, twitch chat width]
 ---
 
 ![05_750x500.webp](\img\posts\05_750x500.webp)
 
-Accessibility is there to make sure every person has access to an equivalent user experience on any given site. It allows users of all abilities to enjoy a platform. Embedded within accessibility is a certain level of empathy for users who can't or don't use websites in a similar way as the majority of users.
-
-The benefit is better design for all.
-
-On Twitch, it's possible to change some basic accessibility options. But browser extensions can enhance the overall browsing experience.
-
-The same goes for plugins and software for streamers. To make both *their* experience and the experience of their viewers nicer as well.
-
-**JUMP TO SECTION**:
+**Jump to section**:
+- [Introduction](#introduction)
 - [Change Font Size](#change-font-size)
 - [Change Font Style](#change-font-style)
 - [Configure Chat Box Width](#configure-chat-box-width)
@@ -28,12 +22,27 @@ The same goes for plugins and software for streamers. To make both *their* exper
 - [Optimize Your Panel Text](#optimize-your-panel-text)
 - [Disable Autoplay](#disable-autoplay)
 - [Configure Your Ads](#configure-your-ads)
+    - [For streamers](#for-streamers)
+    - [For viewers](#for-viewers)
 - [Include Channel Tags](#include-channel-tags)
 - [Bonus: Use Multi-Actions](#bonus-use-multi-actions)
+- [To Wrap Up](#to-wrap-up)
 
 <br>
 
-### Change Font Size
+## Introduction
+
+Accessibility is there to make sure every person has access to an equivalent user experience on any given site. It allows users of all abilities to enjoy a platform. Embedded within accessibility is a certain level of empathy for users who can't or don't use websites in a similar way as the majority of users.
+
+The benefit is better design for all.
+
+On Twitch, it's possible to change some basic accessibility options. But browser extensions can enhance the overall browsing experience.
+
+The same goes for plugins and software for streamers. To make both *their* experience and the experience of their viewers nicer as well.
+
+<br>
+
+## Change Font Size
 The default font size on Twitch is 13px. I've opted for 14px myself, and that's on a 1440p monitor.  My eyes get tired very quickly while reading chat and small fonts, and I can get strains and headaches if I have to squint for too long.
 
 Go to the settings in Twitch chat and click on Chat Appearance to change the font size.
@@ -42,7 +51,7 @@ Alternatively, change font size in [BetterTTV](https://betterttv.com/) or [Frank
 
 <br>
 
-### Change Font Style
+## Change Font Style
 The default font family on Twitch is Inter. But it's possible to change font styles if you don't like the native font or if you have a hard time reading it.
 
 Open the [FrankerfaceZ](https://www.frankerfacez.com/) settings, scroll down to Chat and click on Appearance. In Font Family, select your preferred font style.
@@ -51,21 +60,21 @@ For example, select Open Sans or Nunito Sans for a nice reading experience. Or o
 
 <br>
 
-### Configure Chat Box Width
+## Configure Chat Box Width
 Use [FrankerFaceZ](https://www.frankerfacez.com/) to set the width of the chat box on desktop. You can find this under Chat, Appearance, and then Width.
 
 The default size seems to be ~340px (on 1440p). I set mine to 400px. Together with the font size increase, it has lessened the reading strain on my eyes.
 
 <br>
 
-### Enable Readable Chat Colors
+## Enable Readable Chat Colors
 Readable Colors helps you read colored usernames in chat more easily. In the Chat Settings, go to Chat Appearance and toggle on Readable Colors.
 
 I have this turned on because I can't read the standard dark blue color in Twitch chat. One eye sees the color slightly lighter than the other so I see those letters double.
 
 <br>
 
-### Filter Visual Elements
+## Filter Visual Elements
 It can get tedious when screen readers have to read out all visual elements like emotes and badges. Luckily you can disable these elements.
 
 For emotes, scroll down to Chat and click on Emotes. Then, scroll until you see Display Emotes, and switch this from Enabled to Disabled.
@@ -74,7 +83,7 @@ For badges, open the [FrankerfaceZ](https://www.frankerfacez.com/) settings, scr
 
 <br>
 
-### Use Chat Pronouns
+## Use Chat Pronouns
 Configure your (preferred) pronouns using [Twitch Chat Pronouns](https://pronouns.alejo.io/) in the [FrankerfaceZ](https://www.frankerfacez.com/) settings. Click on Add-Ons, scroll down to Pronouns, and enable the add-on. To set your pronouns, go to the Pronouns website.
 
 If other people have their pronouns set up, you can see those as well! I use She/They, and I always get very excited when I see others' pronouns in channels.
@@ -87,7 +96,7 @@ It makes life so much easier and more inclusive. Plus, it adds an extra personal
 
 <br>
 
-### Enable Closed Captions
+## Enable Closed Captions
 Closed captions make streams easier to follow for people with any hearing issues. And for those who need/want to watch the stream muted.
 
 There are multiple Extensions on Twitch that allow for closed captioning. These include [Stream Closed Captioner](https://dashboard.twitch.tv/extensions/h1ekceo16erc49snp0sine3k9ccbh9-1.6.4) and [Closed Captions for Streams](https://dashboard.twitch.tv/extensions/xxwoffr2lnpxrgpq228mawvdgxetip-1.0.1).
@@ -102,7 +111,7 @@ Speech recognition software is not always as sophisticated as it could be. Nonet
 
 <br>
 
-### Check Your Color Contrast
+## Check Your Color Contrast
 It's important to have the correct color contrast to make sure users can read everything. This is relevant for your stream overlays and description panels.
 
 The contrast ratio for text against a background should be at least 4.5:1.[^2] You can check contrast using [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/) or [Coolors' Contrast Checker](https://coolors.co/contrast-checker/).
@@ -111,7 +120,7 @@ If you want to set a minimum contrast for chat, you can. In the [FrankerfaceZ](h
 
 <br>
 
-### Optimize Your Panel Text
+## Optimize Your Panel Text
 For the text in the Twitch panels/description box to be accessible, you want to use native Markdown.
 
 You may have seen some channels having text within an image panel. But this practice restricts accessibility. Screen readers won't be able to read that text, because it's embedded in media.
@@ -124,7 +133,7 @@ As a best practice, keep the text as is and add links within regular sentences t
 
 <br>
 
-### Disable Autoplay
+## Disable Autoplay
 I get very annoyed when videos autoplay without my consent. Fortunately, it's possible to disable autoplay for streams.
 
 In the [FrankerfaceZ](https://www.frankerfacez.com/) settings, scroll down to Player and click on General. Under Playback, tick the box that says "Do not automatically start playing videos or streams".
@@ -135,20 +144,20 @@ If you want to take it a step further and disable autoplay on the front page of 
 
 <br>
 
-### Configure Your Ads
+## Configure Your Ads
 Admit it. We all hate ads. They're a necessary evil in the marketing world we live in.
 
 This doesn't mean that we can't make them work in our favor.
 
 <br>
 
-#### For Streamers
+### For streamers
 
 As a streamer, DISABLE pre-rolls! For the love of everything that is still good in this world. Please.
 
 You might prefer to run ads when you have your regular breaks.
 
-But if you're like me, and your neurodivergent brain forgets to take *any* breaks in 4-hour streams, consider using automated ads.
+But if you're like me, and your neurodivergent brain forgets to take *any* breaks in 4-hour (or longer) streams, consider using automated ads.
 
 There's nothing wrong with using the ad scheduler. As long as your viewers know when they can expect ads. Communicate. They'll understand.
 
@@ -174,7 +183,7 @@ Go into Twitch and browse for live streamers. Simply go into their channel and s
 
 <br>
 
-#### For Viewers
+### For viewers
 
 As a viewer, you have a few options.
 
@@ -186,14 +195,14 @@ If you can't or don't want to spend any money (no judgment here), download [TTV.
 
 <br>
 
-### Include Channel Tags
+## Include Channel Tags
 Channel tags are there to indicate what your stream is about or what viewers can expect. Current accessibility tags include Color Blind, Closed Captions, Dyslexia, and Neurodivergent, among others.
 
 Find what you need within [all available stream tags](https://www.twitch.tv/directory/all/tags), or set custom warning tags such as 'Motion Sickness' and 'Epilepsy' in the [Stream Manager](https://dashboard.twitch.tv/stream-manager).
 
 <br>
 
-### Bonus: Use Multi-Actions
+## Bonus: Use Multi-Actions
 This tip requires you to have an [Elgato Stream Deck](https://amzn.to/3xdWEk9). It supports something called 'multi-actions'. With one press of a button, you can set up your entire streaming setup or content creation workflow.
 
 For example, I use multi-actions for stream. If I want to have everything I need, I press one button. It opens OBS, my game launcher, Lofi Girl on YouTube, and my Twitch Dashboard. It also moves all open programs to a specific location.
@@ -204,12 +213,12 @@ If you're able to invest in a Stream Deck, it will make your workflow and life s
 
 <br>
 
-### To Wrap Up
+## To Wrap Up
 There you have it. Quite a few ways to improve accessibility and user experience on Twitch. I hope these tips helped you.
 
 As always, find what works best for you.
 
-*Am I missing any accessibility or user experience improvements? Let me know.*
+Let me know if I'm missing any accessibility or user experience improvements.
 
 *Thanks for reading!*
 
