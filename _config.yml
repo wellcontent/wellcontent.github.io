@@ -30,7 +30,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
-# - amp-jekyll
+  - amp-jekyll
 
 # Utterances / Comment Section
 utterances:
