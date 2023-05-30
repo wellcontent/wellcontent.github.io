@@ -3,6 +3,7 @@
 layout: post
 title: "The Best Microphones For Starting Streamers Under $100"
 subtitle: "Feeling overwhelmed by all the microphone choices for streaming, and don't know what to choose? Look no further than this guide."
+description: Feeling overwhelmed by all the microphone choices for streaming, and don't know what to choose? Look no further than this guide.
 background: 'https://images.unsplash.com/photo-1650513737281-882e597ee5e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
 categories: [streaming]
 keywords: [streaming microphones, best budget microphones stream, best microphones starting streamers, streaming microphones under $100]

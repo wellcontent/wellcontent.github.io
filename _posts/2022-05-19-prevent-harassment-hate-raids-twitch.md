@@ -2,6 +2,7 @@
 layout: post
 title: "Prevent Hate Raids & Harassment On Twitch"
 subtitle: "As a streamer on Twitch, you're likely going to have to deal with harassment at some point. Here are simple tools and recommendations to protect yourself against harassment on Twitch."
+description: As a streamer on Twitch, you're likely going to have to deal with harassment at some point. Here are simple tools and recommendations to protect yourself against harassment on Twitch.
 background: '/img/posts/03_750x500.webp'
 categories: [streaming, wellbeing]
 keywords: [twitch hate raids, twitch harassment, twitch follower remover, twitch bot raids, twitch moderation, twitch bots]
