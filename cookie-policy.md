@@ -3,6 +3,7 @@ layout: page
 title: Cookie Policy
 description: 
 background: ''
+sitemap: false
 ---
 
 ## Cookies

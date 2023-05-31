@@ -26,9 +26,6 @@ layout: none
 User-agent: *
 Disallow: /tags/
 Disallow: /category/
-Disallow: /resources/
-Disallow: /cookie-policy/
-Disallow: /legal-disclosure/
 Sitemap: {{ site.url }}/sitemap.xml
 
 User-agent: Twitterbot

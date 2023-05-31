@@ -3,6 +3,7 @@ layout: page
 title: Legal Disclosure
 description: 
 background: ''
+sitemap: false
 ---
 
 ## Disclaimer
