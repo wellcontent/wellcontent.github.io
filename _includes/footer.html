@@ -11,7 +11,43 @@
       <div class="col-lg-8 col-md-10 mx-auto">
         <ul class="list-inline text-center">
           
-          <!-- {% if site.email %}
+          {% include newsletter.html %}
+
+          <hr>
+
+          <br>
+
+          <h4 class="footer-header">Mental Health Resources</h4>
+          
+          <p class="footer-resources">
+            <a class="footer-resources-link" href="https://safeinourworld.org/">Safe In Our World</a>
+            <a class="footer-resources-link" href="https://www.mind.org.uk/">Mind</a>
+            <a class="footer-resources-link" href="https://www.thetrevorproject.org/">The Trevor Project</a>
+            <a class="footer-resources-link" href="https://suicidepreventionlifeline.org/">Lifeline</a>
+          </p>
+          
+          <p class="copyright list-inline-item">&copy; Well&Content {{ 'now' | date: "%Y" }}</p>
+
+          <li class="list-inline-item">
+            <a class="footer-link" href="{{"/legal-disclosure" | relative_url }}">Legal Disclosure</a>
+          </li>
+
+          <li class="list-inline-item">
+            <a class="footer-link" href="{{"/cookie-policy" | relative_url }}">Cookie Policy</a>
+          </li>
+
+          <!-- 
+          {% if site.twitter_username %}
+          <li class="list-inline-item">
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <span class="fa-stack fa-lg">
+                <i class="bi bi-twitter"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.email %}
           <li class="list-inline-item">
             <a href="mailto:{{ site.email | encode_email }}">
               <span class="fa-stack fa-lg">
@@ -78,43 +114,6 @@
           {% endif %}
           -->
 
-          {% include newsletter.html %}
-
-          <hr>
-
-          <br>
-
-          <h4 class="footer-header">Mental Health Resources</h4>
-          
-          <p class="footer-resources">
-            <a class="footer-resources-link" href="https://www.blurtitout.org/">The Blurt Foundation</a>
-            <a class="footer-resources-link" href="https://safeinourworld.org/">Safe In Our World</a>
-            <a class="footer-resources-link" href="https://www.thetrevorproject.org/">The Trevor Project</a>
-            <a class="footer-resources-link" href="https://www.mind.org.uk/">Mind</a>
-            <a class="footer-resources-link" href="https://suicidepreventionlifeline.org/">Lifeline</a>
-          </p>
-          
-          <p class="copyright list-inline-item">&copy; Well&Content {{ 'now' | date: "%Y" }}</p>
-
-          <li class="list-inline-item">
-            <a class="footer-link" href="{{"/legal-disclosure" | relative_url }}">Legal Disclosure</a>
-          </li>
-
-          <li class="list-inline-item">
-            <a class="footer-link" href="{{"/cookie-policy" | relative_url }}">Cookie Policy</a>
-          </li>
-
-          <!--
-          {% if site.twitter_username %}
-          <li class="list-inline-item float-right">
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fab fa-twitter"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          -->
         </ul>
       </div>
     </div>
