@@ -8,7 +8,7 @@ categories: [wellbeing]
 keywords: [content creator wellbeing, creator overwhelm, creator burnout]
 ---
 
-*Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of the links.*
+*Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links.*
 
 ![02_750x500.webp](/img/posts/02_750x500.webp)
 
@@ -288,17 +288,17 @@ Let me know what you do to find balance as a content creator.
 
     <br>
 
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fido, Dean, Yasuhiro Kotera, and Kenichi Asano. "English translation and validation of the Ikigai-9 in a UK Sample." *International Journal of Mental Health and Addiction* 18 (2019): 1352–1359. https://doi.org/10.1007/s11469-019-00150-w.</span>
+    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fido, Dean, Yasuhiro Kotera, and Kenichi Asano. "English translation and validation of the Ikigai-9 in a UK Sample." <i>International Journal of Mental Health and Addiction</i> 18 (2019): 1352–1359. https://doi.org/10.1007/s11469-019-00150-w.</span>
 
     <br>
     <br>
 
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Imai, Tadanori, Hisao Osada, and Yoshimitsu Nishimura. "The reliability and validity of a new scale for measuring the concept of Ikigai (Ikigai-9)." *Japanese Journal of Public Health* 59, no. 7 (2012): 433–439. https://doi.org/10.11236/jph.59.7_433.</span>
+    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Imai, Tadanori, Hisao Osada, and Yoshimitsu Nishimura. "The reliability and validity of a new scale for measuring the concept of Ikigai (Ikigai-9)." <i>Japanese Journal of Public Health</i> 59, no. 7 (2012): 433–439. https://doi.org/10.11236/jph.59.7_433.</span>
 
     <br>
     <br>
 
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wilkes, Juliet, Gulcan Garip, Yasuhiro Kotera, and Dean Fido. "Can Ikigai Predict Anxiety, Depression, and Well-being?" *International Journal of Mental Health and Addiction* (2022): 1-13. https://doi.org/10.1007/s11469-022-00764-7.</span>
+    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wilkes, Juliet, Gulcan Garip, Yasuhiro Kotera, and Dean Fido. "Can Ikigai Predict Anxiety, Depression, and Well-being?" <i>International Journal of Mental Health and Addiction</i> (2022): 1-13. https://doi.org/10.1007/s11469-022-00764-7.</span>
 </details>
 
 <br>
