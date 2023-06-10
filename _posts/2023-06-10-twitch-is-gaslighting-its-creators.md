@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Twitch Is Gaslighting Its Creators"
-subtitle: "On 6 June 2023, Twitch released an update to their [Terms of Service](https://www.twitch.tv/p/en/legal/terms-of-service) and [Monetized Streamer Agreement](https://www.twitch.tv/p/en/legal/monetized-streamer-agreement). But as with most other updates they've posted, they received backlash from the community."
-background: 'https://images.unsplash.com/photo-1623949556303-b0d17d198863?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+subtitle: "On 6 June 2023, Twitch released an update to their Terms of Service and Monetized Streamer Agreement. But as with most other updates they've posted, they received backlash from the community."
+background: 'https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'
 categories: [streaming]
 keywords: [twitch update, twitch advertisement, twitch terms of service, twitch multistreaming, twitch exclusivity]
 ---
@@ -13,9 +13,9 @@ keywords: [twitch update, twitch advertisement, twitch terms of service, twitch 
 
 **Jump to section**:
 - [Introduction](#introduction)
-- [Update #1: Advertisements](#update1-advertisements)
-- [Update #2: Simulcasting](#update2-simulcasting)
-- [Update #3: Minimum Content Requirements](#update3-minimum-content-requirements)
+- [Update #1: Advertisements](#update-1-advertisements)
+- [Update #2: Simulcasting](#update-2-simulcasting)
+- [Update #3: Minimum Content Requirements](#update-3-minimum-content-requirements)
 - [Aftermath](#aftermath)
 - [Strategic Play](#strategic-play)
 - [To Wrap Up](#to-wrap-up)
