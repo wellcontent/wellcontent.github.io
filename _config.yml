@@ -10,6 +10,8 @@ collections:
     output: true
   guides:
     output: true
+  templates:
+    output: true
 
 # Social Profiles
 twitter_username:   glitchedinorbit
