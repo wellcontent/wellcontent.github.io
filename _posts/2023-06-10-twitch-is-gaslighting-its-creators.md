@@ -1,10 +1,17 @@
 ---
 layout: post
-title: "Twitch Is Gaslighting Its Creators"
+title: "What You Need To Know About Twitch's Recent Monetization Agreement And TOS Changes"
 subtitle: "On 6 June 2023, Twitch released an update to their Terms of Service and Monetized Streamer Agreement. But as with most other updates they've posted, they received backlash from the community."
-background: 'https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'
+background: "https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
 categories: [streaming]
-keywords: [twitch update, twitch advertisement, twitch terms of service, twitch multistreaming, twitch exclusivity]
+keywords:
+  [
+    twitch update,
+    twitch advertisement,
+    twitch terms of service,
+    twitch multistreaming,
+    twitch exclusivity,
+  ]
 ---
 
 <img src="https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Twitch Is Gaslighting Its Creators">
@@ -12,6 +19,7 @@ keywords: [twitch update, twitch advertisement, twitch terms of service, twitch 
 <br>
 
 **Jump to section**:
+
 - [Introduction](#introduction)
 - [Update #1: Advertisements](#update-1-advertisements)
 - [Update #2: Simulcasting](#update-2-simulcasting)
@@ -60,9 +68,9 @@ They'd have to go by every streamer individually (there are over 1 million strea
 
 The second update applies to simulcasting.
 
-Simulcasting, or multistreaming, is where you stream to multiple platforms at the same time. You are allowed to multistream to mobile-first competitors like Instagram and TikTok. And it was already not allowed for Affiliates and Partners to stream to other direct competitors like YouTube and Facebook. 
+Simulcasting, or multistreaming, is where you stream to multiple platforms at the same time. You are allowed to multistream to mobile-first competitors like Instagram and TikTok. And it was already not allowed for Affiliates and Partners to stream to other direct competitors like YouTube and Facebook.
 
-But now Twitch has the audacity to apply this rule to *anyone* using their service. Basically binding you to their platform, whether you have a contract with them or not.
+But now Twitch has the audacity to apply this rule to _anyone_ using their service. Basically binding you to their platform, whether you have a contract with them or not.
 
 This update is honestly bogus. Twitch is extremely arrogant to believe tying all creators to their platform is the way forward.
 
@@ -150,7 +158,7 @@ I hope this gave you a good summary of the changes incoming and the pattern that
 
 Maybe it'll even get you to change platforms or diversify your content in the future. Hopefully sooner rather than later.
 
-*Thanks for reading!*
+_Thanks for reading!_
 
 <br>
 
@@ -201,7 +209,7 @@ Maybe it'll even get you to change platforms or diversify your content in the fu
     <br>
 
     <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitch [@Twitch]. (2023, June 7). <i>Yesterday, we released new Branded Content Guidelines that impacted your ability to work with sponsors.</i> [Tweet.] Twitter. https://twitter.com/Twitch/status/1666559226184093696</span>
+
 </details>
 
 <br>
-

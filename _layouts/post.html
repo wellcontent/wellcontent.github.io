@@ -11,11 +11,14 @@ layout: default
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="col-lg-12 col-md-12 col-sm-10 mx-auto">
           <div class="post-heading">
             <h1>{{ page.title }}</h1>
+            <br>
             <span class="meta">{{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
-              content=page.content %} &middot; {% include share-buttons.html %}<br>
+              content=page.content %} &middot; {% include share-buttons.html %}
+              <br>
+              <br>
               {% if post %}
                 {% assign categories = post.categories %}
               {% else %}
@@ -34,7 +37,7 @@ layout: default
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-lg-12 col-md-12 col-sm-10 mx-auto">
 
         {% if page.subtitle %}
             <h2 class="subheading" style="font-size:24px;line-height:1.5">{{ page.subtitle }}</h2>
@@ -43,8 +46,6 @@ layout: default
         <br>
 
         {{ content }}
-
-        <hr>
 
         <br>
 
@@ -61,9 +62,7 @@ layout: default
 
         </div>
 
-        <br>
-
-        <div class="comments">{% include utterances.html %}</div>
+        <!-- <div class="comments">{% include utterances.html %}</div> -->
 
       </div>
     </div>

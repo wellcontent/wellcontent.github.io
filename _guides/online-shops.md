@@ -1,10 +1,10 @@
 ---
 layout: guide
-title: "OBS Studio 101"
-subtitle: "Learn to master OBS Studio once and for all."
-external_url-gumroad: "https://glitchedinorbit.gumroad.com/l/obs-studio-guide"
-external_url-kofi: "https://ko-fi.com/s/23f1b5bcb9"
-cover: "/img/guides/obs-studio-101.png"
+title: "Online Shops"
+subtitle: "Get started with e-commerce in an efficient way."
+external_url-gumroad: https://glitchedinorbit.gumroad.com/l/online-shop-guide
+external_url-kofi: https://ko-fi.com/s/1dd848e8ca
+cover: "/img/guides/online-shops.png"
 categories: [guides]
 ---
 

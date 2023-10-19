@@ -1,54 +1,53 @@
 // Styling for the footer
 footer {
-    color: $gray-500;
-    padding: 50px 0 65px;
-    margin-top: 50px;
+  color: $gray-500;
 
-    .list-inline {
-        margin: 0;
-    }
+  .list-inline {
+    margin: 0;
+    padding: 60px 0;
+  }
 
-    .footer-header {
-        font-size: 14px;
-        margin: 0px 0px 8px 0px;
-    }
+  .footer-header {
+    font-size: 14px;
+    margin: 0px 0px 8px 0px;
+  }
 
-    .footer-resources {
-        font-size: 14px;
-        text-decoration: none;
-        margin: 0px 0px 50px 0px;
-    }
+  .footer-resources {
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0px 0px 50px 0px;
+  }
 
-    .footer-resources-link {
-        font-size: 14px;
-        text-decoration: underline;
-        color: unset;
-        padding: 10px;
-    }
+  .footer-resources-link {
+    font-size: 14px;
+    text-decoration: underline;
+    color: unset;
+    padding: 10px;
+  }
 
-    .footer-text {
-        font-size: 14px;
-        text-transform: none;
-        text-decoration: none;
-        margin: 0;
-        padding: 0;
-    }
+  .footer-text {
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
 
-    .copyright {
-        font-size: 14px;
-        margin: 0;
-        padding: 10px;
-    }
+  .copyright {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+  }
 
-    .footer-link {
-        font-size: 14px;
-        display: block;
-        padding: 10px;
-        text-decoration: none;
-        color: unset;
-      
-        @include hover-focus() {
-          text-decoration: none;
-        }
+  .footer-link {
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: unset;
+
+    @include hover-focus() {
+      text-decoration: none;
     }
+  }
 }
