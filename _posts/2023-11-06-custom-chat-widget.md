@@ -27,9 +27,9 @@ keywords:
   - [Add the base JS](#add-the-base-js)
   - [Add the base FIELDS](#add-the-base-fields)
 - [Customizing Your Widget In StreamElements](#customizing-your-widget-in-streamelements)
-  - [Add the custom FIELDS](#add-the-custom-fields)
-  - [Add the custom CSS](#add-the-custom-css)
-  - [Add the custom DATA](#add-the-custom-data)
+  - [Add your custom FIELDS](#add-your-custom-fields)
+  - [Add your custom CSS](#add-your-custom-css)
+  - [Add your custom DATA](#add-your-custom-data)
 - [Backing Up Your Code](#backing-up-your-code)
   - [Organize your code](#organize-your-code)
   - [Upload your code to GitHub](#upload-your-code-to-github)
@@ -697,7 +697,7 @@ I've also added some new fields in the left sidebar.
 
 Let's start there first.
 
-### Add the custom FIELDS
+### Add your custom FIELDS
 
 For the Test Message, I decided to change the "Test" field to a "Preview" field.
 
@@ -981,7 +981,7 @@ It looks like this:
   }
 ```
 
-### Add the custom CSS
+### Add your custom CSS
 
 Next, we'll tackle the CSS portion of the chat widget.
 
@@ -1098,7 +1098,7 @@ Lastly, let's set properties for the custom stuff regarding `.badge`, `.emote`, 
 
 We'll leave the HTML and JS sections as they are.
 
-### Add the custom DATA
+### Add your custom DATA
 
 We still need to add the DATA, so let's do that. This code will display in one single line:
 
