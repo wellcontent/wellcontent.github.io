@@ -1,10 +1,10 @@
-title:              Well&Content
-email:              glitchedinorbit@gmail.com
-description:        Wellbeing resources for streamers and content creators
-author:             Well&Content
-baseurl:            ""
-url:                "https://wellcontent.io"
-permalink:          /:slug/
+title: Well&Content
+email: glitchedinorbit@gmail.com
+description: Wellbeing resources for streamers and content creators
+author: Well&Content
+baseurl: ""
+url: "https://wellcontent.io"
+permalink: /:slug/
 collections:
   resources:
     output: true
@@ -14,19 +14,19 @@ collections:
     output: true
 
 # Social Profiles
-twitter_username:   glitchedinorbit
-github_username:    
-facebook_username:  
-instagram_username: 
-linkedin_username:  
+twitter_username: glitchedinorbit
+github_username:
+facebook_username:
+instagram_username:
+linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   G-FP7E82B5MW # out your google-analytics code
+google_analytics: G-FP7E82B5MW # out your google-analytics code
 
 # Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
