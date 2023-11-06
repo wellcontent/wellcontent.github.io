@@ -22,14 +22,14 @@ keywords:
 
 - [Introduction](#introduction)
 - [Getting The Base Code In StreamElements](#getting-the-base-code-in-streamelements)
-  - [Base HTML](#base-html)
-  - [Base CSS](#base-css)
-  - [Base JS](#base-js)
-  - [Base FIELDS](#base-fields)
+  - [Add the base HTML](#add-the-base-html)
+  - [Add the base CSS](#add-the-base-css)
+  - [Add the base JS](#add-the-base-js)
+  - [Add the base FIELDS](#add-the-base-fields)
 - [Customizing Your Widget In StreamElements](#customizing-your-widget-in-streamelements)
-  - [Customized FIELDS](#customized-fields)
-  - [Customized CSS](#customized-css)
-  - [Customized DATA](#customized-data)
+  - [Add the custom FIELDS](#add-the-custom-fields)
+  - [Add the custom CSS](#add-the-custom-css)
+  - [Add the custom DATA](#add-the-custom-data)
 - [Backing Up Your Code](#backing-up-your-code)
   - [Organize your code](#organize-your-code)
   - [Upload your code to GitHub](#upload-your-code-to-github)
@@ -65,7 +65,7 @@ Expand Settings and click "Open editor".
 
 Navigate to https://github.com/StreamElements/widgets/tree/master/CustomChat.
 
-### Base HTML
+### Add the base HTML
 
 Copy the code from [StreamElements' custom chat widget.html](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.html) and paste it in the HTML section.
 
@@ -76,7 +76,7 @@ It should look like this:
 <div class="main-container"></div>
 ```
 
-### Base CSS
+### Add the base CSS
 
 Copy the code from [StreamElements' custom chat widget.css](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.css) and paste it in the CSS section.
 
@@ -145,7 +145,7 @@ It should look like this:
 }
 ```
 
-### Base JS
+### Add the base JS
 
 Copy the code from [StreamElements' custom chat widget.js](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.js) and paste it in the JS section.
 
@@ -447,7 +447,7 @@ $(removeSelector).remove();
 }
 ```
 
-### Base FIELDS
+### Add the base FIELDS
 
 Copy the code from [StreamElements' custom chat widget.json](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.json) and paste it in the FIELDS section.
 
@@ -697,7 +697,7 @@ I've also added some new fields in the left sidebar.
 
 Let's start there first.
 
-### Customized FIELDS
+### Add the custom FIELDS
 
 For the Test Message, I decided to change the "Test" field to a "Preview" field.
 
@@ -981,7 +981,7 @@ It looks like this:
   }
 ```
 
-### Customized CSS
+### Add the custom CSS
 
 Next, we'll tackle the CSS portion of the chat widget.
 
@@ -1098,7 +1098,7 @@ Lastly, let's set properties for the custom stuff regarding `.badge`, `.emote`, 
 
 We'll leave the HTML and JS sections as they are.
 
-### Customized DATA
+### Add the custom DATA
 
 We still need to add the DATA, so let's do that. This code will display in one single line:
 
