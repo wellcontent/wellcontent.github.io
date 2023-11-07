@@ -6,11 +6,12 @@ background: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=f
 categories: [streaming]
 keywords:
   [
-    twitch update,
-    twitch advertisement,
-    twitch terms of service,
-    twitch multistreaming,
-    twitch exclusivity,
+    twitch chat widget,
+    streamelements chat widget,
+    chat widget tutorial,
+    custom chat widget,
+    twitch chat,
+    streamelements,
   ]
 ---
 
