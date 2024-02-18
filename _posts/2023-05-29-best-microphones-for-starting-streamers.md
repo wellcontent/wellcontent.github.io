@@ -1,42 +1,47 @@
 ---
-
 layout: post
 title: "The Best Microphones Under $100 For Starting Streamers"
 subtitle: "Feeling overwhelmed by all the microphone choices for streaming, and don't know what to choose? Look no further than this guide."
 description: Feeling overwhelmed by all the microphone choices for streaming, and don't know what to choose? Look no further than this guide.
-background: 'https://images.unsplash.com/photo-1650513737281-882e597ee5e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+background: "https://images.unsplash.com/photo-1650513737281-882e597ee5e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
 categories: [streaming]
-keywords: [streaming microphones, best budget microphones stream, best microphones starting streamers, streaming microphones under $100]
-
+keywords:
+  [
+    streaming microphones,
+    best budget microphones stream,
+    best microphones starting streamers,
+    streaming microphones under $100,
+  ]
 ---
 
-*Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links.*
+_Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links._
 
 <img src="https://images.unsplash.com/photo-1650513737281-882e597ee5e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="The Best Microphones Under $100 For Starting Streamers">
 
 **Jump to section**:
-* [Introduction](#introduction)
-* [Terminology](#terminology)
-    * [Polar pattern](#polar-pattern)
-    * [Frequency response](#frequency-response)
-    * [Sample rate](#sample-rate)
-* [Condenser Microphones](#condenser-microphones)
-    * [Blue Snowball iCE](#blue-snowball-ice)
-    * [Blue Yeti Nano](#blue-yeti-nano)
-    * [Razer Seiren Mini](#razer-seiren-mini)
-    * [Elgato Wave:1](#elgato-wave1)
-    * [Rode NT-USB Mini](#rode-nt-usb-mini)
-    * [Samson C01u Pro](#samson-c01u-pro)
-    * [Rode SmartLav+](#rode-smartlav)
-    * [Sony ECMLV1](#sony-ecmlv1)
-* [Dynamic Microphones](#dynamic-microphones)
-    * [Samson Q2u](#samson-q2u)
-    * [Audio-Technica ATR2100x-USB](#audio-technica-atr2100x-usb)
-    * [Audio-Technica AT2005USB](#audio-technica-at2005usb)
-    * [Behringer XM8500](#behringer-xm8500)
-    * [Rode PodMic](#rode-podmic)
-    * [Shure SM58](#shure-sm58)
-* [To Wrap Up](#to-wrap-up)
+
+- [Introduction](#introduction)
+- [Terminology](#terminology)
+  - [Polar pattern](#polar-pattern)
+  - [Frequency response](#frequency-response)
+  - [Sample rate](#sample-rate)
+- [Condenser Microphones](#condenser-microphones)
+  - [Blue Snowball iCE](#blue-snowball-ice)
+  - [Blue Yeti Nano](#blue-yeti-nano)
+  - [Razer Seiren Mini](#razer-seiren-mini)
+  - [Elgato Wave:1](#elgato-wave1)
+  - [Rode NT-USB Mini](#rode-nt-usb-mini)
+  - [Samson C01u Pro](#samson-c01u-pro)
+  - [Rode SmartLav+](#rode-smartlav)
+  - [Sony ECMLV1](#sony-ecmlv1)
+- [Dynamic Microphones](#dynamic-microphones)
+  - [Samson Q2u](#samson-q2u)
+  - [Audio-Technica ATR2100x-USB](#audio-technica-atr2100x-usb)
+  - [Audio-Technica AT2005USB](#audio-technica-at2005usb)
+  - [Behringer XM8500](#behringer-xm8500)
+  - [Rode PodMic](#rode-podmic)
+  - [Shure SM58](#shure-sm58)
+- [To Wrap Up](#to-wrap-up)
 
 <br>
 
@@ -135,9 +140,7 @@ Price range: $40-$50
 ✔ Compact & plug 'n play  
 ✔ Cute design  
 ✔ Affordable  
-❌ Easily picks up thudding  
-
-
+❌ Easily picks up thudding
 
 The Blue Snowball iCE has a cardioid polar pattern and a frequency response of 40Hz to 18,000 Hz. Its sample rate is 44.1 kHz.
 
@@ -164,7 +167,7 @@ Price range: $80-$100
 ✔ Compact & plug 'n play  
 ✔ Cute design  
 ✔ Physical mute button  
-❌ Can be a bit pricey for cheap build feel  
+❌ Can be a bit pricey for cheap build feel
 
 The Blue Yeti Nano has cardioid and omnidirectional polar patterns and a frequency response of 20 Hz to 20,000 Hz. Its sample rate is 41kHz and 48kHz.
 
@@ -178,10 +181,6 @@ The microphone can be mounted to a tripod or a mic stand, because it comes with 
 
 <br>
 
-{% include newsletter.html %}
-
-<br>
-
 ### Razer Seiren Mini
 
 <img src="https://m.media-amazon.com/images/I/61YZnYlPi+L._AC_SL1500_.jpg" alt="Razer Seiren Mini" class="img-thumbnail" style="max-width: 20rem;">
@@ -191,7 +190,7 @@ Price range: $35-$50
 ✔ Compact & cute design  
 ✔ Affordable  
 ✔ Plug 'n play  
-❌ No physical mute button  
+❌ No physical mute button
 
 The Razer Seiren Mini has a supercardioid polar pattern and a frequency response of 20 Hz to 20,000 Hz. Its sample rate is up to 48 kHz.
 
@@ -218,13 +217,13 @@ Price range: $80-$100
 ✔ Uses Lewitt audio technology  
 ✔ Compact & plug 'n play  
 ✔ Comes with audio mixing software  
-❌ May sound slightly 'tinny'  
+❌ May sound slightly 'tinny'
 
 The Elgato Wave:1 has a cardioid polar pattern and a frequency response of 70 Hz to 20,000 Hz. Its sample rate is 48 kHz.
 
 It has a sleek design and it's very compact. Its body is made of plastic and can feel a bit cheap, but it does have a metal mesh grille with a little bit of give to it.
 
-It comes with a headphone jack on the bottom for zero latency monitoring, plus a physical push to mute button on the front. A dial on the front also controls headphone audio. 
+It comes with a headphone jack on the bottom for zero latency monitoring, plus a physical push to mute button on the front. A dial on the front also controls headphone audio.
 
 The capsule inside the Wave:1 is from Lewitt, an audio technology company that has been around since 2009.
 
@@ -251,7 +250,7 @@ Price range: $100
 ✔ Headphone jack for zero latency monitoring  
 ✔ Good build quality  
 ✔ Magnetic snapping to desktop stand  
-❌ May sound a bit 'nasally' if you have a nasal voice  
+❌ May sound a bit 'nasally' if you have a nasal voice
 
 The Rode NT-USB Mini has a cardioid polar pattern and a frequency response of 20 Hz to 20,000 Hz. Its sample rate is 48 kHz.
 
@@ -276,7 +275,7 @@ Price range: $50-$60
 ✔ Headphone jack for zero latency monitoring  
 ✔ Full metal body  
 ✔ Really good noise cancellation  
-❌ Plastic tripod not really adjustable  
+❌ Plastic tripod not really adjustable
 
 The Samson C01u Pro has a supercardioid polar pattern and a frequency response of 20 Hz to 18,000 Hz.
 
@@ -299,11 +298,11 @@ Price range: $50-$90
 ✔ Compact & discrete  
 ✔ Omnidirectional pickup pattern  
 ✔ Works with smartphones  
-❌ Sensitive sound pickup/high gain  
+❌ Sensitive sound pickup/high gain
 
 The Rode SmartLav+ has an omnidirectional polar pattern and a frequency response of 60 Hz to 18,000 Hz.
 
-It's a discrete lavalier microphone with solid build quality. It comes with a mic clip and carrying pouch. 
+It's a discrete lavalier microphone with solid build quality. It comes with a mic clip and carrying pouch.
 
 This microphone is recommended for streaming from a smartphone. Otherwise, get one of the other microphones mentioned in this list.
 
@@ -320,7 +319,7 @@ Price range: $30
 ✔ Very affordable  
 ✔ Works with smartphones  
 ✔ Compact & discrete  
-❌ Short 1 meter cable  
+❌ Short 1 meter cable
 
 The Sony ECMLV1 has an omnidirectional polar pattern and a frequency response of 50 Hz to 15,000 Hz.
 
@@ -355,9 +354,9 @@ Price range: $40-$60
 ✔ XLR and USB  
 ✔ All metal body  
 ✔ Headphone jack for zero latency monitoring  
-❌ Bad handling noise  
+❌ Bad handling noise
 
-The Samson Q2u has a cardioid polar pattern and a frequency response of 50 Hz to 15,000 Hz. Its sample rate is 44.1 kHz. 
+The Samson Q2u has a cardioid polar pattern and a frequency response of 50 Hz to 15,000 Hz. Its sample rate is 44.1 kHz.
 
 It has a solid build quality and an all metal body, with a sleek-looking black finish. It also has a headphone jack for zero latency monitoring.
 
@@ -380,7 +379,7 @@ Price range: $80-$90
 ✔ XLR and USB  
 ✔ Plug 'n play  
 ✔ Headphone jack for zero latency monitoring  
-❌ Bad handling noise  
+❌ Bad handling noise
 
 The Audio-Technica ATR2100x-USB has a cardioid polar pattern and a frequency response of 50 Hz to 15,000 Hz. Its sample rate is 44.1 kHz up to 192 kHz.
 
@@ -394,10 +393,6 @@ It has some pretty bad handling noise, but that shouldn't be much of an issue fo
 
 <br>
 
-{% include newsletter.html %}
-
-<br>
-
 ### Audio-Technica AT2005USB
 
 <img src="https://m.media-amazon.com/images/I/81Zp2-1kj7L._AC_SL1500_.jpg" alt="Audio-Technica AT2005USB" class="img-thumbnail" style="max-width: 20rem;">
@@ -407,7 +402,7 @@ Price range: $60-$80
 ✔ XLR and USB  
 ✔ Physical on/off switch  
 ✔ Headphone jack for zero latency monitoring  
-❌ Picks up quite a bit of background noise  
+❌ Picks up quite a bit of background noise
 
 The Audio-Technica AT2005USB has a cardioid polar pattern and a frequency response of 50 Hz to 15,000 Hz.
 
@@ -430,13 +425,13 @@ Price range: $20-$30
 ✔ Very affordable  
 ✔ All metal body  
 ✔ Decent sound  
-❌ XLR only  
+❌ XLR only
 
 The Behringer XM8500 has a cardioid polar pattern and a frequency response of 50 Hz to 15,000 Hz.
 
 It has a solid build quality with an all metal body and grille. Its audio is decent enough for the price, and it also comes with a stand adapter. However, it does have some handling noise and it's not as great as plosive rejection.
 
-Since it's an XLR only microphone, you'd need an audio interface and an XLR cable. It's recommended to get this XLR microphone *only* if you already own an audio interface.
+Since it's an XLR only microphone, you'd need an audio interface and an XLR cable. It's recommended to get this XLR microphone _only_ if you already own an audio interface.
 
 <a href="https://amzn.to/39AGtnJ" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Behringer XM8500 <i class="bi bi-box-arrow-up-right"></i></a>
 
@@ -457,13 +452,13 @@ Price range: $100
 ✔ All metal body  
 ✔ Great build quality  
 ✔ Decent plosive rejection  
-❌ XLR only  
+❌ XLR only
 
 The Rode PodMic has a cardioid polar pattern and a frequency response of 20 Hz to 20,000 Hz. Its sample rate is 48 kHz.
 
 It's a solid and heavy microphone with an all metal body. It does a very decent job at rejecting plosives, but it could be better.
 
-If you do already have an audio interface and are mainly into Just Chatting or even podcasting, the Rode PodMic might be a good fit for you. 
+If you do already have an audio interface and are mainly into Just Chatting or even podcasting, the Rode PodMic might be a good fit for you.
 
 <a href="https://amzn.to/3MQ801O" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Rode PodMic <i class="bi bi-box-arrow-up-right"></i></a>
 
@@ -478,7 +473,7 @@ Price range: $100
 ✔ All metal body  
 ✔ Great background noise rejection  
 ✔ No handling noise  
-❌ XLR only  
+❌ XLR only
 
 The Shure SM58 has a cardioid polar pattern and a frequency response of 50 Hz to 15,000 Hz.
 
@@ -486,7 +481,7 @@ It's a very well built microphones that can stand a lot and is durable. It has a
 
 There's no handling noise. It comes with a carrying pouch and an adapter to mount it to a stand.
 
-As with the other XLR only microphones, it's recommended to get this microphone *only* if you already own an audio interface to avoid extra costs.
+As with the other XLR only microphones, it's recommended to get this microphone _only_ if you already own an audio interface to avoid extra costs.
 
 <a href="https://amzn.to/3oBgnIJ" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Shure SM58 <i class="bi bi-box-arrow-up-right"></i></a>
 
@@ -502,7 +497,7 @@ Let me know if I missed any quality microphones under $100.
 
 Now that you have your microphone, it's time to [get a quality webcam](https://wellcontent.io/best-webcams-for-starting-streamers).
 
-*Thanks for reading!*
+_Thanks for reading!_
 
 <br>
 
@@ -522,6 +517,7 @@ Now that you have your microphone, it's time to [get a quality webcam](https://w
     <br>
 
     <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YouTube, Podcastage. https://www.youtube.com/@podcastage.</span>
+
 </details>
 
 <br>

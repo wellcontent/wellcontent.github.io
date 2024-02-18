@@ -4,7 +4,7 @@ title: "7 Tips For Content Creators To Make Balance A Priority"
 subtitle: "Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content."
 description: Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content.
 background: "/img/posts/02_750x500.webp"
-categories: [featured, wellbeing]
+categories: [wellbeing]
 keywords: [content creator wellbeing, creator overwhelm, creator burnout]
 ---
 
@@ -15,15 +15,15 @@ _Disclaimer: this post contains affiliate links, so I may receive a commission i
 **Jump to section**:
 
 - [Introduction](#introduction)
-- [Do What You Love](#1-do-what-you-love)
-- [Compare Yourself To Yourself Only](#2-compare-yourself-to-yourself-only)
-- [Diversify Your Content](#3-diversify-your-content)
-- [Generate Streams Of Passive Income](#4-generate-streams-of-passive-income)
+- [1. Do What You Love](#1-do-what-you-love)
+- [2. Compare Yourself To Yourself Only](#2-compare-yourself-to-yourself-only)
+- [3. Diversify Your Content](#3-diversify-your-content)
+- [4. Generate Streams Of Passive Income](#4-generate-streams-of-passive-income)
   - [Passive income ideas](#passive-income-ideas)
-- [Take Good Care Of Yourself](#5-take-good-care-of-yourself)
+- [5. Take Good Care Of Yourself](#5-take-good-care-of-yourself)
   - [Self care ideas](#self-care-ideas)
-- [Do Not Focus On Metrics](#6-do-not-focus-on-metrics)
-- [Create The Workflow That Works For You](#7-create-the-workflow-that-works-for-you)
+- [6. Do Not Focus On Metrics](#6-do-not-focus-on-metrics)
+- [7. Create The Workflow That Works For You](#7-create-the-workflow-that-works-for-you)
 - [To Wrap Up](#to-wrap-up)
 
 <br>
@@ -125,10 +125,6 @@ That said, you have to find the best content creation platform that works for yo
 However, do keep balance with diversifying. Every additional platform is extra work. It's best to stick to 2-4 main platforms.
 
 For example, I currently like to curate content for YouTube, livestream on Twitch, and post on Twitter.
-
-<br>
-
-{% include newsletter.html %}
 
 <br>
 

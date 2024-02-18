@@ -1,0 +1,525 @@
+I"�o<p><em>Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links.</em></p>
+
+<p><img src="https://images.unsplash.com/photo-1650513737281-882e597ee5e5?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80" alt="The Best Microphones Under $100 For Starting Streamers" /></p>
+
+<p><strong>Jump to section</strong>:</p>
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#terminology">Terminology</a>
+    <ul>
+      <li><a href="#polar-pattern">Polar pattern</a></li>
+      <li><a href="#frequency-response">Frequency response</a></li>
+      <li><a href="#sample-rate">Sample rate</a></li>
+    </ul>
+  </li>
+  <li><a href="#condenser-microphones">Condenser Microphones</a>
+    <ul>
+      <li><a href="#blue-snowball-ice">Blue Snowball iCE</a></li>
+      <li><a href="#blue-yeti-nano">Blue Yeti Nano</a></li>
+      <li><a href="#razer-seiren-mini">Razer Seiren Mini</a></li>
+      <li><a href="#elgato-wave1">Elgato Wave:1</a></li>
+      <li><a href="#rode-nt-usb-mini">Rode NT-USB Mini</a></li>
+      <li><a href="#samson-c01u-pro">Samson C01u Pro</a></li>
+      <li><a href="#rode-smartlav">Rode SmartLav+</a></li>
+      <li><a href="#sony-ecmlv1">Sony ECMLV1</a></li>
+    </ul>
+  </li>
+  <li><a href="#dynamic-microphones">Dynamic Microphones</a>
+    <ul>
+      <li><a href="#samson-q2u">Samson Q2u</a></li>
+      <li><a href="#audio-technica-atr2100x-usb">Audio-Technica ATR2100x-USB</a></li>
+      <li><a href="#audio-technica-at2005usb">Audio-Technica AT2005USB</a></li>
+      <li><a href="#behringer-xm8500">Behringer XM8500</a></li>
+      <li><a href="#rode-podmic">Rode PodMic</a></li>
+      <li><a href="#shure-sm58">Shure SM58</a></li>
+    </ul>
+  </li>
+  <li><a href="#to-wrap-up">To Wrap Up</a></li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Audio is the <strong>most important factor</strong> in a livestream. It’s even a standard in the FILM industry that audio is more important than video. That’s because it makes up the majority of the experience of those who consume the movie.</p>
+
+<p>You cannot mask bad audio in post-processing. If you have bad input, the damage is already done. You CAN enhance great audio in post. But that’s not possible if you’re streaming live content.</p>
+
+<p>So instead, aim for getting good sounding audio from the get-go. I swear, it’s possible to do so with affordable options.</p>
+
+<p>This guide lists the best microphones to start your livestream. All recommended gear is high quality and $100 maximum.</p>
+
+<p>While I don’t personally own all of the equipment featured in this list, I do know what I need to look for in equipment because I have over 5 years of streaming experience and over 6 years of content creation experience.</p>
+
+<p>Expect to see only quality recommendations here. The aim was to find a balance between price and quality of the product.</p>
+
+<p>Let’s get into it.</p>
+
+<p><br /></p>
+
+<h2 id="terminology">Terminology</h2>
+
+<p>Before I list the best microphones under $100, it’s important to go over some common terminology for audio. Terms often used are <strong>polar pattern</strong>, <strong>frequency response</strong>, and <strong>sample rate</strong>.</p>
+
+<p>If you already know about these terms, you can <a href="#condenser-microphones">skip to the next section</a>.</p>
+
+<p><br /></p>
+
+<h3 id="polar-pattern">Polar pattern</h3>
+
+<p>Polar patterns are the areas around the microphone where it picks up sound. Some common ones include cardioid, supercardioid, and omnidirectional.</p>
+
+<p>A <strong>cardioid</strong> polar pattern is the most common pattern you’ll find. It picks up most sound from the front of the mic and a little from the sides. This makes it a solid choice for streamers, because it’ll highlight the source (the streamer) in front of it.</p>
+
+<figure class="figure">
+    <img src="https://blog.andertons.co.uk/wp-content/uploads/2020/07/Cardioid-768x768.png" alt="Cardioid polar pattern visualization" class="img-thumbnail" style="max-width: 30rem;" />
+    <figcaption class="figure-caption">Cardioid polar pattern visualization from <a href="https://blog.andertons.co.uk/learn/microphone-polar-patterns-explained" class="text-muted" target="_blank" rel="noopener noreferrer" style="text-decoration: underline">Andertons</a></figcaption>
+</figure>
+
+<p>A <strong>supercardioid</strong> polar pattern has a narrower pickup area compared to the regular cardioid pattern. And it’ll pick up most sound from the source in front of it. But this pattern rejects more unwanted background noise, which makes it perfect for anyone in a loud environment.</p>
+
+<figure class="figure">
+    <img src="https://blog.andertons.co.uk/wp-content/uploads/2020/07/Supercardioid-.png" alt="Supercardioid polar pattern visualization" class="img-thumbnail" style="max-width: 30rem;" />
+    <figcaption class="figure-caption">Supercardioid polar pattern visualization from <a href="https://blog.andertons.co.uk/learn/microphone-polar-patterns-explained" class="text-muted" target="_blank" rel="noopener noreferrer" style="text-decoration: underline">Andertons</a></figcaption>
+</figure>
+
+<p>An <strong>omnidirectional</strong> polar pattern picks up sound equally all around the microphone. This is great for picking up acoustics and instruments, but not so much for live streaming. Because it picks up sound all around it, there’s no easy way for you to get rid of potential keyboard and mouse sounds. If you have a Blue Yeti for streaming, make sure your microphone isn’t set to this polar pattern.</p>
+
+<figure class="figure">
+    <img src="https://blog.andertons.co.uk/wp-content/uploads/2020/07/omni-768x768.png" alt="Omnidirectional polar pattern visualization" class="img-thumbnail" style="max-width: 30rem;" />
+    <figcaption class="figure-caption">Omnidirectional polar pattern visualization from <a href="https://blog.andertons.co.uk/learn/microphone-polar-patterns-explained" class="text-muted" target="_blank" rel="noopener noreferrer" style="text-decoration: underline">Andertons</a></figcaption>
+</figure>
+
+<p><br /></p>
+
+<h3 id="frequency-response">Frequency response</h3>
+
+<p>Frequency response is the range of sound that a microphone can reproduce and how its output varies within that range. A response curve graphically represents the frequency response of a microphone.</p>
+
+<figure class="figure">
+    <img src="https://content-files.shure.com/OriginFiles/BlogPosts/mic-basics-frequency-response/images/mic-basics-frequency-response_content-1.png" class="img-thumbnail" style="max-width: 30rem;" />
+    <figcaption class="figure-caption">Response curve visualization from <a href="https://www.shure.com/en-US/performance-production/louder/mic-basics-frequency-response" class="text-muted" target="_blank" rel="noopener noreferrer" style="text-decoration: underline">Shure</a></figcaption>
+</figure>
+
+<p>Mid Range (500-3000 Hz) is the range where the human ear is most sensitive to the smallest details.</p>
+
+<p>Presence (3000-7000 Hz) is the range for sound definition and good sound intelligibility. It’s also the area of many speech consonants.</p>
+
+<p>Be aware that measurement equipment and an anechoic chamber (a specially constructed room for controlled audio testing) for reliable frequency response charts are quite an investment. So these charts can be helpful, but published charts can also be unreliable or simply wishful thinking. Especially with unreputable companies and with lower end products.</p>
+
+<p><br /></p>
+
+<h3 id="sample-rate">Sample rate</h3>
+
+<p>Sample rate is simply the rate at which audio is converted. The most common rate is 44.1 kHz or 16 bit. But the standard in professional audio contexts such as audio for video is 48 kHz or 24 bit. Sound with 48 kHz is a closer recreation of the original audio source, so it sounds more natural. And the extra headroom is nice to have to avoid clipping.</p>
+
+<p><br /></p>
+
+<h2 id="condenser-microphones">Condenser Microphones</h2>
+
+<p>Condenser microphones are very sensitive to sound, so you can get away with positioning them further from you without losing too much of your voice on stream. They are a great choice for any streamer.</p>
+
+<div class="alert alert-primary" role="alert">
+    Definitely use the built-in Noise Suppression audio filter in OBS if you go with a condenser microphone.
+</div>
+
+<p><br /></p>
+
+<h3 id="blue-snowball-ice">Blue Snowball iCE</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/71V4ytRfB0L._AC_SL1500_.jpg" alt="Blue Snowball iCE" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $40-$50</p>
+
+<p>✔ Compact &amp; plug ‘n play<br />
+✔ Cute design<br />
+✔ Affordable<br />
+❌ Easily picks up thudding</p>
+
+<p>The Blue Snowball iCE has a cardioid polar pattern and a frequency response of 40Hz to 18,000 Hz. Its sample rate is 44.1 kHz.</p>
+
+<p>The Snowball iCE connects via USB directly into your PC, so it’s virtually plug and play.</p>
+
+<p>It can tilt up and down. And it’s very compact, which makes it easy to take with you on the go if needed.</p>
+
+<p>The Snowball iCE is a great value for money with a great price–to-performance ratio.</p>
+
+<p>Plus, you’re getting a product from Blue Microphones, a company that has been designing and producing recording equipment since 1995. They know what they’re doing.</p>
+
+<!-- (The reason I'm not recommending the Blue Yeti here is because the Yeti is 2x the price of the Snowball iCE. I've also personally had audio crackling issues with the Yeti after about 2 years of use, whereas the Snowball iCE hasn't shown any issues after almost 3 years of use. The Yeti also has these extra polar patterns that are useless to the vast majority of streamers. So it's not worth paying the current price tag for.) -->
+
+<p><a href="https://amzn.to/3sQyPMa" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Blue Snowball iCE <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<h3 id="blue-yeti-nano">Blue Yeti Nano</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/71M8VZSVlvL._AC_SL1500_.jpg" alt="Blue Yeti Nano" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $80-$100</p>
+
+<p>✔ Compact &amp; plug ‘n play<br />
+✔ Cute design<br />
+✔ Physical mute button<br />
+❌ Can be a bit pricey for cheap build feel</p>
+
+<p>The Blue Yeti Nano has cardioid and omnidirectional polar patterns and a frequency response of 20 Hz to 20,000 Hz. Its sample rate is 41kHz and 48kHz.</p>
+
+<p>It has a headphone jack for zero latency monitoring, and a physical mute button. The mute button can come in handy, if you like to be able to mute your mic with physical buttons instead of with software.</p>
+
+<p>While the body may feel a bit cheap, it does have a sturdy metal grille.</p>
+
+<p>The microphone can be mounted to a tripod or a mic stand, because it comes with 3/4’’ threading and an adapter.</p>
+
+<p><a href="https://amzn.to/3NLVsKd" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Blue Yeti Nano <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<iframe src="https://glitchedinorbit.substack.com/embed" width="100%" height="100" style="border:none; background:transparent;" frameborder="0" scrolling="no"></iframe>
+
+<p><br /></p>
+
+<h3 id="razer-seiren-mini">Razer Seiren Mini</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/61YZnYlPi+L._AC_SL1500_.jpg" alt="Razer Seiren Mini" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $35-$50</p>
+
+<p>✔ Compact &amp; cute design<br />
+✔ Affordable<br />
+✔ Plug ‘n play<br />
+❌ No physical mute button</p>
+
+<p>The Razer Seiren Mini has a supercardioid polar pattern and a frequency response of 20 Hz to 20,000 Hz. Its sample rate is up to 48 kHz.</p>
+
+<p>The audio tone is very crisp and clear. It has a small form factor, so it’s nice if you don’t want a microphone right in your face. But if you do decide to show it off, its cute design will brighten anyone’s day.</p>
+
+<p>The build quality of the body does feel a bit cheap because it’s made out of plastic. But the grille around the capsule is sturdy metal.</p>
+
+<p>The Seiren Mini also has no physical mute button, nor a headphone jack for zero latency monitoring.</p>
+
+<p>A physical mute button is very handy for streaming, because it allows you to mute your microphone without using any hotkeys or software. However, it isn’t a dealbreaker if you don’t mind using hotkeys or software to mute your audio input.</p>
+
+<p>In general, the Razer Seiren Mini has a great price-to-performance ratio and is very affordable for the sound quality you’re getting.</p>
+
+<p><a href="https://amzn.to/3MDgNnR" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Razer Seiren Mini <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<h3 id="elgato-wave1">Elgato Wave:1</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/7138SUoTVeL._AC_SL1500_.jpg" alt="Elgato Wave:1" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $80-$100</p>
+
+<p>✔ Uses Lewitt audio technology<br />
+✔ Compact &amp; plug ‘n play<br />
+✔ Comes with audio mixing software<br />
+❌ May sound slightly ‘tinny’</p>
+
+<p>The Elgato Wave:1 has a cardioid polar pattern and a frequency response of 70 Hz to 20,000 Hz. Its sample rate is 48 kHz.</p>
+
+<p>It has a sleek design and it’s very compact. Its body is made of plastic and can feel a bit cheap, but it does have a metal mesh grille with a little bit of give to it.</p>
+
+<p>It comes with a headphone jack on the bottom for zero latency monitoring, plus a physical push to mute button on the front. A dial on the front also controls headphone audio.</p>
+
+<p>The capsule inside the Wave:1 is from Lewitt, an audio technology company that has been around since 2009.</p>
+
+<p>It comes with a 3/4” thread for the included stand, plus an adapter to put it on a mic stand. It also comes with audio mixing software from Elgato, although you can use plugins in OBS instead to do that natively without needing an extra app.</p>
+
+<p>A very interesting feature that’s built in is Clipguard, which detects when your voice is too loud (when screaming) and reroutes sound through a second signal path that runs at a lower volume. In short, it doesn’t clip or distort your audio when you get loud. An alternative method is to put a Limiter filter on your microphone source in OBS, so your audio doesn’t clip when you get loud.</p>
+
+<p>You can also use an Elgato Stream Deck for control over the mic, although this feature isn’t specific to the Wave - you can do that with other microphones too.</p>
+
+<p><a href="https://amzn.to/38nzTAq" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Elgato Wave:1 <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<div class="alert alert-primary d-flex align-items-top" role="alert">
+    Place your microphone at a 45 degree angle towards your mouth, so you're not right in front of it. This prevents air (and spit) hitting the capsule, and limits plosives/popping from coming through in the audio.
+</div>
+
+<p><br /></p>
+
+<h3 id="rode-nt-usb-mini">Rode NT-USB Mini</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/51uPJKO7kbL._AC_SL1000_.jpg" alt="Rode NT-USB Mini" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $100</p>
+
+<p>✔ Headphone jack for zero latency monitoring<br />
+✔ Good build quality<br />
+✔ Magnetic snapping to desktop stand<br />
+❌ May sound a bit ‘nasally’ if you have a nasal voice</p>
+
+<p>The Rode NT-USB Mini has a cardioid polar pattern and a frequency response of 20 Hz to 20,000 Hz. Its sample rate is 48 kHz.</p>
+
+<p>It has a sleek all-black body with an integrated pop filter.</p>
+
+<p>You can monitor your audio through a headphone jack, and the dial at the front controls the output levels.</p>
+
+<p>Its magnetic base easily snaps to the included desktop stand.</p>
+
+<p>Or you can remove the rubber bit and connect an adapter to mount it to a boom arm. This is recommended if you want less background noise or tapping sound.</p>
+
+<p><a href="https://amzn.to/3NTLmr2" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Rode NT-USB Mini <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<h3 id="samson-c01u-pro">Samson C01u Pro</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/716kXiWeNxL._AC_SL1500_.jpg" alt="Samson C01u Pro" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $50-$60</p>
+
+<p>✔ Headphone jack for zero latency monitoring<br />
+✔ Full metal body<br />
+✔ Really good noise cancellation<br />
+❌ Plastic tripod not really adjustable</p>
+
+<p>The Samson C01u Pro has a supercardioid polar pattern and a frequency response of 20 Hz to 18,000 Hz.</p>
+
+<p>It has a full metal body and a sleek silver toned body and mesh grille.</p>
+
+<p>This microphone is very good at noise cancellation, which is great if you have a noisy background.</p>
+
+<p>It comes with an adapter to mount it to a stand. This is recommended, because the default tripod isn’t that versatile.</p>
+
+<p><a href="https://amzn.to/3xxFQ6g" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Samson C01u Pro <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<h3 id="rode-smartlav">Rode SmartLav+</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/610DIlv4j2L._AC_SL1218_.jpg" alt="Rode SmartLav+" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $50-$90</p>
+
+<p>✔ Compact &amp; discrete<br />
+✔ Omnidirectional pickup pattern<br />
+✔ Works with smartphones<br />
+❌ Sensitive sound pickup/high gain</p>
+
+<p>The Rode SmartLav+ has an omnidirectional polar pattern and a frequency response of 60 Hz to 18,000 Hz.</p>
+
+<p>It’s a discrete lavalier microphone with solid build quality. It comes with a mic clip and carrying pouch.</p>
+
+<p>This microphone is recommended for streaming from a smartphone. Otherwise, get one of the other microphones mentioned in this list.</p>
+
+<p><a href="https://amzn.to/3LOvkN8" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Rode SmartLav+ <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<h3 id="sony-ecmlv1">Sony ECMLV1</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/41P-noj4YmL._AC_SL1000_.jpg" alt="Sony ECMLV1" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $30</p>
+
+<p>✔ Very affordable<br />
+✔ Works with smartphones<br />
+✔ Compact &amp; discrete<br />
+❌ Short 1 meter cable</p>
+
+<p>The Sony ECMLV1 has an omnidirectional polar pattern and a frequency response of 50 Hz to 15,000 Hz.</p>
+
+<p>It’s a very compact and discrete lavalier microphone with a sleek all-black design.</p>
+
+<p>Since you can plug it into the headphone jack of your smartphone or laptop, it’s suitable for on-the-go streaming.</p>
+
+<p>The cable is quite short though, so it may not be best in a studio environment.</p>
+
+<p><a href="https://amzn.to/3tH1vb3" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Sony ECMLV1 <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<h2 id="dynamic-microphones">Dynamic Microphones</h2>
+
+<p>If you record or stream in an environment with a lot of ambient noise and you need to filter out those sounds, a dynamic microphone might be for you.</p>
+
+<p>They are a lot less sensitive than condenser microphones, but they do need to be in your face for it to pick up your voice.</p>
+
+<div class="alert alert-primary" role="alert">
+  No matter your microphone, definitely add VST audio filters to your source in OBS. Specifically Gain, Noise Suppression, Limiter, and Noise Gate.
+</div>
+
+<p><br /></p>
+
+<h3 id="samson-q2u">Samson Q2u</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/71laVfCa-SL._AC_SL1500_.jpg" alt="Samson Q2u" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $40-$60</p>
+
+<p>✔ XLR and USB<br />
+✔ All metal body<br />
+✔ Headphone jack for zero latency monitoring<br />
+❌ Bad handling noise</p>
+
+<p>The Samson Q2u has a cardioid polar pattern and a frequency response of 50 Hz to 15,000 Hz. Its sample rate is 44.1 kHz.</p>
+
+<p>It has a solid build quality and an all metal body, with a sleek-looking black finish. It also has a headphone jack for zero latency monitoring.</p>
+
+<p>Its XLR and USB connectors allow for room to grow. If you want to eventually upgrade to XLR, you can without needing to replace the microphone.</p>
+
+<p>There’s bad handling noise when holding it in hand and when tapping on the body.</p>
+
+<p>It comes with an on/off switch on the body. But it’s not really recommended to use that as a physical mute button, because of the handling noise as well.</p>
+
+<p><a href="https://amzn.to/3MLPO9P" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Samson Q2u <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<h3 id="audio-technica-atr2100x-usb">Audio-Technica ATR2100x-USB</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/71ueNCONiwL._AC_SL1500_.jpg" alt="Audio-Technica ATR2100x-USB" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $80-$90</p>
+
+<p>✔ XLR and USB<br />
+✔ Plug ‘n play<br />
+✔ Headphone jack for zero latency monitoring<br />
+❌ Bad handling noise</p>
+
+<p>The Audio-Technica ATR2100x-USB has a cardioid polar pattern and a frequency response of 50 Hz to 15,000 Hz. Its sample rate is 44.1 kHz up to 192 kHz.</p>
+
+<p>It has an all metal black body and silver metal mesh grille, which gives it a standard handheld microphone look.</p>
+
+<p>A physical on/off switch can function as a mute button, although it does make a popping noise when using the switch.</p>
+
+<p>It has some pretty bad handling noise, but that shouldn’t be much of an issue for the majority of streamers. Its USB and XLR connectors give you room to grow.</p>
+
+<p><a href="https://amzn.to/3O9U0kI" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Audio-Technica ATR2100x-USB <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<iframe src="https://glitchedinorbit.substack.com/embed" width="100%" height="100" style="border:none; background:transparent;" frameborder="0" scrolling="no"></iframe>
+
+<p><br /></p>
+
+<h3 id="audio-technica-at2005usb">Audio-Technica AT2005USB</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/81Zp2-1kj7L._AC_SL1500_.jpg" alt="Audio-Technica AT2005USB" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $60-$80</p>
+
+<p>✔ XLR and USB<br />
+✔ Physical on/off switch<br />
+✔ Headphone jack for zero latency monitoring<br />
+❌ Picks up quite a bit of background noise</p>
+
+<p>The Audio-Technica AT2005USB has a cardioid polar pattern and a frequency response of 50 Hz to 15,000 Hz.</p>
+
+<p>It’s a well built microphone with an all metal body and a sleek, all-black design.</p>
+
+<p>A physical on/off switch can function as a mute button, and it’s virtually plug ‘n play.</p>
+
+<p>It has a headphone jack for zero latency monitoring. But the headphone amp is very loud and there’s no way to adjust the volume or to turn it off.</p>
+
+<p><a href="https://amzn.to/3Oh8G1l" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Audio-Technica AT2005USB <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<h3 id="behringer-xm8500">Behringer XM8500</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/41bVVskQBDL._AC_.jpg" alt="Behringer XM8500" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $20-$30</p>
+
+<p>✔ Very affordable<br />
+✔ All metal body<br />
+✔ Decent sound<br />
+❌ XLR only</p>
+
+<p>The Behringer XM8500 has a cardioid polar pattern and a frequency response of 50 Hz to 15,000 Hz.</p>
+
+<p>It has a solid build quality with an all metal body and grille. Its audio is decent enough for the price, and it also comes with a stand adapter. However, it does have some handling noise and it’s not as great as plosive rejection.</p>
+
+<p>Since it’s an XLR only microphone, you’d need an audio interface and an XLR cable. It’s recommended to get this XLR microphone <em>only</em> if you already own an audio interface.</p>
+
+<p><a href="https://amzn.to/39AGtnJ" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Behringer XM8500 <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<div class="alert alert-primary" role="alert">
+    If you don't have everything for an XLR setup yet, please don't go out spending extra on an XLR setup. Unless you really want to and can afford it.
+</div>
+
+<p><br /></p>
+
+<h3 id="rode-podmic">Rode PodMic</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/61V2IPfjMEL._AC_SL1080_.jpg" alt="Rode PodMic" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $100</p>
+
+<p>✔ All metal body<br />
+✔ Great build quality<br />
+✔ Decent plosive rejection<br />
+❌ XLR only</p>
+
+<p>The Rode PodMic has a cardioid polar pattern and a frequency response of 20 Hz to 20,000 Hz. Its sample rate is 48 kHz.</p>
+
+<p>It’s a solid and heavy microphone with an all metal body. It does a very decent job at rejecting plosives, but it could be better.</p>
+
+<p>If you do already have an audio interface and are mainly into Just Chatting or even podcasting, the Rode PodMic might be a good fit for you.</p>
+
+<p><a href="https://amzn.to/3MQ801O" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Rode PodMic <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<h3 id="shure-sm58">Shure SM58</h3>
+
+<p><img src="https://m.media-amazon.com/images/I/51Erpa+CJlL._AC_SL1038_.jpg" alt="Shure SM58" class="img-thumbnail" style="max-width: 20rem;" /></p>
+
+<p>Price range: $100</p>
+
+<p>✔ All metal body<br />
+✔ Great background noise rejection<br />
+✔ No handling noise<br />
+❌ XLR only</p>
+
+<p>The Shure SM58 has a cardioid polar pattern and a frequency response of 50 Hz to 15,000 Hz.</p>
+
+<p>It’s a very well built microphones that can stand a lot and is durable. It has a full metal body, plus a metal mesh grille with foam on the inside to prevent plosives.</p>
+
+<p>There’s no handling noise. It comes with a carrying pouch and an adapter to mount it to a stand.</p>
+
+<p>As with the other XLR only microphones, it’s recommended to get this microphone <em>only</em> if you already own an audio interface to avoid extra costs.</p>
+
+<p><a href="https://amzn.to/3oBgnIJ" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> Get the Shure SM58 <i class="bi bi-box-arrow-up-right"></i></a></p>
+
+<p><br /></p>
+
+<h2 id="to-wrap-up">To Wrap Up</h2>
+
+<p>As you can see, you don’t need to break the bank to get a good microphone for streaming, and there are many inexpensive options available in the current market.</p>
+
+<p>I hope this guide has helped you.</p>
+
+<p>Let me know if I missed any quality microphones under $100.</p>
+
+<p>Now that you have your microphone, it’s time to <a href="https://wellcontent.io/best-webcams-for-starting-streamers">get a quality webcam</a>.</p>
+
+<p><em>Thanks for reading!</em></p>
+
+<p><br /></p>
+
+<details>
+    <summary>Sources</summary>
+
+    <br />
+
+    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Andertons, "Microphone Polar Patterns Explained." (2020). https://blog.andertons.co.uk/learn/microphone-polar-patterns-explained</span>
+
+    <br />
+    <br />
+
+    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shure, "MIC BASICS: WHAT IS FREQUENCY RESPONSE?" (2017). https://www.shure.com/en-US/performance-production/louder/mic-basics-frequency-response</span>
+
+    <br />
+    <br />
+
+    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YouTube, Podcastage. https://www.youtube.com/@podcastage.</span>
+</details>
+
+<p><br /></p>
+:ET

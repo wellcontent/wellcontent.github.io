@@ -1,0 +1,301 @@
+I"y;<p><img src="/img/posts/03_750x500.webp" alt="03_750x500.webp" /></p>
+
+<p><strong>Jump to section</strong>:</p>
+
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#turn-on-2fa">Turn On 2FA</a></li>
+  <li><a href="#brb-block-report-ban">BRB: Block, Report, Ban</a>
+    <ul>
+      <li><a href="#blocking-words">Blocking words</a></li>
+      <li><a href="#blocking-users">Blocking users</a></li>
+      <li><a href="#blocking-whispers">Blocking whispers</a></li>
+      <li><a href="#reporting-accounts">Reporting accounts</a></li>
+      <li><a href="#banning-users">Banning users</a></li>
+    </ul>
+  </li>
+  <li><a href="#use-moderation-bots">Use Moderation Bots</a>
+    <ul>
+      <li><a href="#bots-for-general-moderation">Bots for general moderation</a></li>
+      <li><a href="#bots-for-hate-raid-protection">Bots for hate raid protection</a></li>
+    </ul>
+  </li>
+  <li><a href="#use-automated-tools">Use Automated Tools</a></li>
+  <li><a href="#set-up-multi-actions">Set Up Multi-Actions</a></li>
+  <li><a href="#turn-on-suspicious-user-detection">Turn On Suspicious User Detection</a></li>
+  <li><a href="#turn-on-email-verification-for-chatters">Turn On Email Verification For Chatters</a></li>
+  <li><a href="#what-not-to-do">What NOT To Do</a></li>
+  <li><a href="#concluding-thoughts">Concluding Thoughts</a></li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The fact of the matter is: as much as you may want to, you can’t control other people and their actions. Thus, you can’t <em>fully</em> combat harassment.</p>
+
+<p>Chances of getting harassed increase the more individual characteristics affect you. These can include gender, gender expression, sexuality, ethnicity, age, and disability.</p>
+
+<p>Of course, it shouldn’t only be up to the creators to protect themselves as much as they have to now. It should also be the responsibility of the platform to keep its content creators as safe as possible.</p>
+
+<p>There’s a clear distinction between allowing creators to thrive and doing the bare minimum to keep the platform afloat.</p>
+
+<p>But you can use tools to protect yourself (and your community) and prevent unnecessary harassment as much as possible.</p>
+
+<p>Preparation is key.</p>
+
+<p><br /></p>
+
+<h2 id="turn-on-2fa">Turn On 2FA</h2>
+
+<p>Always, always, ALWAYS turn on two-factor authentication (2FA) to secure your accounts. This will decrease your chances of getting hacked and personal information getting leaked.</p>
+
+<p>Twitch offers two-factor authentication via SMS or authenticator app. Using the authenticator app is recommended if you wish to keep your phone number private.</p>
+
+<p>You can enable and adjust 2FA in your <a href="https://www.twitch.tv/settings/security">Security and Privacy Settings</a>.</p>
+
+<p><br /></p>
+
+<h2 id="brb-block-report-ban">BRB: Block, Report, Ban</h2>
+
+<p>The block, report, and ban buttons are your friends. They can save you a lot of headaches and stress if you know when and how to use them.</p>
+
+<p>As a streamer, you want to keep your chat and community free from trolls. You are allowed to set your own boundaries. So don’t be afraid to block, report, or ban.</p>
+
+<div class="alert alert-secondary" role="alert">
+    ❝You are allowed to set your own boundaries.❞
+</div>
+
+<p>Keep in mind that those who get upset about you setting boundaries are the ones who were benefiting from you having none.</p>
+
+<p><br /></p>
+
+<h3 id="blocking-words">Blocking words</h3>
+
+<p>On Twitch you’re able to block words and sentences. These can for example include homophobic, transphobic, sexist, and racist slurs, but also anxiety triggers.</p>
+
+<p>Consider adding common misspellings so that bad actors can’t circumvent the blocked words.</p>
+
+<p>You can block specific words in your chat bot(s) and in your channel’s <a href="https://dashboard.twitch.tv/settings/moderation">Moderation Settings</a>.</p>
+
+<p><br /></p>
+
+<h3 id="blocking-users">Blocking users</h3>
+
+<p>Blocking another user is helpful if they are making you uncomfortable in any way, shape, or form. It’s a low threshold way of putting distance between yourself and another person.</p>
+
+<p>You can block users by clicking on their username in the chatroom, then the <strong>⋮ Three Vertical Dots icon</strong> and <strong>Block [Username]</strong>. Or by typing /block [username] in chat.</p>
+
+<p>You can see a list of blocked users in your <a href="https://www.twitch.tv/settings/security">Security and Privacy Settings</a> page.</p>
+
+<p>Blocking another user will:</p>
+
+<ul>
+  <li>Remove them from your followers.</li>
+  <li>Remove them from your friends list.</li>
+  <li>Prevent them from following or friending you in the future.</li>
+  <li>Prevent them from whispering to you.</li>
+  <li>Prevent them from hosting you.</li>
+  <li>Prevent them from subscribing to your channel.</li>
+  <li>Prevent them from purchasing gift subs for other users in your channel.</li>
+  <li>Filter their messages out of the chats you don’t moderate.</li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="blocking-whispers">Blocking whispers</h3>
+
+<p>On Twitch, you can block whispers (direct messages) from strangers. Strangers are those who are not your friend, someone you follow, someone you subscribe to, or one of your mods or editors. They won’t be able to whisper you unless you whisper them first.</p>
+
+<p>Toggle <strong>Block Whispers from Strangers</strong> in your <a href="https://www.twitch.tv/settings/security">Security and Privacy Settings</a> page to only allow people you know to whisper you.</p>
+
+<p><br /></p>
+
+<h3 id="reporting-accounts">Reporting accounts</h3>
+
+<p>If you suspect that an account is violating Twitch’s Terms of Service (TOS) or Community Guidelines, you can report them. Tap on the username in the chatroom, click the <strong>⋮ Three Vertical Dots icon</strong> and click <strong>Report [Username]</strong>.</p>
+
+<p>Alternatively, you can click the <strong>⋮ Three Vertical Dots icon</strong> in the bottom right below the video player on the channel page. Then, click <strong>Report [Username]</strong>.</p>
+
+<div class="alert alert-warning" role="alert">
+    <strong>CAUTION!</strong> It's not always safe to report accounts by going to their channel page. There have been instances where streamers got hate raided after visiting.
+</div>
+
+<p>The safest way to report users is via chat.</p>
+
+<p><br /></p>
+
+<h3 id="banning-users">Banning users</h3>
+
+<p>If someone repeatedly breaks your channel rules or makes you or your community uncomfortable, it’s best to get rid of this person.</p>
+
+<p>You can ban users by typing <strong>/ban [username]</strong> in chat, or by clicking on the <strong>🛇 Ban icon</strong> next to their name in chat.</p>
+
+<p><br /></p>
+
+<iframe src="https://glitchedinorbit.substack.com/embed" width="100%" height="100" style="border:none; background:transparent;" frameborder="0" scrolling="no"></iframe>
+
+<p><br /></p>
+
+<h2 id="use-moderation-bots">Use Moderation Bots</h2>
+
+<p>Moderation bots allow you to run your stream without having to worry as much about keeping your chat clean.</p>
+
+<p><br /></p>
+
+<h3 id="bots-for-general-moderation">Bots for general moderation</h3>
+
+<p>For general moderation and other features, it is recommended to have at least one moderation bot active in your channel. The following bots are great options:</p>
+
+<ul>
+  <li>
+    <h4 id="streamelements"><a href="https://streamelements.com/">StreamElements</a></h4>
+  </li>
+  <li>
+    <h4 id="moobot"><a href="https://moo.bot/">Moobot</a></h4>
+  </li>
+  <li>
+    <h4 id="wizebot"><a href="https://wizebot.tv/">WizeBot</a></h4>
+  </li>
+  <li>
+    <h4 id="nightbot"><a href="https://nightbot.tv/">Nightbot</a></h4>
+  </li>
+  <li>
+    <h4 id="streamlabs-cloudbot"><a href="https://streamlabs.com/cloudbot/">Streamlabs Cloudbot</a></h4>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="bots-for-hate-raid-protection">Bots for hate raid protection</h3>
+
+<p>For that extra bit of protection from harassment and hate raids specifically, you can look into the following moderation bots:</p>
+
+<ul>
+  <li>
+    <h4 id="sery_bot"><a href="https://serycodes.carrd.co/">Sery_Bot</a></h4>
+
+    <p>Sery_Bot is a moderation bot by <a href="https://twitter.com/SeryCodes">SeryCodes</a> that provides anti-hate raid and anti-follow bot protections.</p>
+  </li>
+  <li>
+    <h4 id="cone-of-safety"><a href="https://www.coneofsafety.com/">Cone of Safety</a></h4>
+
+    <p>The Cone of Safety is a low-configuration bot that collects and analyzes data, detects a potential incoming attack, and takes preventative measures before an attack happens. It includes automatic user banning, flood prevention, and bad character detection.</p>
+  </li>
+  <li>
+    <h4 id="stophatebot"><a href="https://shhbot.com/">StopHateBot</a></h4>
+
+    <p>StopHateBot is a chat moderation suite to help prevent harassment, hate speech, and hate raids. It has a variety of tools to pick up on unwanted messages and deal with attackers.</p>
+  </li>
+  <li>
+    <h4 id="smashbot"><a href="https://www.smashbot.live/en/">Smashbot</a></h4>
+    <p>Smashbot is a bot by <a href="https://twitter.com/modest_mishmash">Modest_Mishmash</a> that detects bot accounts. It will remove the bots before they can raid, follow, and spam your channel.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="use-automated-tools">Use Automated Tools</h2>
+
+<p>Automated tools are helpful to take some of the load off of you as a creator and streamer, so you can focus your energy on other things.</p>
+
+<ul>
+  <li>
+    <h3 id="twitch-automod"><a href="https://dashboard.twitch.tv/settings/moderation/automod">Twitch AutoMod</a></h3>
+
+    <p>Twitch’s integrated AutoMod uses machine learning to detect potentially inappropriate or harmful messages. Moderators will be able to review these messages first, before they are visible to anyone else in chat.</p>
+  </li>
+  <li>
+    <h3 id="twitch-tools-by-commanderroot"><a href="https://twitch-tools.rootonline.de/">Twitch Tools by @CommanderRoot</a></h3>
+
+    <p><a href="https://twitter.com/commanderroot">CommanderRoot</a> provides streamer tools that are especially helpful against bots and fake accounts. Definitely check out the Follower Remover and Blocklist Manager.</p>
+  </li>
+  <li>
+    <h3 id="twitch-safety-check"><a href="https://safety.smashbot.live/">Twitch Safety Check</a></h3>
+    <p>This tool by <a href="https://twitter.com/modest_mishmash">Modest_Mishmash</a> verifies your chat settings, moderator list, and follower list to let you know about potential vulnerabilities.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="set-up-multi-actions">Set Up Multi-Actions</h2>
+
+<p>If you have an Elgato Stream Deck, you can set up Multi-Actions. These are useful for de-escalation and quick handling of potentially harmful situations.</p>
+
+<p>With hate raids specifically, they can come in clutch.</p>
+
+<p>Below is an example of <a href="https://twitch.tv/glitchedinorbit">GlitchedinOrbit</a>’s anti-hate raid multi-action on the Elgato Stream Deck.</p>
+
+<p><img src="/img/posts/elgato-stream-deck-multi-action.webp" alt="GlitchedinOrbit's Elgato Stream Deck Multi-Action" class="img-responsive" /></p>
+
+<p><br /></p>
+
+<p><strong>Recommended macro settings to customize:</strong></p>
+
+<ul>
+  <li>/subscribers - restricts chat to subscribers</li>
+  <li>/followers - restricts chat to followers based on their follow duration</li>
+  <li>/uniquechat - prevents users from sending duplicate messages in chat</li>
+  <li>/emoteonly - restricts chat to emote-only messages</li>
+  <li>/slow - enables slow mode (standard is 30 seconds)</li>
+  <li>/clear - clears chat history for all viewers</li>
+  <li>/marker - adds a stream marker at the current timestamp (for reporting purposes)</li>
+  <li>run an ad break for 30-180 seconds</li>
+  <li>disable alerts in OBS (and refresh the browser source)</li>
+  <li>disable chat overlays (or refresh the browser source)</li>
+  <li>disable camera/webcam in OBS</li>
+  <li>switch to a BRB scene (optional)</li>
+</ul>
+
+<p>If you don’t have a physical Stream Deck, not to worry! You can use <a href="https://streamer.bot/">streamer.bot</a> to set up multi-actions in a single command. <a href="https://youtube.com/nuttylmao">Nutty</a> has a great <a href="https://www.youtube.com/watch?v=DbYHzpaTAAY">tutorial video</a> for this.</p>
+
+<p><br /></p>
+
+<h2 id="turn-on-suspicious-user-detection">Turn On Suspicious User Detection</h2>
+
+<p>Twitch has an integrated tool called ‘Suspicious User Detection’. It helps identify possible ban evaders based on machine learning.</p>
+
+<p>You can also manually add users that you’d like to track more closely. Do this through the <strong>ᗢ Suspicious User Activity widget</strong> in Mod View, or through the <strong>⚐ Manage Suspicious User icon</strong> in the user’s Viewer Card.</p>
+
+<p>Suspicious User Detection is turned on by default, but you can adjust the settings in your channel’s <a href="https://dashboard.twitch.tv/settings/moderation">Moderation Settings</a>.</p>
+
+<p><br /></p>
+
+<h2 id="turn-on-email-verification-for-chatters">Turn On Email Verification For Chatters</h2>
+
+<p>It is recommended to turn on email verification for chatters. This will prevent potential bad actors from spamming or trolling. They often don’t verify their accounts, because it’s too much work to do so if they only wish to harass streamers.</p>
+
+<p>Below is an overview of <a href="https://twitch.tv/glitchedinorbit">GlitchedinOrbit</a>’s chat verification settings.</p>
+
+<p><img src="/img/posts/twitch-chat-verification-settings.webp" alt="GlitchedinOrbit's Twitch Chat Verification Settings" class="img-responsive" /></p>
+
+<p><br /></p>
+
+<h2 id="what-not-to-do">What NOT To Do</h2>
+
+<ul>
+  <li>
+    <p>Don’t add your address or other sensitive personal information as blocked terms. Harassers can use this method to verify your details!</p>
+  </li>
+  <li>
+    <p>Do not enable Phone Verification for chatters. Although this helps prevent bad actors, it also hinders everyone else from chatting easily. Most people don’t have phone verification on. Instead, enable email verification. This way, you have a nice balance between protection and interaction. Especially if you’ve followed (most of) the tips above, phone verification isn’t necessary.</p>
+  </li>
+  <li>
+    <p>Don’t let harassers take control over your emotions. Of course, this is easier said than done. Breathe. Tell yourself they can’t control you, only you can. Walk away from stream. Take a break if needed. Harassers only want a reaction out of you, for a sense of control and/or because they are too insecure about themselves.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="concluding-thoughts">Concluding Thoughts</h2>
+
+<p>Harassment van be very unpleasant and highly demotivating as a content creator. It can trigger any existing anxiety or other negative thought spirals. Long-term exposure to harassment can wreak havoc on you.</p>
+
+<p>But you can prevent it as much as possible through preparation.</p>
+
+<p>This list of tools and tips hopefully helped you out.</p>
+
+<p>Remember: you are loved, and you and your content bring joy to someone.</p>
+
+<p><em>Thanks for reading!</em></p>
+:ET

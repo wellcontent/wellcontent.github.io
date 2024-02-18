@@ -2,7 +2,7 @@
 layout: page
 title: Wellbeing
 description: Learn how improve your overall wellbeing as a content creator.
-background: ''
+background: ""
 ---
 
 <!-- OLD Posts List Layout
@@ -34,19 +34,22 @@ background: ''
 <!-- Posts Card Layout -->
 <div class="card-deck h-100">
   {% for post in site.categories['wellbeing'] %}
-    <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
-      <img class="card-img-top" src="{{ post.background }}" alt="">
-      <div class="card-body">
-        <div>
-          <p class="post_date text-muted">{{ post.date | date: "%B %e, %Y" }}</p>
-        </div>
-        <h4 class="card-title">{{ post.title }}</h4>
-        <p class="card-text">{{ post.category }}</p>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-secondary stretched-link">
-          Read More
-        </a>
+  <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
+    <img class="card-img-top" src="{{ post.background }}" alt="" />
+    <div class="card-body">
+      <div>
+        <p class="post_date text-muted">{{ post.date | date: "%B %e, %Y" }}</p>
       </div>
+      <h4 class="card-title">{{ post.title }}</h4>
+      <p class="card-text">{{ post.category }}</p>
+      <a
+        href="{{ site.baseurl }}{{ post.url }}"
+        class="btn btn-secondary stretched-link"
+      >
+        Read More
+      </a>
     </div>
+  </div>
   {% endfor %}
 </div>
 
@@ -58,32 +61,38 @@ background: ''
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
     {% else %}
-    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+    <h3 class="post-subtitle">
+      {{ post.excerpt | strip_html | truncatewords: 15 }}
+    </h3>
     {% endif %}
   </a>
-  <p class="post-meta">{{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+  <p class="post-meta">
+    {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
+    content=post.content %}
   </p>
 </article>
 
-<br>
+<br />
 
 {% endfor %}
-
 
 <!-- Page Navigation -->
 {% if paginator.total_pages > 1 %}
 
 <div class="clearfix">
-
   {% if paginator.previous_page %}
-  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-    Newer<span class="d-none d-md-inline"> Posts</span></a>
+  <a
+    class="btn btn-primary float-left"
+    href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+    >&larr; Newer<span class="d-none d-md-inline"> Posts</span></a
+  >
+  {% endif %} {% if paginator.next_page %}
+  <a
+    class="btn btn-primary float-right"
+    href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+    >Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a
+  >
   {% endif %}
-
-  {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
-  {% endif %}
-
 </div>
 
 {% endif %}

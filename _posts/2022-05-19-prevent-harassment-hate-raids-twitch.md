@@ -4,7 +4,8 @@ title: "Prevent Hate Raids & Harassment On Twitch"
 subtitle: "As a streamer on Twitch, you're likely going to have to deal with harassment at some point. Here are simple tools and recommendations to protect yourself against harassment on Twitch."
 description: As a streamer on Twitch, you're likely going to have to deal with harassment at some point. Here are simple tools and recommendations to protect yourself against harassment on Twitch.
 background: "/img/posts/03_750x500.webp"
-categories: [featured, streaming, wellbeing]
+featured: "yes"
+categories: [streaming, wellbeing, featured]
 keywords:
   [
     twitch hate raids,
@@ -30,20 +31,8 @@ keywords:
   - [Banning users](#banning-users)
 - [Use Moderation Bots](#use-moderation-bots)
   - [Bots for general moderation](#bots-for-general-moderation)
-    - [StreamElements](#streamelements)
-    - [Moobot](#moobot)
-    - [WizeBot](#wizebot)
-    - [Nightbot](#nightbot)
-    - [Streamlabs Cloudbot](#streamlabs-cloudbot)
   - [Bots for hate raid protection](#bots-for-hate-raid-protection)
-    - [Sery_Bot](#sery_bot)
-    - [Cone of Safety](#cone-of-safety)
-    - [StopHateBot](#stophatebot)
-    - [Smashbot](#smashbot)
 - [Use Automated Tools](#use-automated-tools)
-  - [Twitch AutoMod](#twitch-automod)
-  - [Twitch Tools by @CommanderRoot](#twitch-tools-by-commanderroot)
-  - [Twitch Safety Check](#twitch-safety-check)
 - [Set Up Multi-Actions](#set-up-multi-actions)
 - [Turn On Suspicious User Detection](#turn-on-suspicious-user-detection)
 - [Turn On Email Verification For Chatters](#turn-on-email-verification-for-chatters)
@@ -150,10 +139,6 @@ The safest way to report users is via chat.
 If someone repeatedly breaks your channel rules or makes you or your community uncomfortable, it's best to get rid of this person.
 
 You can ban users by typing **/ban [username]** in chat, or by clicking on the **🛇 Ban icon** next to their name in chat.
-
-<br>
-
-{% include newsletter.html %}
 
 <br>
 

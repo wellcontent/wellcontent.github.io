@@ -4,7 +4,10 @@ layout: default
 
 <!-- Page Header -->
 {% if page.cover %}
-<header class="masthead" style="background-image: url('{{ page.cover | prepend: site.baseurl | replace: '//', '/' }}')">
+<header
+  class="masthead"
+  style="background-image: url('{{ page.cover | prepend: site.baseurl | replace: '//', '/' }}')"
+>
   {% else %}
   <header class="masthead">
     {% endif %}
@@ -14,20 +17,23 @@ layout: default
         <div class="col-lg-12 col-md-12 col-sm-10 mx-auto">
           <div class="post-heading">
             <h1>{{ page.title }}</h1>
-            <br>
-            <span class="meta">{{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
+            <br />
+            <span class="meta"
+              >published {{ page.date | date: '%d %B %Y' }} &middot; {% if
+              page.updated %} updated {{ page.updated | date: '%d %B %Y' }}
+              &middot; {% endif %} {% include read_time.html
               content=page.content %} &middot; {% include share-buttons.html %}
-              <br>
-              <br>
-              {% if post %}
-                {% assign categories = post.categories %}
-              {% else %}
-                {% assign categories = page.categories %}
-              {% endif %}
-              {% for category in categories limit:2 %}
-              <a class="btn btn-outline-primary" href="{{site.baseurl}}/{{category|slugize}}">#{{category}}</a>
-              {% unless forloop.last %}&nbsp;{% endunless %}
-              {% endfor %}
+              <br />
+              <br />
+              {% if post %} {% assign categories = post.categories %} {% else %}
+              {% assign categories = page.categories %} {% endif %} {% for
+              category in categories limit:1 %}
+              <a
+                class="btn btn-outline-primary"
+                href="{{site.baseurl}}/{{category|slugize}}"
+                >#{{category}}</a
+              >
+              {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
             </span>
           </div>
         </div>
@@ -38,39 +44,74 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-10 mx-auto">
-
         {% if page.subtitle %}
-            <h2 class="subheading" style="font-size:24px;line-height:1.5">{{ page.subtitle }}</h2>
+        <h2 class="subheading" style="font-size: 24px; line-height: 1.5">
+          {{ page.subtitle }}
+        </h2>
         {% endif %}
 
-        <br>
+        <br />
 
-        {{ content }}
+        <div class="row">
+          <div class="col-sm-8">{{ content }}</div>
+          <div class="col-sm-4">
+            <div class="alert alert-primary">
+              <h4>Affiliate links</h4>
+              <p>
+                &bullet; Get
+                <a
+                  href="https://momentumdash.com/glitchedinorbit?fpr=glitchedinorbit"
+                  class="badge badge-primary"
+                  >10% off on Momentum Plus</a
+                >
+                with code "glitchedinorbit"
+              </p>
+              <hr />
+              <p>
+                <i
+                  >I receive a small commission if you decide to purchase
+                  anything via these links</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
 
-        <br>
+        <br />
 
         <div class="clearfix">
-
           {% if page.previous.url %}
-          <a class="btn btn-outline-secondary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
-              Post</span></a>
+          <a
+            class="btn btn-outline-secondary float-left"
+            href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="{{ page.previous.title }}"
+            >&larr; Previous<span class="d-none d-md-inline"> Post</span></a
+          >
+          {% endif %} {% if page.next.url %}
+          <a
+            class="btn btn-outline-secondary float-right"
+            href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="{{ page.next.title }}"
+            >Next<span class="d-none d-md-inline"> Post</span> &rarr;</a
+          >
           {% endif %}
-          {% if page.next.url %}
-          <a class="btn btn-outline-secondary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
-              Post</span> &rarr;</a>
-          {% endif %}
-
         </div>
 
         <!-- <div class="comments">{% include utterances.html %}</div> -->
-
       </div>
     </div>
   </div>
-  
-<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-<script>addBackToTop({
-  diameter: 50,
-  backgroundColor: 'rgb(52,58,64)',
-  textColor: '#fff'
-})</script>
+
+  <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+  <script>
+    addBackToTop({
+      diameter: 50,
+      backgroundColor: "rgb(52,58,64)",
+      textColor: "#fff",
+    });
+  </script>
+</header>

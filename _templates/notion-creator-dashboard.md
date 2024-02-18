@@ -4,22 +4,13 @@ title: "Notion Creator Dashboard"
 subtitle: "Organize your content strategy with Notion today."
 external_url-gumroad: "https://glitchedinorbit.gumroad.com/l/notion-creator-dashboard"
 external_url-kofi: "https://ko-fi.com/s/549f4f149a"
-cover: '/img/templates/notion-creator-dashboard.webp'
+cover: "/img/templates/notion-creator-dashboard.webp"
 categories: [templates]
 ---
 
 ### Questions?
+
 Find answers to the most frequently asked questions.
-
-<br>
-
-<details>
-    <summary><b>Why is this template free?</b></summary>
-
-    <br>
-
-    This template is free because I understand how difficult it is to get started as a content creator. Over the years, I've been able to collect information and resources that I now want to share with others to make your journey easier.
-</details>
 
 <br>
 
@@ -29,6 +20,7 @@ Find answers to the most frequently asked questions.
     <br>
 
     Yes! I even encourage you to share the template with others, because I'd like to reach as many people as possible. But please don't alter any of my content or sell the template yourself.
+
 </details>
 
 <br>
@@ -39,6 +31,7 @@ Find answers to the most frequently asked questions.
     <br>
 
     My plan is to update the template when I feel necessary to make sure the information stays current and relevant.
+
 </details>
 
 <br>
@@ -49,4 +42,5 @@ Find answers to the most frequently asked questions.
     <br>
 
     You can contact me at glitchedinorbit@gmail.com and I'll be happy to answer any questions or concerns.
+
 </details>
