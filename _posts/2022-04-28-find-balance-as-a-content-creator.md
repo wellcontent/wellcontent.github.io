@@ -3,25 +3,24 @@ layout: post
 title: "7 Tips For Content Creators To Make Balance A Priority"
 subtitle: "Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content."
 description: Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content.
-background: "/img/posts/02_750x500.webp"
-categories: [featured, wellbeing]
+background: '/img/posts/02_750x500.webp'
+categories: [wellbeing]
 keywords: [content creator wellbeing, creator overwhelm, creator burnout]
 ---
 
-_Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links._
+*Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links.*
 
 ![02_750x500.webp](/img/posts/02_750x500.webp)
 
 **Jump to section**:
-
 - [Introduction](#introduction)
 - [Do What You Love](#1-do-what-you-love)
 - [Compare Yourself To Yourself Only](#2-compare-yourself-to-yourself-only)
 - [Diversify Your Content](#3-diversify-your-content)
 - [Generate Streams Of Passive Income](#4-generate-streams-of-passive-income)
-  - [Passive income ideas](#passive-income-ideas)
+    - [Passive income ideas](#passive-income-ideas)
 - [Take Good Care Of Yourself](#5-take-good-care-of-yourself)
-  - [Self care ideas](#self-care-ideas)
+    - [Self care ideas](#self-care-ideas)
 - [Do Not Focus On Metrics](#6-do-not-focus-on-metrics)
 - [Create The Workflow That Works For You](#7-create-the-workflow-that-works-for-you)
 - [To Wrap Up](#to-wrap-up)
@@ -52,7 +51,7 @@ If you do not pursue what you love or at least enjoy doing, you will eventually 
 
 Thus, you need to create content in the field that you love.
 
-There's a Japanese concept called _ikigai_. This is your 'purpose in life' or 'reason to live', so to speak.
+There's a Japanese concept called *ikigai*. This is your 'purpose in life' or 'reason to live', so to speak.
 
 The Western interpretation, especially in Héctor García's [Ikigai: The Japanese Secret to a Long and Happy Life](https://amzn.to/3v07skt), is more specific. It encapsulates ikigai as what you love, what you're good at, what you can be paid for, and what the world needs.
 
@@ -76,7 +75,7 @@ This might not be the field where you want to create content in, and that's okay
 
 Whatever you do, make sure to provide value to your audience.
 
-You can provide value in different ways, be it educational, entertaining, or otherwise. You need to find what _you_ value and what you wish to share with the world.
+You can provide value in different ways, be it educational, entertaining, or otherwise. You need to find what *you* value and what you wish to share with the world.
 
 Only you can decide what you love doing.
 
@@ -92,9 +91,9 @@ I'd keep overthinking and worrying about what others were creating and how I com
 
 This is how I got out of the negative comparison spiral:
 
-Focus on what _you_ want to contribute to the world and what you enjoy doing.
+Focus on what *you* want to contribute to the world and what you enjoy doing.
 
-Remind yourself that someone else's success isn't your failure. Look at the progress _you_ have made over the past few days, weeks, or even years.
+Remind yourself that someone else's success isn't your failure. Look at the progress *you* have made over the past few days, weeks, or even years.
 
 <div class="alert alert-secondary" role="alert">
     ❝Someone else's success isn't your failure.❞
@@ -147,7 +146,6 @@ They don't all have to take up a lot of time either.
 <br>
 
 ### Passive income ideas
-
 - create an online course
 - write an e-book
 - start a blog (like me!)
@@ -178,7 +176,6 @@ It's a win-win for everyone.
 <br>
 
 ### Self care ideas
-
 - find a daily routine that works for you
 - prioritize sleep hygiene and a night-time routine
 - stay hydrated
@@ -256,7 +253,7 @@ Greg McKeown's [Essentialism: The Disciplined Pursuit of Less](https://amzn.to/3
 
 You can increase your effectiveness simply by identifying what you're wasting time on and what you should be focusing on instead.
 
-In other words, focus on that which is _absolutely essential_ - or on the 20% that brings 80% of results.
+In other words, focus on that which is *absolutely essential* - or on the 20% that brings 80% of results.
 
 I started combining the 80/20 Principle and Essentialism.
 
@@ -282,7 +279,7 @@ This list has hopefully given you some helpful tips tp take care of you mental w
 
 Let me know what you do to find balance as a content creator.
 
-_Thanks for reading!_
+*Thanks for reading!*
 
 <br>
 
@@ -302,7 +299,6 @@ _Thanks for reading!_
     <br>
 
     <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wilkes, Juliet, Gulcan Garip, Yasuhiro Kotera, and Dean Fido. "Can Ikigai Predict Anxiety, Depression, and Well-being?" <i>International Journal of Mental Health and Addiction</i> (2022): 1-13. https://doi.org/10.1007/s11469-022-00764-7.</span>
-
 </details>
 
 <br>

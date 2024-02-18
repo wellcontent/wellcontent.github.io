@@ -1,41 +1,40 @@
 // Global styling for this template
 
 body {
-  background-color: $gray-900;
-  font-size: 18px;
-  letter-spacing: 0.3px;
-  color: $white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+    background-color: $gray-900;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    color: $white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
-  line-height: 2;
-  margin-bottom: 40px;
+    line-height: 2;
+    margin-bottom: 40px;
 
-  a {
-    text-decoration: underline;
-  }
+    a {
+        text-decoration: underline;
+    }
 }
 
 .site-title {
-  letter-spacing: 0em;
+    letter-spacing: 0em;
 }
 
 h2 {
-  margin-bottom: 24px;
-  margin-top: 0px;
+    margin-bottom: 24px;
 }
 
 h3 {
-  font-size: 24px;
-  margin-bottom: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 h4 {
-  font-size: 20px;
-  margin-bottom: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 h1,
@@ -44,99 +43,75 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 a {
-  color: $primary;
-
-  &:focus,
-  &:hover {
     color: $primary;
-  }
+
+    &:focus,
+    &:hover {
+        color: $primary;
+    }
 }
 
 blockquote {
-  font-weight: 700;
-  margin: 30px 0px;
-  padding: 15px;
-  border-left-style: solid;
-  border-left-width: 4px;
-  border-color: $primary;
+    font-weight: 700;
+    margin: 30px 0px;
+    padding: 15px;
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-color: $primary;
 
-  p {
-    margin: 20px 0px;
-  }
+    p {
+        margin: 20px 0px;
+    }
 }
 
 .section-heading {
-  color: $white;
-  font-size: 36px;
-  font-weight: 700;
-  margin-top: 60px;
+    color: $white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 60px;
 }
 
 .caption {
-  font-size: 14px;
-  font-style: italic;
-  display: block;
-  margin: 0;
-  padding: 10px;
-  text-align: center;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 ::-moz-selection {
-  color: $white;
-  background: $primary;
-  text-shadow: none;
+    color: $white;
+    background: $primary;
+    text-shadow: none;
 }
 
 ::selection {
-  color: $white;
-  background: $primary;
-  text-shadow: none;
+    color: $white;
+    background: $primary;
+    text-shadow: none;
 }
 
 img::selection {
-  color: $white;
-  background: transparent;
+    color: $white;
+    background: transparent;
 }
 
 img::-moz-selection {
-  color: $white;
-  background: transparent;
+    color: $white;
+    background: transparent;
 }
 
 hr {
-  border-top: 1px solid $gray-800;
+    border-top: 1px solid $gray-800;
 }
 
 img {
-  width: 100%;
-}
-
-.featured__posts {
-  padding-bottom: 30px;
-
-  @media only screen and (min-width: 768px) {
-    padding-bottom: 60px;
-  }
-}
-
-.templates {
-  padding-bottom: 30px;
-
-  @media only screen and (min-width: 768px) {
-    padding-bottom: 60px;
-  }
-}
-
-.highlight {
-  background-color: #343a40;
-  color: white;
-  padding: 15px;
-  margin-bottom: 40px;
-  display: block;
+    width: 100%;
 }

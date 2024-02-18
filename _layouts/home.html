@@ -16,9 +16,11 @@ layout: default
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-10 mx-auto">
           <div class="page-heading">
-            <h1 class="site-title">Simplify your content creation journey.</h1>
+            <h1 class="site-title">
+              Get the most out of your content creation journey.
+            </h1>
             <span class="subheading"
-              >Discover <i>creator resources</i> to help you cut
+              >Discover <u>wellbeing resources</u> to help you cut
               <i class="bi bi-scissors"></i> through the overwhelm.</span
             >
             <br />
@@ -35,110 +37,14 @@ layout: default
     </div>
   </header>
 
-  <!-- Templates -->
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-10 mx-auto">
         {{ content }}
 
-        <h2>Templates</h2>
-        <div class="templates card-deck h-100">
-          {% for template in site.templates limit:3 %}
-          <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
-            <img
-              class="card-img-top"
-              src="{{ template.cover }}"
-              alt="{{ template.title }}"
-            />
-            <div class="card-body">
-              <h4 class="card-title">{{ template.title }}</h4>
-              <p class="card-text">{{ template.subtitle }}</p>
-              <a
-                href="{{ site.baseurl }}{{ template.url }}"
-                class="btn btn-primary stretched-link"
-              >
-                Get it for FREE
-              </a>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <br />
-  <br />
-
-  <!-- Featured Posts -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-10 mx-auto">
-        {{ content }}
-
+        <!-- Home Recent Posts List -->
         <h2>Featured posts</h2>
-        <div class="featured__posts card-deck h-100">
-          {% for post in site.categories['featured'] limit:3 %}
-          <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
-            <img
-              class="card-img-top"
-              src="{{ post.background }}"
-              alt="{{ post.title }}"
-            />
-            <div class="card-body d-flex flex-column">
-              <!--<div>
-                <p class="post_date text-muted">
-                  {{ post.date | date: "%B %e, %Y" }} &middot; {% include
-                  read_time.html content=post.content %}
-                </p>
-              </div>-->
-              <h4 class="card-title">{{ post.title }}</h4>
-              <a
-                href="{{ site.baseurl }}{{ post.url }}"
-                class="mt-auto btn btn-secondary stretched-link"
-              >
-                Read post
-              </a>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-
-        {% for post in paginator.posts %}
-
-        <article class="post-preview">
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-            {% else %}
-            <h3 class="post-subtitle">
-              {{ post.excerpt | strip_html | truncatewords: 15 }}
-            </h3>
-            {% endif %}
-          </a>
-          <p class="post-meta">
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include
-            read_time.html content=post.content %}
-          </p>
-        </article>
-
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-
-  <br />
-  <br />
-
-  <!-- Recent Posts -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-10 mx-auto">
-        {{ content }}
-
-        <h2>Recent posts</h2>
-        <div class="recent__posts card-deck h-100">
+        <div class="card-deck h-100">
           {% for post in site.posts limit:5 %}
           <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
             <img
@@ -147,13 +53,14 @@ layout: default
               alt="{{ post.title }}"
             />
             <div class="card-body d-flex flex-column">
-              <!--<div>
+              <div>
                 <p class="post_date text-muted">
                   {{ post.date | date: "%B %e, %Y" }} &middot; {% include
                   read_time.html content=post.content %}
                 </p>
-              </div>-->
+              </div>
               <h4 class="card-title">{{ post.title }}</h4>
+              <p class="card-text text-muted">{{ post.category }}</p>
               <a
                 href="{{ site.baseurl }}{{ post.url }}"
                 class="mt-auto btn btn-secondary stretched-link"
