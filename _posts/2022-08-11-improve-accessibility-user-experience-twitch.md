@@ -129,7 +129,7 @@ Speech recognition software is not always as sophisticated as it could be. Nonet
 
 It's important to have the correct color contrast to make sure users can read everything. This is relevant for your stream overlays and description panels.
 
-The contrast ratio for text against a background should be at least 4.5:1.[^2] You can check contrast using [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/) or [Coolors' Contrast Checker](https://coolors.co/contrast-checker/).
+The contrast ratio for text against a background should be at least 4.5:1.[^2] You can check contrast using [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/) or [Coolors' Contrast Checker](https://coolors.co/contrast-checker).
 
 If you want to set a minimum contrast for chat, you can. In the [FrankerfaceZ](https://www.frankerfacez.com/) settings, click on Chat, then go to Appearance, and scroll down to Colors. Under Minimum Contrast, set your desired value. The default value is 4.5.
 

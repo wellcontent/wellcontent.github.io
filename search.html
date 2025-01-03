@@ -1,0 +1,196 @@
+---
+layout: page
+title: Search
+---
+
+<!-- Search Bar -->
+<div id="search-container">
+  <form id="search-form" role="search" action="/search" method="get">
+    <input
+      type="text"
+      id="search-field"
+      name="q"
+      placeholder="Search site..."
+      aria-label="Search"
+    />
+    <button type="submit" id="search-btn">Search</button>
+  </form>
+</div>
+
+<!-- Display Search Term -->
+<h3 id="search-query-title"></h3>
+
+<!-- Display Search Results for Posts -->
+<div id="search-posts" class="search-section">
+  <h3 class="search-section-header">Posts</h3>
+  <ul id="search-results-posts">
+    {% for post in site.posts %}
+    <li
+      class="search-post"
+      data-title="{{ post.title | escape }}"
+      data-excerpt="{{ post.excerpt | escape }}"
+      data-subtitle="{{ post.subtitle | escape }}"
+      data-description="{{ post.description | escape }}"
+      data-type="post"
+    >
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- Display Search Results for Guides -->
+<div id="search-guides" class="search-section">
+  <h3 class="search-section-header">Guides</h3>
+  <ul id="search-results-guides">
+    {% for guide in site.guides %}
+    <li
+      class="search-post"
+      data-title="{{ guide.title | escape }}"
+      data-excerpt="{{ guide.excerpt | escape }}"
+      data-subtitle="{{ guide.subtitle | escape }}"
+      data-description="{{ guide.description | escape }}"
+      data-type="guide"
+    >
+      <a href="{{ guide.url }}">{{ guide.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- Display Search Results for Templates -->
+<div id="search-templates" class="search-section">
+  <h3 class="search-section-header">Templates</h3>
+  <ul id="search-results-templates">
+    {% for template in site.templates %}
+    <li
+      class="search-post"
+      data-title="{{ template.title | escape }}"
+      data-excerpt="{{ template.excerpt | escape }}"
+      data-subtitle="{{ template.subtitle | escape }}"
+      data-description="{{ template.description | escape }}"
+      data-type="template"
+    >
+      <a href="{{ template.url }}">{{ template.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- No Results Message -->
+<div id="no-results-message" style="display: none">
+  <p>No results found.</p>
+</div>
+
+<!-- Site Search Script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Get the search query from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get("q");
+
+    // Debug: Check if query is gotten correctly from URL
+    console.log("Search query:", query);
+
+    // Display the query in the title
+    if (query) {
+      document.getElementById(
+        "search-query-title"
+      ).textContent = `Results for: "${query}"`;
+
+      // Get all sections (posts, guides, and templates)
+      const sections = [
+        {
+          id: "search-posts",
+          results: document.querySelectorAll(
+            "#search-results-posts .search-post"
+          ),
+          sectionName: "Posts",
+        },
+        {
+          id: "search-guides",
+          results: document.querySelectorAll(
+            "#search-results-guides .search-post"
+          ),
+          sectionName: "Guides",
+        },
+        {
+          id: "search-templates",
+          results: document.querySelectorAll(
+            "#search-results-templates .search-post"
+          ),
+          sectionName: "Templates",
+        },
+      ];
+
+      let anyResultsFound = false;
+
+      sections.forEach(function (section) {
+        const { id, results, sectionName } = section;
+
+        let resultsFound = false;
+
+        // Filter items based on the search query
+        results.forEach(function (item) {
+          const title = item
+            .getAttribute("data-title")
+            .toLowerCase()
+            .replace(/[^\w\s]/gi, ""); // Remove special characters from the title
+          const excerpt = item
+            .getAttribute("data-excerpt")
+            .toLowerCase()
+            .replace(/[^\w\s]/gi, ""); // Remove special characters from the excerpt
+          const subtitle = item
+            .getAttribute("data-subtitle")
+            .toLowerCase()
+            .replace(/[^\w\s]/gi, ""); // Remove special characters from subtitle
+          const description = item
+            .getAttribute("data-description")
+            .toLowerCase()
+            .replace(/[^\w\s]/gi, ""); // Remove special characters from description
+          const queryLower = query.toLowerCase();
+
+          // Show or hide items based on the search term
+          if (
+            title.includes(queryLower) ||
+            excerpt.includes(queryLower) ||
+            subtitle.includes(queryLower) ||
+            description.includes(queryLower)
+          ) {
+            item.style.display = "list-item"; // Show the item
+            resultsFound = true;
+            anyResultsFound = true;
+          } else {
+            item.style.display = "none"; // Hide the item
+          }
+        });
+
+        // If results are found for the section, show the section header
+        if (resultsFound) {
+          document.getElementById(id).style.display = "block"; // Show section
+          document.querySelector(
+            `#${id} .search-section-header`
+          ).style.display = "block"; // Show section header
+        } else {
+          document.getElementById(id).style.display = "none"; // Hide section if no results found
+        }
+      });
+
+      // Show the "No results found" message if no results are found in any section
+      if (!anyResultsFound) {
+        document.getElementById("no-results-message").style.display = "block";
+      } else {
+        document.getElementById("no-results-message").style.display = "none";
+      }
+    } else {
+      document.getElementById("search-query-title").textContent =
+        "Please enter a search term.";
+      // Hide all search result sections if there is no search term
+      /* const sections = document.querySelectorAll(".search-section");
+      sections.forEach(function (section) {
+        section.style.display = "none"; // Hides all sections
+      }); */
+      document.getElementById("no-results-message").style.display = "none";
+    }
+  });
+</script>

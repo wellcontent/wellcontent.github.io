@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Creating A Custom Chat Widget In StreamElements (Step By Step Tutorial)"
+title: "How to Create a Custom Chat Widget in StreamElements (Tutorial)"
 subtitle: "Ever wanted to create a chat widget for your stream, but don't know where to start? I'll help you to create your own custom chat widget in StreamElements with this step by step tutorial."
 background: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2672"
+popularity: 1
 categories: [streaming]
 keywords:
   [
@@ -64,7 +65,7 @@ Give the overlay a new name, like "Custom Chat".
 
 Expand Settings and click "Open editor".
 
-Navigate to https://github.com/StreamElements/widgets/tree/master/CustomChat.
+Navigate to [StreamElements' CustomChat GitHub repo](https://github.com/StreamElements/widgets/tree/master/CustomChat).
 
 ### Add the base HTML
 
@@ -145,6 +146,8 @@ It should look like this:
     font-style: italic;
 }
 ```
+
+<!-- {: .language-css .copy-code} -->
 
 ### Add the base JS
 

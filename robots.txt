@@ -26,6 +26,8 @@ layout: none
 User-agent: *
 Disallow: /tags/
 Disallow: /category/
+Disallow: /posts/
+Disallow: /posts/page2/
 Sitemap: {{ site.url }}/sitemap.xml
 
 User-agent: Twitterbot

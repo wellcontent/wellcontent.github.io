@@ -3,9 +3,9 @@ layout: post
 title: "Prevent Hate Raids & Harassment On Twitch"
 subtitle: "As a streamer on Twitch, you're likely going to have to deal with harassment at some point. Here are simple tools and recommendations to protect yourself against harassment on Twitch."
 description: As a streamer on Twitch, you're likely going to have to deal with harassment at some point. Here are simple tools and recommendations to protect yourself against harassment on Twitch.
+author: Chloe
 background: "/img/posts/03_750x500.webp"
-featured: "yes"
-categories: [streaming, wellbeing, featured]
+categories: [streaming, wellbeing]
 keywords:
   [
     twitch hate raids,
@@ -166,22 +166,11 @@ For general moderation and other features, it is recommended to have at least on
 
 ### Bots for hate raid protection
 
-For that extra bit of protection from harassment and hate raids specifically, you can look into the following moderation bots:
+For that extra bit of protection from harassment and hate raids specifically, you can look into the following moderation bot:
 
 - #### [Sery_Bot](https://serycodes.carrd.co/)
 
   Sery_Bot is a moderation bot by [SeryCodes](https://twitter.com/SeryCodes) that provides anti-hate raid and anti-follow bot protections.
-
-- #### [Cone of Safety](https://www.coneofsafety.com/)
-
-  The Cone of Safety is a low-configuration bot that collects and analyzes data, detects a potential incoming attack, and takes preventative measures before an attack happens. It includes automatic user banning, flood prevention, and bad character detection.
-
-- #### [StopHateBot](https://shhbot.com/)
-
-  StopHateBot is a chat moderation suite to help prevent harassment, hate speech, and hate raids. It has a variety of tools to pick up on unwanted messages and deal with attackers.
-
-- #### [Smashbot](https://www.smashbot.live/en/)
-  Smashbot is a bot by [Modest_Mishmash](https://twitter.com/modest_mishmash) that detects bot accounts. It will remove the bots before they can raid, follow, and spam your channel.
 
 <br>
 
@@ -196,9 +185,6 @@ Automated tools are helpful to take some of the load off of you as a creator and
 - ### [Twitch Tools by @CommanderRoot](https://twitch-tools.rootonline.de/)
 
   [CommanderRoot](https://twitter.com/commanderroot) provides streamer tools that are especially helpful against bots and fake accounts. Definitely check out the Follower Remover and Blocklist Manager.
-
-- ### [Twitch Safety Check](https://safety.smashbot.live/)
-  This tool by [Modest_Mishmash](https://twitter.com/modest_mishmash) verifies your chat settings, moderator list, and follower list to let you know about potential vulnerabilities.
 
 <br>
 

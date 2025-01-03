@@ -94,3 +94,17 @@ header.masthead {
     }
   }
 }
+
+header.masthead.light-mode {
+  background-color: $gray-100 !important;
+
+  .page-heading,
+  .post-heading,
+  .site-heading {
+    color: $gray-900;
+  }
+}
+
+header.masthead.light-mode .overlay {
+  background-color: transparent;
+}

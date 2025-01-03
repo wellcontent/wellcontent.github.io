@@ -4,7 +4,10 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+<header
+  class="masthead"
+  style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')"
+>
   {% else %}
   <header class="masthead">
     {% endif %}
@@ -17,10 +20,182 @@ layout: default
             {% if page.description %}
             <span class="subheading text-muted">{{ page.description }}</span>
             {% endif %}
-            <br>
-            <br>
-            <a class="btn btn-outline-primary" href="/wellbeing">#wellbeing</a>
+            <br />
+            <br />
+            <button
+              class="btn btn-outline-primary filter-btn"
+              data-category="all"
+              href=""
+            >
+              All
+            </button>
+            <button
+              class="btn btn-outline-primary filter-btn"
+              data-category="streaming"
+            >
+              Streaming
+            </button>
+            <button
+              class="btn btn-outline-primary filter-btn"
+              data-category="wellbeing"
+            >
+              Wellbeing
+            </button>
+            <button
+              class="btn btn-outline-primary filter-btn"
+              data-category="blogging"
+            >
+              Blogging
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Row with responsive columns -->
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4 d-flex" id="posts-container">
+      {% for post in site.posts %}
+      <div
+        class="col post-card"
+        data-categories="{{ post.categories | join: ',' }}"
+      >
+        <div class="card text-white bg-dark mb-3">
+          <img
+            class="card-img-top"
+            src="{{ post.background }}"
+            alt="{{ post.title }}"
+            loading="lazy"
+          />
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title">{{ post.title }}</h4>
+            <p class="card-text">
+              {% if post.subtitle %} {{ post.subtitle | truncatewords: 20 }} {%
+              elsif post.description %} {{ post.description | truncatewords: 20
+              }} {% else %} {{ post.excerpt | truncatewords: 20 }} {% endif %}
+            </p>
+            <a
+              href="{{ site.baseurl }}{{ post.url }}"
+              class="btn btn-secondary stretched-link"
+              style="margin-top: auto"
+              >Continue Reading</a
+            >
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- JavaScript to filter posts by category -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const posts = document.querySelectorAll(".post-card");
+
+      // Set the "All" button as active by default
+      const allButton = document.querySelector(
+        '.filter-btn[data-category="all"]'
+      );
+      if (allButton) {
+        allButton.classList.add("active");
+      }
+
+      // Add event listener to filter buttons
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", function (event) {
+          event.preventDefault(); // Prevent page scroll-up
+
+          const category = this.getAttribute("data-category");
+          console.log(`Filtering by category: "${category}"`);
+
+          // Toggle display based on the selected category
+          posts.forEach((post, index) => {
+            // Get categories for this post from the 'data-categories' attribute
+            const categoriesAttr = post.getAttribute("data-categories");
+
+            let categories = [];
+
+            // Only parse categories if the attribute exists
+            if (categoriesAttr) {
+              categories = categoriesAttr.split(","); // Split the comma-separated categories
+            }
+
+            // Log the categories of the current post during filtering
+            console.log(
+              `Post ${index + 1} Categories: ${categories.join(", ")}`
+            );
+
+            // Check if the post's categories include the selected category or show all
+            if (categories.includes(category) || category === "all") {
+              post.style.display = "block";
+              console.log(
+                `Post ${
+                  index + 1
+                } shown because it matches category "${category}"`
+              );
+            } else {
+              post.style.display = "none";
+              console.log(
+                `Post ${
+                  index + 1
+                } hidden because it does not match category "${category}"`
+              );
+            }
+          });
+
+          // Highlight the active category button
+          filterButtons.forEach((btn) => {
+            btn.classList.remove("active"); // Remove 'active' class from all buttons
+          });
+          this.classList.add("active"); // Add 'active' class to the clicked button
+        });
+      });
+
+      // Log categories for each post when the page loads (for debugging)
+      posts.forEach((post, index) => {
+        const categoriesAttr = post.getAttribute("data-categories");
+
+        let categories = [];
+
+        // Only split categories if the attribute exists and isn't empty
+        if (categoriesAttr) {
+          categories = categoriesAttr.split(","); // Split the categories into an array
+          console.log(`Post ${index + 1} Categories: ${categories.join(", ")}`);
+        } else {
+          console.log(`Post ${index + 1} has no categories set`);
+        }
+      });
+    });
+  </script>
+</header>
+
+<!-- ---
+layout: default
+---
+
+{% if page.background %}
+<header
+  class="masthead"
+  style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')"
+>
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ page.title }}</h1>
+            {% if page.description %}
+            <span class="subheading text-muted">{{ page.description }}</span>
+            {% endif %}
+            <br />
+            <br />
             <a class="btn btn-outline-primary" href="/streaming">#streaming</a>
+            <a class="btn btn-outline-primary" href="/wellbeing">#wellbeing</a>
             <a class="btn btn-outline-primary" href="/blogging">#blogging</a>
           </div>
         </div>
@@ -29,11 +204,35 @@ layout: default
   </header>
 
   <div class="container">
-    <div class="row">
+    <div class="row row-cols-1 row-cols-md-3 g-4 d-flex">
+      {% assign count = 0 %} {% for post in site.posts %}
       <div class="col">
-
-        {{ content }}
-
+        <div class="card text-white bg-dark mb-3">
+          <img
+            class="card-img-top"
+            src="{{ post.background }}"
+            alt="{{ post.title }}"
+            loading="lazy"
+          />
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title">{{ post.title }}</h4>
+            <p class="card-text">
+              {% if post.subtitle %} {{ post.subtitle | truncatewords: 20 }} {%
+              elsif post.description %} {{ post.description | truncatewords: 20
+              }} {% else %} {{ post.excerpt | truncatewords: 20 }} {% endif %}
+            </p>
+            <a
+              href="{{ site.baseurl }}{{ post.url }}"
+              class="btn btn-secondary stretched-link"
+              style="margin-top: auto"
+            >
+              Continue Reading
+            </a>
+          </div>
+        </div>
       </div>
+      {% endfor %}
     </div>
   </div>
+</header>
+ -->

@@ -7,70 +7,71 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        
-        <!--
-        <li class="nav-item" id="site-category">
-          <a class="nav-link" href="/wellbeing">Wellbeing</a>
-        </li>
 
-        <li class="nav-item dropdown" id="site-category">
-          <a class="nav-link" href="/streaming">Streaming</a>
-        </li>
-
-        <li class="nav-item" id="site-category">
-            <a class="nav-link" href="/blogging">Blogging</a>
-        </li>
-        -->
-
-        <!-- DROPDOWN WITH CATEGORY PAGES        
-        <li class="nav-item dropdown dropdown-center" id="site-category">
-          <a class="nav-link dropdown" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Articles <i class="bi bi-chevron-down"aria-hidden="true"></i>
-          </a>
-          
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="/wellbeing">Wellbeing</a></li>
-            <li><a class="dropdown-item" href="/streaming">Streaming</a></li>
-            <li><a class="dropdown-item" href="/blogging">Blogging</a></li>
-          </ul>
-        </li>
-        -->
-
-
+       <!-- Templates -->
         <li class="nav-item dropdown" id="site-category">
           <a class="nav-link" href="/templates">Templates</a>
         </li>
         
+        <!-- Guides -->
         <li class="nav-item dropdown" id="site-category">
           <a class="nav-link" href="/guides">Guides</a>
         </li>
 
-        <li class="nav-item dropdown" id="site-category">
-          <a class="nav-link" href="/blog">Blog<!--({{ site.posts | size }})--></a>
-        </li>
-
+        <!-- Posts -->
         <!-- <li class="nav-item dropdown" id="site-category">
-          <a class="nav-link" href="/resources">Resources</a>
-        </li>
-        -->
+          <a class="nav-link" href="/blog">Posts</a>
+        </li> -->
 
+        <!-- Posts (Dropdown) -->
+        <li class="nav-item dropdown dropdown-center" id="site-category">
+          <!-- Link to /blog -->
+          <a class="nav-link" href="/blog" style="cursor: pointer">Posts</a>
+          <!-- Dropdown menu -->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="border-radius: 10px; overflow: hidden;">
+            <li><a class="dropdown-item" href="/streaming">Streaming</a></li>
+            <li><a class="dropdown-item" href="/wellbeing">Wellbeing</a></li>
+            <li><a class="dropdown-item" href="/blogging">Blogging</a></li>
+          </ul>
+        </li>
+
+        <!-- About -->
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</i></a>
+        </li>        
+        
+        <!-- Search Bar -->
         <!-- <li class="nav-item">
-          <a class="nav-link" href="{{"/about" | relative_url }}">About</i></a>
+          <form role="search" method="get" id="search-form" action="{{ '/search' | relative_url }}">
+            <input type="text" id="search-field" name="q" placeholder="Search posts..." />
+            <button type="submit" id="search-btn">Search</button>
+          </form>
+        </li> -->
+        
+        <!-- Search Icon -->
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/search' | relative_url }}" title="Search">
+            <i class="bi bi-search" aria-hidden="true"></i>
+          </a>
         </li>
-        -->
 
-        <!-- EMAIL
+
+        <!-- Twitter -->
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/glitchedinorbit"><i class="bi bi-twitter"></i></a>
+        </li>
+        
+        <!-- Email -->
         <li class="nav-item">
           <a class="nav-link" href="mailto:info.wellcontent@gmail.com"><i class="bi bi-envelope"></i></a>
         </li>
-        -->
-        
-        <!-- SEARCH BAR
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="bi bi-search" aria-hidden="true"></i></a>
-        </li>
-        -->
 
+        <!-- Theme Toggle -->
+        <li class="nav-item">
+          <button id="dark-mode-toggle" class="btn-secondary" aria-label="Toggle dark mode">
+            <i id="dark-mode-icon" class="bi bi-moon"></i> <!-- Default to moon for dark mode -->
+          </button>
+        </li>
       </ul>
     </div>
   </div>

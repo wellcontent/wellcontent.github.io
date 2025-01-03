@@ -4,26 +4,23 @@
     name="viewport"
     content="width=device-width, initial-scale=1, shrink-to-fit=no"
   />
+  <!-- Uses page-specific description if available, otherwise falls back to site-wide description in _config.yml -->
+  <meta
+    name="description"
+    content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+  />
+
+  {% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}" />
+  {% else %}
+  <meta name="keywords" content="{{ site.keywords | join: ', ' }}" />
+  {% endif %}
 
   <title>
     {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }} {%
     else %}{{ site.title | escape }} - {{ site.description | escape }} {% endif
     %}
   </title>
-
-  <meta
-    name="description"
-    content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"
-  />
-
-  {% if page.keywords %}
-  <meta name="keywords" content="{{ page.keywords }}" />
-  {% else %}
-  <meta
-    name="keywords"
-    content="wellcontent, well content, well-content, creator wellbeing, creator guides, streamer guides, streaming, glitchedinorbit"
-  />
-  {% endif %}
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -87,6 +84,27 @@
   />
   <meta name="theme-color" content="#ffffff" />
 
+  <!-- Add this script to set the theme early -->
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem("theme") || "dark"; // Default to dark
+      console.log("Getting theme from localStorage in head.html:", savedTheme);
+      document.documentElement.classList.add(savedTheme + "-mode");
+    })();
+  </script>
+
+  <!-- <script>
+    (function () {
+      const savedTheme = localStorage.getItem("theme") || "dark"; // Default to dark if not found
+      console.log("Getting theme from localStorage in head.html:", savedTheme);
+      if (savedTheme === "dark") {
+        document.documentElement.classList.add("dark-mode");
+      } else {
+        document.documentElement.classList.add("light-mode"); // Apply light-mode if saved theme is not dark
+      }
+    })();
+  </script> -->
+
   <!-- Twitter cards -->
   <meta name="twitter:site" content="@{{ site.twitter_username }}" />
   <meta name="twitter:creator" content="@{{ page.author }}" />
@@ -99,11 +117,11 @@
   {% endif %} {% if page.image %}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="{{ site.url }}{{ page.background }}" />
+
   {% else %}
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="{{ site.title_background }}" />
   {% endif %}
-  <!-- End of Twitter Cards -->
 
   <!-- Google AMP Ads
   <script data-ad-client="ca-pub-6216107086354809" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -119,5 +137,7 @@
   <script async src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
   -->
 
-  {% seo %} {% include google-analytics.html %}
+  <!-- Add this script to set the theme early -->
+
+  {% seo %}
 </head>

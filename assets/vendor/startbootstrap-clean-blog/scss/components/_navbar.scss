@@ -1,196 +1,273 @@
 // Styling for the main navbar
 #mainNav {
+  position: absolute;
+  border-bottom: 1px solid $gray-800;
+  background-color: $gray-900;
+  font-family: $headings-font-family;
+
+  .navbar-brand {
+    font-weight: 800;
+    color: $white;
+  }
+
+  .navbar-toggler {
+    font-size: 16px;
+    font-weight: 800;
+    padding: 13px;
+    text-transform: uppercase;
+    color: $white;
+    border: none;
+  }
+
+  .navbar-nav {
+    > li.nav-item {
+      > a {
+        color: $white;
+        font-size: 14px;
+        font-weight: 800;
+        letter-spacing: 0.2em;
+        text-transform: none;
+      }
+    }
+  }
+
+  // Styling for the navbar categories
+  #site-category li a {
+    display: block;
+    font-weight: normal;
+    line-height: 50px;
+    margin: 0px;
+    padding: 0px 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #site-category a:hover {
+    background: none;
+    color: fade-out($white, 0.2);
+    text-decoration: underline $primary 3px;
+  }
+
+  #navbarResponsive li ul {
+    background: none;
+    display: none;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
     position: absolute;
-    border-bottom: 1px solid $gray-800;
-    background-color: $gray-900;
-    font-family: $headings-font-family;
+    width: 200px;
+    z-index: 200;
+    /*top: 1em;
+        /*left: 0;*/
+  }
+
+  #navbarResponsive li:hover ul {
+    display: block;
+  }
+
+  #navbarResponsive li li {
+    display: block;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+  }
+
+  #navbarResponsive li:hover li a {
+    background: $gray-900;
+  }
+
+  #navbarResponsive li ul a {
+    display: block;
+    height: 50px;
+    font-size: 14px;
+    text-transform: none;
+    color: white;
+    margin: 0px;
+    padding: 0px 10px 0px 20px;
+    text-align: left;
+  }
+
+  #navbarResponsive li ul a:hover {
+    background: $gray-900;
+    border: 0px;
+    color: white;
+    text-decoration: none;
+  }
+
+  // Styling for desktop devices
+  @media only screen and (min-width: 992px) {
+    border-bottom: 1px solid transparent;
+    background: transparent;
 
     .navbar-brand {
-        font-weight: 800;
-        color: $white;
-    }
+      padding: 10px 20px;
+      color: $white;
 
-    .navbar-toggler {
-        font-size: 16px;
-        font-weight: 800;
-        padding: 13px;
-        text-transform: uppercase;
-        color: $white;
-        border: none;
+      &:focus,
+      &:hover {
+        color: fade-out($white, 0.2);
+      }
     }
 
     .navbar-nav {
-        >li.nav-item {
-            >a {
-                color: $white;
-                font-size: 14px;
-                font-weight: 800;
-                letter-spacing: 0.2em;
-                text-transform: none;
-            }
+      > li.nav-item {
+        > a {
+          padding: 10px 20px;
+          color: $white;
+
+          &:focus,
+          &:hover {
+            color: fade-out($white, 0.2);
+            text-decoration: underline $primary 3px;
+          }
         }
+      }
+    }
+  }
+
+  /* Add media query to hide the dropdown on mobile */
+  @media only screen and (max-width: 991px) {
+    /* Hide the dropdown menu on mobile */
+    #navbarResponsive .dropdown-menu {
+      display: none !important;
     }
 
-// Styling for the navbar categories
-    #site-category li a{
-        display: block;
-        font-weight: normal;
-        line-height: 50px;
-        margin: 0px;
-        padding: 0px 25px;
-        text-align: center;
-        text-decoration: none;
-        }
-      
-      #site-category a:hover{
-        background: none;
-        color: fade-out($white, .2);
-        text-decoration: underline $primary 3px;
-        }
-      
-      #navbarResponsive li ul{
-        background: none;
-        display: none;
-        height: auto;
-        padding: 0px;
-        margin: 0px;
-        border: 0px;
-        position: absolute;
-        width: 200px;
-        z-index: 200;
-        /*top: 1em;
-        /*left: 0;*/
-        }
-      
-      #navbarResponsive li:hover ul{
-        display: block;
-        }
-      
-      #navbarResponsive li li {
-        display: block;
-        float: none;
-        margin: 0px;
-        padding: 0px;
-        width: 200px;
-        }
-      
-      #navbarResponsive li:hover li a{
-        background: $gray-900;
-        }
-      
-        #navbarResponsive li ul a{
-          display: block;
-          height: 50px;
-          font-size: 14px;
-          text-transform: none;
-          color: white;
-          margin: 0px;
-          padding: 0px 10px 0px 20px;
-          text-align: left;
-          }
-      
-        #navbarResponsive li ul a:hover{
-          background: $gray-900;
-          border: 0px;
-          color: white;
-          text-decoration: none;
-          }    
+    #navbarResponsive .dropdown:hover .dropdown-menu {
+      display: none !important;
+    }
 
+    #dark-mode-toggle {
+      padding: 8px 0px; // Adjust this to match the padding of other icons
+    }
+  }
 
-// Styling for desktop devices
-    @media only screen and (min-width: 992px) {
-        border-bottom: 1px solid transparent;
-        background: transparent;
+  @media only screen and (min-width: 992px) {
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 
-        .navbar-brand {
-            padding: 10px 20px;
-            color: $white;
+    &.is-fixed {
+      /* when the user scrolls down, we hide the header right above the viewport */
+      position: fixed;
+      top: -67px;
+      -webkit-transition: -webkit-transform 0.2s;
+      -moz-transition: -moz-transform 0.2s;
+      transition: transform 0.2s;
+      border-bottom: 1px solid darken($white, 0.05);
+      background-color: white;
+
+      /* Navbar item styling when scrolling up */
+      #dark-mode-toggle i {
+        color: $gray-900;
+      }
+
+      .navbar-brand {
+        color: $gray-900;
+
+        &:focus,
+        &:hover {
+          color: $primary;
+        }
+      }
+
+      .navbar-nav {
+        > li.nav-item {
+          > a {
+            color: $gray-900;
 
             &:focus,
             &:hover {
-                color: fade-out($white, .2);
+              color: $primary;
             }
+          }
         }
+      }
 
-        .navbar-nav {
-            >li.nav-item {
-                >a {
-                    padding: 10px 20px;
-                    color: $white;
+      #navbarResponsive li:hover li a {
+        color: $gray-900;
+        background: white;
+      }
 
-                    &:focus,
-                    &:hover {
-                        color: fade-out($white, .2);
-                        text-decoration: underline $primary 3px;
-                    }
-                }
-            }
-        }
+      #site-category a:hover {
+        background: none;
+        color: $primary;
+      }
     }
 
-    @media only screen and (min-width: 992px) {
-        -webkit-transition: background-color 0.2s;
-        -moz-transition: background-color 0.2s;
-        transition: background-color 0.2s;
-        /* Force Hardware Acceleration in WebKit */
-        -webkit-transform: translate3d(0, 0, 0);
-        -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-        -o-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-
-        &.is-fixed {
-            /* when the user scrolls down, we hide the header right above the viewport */
-            position: fixed;
-            top: -67px;
-            -webkit-transition: -webkit-transform 0.2s;
-            -moz-transition: -moz-transform 0.2s;
-            transition: transform 0.2s;
-            border-bottom: 1px solid darken($white, .05);
-            background-color: white;
-
-            .navbar-brand {
-                color: $gray-900;
-
-                &:focus,
-                &:hover {
-                    color: $primary;
-                }
-            }
-
-            .navbar-nav {
-                >li.nav-item {
-                    >a {
-                        color: $gray-900;
-
-                        &:focus,
-                        &:hover {
-                            color: $primary;
-                        }
-                    }
-                }
-            }
-
-            #navbarResponsive li:hover li a{
-                color: $gray-900;
-                background: white;
-            }
-            
-            #site-category a:hover{
-                background: none;
-                color: $primary;
-            }
-        }
-
-        &.is-visible {
-            /* if the user changes the scrolling direction, we show the header */
-            -webkit-transform: translate3d(0, 100%, 0);
-            -moz-transform: translate3d(0, 100%, 0);
-            -ms-transform: translate3d(0, 100%, 0);
-            -o-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100%, 0);
-        }
+    &.is-visible {
+      /* if the user changes the scrolling direction, we show the header */
+      -webkit-transform: translate3d(0, 100%, 0);
+      -moz-transform: translate3d(0, 100%, 0);
+      -ms-transform: translate3d(0, 100%, 0);
+      -o-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
     }
+  }
+}
+
+/* Theme Toggle Styling */
+#dark-mode-toggle {
+  background: transparent;
+  color: white; // White text (or icon)
+  padding: 10px 20px; // Adjust padding for spacing
+  margin: 0; // Remove any margin
+  border: none; // Remove border
+  font-size: 14px;
+  cursor: pointer; // Make it clickable
+}
+
+/* Ensure no border or shadow when the button is focused or active */
+#dark-mode-toggle:focus,
+#dark-mode-toggle:active {
+  outline: none; // Remove focus outline
+  box-shadow: none; // Remove any active shadow
+  border: none; // Remove border on active/focus state
+}
+
+/* Optional: Adjust icon size if needed */
+#dark-mode-toggle i {
+  padding: 0px;
+}
+
+#mainNav.light-mode {
+  background-color: $gray-100 !important;
+  border-bottom: 1px solid #ddd;
+
+  .navbar-brand,
+  .navbar-nav a {
+    color: $gray-900 !important; // Force application to ensure debugging
+  }
+
+  .navbar-nav a:hover,
+  .navbar-nav a:focus {
+    color: darken($gray-900, 10%);
+  }
+}
+
+#mainNav.light-mode #dark-mode-toggle {
+  color: $gray-900;
+}
+
+#mainNav.light-mode .navbar-toggler i {
+  color: $gray-900;
+}
+
+.dropdown-item {
+  background-color: $gray-800 !important;
+  color: white !important;
+}
+
+.dropdown-item.light-mode {
+  background-color: $gray-200 !important;
+  color: $gray-900 !important;
 }

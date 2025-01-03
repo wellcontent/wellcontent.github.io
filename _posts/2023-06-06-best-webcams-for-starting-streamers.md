@@ -1,19 +1,27 @@
 ---
 layout: post
-title: "The Best Webcams Under $100 For Starting Streamers (+ FREE Options)"
-subtitle: ""
-background: 'https://images.unsplash.com/photo-1623949556303-b0d17d198863?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+title: "Best Webcams Under $100 For Starting Streamers (+ FREE Options)"
+subtitle: "Discover budget-friendly webcams and free alternatives for streamers just starting out."
+background: "https://images.unsplash.com/photo-1623949556303-b0d17d198863?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
 categories: [streaming]
-keywords: [streaming webcams, best budget webcams stream, best webcams starting streamers, streaming webcams under $100]
+popularity: 2
+keywords:
+  [
+    streaming webcams,
+    best budget webcams stream,
+    best webcams starting streamers,
+    streaming webcams under $100,
+  ]
 ---
 
-*Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links.*
+_Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links._
 
 <img src="https://images.unsplash.com/photo-1623949556303-b0d17d198863?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="The Best Webcams Under $100 For Starting Streamers">
 
 <br>
 
 **Jump to section**:
+
 - [Introduction](#introduction)
 - [Logitech C270](#logitech-c270)
 - [DroidCam OBS](#droidcam-obs)
@@ -34,7 +42,7 @@ A camera lets your viewers see your reactions, and it's an easy way to set yours
 
 However, if you don't feel comfortable with your face on screen, be aware that you don't have to get a facecam. There's no need to listen to streaming 'gurus' simply because they tell you to use a facecam.
 
-Do what feels comfortable for *you*.
+Do what feels comfortable for _you_.
 
 If you do wish to use a facecam or you want to experiment with it, look no further.
 
@@ -57,7 +65,7 @@ Price range: $25-$40
 ✔ Very affordable  
 ✔ HD 720p resolution  
 ✔ Compact & portable  
-❌ Camera quality isn't high enough for fullscreen camera scenes  
+❌ Camera quality isn't high enough for fullscreen camera scenes
 
 The Logitech C270 gives 1280x720 video resolution at 30fps. It's not recommended for fullscreen camera scenes for this exact reason.
 
@@ -82,7 +90,7 @@ Price: $0-$10
 ✔ Free  
 ✔ Uses your phone as a camera source  
 ✔ Connects over Wi-Fi or USB  
-❌ Low quality video resolution  
+❌ Low quality video resolution
 
 With DroidCam OBS, you can use your phone camera as a facecam. This way, you don't need to invest extra in a webcam or camera, but you can use the camera that you already have in your pocket!
 
@@ -119,7 +127,7 @@ Price: $0
 ✔ Free & open source  
 ✔ Uses your phone as a camera source  
 ✔ Connects over Wi-Fi with a Browser Source  
-❌ Random video and audio connectivity issues  
+❌ Random video and audio connectivity issues
 
 There's no need to invest in an extra camera, because you can use your phone's native camera.
 
@@ -148,7 +156,7 @@ Price range: $60-$70
 ✔ Industry standard  
 ✔ Full HD 1080p resolution  
 ✔ Compact & portable  
-❌ Only 720p at 60fps  
+❌ Only 720p at 60fps
 
 The Logitech C920 gives you 1280x720 video resolution in up to 60fps and 1920x1080 video resolution at up to 30fps.
 
@@ -181,7 +189,7 @@ Price range: $80-$100
 ✔ Industry standard  
 ✔ Full HD 1080p resolution  
 ✔ Compact & portable  
-❌ Only 720p at 60fps  
+❌ Only 720p at 60fps
 
 The Logitech C922 gives you 720p at up to 60fps and 1080p at up to 30fps video resolution.
 
@@ -208,7 +216,7 @@ Price range: $70-$100
 ✔ Full HD resolution  
 ✔ Built-in ring light  
 ✔ Compact & portable  
-❌ Reported hardware/software issues  
+❌ Reported hardware/software issues
 
 The Razer Kiyo gives you 1280x720 video resolution at up to 60fps and 1920x1080 video resolution at up to 30 fps.
 
@@ -241,7 +249,7 @@ Price range: $45-$60
 ✔ Full HD 1080p resolution  
 ✔ Privacy shutter  
 ✔ Very compact  
-❌ Doesn't do as well in low light  
+❌ Doesn't do as well in low light
 
 The AVerMedia Live Streamer CAM 313 gives you 1920x1080 video resolution at up to 30fps.
 
@@ -267,7 +275,7 @@ Let me know if I missed any quality webcams under $100.
 
 In any case, make sure to [have a quality microphone](https://wellcontent.io/best-microphones-for-starting-streamers) before getting a webcam.
 
-*Thanks for reading!*
+_Thanks for reading!_
 
 <br>
 
@@ -287,8 +295,8 @@ In any case, make sure to [have a quality microphone](https://wellcontent.io/bes
     <br>
 
     <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EposVox. (2018, April 4). <i>Great Concept, Crappy Execution? - Razer Kiyo Review</i> [Video]. YouTube. https://www.youtube.com/watch?v=CaZ84l0xpro</span>
-	
-	<br>
+
+    <br>
     <br>
 
     <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EposVox. (2016, October 7). <i>Logitech C922 vs. C920 Webcam Comparison</i> [Video]. YouTube. https://www.youtube.com/watch?v=pXzCI70s0c0</span>
@@ -312,6 +320,7 @@ In any case, make sure to [have a quality microphone](https://wellcontent.io/bes
     <br>
 
     <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seguin, S. (2022, December 25). <i>What is VDO.Ninja?</i> Ninja Docs. https://docs.vdo.ninja</span>
+
 </details>
 
 <br>

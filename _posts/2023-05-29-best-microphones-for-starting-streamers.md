@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Best Microphones Under $100 For Starting Streamers"
+title: "Best Microphones Under $100 For Starting Streamers"
 subtitle: "Feeling overwhelmed by all the microphone choices for streaming, and don't know what to choose? Look no further than this guide."
 description: Feeling overwhelmed by all the microphone choices for streaming, and don't know what to choose? Look no further than this guide.
 background: "https://images.unsplash.com/photo-1650513737281-882e597ee5e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
@@ -103,7 +103,7 @@ An **omnidirectional** polar pattern picks up sound equally all around the micro
 Frequency response is the range of sound that a microphone can reproduce and how its output varies within that range. A response curve graphically represents the frequency response of a microphone.
 
 <figure class="figure">
-    <img src="https://content-files.shure.com/OriginFiles/BlogPosts/mic-basics-frequency-response/images/mic-basics-frequency-response_content-1.png" class="img-thumbnail" style="max-width: 30rem;">
+    <img src="https://content-files.shure.com/OriginFiles/BlogPosts/mic-basics-frequency-response/images/mic-basics-frequency-response_content-1.png" alt="Response curve visualization" class="img-thumbnail" style="max-width: 30rem;">
     <figcaption class="figure-caption">Response curve visualization from <a href="https://www.shure.com/en-US/performance-production/louder/mic-basics-frequency-response" class="text-muted" target="_blank" rel="noopener noreferrer" style="text-decoration: underline">Shure</a></figcaption>
 </figure>
 

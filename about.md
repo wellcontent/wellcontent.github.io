@@ -5,24 +5,26 @@ description: Continuous improvement and helping others drives my journey.
 background: ""
 ---
 
-Hi. I'm Chloe, the person behind Well&Content!
+## Hi, I'm Chloe!
 
-I've been creating content on [Twitch](https://twitch.tv/glitchedinorbit) since 2016 and on [YouTube](https://youtube.com/glitchedinorbit) since 2020.
+I'm the person behind **Well&Content**. I began creating content on [Twitch](https://twitch.tv/glitchedinorbit) in 2016 and on [YouTube](https://youtube.com/glitchedinorbit) in 2020. Well&Content is a resource hub to help streamers and content creators enhance their productivity and well-being.
 
-Along the way, I slowly started burning out from streaming. So I needed to put my mental health first and focus on different projects.
+### My Mission
 
-This is how this blog came about. And also because of my passion for mental health and content creation.
+I aim to support creators like you with actionable guides, customizable templates, and insightful posts to help you thrive in your journey—mentally, digitally, physically, and financially.
 
-I wanted to share my content creation experience and streamer insights with you, to help you take care of your physical, mental, digital, and financial wellbeing. By providing you with actionable guides and resources.
+### My Story
 
-Feel free to join me on my journey.
+Burnout from streaming led me to prioritize my mental health and start this project, fueled by my passion for mental health and content creation. My mission is to share insights and resources to help you care for your physical, mental, digital, and financial well-being.
 
-<a href="https://twitter.com/glitchedinorbit" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> <i class="bi bi-twitter"></i> Twitter</a>
+### What I Offer
 
-<br>
+- **Templates**: Streamline your workflow with tools like the Notion Creator Dashboard and Income & Expense Tracker.
+- **Guides**: Resources like OBS Studio 101 to support your growth.
+- **Posts**: Articles on content creation, streaming tips, and mental health.
 
-**Want to get in touch?**
+### Let’s Connect
 
-Send me a message on [Twitter](https://twitter.com/glitchedinorbit) or via [email](mailto:info.wellcontent@gmail.com) and I'll try to get back to you as soon as possible!
+Follow me on [Twitter](https://twitter.com/glitchedinorbit) or email me at [info.wellcontent@gmail.com](mailto:info.wellcontent@gmail.com). I'd love to hear from you!
 
-I'd love to connect with you.
+<a href="https://twitter.com/glitchedinorbit" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> <i class="bi bi-twitter"></i> Follow me on Twitter</a>

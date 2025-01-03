@@ -1,30 +1,74 @@
 // Bootstrap overrides for this template
 .btn {
-    font-size: 14px;
-    font-weight: 800;
-    padding: 15px 25px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    letter-spacing: 1px;
-    text-transform: none;
-    border-radius: .25rem;
-    font-family: $headings-font-family;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 15px 25px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-transform: none;
+  border-radius: 10px; //0.25rem;
+  font-family: $headings-font-family;
 }
 
 .btn-primary {
-    background-color: $primary;
-    border-color: $primary;
+  background-color: $primary;
+  border-color: $primary;
 
-    &:hover,
-    &:focus,
-    &:active {
-        color: $white;
-        background-color: lighten($primary, 7.5) !important;
-        border-color: lighten($primary, 7.5) !important;
-    }
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white;
+    background-color: lighten($primary, 7.5) !important;
+    border-color: lighten($primary, 7.5) !important;
+  }
 }
 
 .btn-lg {
-    font-size: 16px;
-    padding: 25px 35px;
+  font-size: 16px;
+  padding: 25px 35px;
+}
+
+.btn-primary.light-mode {
+  background-color: $primary-light-mode;
+  border-color: $primary-light-mode;
+  color: white;
+}
+
+.btn-primary.light-mode:hover {
+  background-color: #5a9b70;
+  border-color: #5a9b70;
+  color: $gray-900;
+}
+
+.btn-outline-primary.light-mode {
+  border-color: $primary-light-mode;
+  color: $primary-light-mode;
+}
+
+.btn-outline-primary.light-mode:hover {
+  border-color: $primary-light-mode;
+  background-color: $primary-light-mode;
+  color: $gray-900;
+}
+
+.btn-secondary.light-mode {
+  background-color: $gray-600;
+  border-color: $gray-600;
+  color: white;
+}
+.btn-secondary.light-mode:hover {
+  background-color: $gray-800;
+  border-color: $gray-800;
+  color: white;
+}
+
+.btn.post-category.btn-outline-primary.light-mode {
+  background-color: transparent !important;
+  border-color: $primary-light-mode !important;
+  color: $gray-900;
+}
+
+#share-buttons.light-mode svg {
+  fill: $gray-900;
 }

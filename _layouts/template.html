@@ -26,22 +26,28 @@ layout: default
             <h2 class="subheading" style="font-size: 24px; line-height: 1.5">
               {{ page.subtitle }}
             </h2>
+
+            <!-- Ko-fi link -->
+            {% if page.external_url-kofi %}
             <a
               class="btn btn-primary"
-              href="{{ page.external_url-gumroad }}"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Get the template on Gumroad</a
-            >
-            <br />
-            <br />
-            <a
-              class="btn btn-outline-primary"
               href="{{ page.external_url-kofi }}"
               target="_blank"
               rel="noopener noreferrer"
               >Get the template on Ko-fi</a
             >
+            {% endif %}
+
+            <!-- Gumroad link -->
+            {% if page.external_url-gumroad %}
+            <a
+              class="btn btn-outline-primary"
+              href="{{ page.external_url-gumroad }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Get the template on Gumroad</a
+            >
+            {% endif %}
           </div>
         </div>
       </div>

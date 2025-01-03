@@ -4,11 +4,13 @@ title: "Income & Expense Tracker"
 subtitle: "Organize your finances with Notion."
 external_url-gumroad: "https://glitchedinorbit.gumroad.com/l/income-expense-tracker"
 external_url-kofi: "https://ko-fi.com/s/5d7dabc268"
-cover: '/img/templates/notion-income-expense-tracker.webp'
+cover: "/img/templates/notion-income-expense-tracker.webp"
 categories: [templates]
+order: 2
 ---
 
 ### Questions?
+
 Find answers to the most frequently asked questions.
 
 <br>
@@ -19,6 +21,7 @@ Find answers to the most frequently asked questions.
     <br>
 
     This template is free because I understand how overwhelming personal and work-related finances can be. I now wanted to share this template I use to make your journey towards financial independence easier.
+
 </details>
 
 <br>
@@ -29,6 +32,7 @@ Find answers to the most frequently asked questions.
     <br>
 
     Yes! I even encourage you to share the template with others, because I'd like to reach as many people as possible. But please don't alter any of my content or sell the template yourself.
+
 </details>
 
 <br>
@@ -39,6 +43,7 @@ Find answers to the most frequently asked questions.
     <br>
 
     My plan is to update the template when I feel necessary to make sure the information stays current and relevant.
+
 </details>
 
 <br>
@@ -49,6 +54,7 @@ Find answers to the most frequently asked questions.
     <br>
 
     You can contact me at glitchedinorbit@gmail.com and I'll be happy to answer any questions or concerns.
+
 </details>
 
 <br>

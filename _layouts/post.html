@@ -19,7 +19,9 @@ layout: default
             <h1>{{ page.title }}</h1>
             <br />
             <span class="meta"
-              >published {{ page.date | date: '%d %B %Y' }} &middot; {% if
+              >{% if page.author %} written by {{ page.author }} &middot; {%
+              else %} written by {{ site.author }} &middot; {% endif %}
+              published {{ page.date | date: '%d %B %Y' }} &middot; {% if
               page.updated %} updated {{ page.updated | date: '%d %B %Y' }}
               &middot; {% endif %} {% include read_time.html
               content=page.content %} &middot; {% include share-buttons.html %}
@@ -29,7 +31,7 @@ layout: default
               {% assign categories = page.categories %} {% endif %} {% for
               category in categories limit:1 %}
               <a
-                class="btn btn-outline-primary"
+                class="btn post-category btn-outline-primary"
                 href="{{site.baseurl}}/{{category|slugize}}"
                 >#{{category}}</a
               >
@@ -106,6 +108,7 @@ layout: default
     </div>
   </div>
 
+  <!-- Includes Vanilla Back To Top for the scroll button only in post pages -->
   <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
   <script>
     addBackToTop({
@@ -115,3 +118,38 @@ layout: default
     });
   </script>
 </header>
+
+<!-- Includes Clipboard.js for the code copy button only in post pages -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Find all code blocks with the `copy-code` class
+    const codeBlocks = document.querySelectorAll("pre code");
+
+    codeBlocks.forEach(function (codeBlock) {
+      const parent = codeBlock.closest("pre");
+
+      // Add the button only if it's not already added
+      if (!parent.querySelector(".copy-btn")) {
+        const button = document.createElement("button");
+        button.classList.add("copy-btn");
+        button.innerText = "Copy";
+
+        // Append the button inside the `pre` block
+        parent.appendChild(button);
+
+        // Attach ClipboardJS to the button
+        const clipboard = new ClipboardJS(button, {
+          target: function () {
+            return codeBlock;
+          },
+        });
+
+        clipboard.on("success", function (e) {
+          console.log("Copied to clipboard:", e.text);
+          e.clearSelection();
+        });
+      }
+    });
+  });
+</script>

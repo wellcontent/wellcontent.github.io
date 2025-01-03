@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Legal Disclosure
-description: 
-background: ''
+description:
+background: ""
 sitemap: false
 ---
 
@@ -26,8 +26,8 @@ The site may contain external links to web pages of third parties. Responsibilit
 
 ### Credits
 
-Icons by [Good Ware](https://www.flaticon.com/authors/good-ware) from [www.flaticon.com](https://www.flaticon.com) is licensed under [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
+Icons by [Good Ware](https://www.flaticon.com/authors/good-ware) from [www.flaticon.com](https://www.flaticon.com) are licensed under [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/).
 
-Theme ['Clean Blog Jekyll'](https://startbootstrap.com/theme/clean-blog-jekyll) by [Start Bootstrap](https://startbootstrap.com/) is licensed under [MIT](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/LICENSE)
+The theme ['Clean Blog Jekyll'](https://startbootstrap.com/theme/clean-blog-jekyll) by [Start Bootstrap](https://startbootstrap.com/) is licensed under [MIT](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/LICENSE).
 
-Images from [Unsplash](https://unsplash.com/)
+Images are sourced from [Unsplash](https://unsplash.com/).

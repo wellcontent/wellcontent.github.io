@@ -2,22 +2,30 @@
 layout: page
 title: Guides
 description: Accelerate your knowledge on your content creation journey with in-depth and actionable guides.
-background: ''
+background: ""
 ---
 
 <!-- Guides Card Layout -->
-<div class="card-deck h-100">
+<div class="row row-cols-1 row-cols-md-3 g-4 d-flex">
   {% for guide in site.guides %}
-  <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
-    <img class="card-img-top" src="{{ guide.cover }}" alt="{{ guide.title }}">
-    <div class="card-body">
-      <h4 class="card-title">{{ guide.title }}</h4>
-      <p class="card-text">{{ guide.subtitle }}</p>
-      <a href="{{ site.baseurl }}{{ guide.url }}" class="btn btn-primary stretched-link">
-        Get it for FREE
-      </a>
+  <div class="col">
+    <div class="card text-white bg-dark mb-3">
+      <img
+        class="card-img-top"
+        src="{{ guide.cover }}"
+        alt="{{ guide.title }}"
+      />
+      <div class="card-body">
+        <h4 class="card-title">{{ guide.title }}</h4>
+        <p class="card-text">{{ guide.subtitle }}</p>
+        <a
+          href="{{ site.baseurl }}{{ guide.url }}"
+          class="btn btn-secondary stretched-link"
+        >
+          Download Now
+        </a>
+      </div>
     </div>
   </div>
-{% endfor %}
-
+  {% endfor %}
 </div>

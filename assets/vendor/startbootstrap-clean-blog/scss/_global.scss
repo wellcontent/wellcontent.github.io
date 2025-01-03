@@ -10,6 +10,21 @@ body {
   flex-direction: column;
 }
 
+body.light-mode {
+  background-color: $gray-100;
+  color: $gray-900;
+}
+
+.card.light-mode {
+  border-color: $gray-200;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-body.light-mode {
+  background-color: $gray-200 !important;
+  color: $gray-900;
+}
+
 p {
   line-height: 2;
   margin-bottom: 40px;
@@ -53,6 +68,15 @@ a {
   &:focus,
   &:hover {
     color: $primary;
+  }
+}
+
+a.light-mode {
+  color: $primary-light-mode;
+
+  &:focus,
+  &:hover {
+    color: $primary-light-mode;
   }
 }
 
@@ -113,6 +137,10 @@ hr {
   border-top: 1px solid $gray-800;
 }
 
+hr.light-mode {
+  border-top: 1px solid #ddd;
+}
+
 img {
   width: 100%;
 }
@@ -133,10 +161,209 @@ img {
   }
 }
 
+/* Code Block Styling */
 .highlight {
-  background-color: #343a40;
+  background-color: $gray-800;
   color: white;
   padding: 15px;
   margin-bottom: 40px;
   display: block;
+  border-radius: 8px;
+}
+
+.highlight.light-mode {
+  background-color: $gray-300 !important;
+  color: $gray-800;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: $secondary;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 10;
+  border-radius: 4px; /* Apply rounded corners */
+}
+
+pre {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  white-space: pre-wrap; /* Ensures long code lines wrap correctly */
+  word-wrap: break-word; /* Optional for better word wrapping */
+  border-radius: 8px; /* Apply rounded corners */
+  background: transparent; /* Remove background from the pre block */
+}
+
+pre code {
+  font-family: monospace;
+  padding: 0; /* Remove extra padding */
+  margin: 0; /* Remove any margin */
+  display: block; /* Ensure block-level rendering */
+  background-color: transparent; /* Remove background from code inside pre */
+  color: inherit; /* Inherit color from pre or globally defined theme */
+}
+
+/* Container for search box to align it to the left */
+#search-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Search Box Styling */
+#search-form {
+  display: flex;
+  align-items: center;
+}
+
+#search-field {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #343a40; /* Matches code block background color */
+  border: 1px solid #50575d;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+#search-field::placeholder {
+  color: #a3a3a3;
+}
+
+#search-field:focus {
+  border-color: #6c757d;
+  box-shadow: 0 0 5px rgba(108, 117, 125, 0.8);
+  background-color: #343a40 !important; /* Ensure background stays the same on focus */
+  color: white !important; /* Ensure text stays white on focus */
+}
+
+#search-field.light-mode {
+  color: $gray-900;
+  background-color: $gray-300; /* Matches code block background color */
+  border: 1px solid $gray-500;
+}
+
+#search-field::placeholder.light-mode {
+  color: $gray-600;
+}
+
+#search-field:focus.light-mode {
+  border-color: $gray-500;
+  background-color: $gray-300 !important; /* Ensure background stays the same on focus */
+  color: $gray-900 !important; /* Ensure text stays white on focus */
+}
+
+/* Prevent autofill background color and text color change */
+//#search-field:-webkit-autofill {
+//background-color: #343a40 !important; /* Keep the background dark */
+//color: white !important; /* Keep the text white */
+//-webkit-box-shadow: 0 0 0px 1000px #343a40 inset !important; /* Prevent shadow inside */
+//box-shadow: 0 0 0px 1000px #343a40 inset !important; /* Prevent shadow inside */
+//}
+
+/* Firefox-specific autofill prevention */
+//#search-field:-moz-autofill {
+//background-color: #343a40 !important; /* Keep the background dark */
+//color: white !important; /* Keep the text white */
+//}
+
+/* Ensure normal behavior for focus, even when autofilled */
+//#search-field:focus:-webkit-autofill {
+//background-color: #343a40 !important; /* Keep the background dark */
+//color: white !important; /* Keep the text white */
+//}
+
+#search-btn {
+  margin-left: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #50575d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#search-btn:hover {
+  background-color: #6c757d;
+}
+
+#search-btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(108, 117, 125, 0.8);
+}
+
+#search-btn.light-mode {
+  color: white;
+  background-color: $gray-600;
+}
+
+#search-btn:hover.light-mode {
+  background-color: $gray-500;
+}
+
+/* Cookie Banner Styling */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #343a40;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.cookie-banner p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.cookie-banner a {
+  color: #00d4ff;
+  text-decoration: underline;
+}
+
+.cookie-banner a:hover {
+  text-decoration: none;
+}
+
+.cookie-banner button {
+  margin-left: 10px;
+}
+
+/* Media Query for Mobile Cookie Banner */
+@media (max-width: 768px) {
+  .cookie-banner {
+    flex-direction: column;
+    align-items: center; /* Center the content (text and buttons) horizontally */
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .cookie-banner p {
+    margin-bottom: 10px; /* Add space between the text and buttons */
+  }
+
+  .cookie-banner button {
+    margin-left: 0;
+    margin-top: 10px; /* Space between the buttons */
+    width: 100%; /* Make buttons full-width for better mobile UX */
+    text-align: center; /* Center the text inside the buttons */
+  }
 }

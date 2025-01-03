@@ -64,7 +64,7 @@ I can highly recommend two books for an authentic Japanese perspective on ikigai
 
 According to Mogi and Mitsuhashi, you can find your ikigai in a wide range of conditions.
 
-Research has indicated that you are less likely to experience depression and more likely to measure well-being if you have a sense of ikigai.
+Research has indicated that you are less likely to experience depression and more likely to measure well-being if you have a sense of ikigai. [<sup>[1]</sup>](https://link.springer.com/article/10.1007/s11469-019-00150-w) [<sup>[2]</sup>](https://doi.org/10.11236/jph.59.7_433) [<sup>[3]</sup>](https://doi.org/10.1007/s11469-022-00764-7)
 
 Invest time in discovering your ikigai.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What You Need To Know About Twitch's Recent Monetization Agreement And TOS Changes"
+title: "Twitch's New Monetization & TOS Changes: What You Need To Know"
 subtitle: "On 6 June 2023, Twitch released an update to their Terms of Service and Monetized Streamer Agreement. But as with most other updates they've posted, they received backlash from the community."
 background: "https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
 categories: [streaming]

@@ -1,5 +1,143 @@
+<!-- The essential scripts for site functionality -->
+
+<!-- JQuery is necessary for interactive components with Bootstrap 4.6.0 -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<!-- Bootstrap 4.6.0 is necessary for functioning navbar so don't upgrade -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- The site theme -->
 <script src="{{"/assets/vendor/startbootstrap-clean-blog/js/scripts.js" | relative_url }}"></script>
 
+<!-- JQuery tooltip toggle-->
 <script src="{{"/assets/scripts.js" | relative_url }}"></script>
+
+<!-- Theming -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const darkModeIcon = document.getElementById('dark-mode-icon');
+  
+    // Apply the theme immediately based on the saved preference
+    const savedTheme = localStorage.getItem('theme') || 'dark'; // Default to dark mode if no preference is saved
+    console.log("Getting theme from localStorage in scripts.html:", savedTheme);
+    setTheme(savedTheme);
+    
+    // Helper function to apply a theme to a group of elements
+    function applyModeToElements(elements, mode) {
+      elements.forEach(element => {
+        if (element) {
+          element.classList.remove('light-mode', 'dark-mode');
+          element.classList.add(`${mode}-mode`);
+        }
+      });
+    }
+    
+    // Function to set the theme
+    function setTheme(mode) {
+      console.log('Setting theme to:', mode);
+  
+      // Apply mode to all relevant elements
+      applyModeToElements([document.body], mode);  // Apply to body
+      applyModeToElements([document.getElementById('mainNav'), document.querySelector('header')], mode); // Navbar & header
+      applyModeToElements(document.querySelectorAll('.dropdown-menu'), mode); // Navbar dropdown menu
+      applyModeToElements(document.querySelectorAll('.dropdown-item'), mode); // Navbar dropdown items
+      applyModeToElements(document.querySelectorAll('.card, .card-body, .btn-primary, .btn-outline-primary, .btn-secondary, .highlight'), mode); // Cards, buttons, code blocks
+      applyModeToElements(document.querySelectorAll('a:not(.badge):not(.btn)'), mode); // Links
+      applyModeToElements(document.querySelectorAll('hr, #search-field, #search-btn, .page-heading, .site-heading, .post-heading'), mode); // Miscellaneous
+      applyModeToElements([document.getElementById('share-buttons')], mode); // Social media buttons
+  
+      // Update the theme toggle button and icon
+      if (darkModeToggle && darkModeIcon) {
+        if (mode === 'dark') {
+          darkModeIcon.classList.remove('bi-sun');
+          darkModeIcon.classList.add('bi-moon'); // Show moon icon for dark mode
+        } else {
+          darkModeIcon.classList.remove('bi-moon');
+          darkModeIcon.classList.add('bi-sun'); // Show sun icon for light mode
+        }
+      }
+  
+      // Save the user's preference in localStorage
+      localStorage.setItem('theme', mode);
+    }
+  
+    // Toggle theme when the button is clicked
+    if (darkModeToggle) {
+      darkModeToggle.addEventListener('click', function () {
+        const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
+        document.documentElement.classList.remove("light-mode", "dark-mode");
+        document.documentElement.classList.add(newTheme + "-mode");
+        setTheme(newTheme);
+      });
+    }
+  });
+  </script>
+
+<!-- Cookie banner popup -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const cookieBanner = document.getElementById("cookie-banner");
+    const acceptCookiesBtn = document.getElementById("accept-cookies");
+    const rejectCookiesBtn = document.getElementById("reject-cookies");
+    /* const manageCookiesBtn = document.getElementById("manage-cookies"); */
+
+    // Get the current cookie consent status and timestamp from localStorage
+    const cookiesAccepted = localStorage.getItem("cookiesAccepted");
+    const consentTimestamp = localStorage.getItem("consentTimestamp");
+
+    // Set duration for 6 months (in milliseconds)
+    const sixMonthsInMillis = 6 * 30 * 24 * 60 * 60 * 1000; // 6 months in milliseconds /* 30 * 1000; */ // 30 seconds in milliseconds to debug 
+
+    // Check if the user has already accepted cookies and if consent is still valid (less than 6 months old)
+    if (!cookiesAccepted || !consentTimestamp || (Date.now() - consentTimestamp > sixMonthsInMillis)) {
+      cookieBanner.style.display = "flex"; // Show the banner if no consent or if consent has expired
+    } else if (cookiesAccepted === "true") {
+      // If cookies have been accepted and consent is still valid, load Google Analytics
+      loadGoogleAnalytics();
+    }
+
+    // Handle accept cookies button
+    acceptCookiesBtn.addEventListener("click", function () {
+      localStorage.setItem("cookiesAccepted", "true");
+      localStorage.setItem("consentTimestamp", Date.now()); // Store the timestamp when consent is given
+      cookieBanner.style.display = "none"; // Hide the banner
+
+      // Dynamically inject Google Analytics
+      loadGoogleAnalytics();
+    });
+
+    // Handle reject cookies button
+    rejectCookiesBtn.addEventListener("click", function () {
+      localStorage.setItem("cookiesAccepted", "false");
+      localStorage.setItem("advertisingCookies", "false"); // Reject advertising cookies
+      localStorage.setItem("consentTimestamp", Date.now()); // Store the timestamp when consent is rejected
+      cookieBanner.style.display = "none"; // Hide the banner
+    });
+
+    // Handle manage cookies button (optional)
+    /* manageCookiesBtn.addEventListener("click", function () {
+      alert("Cookie management functionality coming soon!");
+    });*/
+  
+  });
+
+  // Function to dynamically load the Google Analytics script
+  function loadGoogleAnalytics() {
+    const scriptTag1 = document.createElement("script");
+    scriptTag1.async = true;
+    scriptTag1.src = "https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}";
+    scriptTag1.onload = function () {
+      const scriptTag2 = document.createElement("script");
+      scriptTag2.innerHTML = `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      `;
+      document.body.appendChild(scriptTag2);
+    };
+    document.body.appendChild(scriptTag1);
+  }
+</script>
+
