@@ -2,6 +2,7 @@
 layout: template
 title: "Comfy Chat Widget"
 subtitle: "Enhance your stream with this cute chat widget."
+description: "A cute custom chat widget with integrated alerts to enhance your stream."
 external_url-kofi: "https://ko-fi.com/s/5c514e7fb6"
 cover: "/img/templates/comfy-chat-widget.webp"
 categories: [templates]

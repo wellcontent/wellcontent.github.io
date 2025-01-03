@@ -2,6 +2,7 @@
 layout: template
 title: "OBS Studio Preset"
 subtitle: "Immediately start creating with OBS Studio."
+description: "An OBS Studio preset to immediately start creating content."
 external_url-kofi: "https://ko-fi.com/s/2ec963b23e"
 cover: "/img/templates/obs-studio-preset.webp"
 categories: [templates]

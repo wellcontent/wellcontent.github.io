@@ -2,6 +2,7 @@
 layout: template
 title: "Obsidian Daily Planner"
 subtitle: "Organize your daily schedule with Obsidian."
+description: "An Obsidian daily planner template to organize your daily schedule."
 external_url-kofi: "https://ko-fi.com/s/5c7228661d"
 cover: "/img/templates/obsidian-daily-planner.webp"
 categories: [templates]

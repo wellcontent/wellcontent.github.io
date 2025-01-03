@@ -2,6 +2,7 @@
 layout: template
 title: "Bear Cafe Sub Badges"
 subtitle: "Make your stream cuter with pixel art sub badges!"
+description: "Premade bear-inspired pixel art sub badges to make your stream cuter."
 external_url-kofi: "https://ko-fi.com/s/41ba923440"
 cover: "/img/templates/bear-cafe-sub-badges.webp"
 categories: [templates]

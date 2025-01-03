@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cookie Policy
-description:
+description: "Cookie policy for Well&Content."
 background: ""
 sitemap: false
 ---

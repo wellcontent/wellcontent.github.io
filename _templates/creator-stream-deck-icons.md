@@ -2,6 +2,7 @@
 layout: template
 title: "Creator Stream Deck Icons"
 subtitle: "Optimize your streaming experience with Stream Deck."
+description: "A minimalistic Elgato Stream Deck icon pack to optimize your streaming experience."
 external_url-kofi: "https://ko-fi.com/s/b7fa07f854"
 cover: "/img/templates/creator-stream-deck-icons.webp"
 categories: [templates]

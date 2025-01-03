@@ -2,8 +2,9 @@
 layout: template
 title: "Notion Creator Dashboard"
 subtitle: "Organize your content strategy with Notion."
-external_url-gumroad: "https://glitchedinorbit.gumroad.com/l/notion-creator-dashboard"
+description: "A notion creator dashboard template to organize your content strategy."
 external_url-kofi: "https://ko-fi.com/s/549f4f149a"
+external_url-gumroad: "https://glitchedinorbit.gumroad.com/l/notion-creator-dashboard"
 cover: "/img/templates/notion-creator-dashboard.webp"
 categories: [templates]
 order: 1

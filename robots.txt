@@ -26,6 +26,7 @@ layout: none
 User-agent: *
 Disallow: /tags/
 Disallow: /category/
+Disallow: /search/
 Disallow: /posts/
 Disallow: /posts/page2/
 Sitemap: {{ site.url }}/sitemap.xml

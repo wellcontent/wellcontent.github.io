@@ -2,6 +2,7 @@
 layout: template
 title: "Obsidian Weekly Review"
 subtitle: "Review your work and life with Obsidian."
+description: "An Obsidian weekly review template to track your weekly progress and reflect on your tasks, goals, and personal growth."
 external_url-kofi: "https://ko-fi.com/s/7a355f7a88"
 cover: "/img/templates/obsidian-weekly-review.webp"
 categories: [templates]

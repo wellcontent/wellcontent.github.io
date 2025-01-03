@@ -28,7 +28,7 @@ keywords:
   - "streamer productivity"
 author: Chloe
 baseurl: ""
-url: "https://wellcontent.io/" # Add the trailing slash to avoid 302 redirects to every page
+url: "https://wellcontent.io"
 permalink: /:slug/
 collections:
   posts:

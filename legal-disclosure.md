@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Legal Disclosure
-description:
+description: "Legal disclosure for Well&Content."
 background: ""
 sitemap: false
 ---

@@ -2,8 +2,9 @@
 layout: template
 title: "Income & Expense Tracker"
 subtitle: "Organize your finances with Notion."
-external_url-gumroad: "https://glitchedinorbit.gumroad.com/l/income-expense-tracker"
+description: "A Notion income and expense tracker template to organize your finances."
 external_url-kofi: "https://ko-fi.com/s/5d7dabc268"
+external_url-gumroad: "https://glitchedinorbit.gumroad.com/l/income-expense-tracker"
 cover: "/img/templates/notion-income-expense-tracker.webp"
 categories: [templates]
 order: 2
