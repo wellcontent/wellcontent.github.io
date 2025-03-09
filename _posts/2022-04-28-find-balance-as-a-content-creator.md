@@ -6,6 +6,9 @@ description: Struggling to find balance as a content creator? It can be difficul
 background: "/img/posts/02_750x500.webp"
 categories: [wellbeing]
 keywords: [content creator wellbeing, creator overwhelm, creator burnout]
+redirect_from:
+  - "/blog/find-balance-as-a-content-creator"
+  - "/find-balance-as-a-content-creator"
 ---
 
 _Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links._

@@ -9,12 +9,13 @@
   @include img-fluid();
 }
 
-
 // Image thumbnails
 .img-thumbnail {
-  padding: $thumbnail-padding;
-  background-color: $thumbnail-bg;
-  border: $thumbnail-border-width solid $thumbnail-border-color;
+  // padding: $thumbnail-padding;
+  //background-color: $thumbnail-bg;
+  background-color: transparent;
+  border: none;
+  // border: $thumbnail-border-width solid $thumbnail-border-color;
   @include border-radius($thumbnail-border-radius);
   @include box-shadow($thumbnail-box-shadow);
 

@@ -2,6 +2,8 @@
 layout: page
 title: About
 description: Continuous improvement and helping others drives my journey.
+permalink: /about
+#redirect_to: /about
 background: ""
 ---
 

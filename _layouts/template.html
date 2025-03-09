@@ -16,12 +16,14 @@ layout: default
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-10 mx-auto">
           <div class="post-heading">
+            {% include breadcrumbs.html %}
             <img
               src="{{ page.cover }}"
               class="img-thumbnail"
               alt="{{ page.title }}"
-              style="max-width: 10rem; margin-bottom: 2rem"
+              style="max-width: 15rem; margin-bottom: 2rem"
             />
+
             <h1>{{ page.title }}</h1>
             <h2 class="subheading" style="font-size: 24px; line-height: 1.5">
               {{ page.subtitle }}
@@ -37,6 +39,30 @@ layout: default
               >Get the template on Ko-fi</a
             >
             {% endif %}
+
+            <!-- Ko-fi modal link -->
+            <!-- {% if page.external_url-kofi %}
+            <a
+              class="btn btn-primary"
+              id="openKofiModalBtn"
+              href="#"
+              role="button"
+              >Get the template on Ko-fi</a
+            > -->
+
+            <!-- Modal structure -->
+            <!-- <div id="kofiModal" class="modal">
+              <div class="modal-content">
+                <span id="closeModal" class="close">&times;</span>
+                <iframe
+                  src="{{ page.external_url-kofi }}"
+                  width="600"
+                  height="800"
+                  frameborder="0"
+                ></iframe>
+              </div>
+            </div>
+            {% endif %} -->
 
             <!-- Gumroad link -->
             {% if page.external_url-gumroad %}
@@ -103,3 +129,85 @@ layout: default
     </div>
   </div>
 </header>
+
+<!-- <style>
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 640px; /* Max width for larger screens */
+    max-height: 90vh; /* Prevents it from being too large */
+  }
+
+  /* Responsive styling for smaller screens */
+  @media (max-width: 600px) {
+    .modal-content {
+      width: 90%; /* Use 90% width on smaller screens */
+      max-width: none; /* Remove max-width on smaller screens */
+    }
+
+    iframe {
+      width: 100%; /* Make iframe responsive */
+      height: 500px; /* Adjust iframe height for smaller screens */
+    }
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+</style> -->
+
+<!-- <script>
+  // Get the modal
+  var modal = document.getElementById("kofiModal");
+
+  // Get the button that opens the modal (Ko-fi button)
+  var btn = document.getElementById("openKofiModalBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementById("closeModal");
+
+  // When the user clicks the button, open the modal
+  btn.onclick = function (event) {
+    event.preventDefault(); // Prevent the default link behavior
+    modal.style.display = "block";
+  };
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal.style.display = "none";
+  };
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
+</script> -->

@@ -1,0 +1,65 @@
+<nav aria-label="Breadcrumb">
+  <ol class="breadcrumb">
+    <!-- Home breadcrumb -->
+    <li class="breadcrumb-item">
+      <a href="{{ site.baseurl }}/">Home</a>
+    </li>
+
+    <!-- Blog Breadcrumb (if layout is "post") -->
+    {% if page.layout == "post" %}
+
+    <!-- Posts Breadcrumb -->
+    <li class="breadcrumb-item">
+      <a href="{{ site.baseurl }}{{ site.breadcrumbs.posts }}">Posts</a>
+    </li>
+    {% if page.categories.size > 0 and (page.categories[0] == "streaming" or
+    page.categories[0] == "wellbeing" or page.categories[0] == "blogging") %}
+    <li class="breadcrumb-item">
+      <a
+        href="{{ site.baseurl }}/{{ page.categories[0] | downcase | replace: ' ', '-' }}"
+        >{{ page.categories[0] | capitalize }}</a
+      >
+    </li>
+    {% endif %}
+
+    <!-- Blog Index or Category Page Breadcrumb -->
+    {% elsif page.url contains '/blog/' %}
+    <li class="breadcrumb-item">
+      {% if page.url == '/blog/' %} Posts {% else %}
+      <a href="{{ site.baseurl }}{{ site.breadcrumbs.posts }}">Posts</a>
+      {% endif %}
+    </li>
+
+    <!-- Category Pages Breadcrumb for Streaming, Wellbeing, and Blogging -->
+    {% elsif page.category contains 'streaming' or page.category contains
+    'wellbeing' or page.category contains 'blogging' %}
+    <li class="breadcrumb-item">
+      <a href="{{ site.baseurl }}{{ site.breadcrumbs.posts }}">Posts</a>
+    </li>
+
+    <!-- Templates Breadcrumb -->
+    {% elsif page.url contains '/templates/' %}
+    <li class="breadcrumb-item">
+      {% if page.url != '/templates/' %}
+      <a href="{{ site.baseurl }}{{ site.breadcrumbs.templates }}">Templates</a>
+      {% else %} Templates {% endif %}
+    </li>
+
+    <!-- Guides Breadcrumb -->
+    {% elsif page.url contains '/guides/' %}
+    <li class="breadcrumb-item">
+      {% if page.url != '/guides/' %}
+      <a href="{{ site.baseurl }}{{ site.breadcrumbs.guides }}">Guides</a>
+      {% else %} Guides {% endif %}
+    </li>
+
+    <!-- About Breadcrumb -->
+    {% elsif page.url contains '/about/' %}
+    <li class="breadcrumb-item">
+      {% if page.url != '/about/' %}
+      <a href="{{ site.baseurl }}{{ site.breadcrumbs.about }}">About</a>
+      {% else %} About {% endif %}
+    </li>
+    {% endif %}
+  </ol>
+</nav>

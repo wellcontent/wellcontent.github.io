@@ -226,12 +226,17 @@
   cursor: pointer; // Make it clickable
 }
 
-/* Ensure no border or shadow when the button is focused or active */
+/* Style when focused or active */
 #dark-mode-toggle:focus,
 #dark-mode-toggle:active {
   outline: none; // Remove focus outline
   box-shadow: none; // Remove any active shadow
   border: none; // Remove border on active/focus state
+}
+
+/* Style when hovered */
+#dark-mode-toggle:hover {
+  color: fade-out($white, 0.2);
 }
 
 /* Optional: Adjust icon size if needed */

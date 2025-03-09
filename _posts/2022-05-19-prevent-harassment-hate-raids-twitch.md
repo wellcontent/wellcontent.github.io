@@ -5,7 +5,10 @@ subtitle: "As a streamer on Twitch, you're likely going to have to deal with har
 description: As a streamer on Twitch, you're likely going to have to deal with harassment at some point. Here are simple tools and recommendations to protect yourself against harassment on Twitch.
 author: Chloe
 background: "/img/posts/03_750x500.webp"
-categories: [streaming, wellbeing]
+categories: [wellbeing, streaming]
+redirect_from:
+  - "/blog/prevent-harassment-hate-raids-twitch"
+  - "/prevent-harassment-hate-raids-twitch"
 keywords:
   [
     twitch hate raids,

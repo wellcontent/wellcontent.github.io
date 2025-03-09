@@ -1,0 +1,58 @@
+<div class="row">
+  <div class="col-sm-8">{{ content }}</div>
+  <div class="col-sm-4">
+    {% assign category = page.categories[0] %} {% assign sidebar_data =
+    site.data.sidebar_content.categories[category] %}
+
+    <!-- If no category match, check tags -->
+    {% if sidebar_data == nil and page.tags.size > 0 %} {% for tag in page.tags
+    %} {% assign sidebar_data = site.data.sidebar_content.categories[tag] %} {%
+    if sidebar_data %} {% break %} {% endif %} {% endfor %} {% endif %} {% if
+    sidebar_data %}
+    <!-- Digital Products Section -->
+    <div class="sidebar">
+      <div class="alert alert-primary">
+        <h4><i class="bi bi-tag"></i> Digital Products</h4>
+
+        {% for product in sidebar_data.products %}
+        <div class="sidebar-product">
+          <img
+            src="{{ product.image }}"
+            alt="{{ product.name }}"
+            class="sidebar-product-img"
+          />
+          <p>
+            <i class="bi {{ product.icon }}"></i> {{ product.description }}
+            <a href="{{ product.link }}" class="badge badge-primary"
+              >{{ product.name }}</a
+            >
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Affiliate Links Section -->
+      <div class="alert alert-primary">
+        <h4><i class="bi bi-link-45deg"></i> Affiliate Links</h4>
+
+        {% for affiliate in sidebar_data.affiliates %}
+        <p>
+          &bullet; <i class="bi {{ affiliate.icon }}"></i> Get
+          <a href="{{ affiliate.link }}" class="badge badge-primary"
+            >{{ affiliate.discount }} on {{ affiliate.name }}</a
+          >
+          {% if affiliate.code != "N/A" %} with code "{{ affiliate.code }}" {%
+          endif %}
+        </p>
+        {% endfor %}
+
+        <hr />
+        <p>
+          <i class="bi bi-info-circle"></i>
+          <i>I receive a small commission if you purchase via these links.</i>
+        </p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

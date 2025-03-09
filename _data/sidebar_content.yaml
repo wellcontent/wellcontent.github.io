@@ -1,0 +1,63 @@
+categories:
+  streaming:
+    products:
+      - name: "Comfy Chat Widget"
+        link: "https://ko-fi.com/s/5c514e7fb6"
+        # icon: "bi-chat-square-heart"
+        description: "Cutify your stream with my"
+        image: "/img/templates/comfy-chat-widget.webp"
+
+      - name: "Minimal Stream Deck Icons"
+        link: "https://ko-fi.com/s/b7fa07f854"
+        # icon: "bi-sliders"
+        description: "Streamline your content creation workflow with my"
+        image: "/img/templates/creator-stream-deck-icons.webp"
+
+    affiliates:
+      - name: "vidIQ"
+        link: "https://vidiq.com/glitchedinorbit"
+        # icon: "bi-gem"
+        discount: "YouTube growth tools"
+        code: "N/A"
+
+  wellbeing:
+    products:
+      - name: "Notion Creator Dashboard"
+        link: "https://ko-fi.com/s/549f4f149a"
+        # icon: "bi-kanban"
+        description: "Plan your content effectively with my"
+        image: "img/templates/notion-creator-dashboard.webp"
+
+      - name: "Obsidian Weekly Review Template"
+        link: "https://ko-fi.com/s/7a355f7a88"
+        # icon: "bi-calendar-check"
+        description: "Track your progress with my"
+        image: "img/templates/obsidian-weekly-review.webp"
+
+    affiliates:
+      - name: "Momentum Plus"
+        link: "https://momentumdash.com/glitchedinorbit?fpr=glitchedinorbit"
+        # icon: "bi-hourglass-split"
+        discount: "10% off"
+        code: "glitchedinorbit"
+
+  blogging:
+    products:
+      - name: "Media Kit & Rate Card"
+        link: "https://ko-fi.com/s/36518664df"
+        # icon: "bi-file-earmark-text"
+        description: "Showcase your brand with my"
+        image: "img/templates/notion-media-kit-rate-card.webp"
+
+      - name: "Income & Expense Tracker"
+        link: "https://ko-fi.com/s/5d7dabc268"
+        # icon: "bi-cash-stack"
+        description: "Track your finances effortlessly with my"
+        image: "img/templates/notion-income-expense-tracker.webp"
+
+    affiliates:
+      - name: "Fiverr"
+        link: "https://go.fiverr.com/visit/?bta=405967&brand=fiverrcpa"
+        # icon: "bi-briefcase"
+        discount: "freelance services"
+        code: "N/A"

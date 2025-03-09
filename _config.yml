@@ -29,7 +29,7 @@ keywords:
 author: Chloe
 baseurl: ""
 url: "https://wellcontent.io"
-permalink: /:slug/
+permalink: /:slug
 collections:
   posts:
     output: true
@@ -37,6 +37,12 @@ collections:
     output: true
   guides:
     output: true
+breadcrumbs:
+  home: "/"
+  templates: "/templates"
+  guides: "/guides"
+  posts: "/blog"
+  about: "/about"
 
 # Social Profiles
 twitter_username: glitchedinorbit
@@ -66,6 +72,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
   - amp-jekyll
 
 # Utterances / Comment Section

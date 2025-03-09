@@ -367,3 +367,44 @@ pre code {
     text-align: center; /* Center the text inside the buttons */
   }
 }
+
+.breadcrumb {
+  background-color: transparent; /* Keeps background transparent */
+  padding: 0;
+  margin-bottom: 10px; /* Optional, removes any bottom margin */
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.breadcrumb-item {
+  display: inline-block; /* Ensures items are on the same line */
+  padding: 10px 0px; /* Optional: add some padding to each breadcrumb item */
+}
+
+.breadcrumb-item.active {
+  color: inherit;
+}
+
+.sidebar-product {
+  display: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sidebar-product-img {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Desktop Sidebar */
+.sidebar {
+  display: none !important; /* Sidebar hidden on all devices by default */
+}
+
+@media (min-width: 991px) {
+  .sidebar {
+    display: block !important; /* Hide sidebar on mobile and vertical tablet */
+  }
+}
