@@ -3,12 +3,26 @@ layout: post
 title: "Prevent Hate Raids & Harassment On Twitch"
 subtitle: "As a streamer on Twitch, you're likely going to have to deal with harassment at some point. Here are simple tools and recommendations to protect yourself against harassment on Twitch."
 description: As a streamer on Twitch, you're likely going to have to deal with harassment at some point. Here are simple tools and recommendations to protect yourself against harassment on Twitch.
+updated: 2025-03-10
 author: Chloe
 background: "/img/posts/03_750x500.webp"
+background_alt: "A green plant wall with a reddish pink neon sign saying 'breathe' in cursive"
 categories: [wellbeing, streaming]
 redirect_from:
-  - "/blog/prevent-harassment-hate-raids-twitch"
   - "/prevent-harassment-hate-raids-twitch"
+tags:
+  [
+    twitch harassment,
+    hate raids,
+    streamer safety,
+    twitch tips,
+    moderation tools,
+    twitch bots,
+    content creator protection,
+    online harassment,
+    gaming community,
+    digital safety,
+  ]
 keywords:
   [
     twitch hate raids,
@@ -17,10 +31,15 @@ keywords:
     twitch bot raids,
     twitch moderation,
     twitch bots,
+    streamer safety,
+    online harassment prevention,
+    content creator protection,
+    twitch security,
+    gaming community safety,
   ]
 ---
 
-![03_750x500.webp](/img/posts/03_750x500.webp)
+![A green plant wall with a reddish pink neon sign saying 'breathe' in cursive](/img/posts/03_750x500.webp)
 
 **Jump to section**:
 

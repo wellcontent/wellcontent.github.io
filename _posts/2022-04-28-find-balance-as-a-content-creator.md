@@ -3,17 +3,43 @@ layout: post
 title: "7 Tips For Content Creators To Make Balance A Priority"
 subtitle: "Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content."
 description: Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content.
+updated: 2025-03-10
 background: "/img/posts/02_750x500.webp"
+background_alt: "Wooden table with a glass of black tea and a brown teapot on a wooden tray"
 categories: [wellbeing]
-keywords: [content creator wellbeing, creator overwhelm, creator burnout]
+tags:
+  [
+    content creator wellbeing,
+    creator burnout,
+    work-life balance,
+    mental health,
+    digital wellbeing,
+    self-care,
+    productivity,
+    creator tips,
+    burnout prevention,
+  ]
+keywords:
+  [
+    content creator wellbeing,
+    creator overwhelm,
+    creator burnout,
+    work-life balance,
+    mental health,
+    digital wellbeing,
+    self-care,
+    creator tips,
+    passive income,
+    productivity,
+    burnout prevention,
+  ]
 redirect_from:
-  - "/blog/find-balance-as-a-content-creator"
   - "/find-balance-as-a-content-creator"
 ---
 
 _Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links._
 
-![02_750x500.webp](/img/posts/02_750x500.webp)
+![Wooden table with a glass of black tea and a brown teapot on a wooden tray](/img/posts/02_750x500.webp)
 
 **Jump to section**:
 

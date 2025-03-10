@@ -11,7 +11,11 @@ category: blogging
   {% for post in site.categories['blogging'] %}
   <div class="col">
     <div class="card text-white bg-dark mb-3 d-flex">
-      <img class="card-img-top" src="{{ post.background }}" alt="" />
+      <img
+        class="card-img-top"
+        src="{{ post.background }}"
+        alt="{{ post.background_alt | default: post.title }}"
+      />
       <div class="card-body d-flex flex-column">
         <div>
           <p class="read-time text-muted">

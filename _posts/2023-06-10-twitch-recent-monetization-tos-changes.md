@@ -5,7 +5,11 @@ subtitle: "On 6 June 2023, Twitch introduced significant updates to their Terms 
 description: "On 6 June 2023, Twitch introduced significant updates to their Terms of Service and Monetized Streamer Agreement. These changes sparked backlash from the community, as creators face new monetization rules and restrictions."
 updated: 2025-03-09
 background: "https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+background_alt: "A top-down shot of a black headset and phone on a white desk with pink and blue lighting"
 categories: [streaming]
+redirect_from:
+  - "/twitch-recent-monetization-tos-changes"
+  - "/twitch-is-gaslighting-its-creators"
 tags:
   [
     twitch monetization,
@@ -16,10 +20,14 @@ tags:
     twitch partner,
     twitch affiliate,
     live streaming policies,
+    streaming news,
+    twitch updates,
+    content creator updates,
+    streamer policies,
+    platform changes,
+    monetization news,
+    live streaming news,
   ]
-redirect_from:
-  - "/twitch-recent-monetization-tos-changes"
-  - "/twitch-is-gaslighting-its-creators"
 keywords:
   [
     twitch update,
@@ -41,7 +49,6 @@ keywords:
     streamer revenue,
     live streaming platform,
     twitch ads,
-    creator rights on twitch,
     twitch multistreaming rules,
     twitch community backlash,
     twitch content rules,
@@ -50,7 +57,7 @@ keywords:
   ]
 ---
 
-<img src="https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Twitch Is Gaslighting Its Creators">
+![A top-down shot of a black headset and phone on a white desk with pink and blue lighting](https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)
 
 <br>
 

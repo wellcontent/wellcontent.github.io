@@ -21,9 +21,9 @@ Burnout from streaming led me to prioritize my mental health and start this proj
 
 ### What I Offer
 
-- **Templates**: Streamline your workflow with tools like the Notion Creator Dashboard and Income & Expense Tracker.
-- **Guides**: Resources like OBS Studio 101 to support your growth.
-- **Posts**: Articles on content creation, streaming tips, and mental health.
+- **[Templates](https://wellcontent.io/templates)**: Streamline your workflow with tools like the Notion Creator Dashboard and Income & Expense Tracker.
+- **[Guides](https://wellcontent.io/guides)**: Resources like OBS Studio 101 to support your growth.
+- **[Posts](https://wellcontent.io/blog)**: Articles on content creation, streaming tips, and mental health.
 
 ### Let’s Connect
 

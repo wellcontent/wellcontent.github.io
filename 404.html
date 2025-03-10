@@ -2,7 +2,7 @@
 layout: page
 title: 404
 description: Page not found, sorry! :(
-background: ''
+background: ""
 permalink: /404.html
 sitemap: false
 ---
@@ -11,18 +11,25 @@ sitemap: false
 <h2>Check out these recent posts instead</h2>
 <div class="card-deck h-100">
   {% for post in site.posts limit:5 %}
-    <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
-      <img class="card-img-top" src="{{ post.background }}" alt="">
-      <div class="card-body">
-        <div>
-          <p class="post_date text-muted">{{ post.date | date: "%B %e, %Y" }} &middot; {% include read_time.html content=post.content %}</p>
-        </div>
-        <h4 class="card-title">{{ post.title }}</h4>
-        <p class="card-text">{{ post.category }}</p>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-secondary stretched-link">
-          Read more
-        </a>
+  <div class="card text-white bg-dark mb-3" style="min-width: 18rem">
+    <img class="card-img-top" src="{{ post.background }}" alt="{{
+    post.background_alt | default: post.title }}"">
+    <div class="card-body">
+      <div>
+        <p class="post_date text-muted">
+          {{ post.date | date: "%B %e, %Y" }} &middot; {% include read_time.html
+          content=post.content %}
+        </p>
       </div>
+      <h4 class="card-title">{{ post.title }}</h4>
+      <p class="card-text">{{ post.category }}</p>
+      <a
+        href="{{ site.baseurl }}{{ post.url }}"
+        class="btn btn-secondary stretched-link"
+      >
+        Read more
+      </a>
     </div>
+  </div>
   {% endfor %}
 </div>

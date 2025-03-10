@@ -110,7 +110,7 @@ layout: default
           <img
             class="card-img-top"
             src="{{ post.background }}"
-            alt="{{ post.title }}"
+            alt="{{ post.background_alt | default: post.title }}"
             loading="lazy"
           />
           <div class="card-body d-flex flex-column">
@@ -156,7 +156,7 @@ layout: default
                 insights that have helped me streamline my process and thrive as
                 a creator."
               </p>
-              <a href="/about" class="btn btn-outline-secondary">
+              <a href="/about" class="btn btn-outline-primary">
                 More About Me <i class="bi bi-arrow-right-short"></i>
               </a>
             </div>
@@ -189,7 +189,7 @@ layout: default
           <img
             class="card-img-top"
             src="{{ post.background }}"
-            alt="{{ post.title }}"
+            alt="{{ post.background_alt | default: post.title }}"
             loading="lazy"
           />
           <div class="card-body d-flex flex-column">

@@ -3,9 +3,24 @@ layout: post
 title: "Improve Accessibility & User Experience On Twitch"
 subtitle: "Want to make your Twitch stream more accessible or are you having a hard time navigating Twitch? This article lists helpful ways to improve accessibility and user experience on the site."
 description: Want to make your Twitch stream more accessible or are you having a hard time navigating Twitch? This article lists helpful ways to improve accessibility and user experience on the site.
+updated: 2025-03-10
 background: "/img/posts/05_750x500.webp"
+background_alt: "A phone, laptop, and desktop computer with coding and design programs open on a desk with fairy lights"
 popularity: 3
 categories: [wellbeing, streaming]
+tags:
+  [
+    twitch accessibility,
+    user experience,
+    twitch features,
+    accessibility tools,
+    streaming tips,
+    twitch settings,
+    twitch user interface,
+    twitch chat,
+    disabled streaming,
+    twitch customization,
+  ]
 keywords:
   [
     twitch accessibility,
@@ -15,10 +30,20 @@ keywords:
     twitch contrast tool,
     twitch chat font,
     twitch chat width,
+    twitch user interface,
+    accessible streaming,
+    twitch features,
+    twitch settings,
+    user experience on twitch,
+    inclusive streaming,
+    twitch customization tools,
+    improve twitch accessibility,
+    twitch tips,
+    content accessibility,
   ]
 ---
 
-![05_750x500.webp](/img/posts/05_750x500.webp)
+![A phone, laptop, and desktop computer with coding and design programs open on a desk with fairy lights](/img/posts/05_750x500.webp)
 
 **Jump to section**:
 

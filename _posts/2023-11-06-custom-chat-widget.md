@@ -2,9 +2,23 @@
 layout: post
 title: "How to Create a Custom Chat Widget in StreamElements (Tutorial)"
 subtitle: "Ever wanted to create a chat widget for your stream, but don't know where to start? I'll help you to create your own custom chat widget in StreamElements with this step by step tutorial."
+updated: 2025-03-10
 background: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2672"
+background_alt: "A laptop displaying a code editor, placed on a white desk with an external monitor behind it and a smartphone beside it"
 popularity: 1
 categories: [streaming]
+tags:
+  [
+    chat widget,
+    custom chat widget,
+    streamelements tutorial,
+    twitch chat,
+    stream overlay,
+    twitch setup,
+    stream customization,
+    chat overlay,
+    streamelements widget,
+  ]
 keywords:
   [
     twitch chat widget,
@@ -13,10 +27,18 @@ keywords:
     custom chat widget,
     twitch chat,
     streamelements,
+    twitch chat overlay,
+    streamelements tutorial,
+    custom stream overlay,
+    create chat widget for twitch,
+    stream setup guide,
+    stream elements chat setup,
+    customize chat widget,
+    twitch customization tutorial,
   ]
 ---
 
-<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2672" alt="Creating A Custom Chat Widget In StreamElements">
+![A laptop displaying a code editor, placed on a white desk with an external monitor behind it and a smartphone beside it](https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2672)
 
 <br>
 
