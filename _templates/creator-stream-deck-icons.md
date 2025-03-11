@@ -6,6 +6,18 @@ description: "A minimalistic Elgato Stream Deck icon pack to optimize your strea
 external_url-kofi: "https://ko-fi.com/s/b7fa07f854"
 cover: "/img/templates/creator-stream-deck-icons.webp"
 categories: [templates]
+tags:
+  [
+    streaming,
+    stream deck,
+    elgato,
+    icons,
+    streamer tools,
+    productivity,
+    content creation,
+    stream customization,
+    live streaming,
+  ]
 order: 4
 ---
 

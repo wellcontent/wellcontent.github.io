@@ -6,6 +6,18 @@ description: "A Notion media kit and rate card template to stand out for sponsor
 external_url-kofi: "https://ko-fi.com/s/36518664df"
 cover: "/img/templates/notion-media-kit-rate-card.webp"
 categories: [templates]
+tags:
+  [
+    notion,
+    media kit,
+    sponsorship,
+    branding,
+    content creator,
+    influencer marketing,
+    business,
+    media,
+    marketing,
+  ]
 ---
 
 ### Questions?

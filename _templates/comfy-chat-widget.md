@@ -6,6 +6,18 @@ description: "A cute custom chat widget with integrated alerts to enhance your s
 external_url-kofi: "https://ko-fi.com/s/5c514e7fb6"
 cover: "/img/templates/comfy-chat-widget.webp"
 categories: [templates]
+tags:
+  [
+    streaming,
+    chat widget,
+    twitch,
+    stream alerts,
+    live streaming,
+    custom chat,
+    streamer tools,
+    interactive stream,
+    viewer engagement,
+  ]
 order: 5
 ---
 

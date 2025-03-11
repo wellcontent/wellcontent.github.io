@@ -7,6 +7,18 @@ external_url-kofi: "https://ko-fi.com/s/5d7dabc268"
 external_url-gumroad: "https://glitchedinorbit.gumroad.com/l/income-expense-tracker"
 cover: "/img/templates/notion-income-expense-tracker.webp"
 categories: [templates]
+tags:
+  [
+    wellbeing,
+    finance,
+    budgeting,
+    personal finance,
+    money management,
+    organization,
+    Notion,
+    productivity,
+    financial planning,
+  ]
 order: 2
 ---
 

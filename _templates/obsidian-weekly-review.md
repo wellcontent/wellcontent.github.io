@@ -6,6 +6,20 @@ description: "An Obsidian weekly review template to track your weekly progress a
 external_url-kofi: "https://ko-fi.com/s/7a355f7a88"
 cover: "/img/templates/obsidian-weekly-review.webp"
 categories: [templates]
+tags:
+  [
+    obsidian,
+    obsidian template,
+    weekly review,
+    productivity,
+    personal growth,
+    goal setting,
+    task tracking,
+    reflection,
+    organization,
+    journaling,
+    content workflow,
+  ]
 ---
 
 ### Questions?

@@ -1,0 +1,119 @@
+{% if page.categories and page.categories.size > 0 %} {% assign
+current_post_categories = page.categories %} {% else %} {% assign
+current_post_categories = "" %} {% endif %} {% if page.tags and page.tags.size >
+0 %} {% assign current_post_tags = page.tags %} {% else %} {% assign
+current_post_tags = "" %} {% endif %}
+
+<!-- Merge categories and tags for the current post -->
+{% assign current_post_keywords = current_post_categories | concat:
+current_post_tags %}
+
+<div class="recommended-posts">
+  {% assign matching_posts = "" %} {% for post in site.posts %} {% if post.url
+  != page.url %} {% assign post_keywords = "" %} {% if post.categories and
+  post.categories.size > 0 %} {% assign post_keywords = post.categories %} {%
+  endif %} {% if post.tags and post.tags.size > 0 %} {% assign post_keywords =
+  post_keywords | concat: post.tags %} {% endif %} {% for keyword in
+  post_keywords %} {% if current_post_keywords contains keyword %} {% assign
+  matching_posts = matching_posts | append: post.url | append: "," %} {% break
+  %} {% endif %} {% endfor %} {% endif %} {% endfor %} {% assign matching_posts
+  = matching_posts | split: "," %} {% if matching_posts.size > 0 %}
+  <br />
+  <hr />
+  <br />
+  <h3>Recommended Posts</h3>
+  <div class="row">
+    {% assign limited_posts = matching_posts | slice: 0, 3 %} {% for post_url in
+    limited_posts %} {% assign post = site.posts | where: "url", post_url |
+    first %} {% if post %}
+    <div class="col-md-4 d-flex mb-4">
+      <div class="card text-white bg-dark mb-3 h-100 d-flex flex-column">
+        {% if post.background %}
+        <img
+          class="card-img-top"
+          src="{{ post.background }}"
+          alt="{{ post.background_alt | default: post.title }}"
+          loading="lazy"
+        />
+        {% endif %}
+        <div class="card-body d-flex flex-column">
+          <h4 class="card-title">{{ post.title }}</h4>
+          <p class="card-text">
+            {% if post.subtitle %} {{ post.subtitle | truncatewords: 20 }} {%
+            elsif post.description %} {{ post.description | truncatewords: 20 }}
+            {% else %} {{ post.excerpt | truncatewords: 20 }} {% endif %}
+          </p>
+          <a
+            href="{{ site.baseurl }}{{ post.url }}"
+            class="btn btn-secondary stretched-link text-white text-decoration-none"
+            style="margin-top: auto"
+          >
+            Continue Reading
+          </a>
+        </div>
+      </div>
+    </div>
+    {% endif %} {% endfor %}
+  </div>
+  {% endif %}
+</div>
+
+<!-- Recommended Templates Section -->
+{% assign matching_templates = "" %} {% for template in site.templates %} {% if
+template.path contains "_templates" %} {% assign template_keywords = "" %} {% if
+template.categories and template.categories.size > 0 %} {% assign
+template_keywords = template.categories %} {% endif %} {% if template.tags and
+template.tags.size > 0 %} {% assign template_keywords = template_keywords |
+concat: template.tags %} {% endif %} {% assign match_found = false %} {% for
+keyword in current_post_keywords %} {% if template_keywords contains keyword %}
+{% assign match_found = true %} {% break %} {% endif %} {% endfor %} {% if
+match_found %} {% assign matching_templates = matching_templates | append:
+template.url | append: "," %} {% endif %} {% endif %} {% endfor %} {% assign
+matching_templates = matching_templates | split: "," %} {% assign
+filtered_templates = "" %} {% for template_url in matching_templates %} {%
+assign template = site.templates | where: "url", template_url | first %} {% if
+template and template.url != page.url %} {% assign filtered_templates =
+filtered_templates | append: template.url | append: "," %} {% endif %} {% endfor
+%} {% assign filtered_templates = filtered_templates | split: "," %} {% if
+filtered_templates.size > 0 %}
+<div class="recommended-templates">
+  <br />
+  <hr />
+  <br />
+  <h3>Recommended Templates</h3>
+  <div class="row">
+    {% assign limited_templates = filtered_templates | slice: 0, 3 %} {% for
+    template_url in limited_templates %} {% assign template = site.templates |
+    where: "url", template_url | first %} {% if template %}
+    <div class="col-md-4 d-flex mb-4">
+      <div class="card text-white bg-dark mb-3 h-100 d-flex flex-column">
+        {% if template.cover %}
+        <img
+          class="card-img-top"
+          src="{{ template.cover }}"
+          alt="{{ template.title }}"
+          loading="lazy"
+        />
+        {% endif %}
+        <div class="card-body d-flex flex-column">
+          <h4 class="card-title">{{ template.title }}</h4>
+          <p class="card-text">
+            {% if template.subtitle %} {{ template.subtitle | truncatewords: 20
+            }} {% elsif template.description %} {{ template.description |
+            truncatewords: 20 }} {% else %} {{ template.excerpt | truncatewords:
+            20 }} {% endif %}
+          </p>
+          <a
+            href="{{ site.baseurl }}{{ template.url }}"
+            class="btn btn-secondary stretched-link text-white text-decoration-none"
+            style="margin-top: auto"
+          >
+            Download Now
+          </a>
+        </div>
+      </div>
+    </div>
+    {% endif %} {% endfor %}
+  </div>
+</div>
+{% endif %}

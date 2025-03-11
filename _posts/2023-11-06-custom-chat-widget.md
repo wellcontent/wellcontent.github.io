@@ -2,7 +2,7 @@
 layout: post
 title: "How to Create a Custom Chat Widget in StreamElements (Tutorial)"
 subtitle: "Ever wanted to create a chat widget for your stream, but don't know where to start? I'll help you to create your own custom chat widget in StreamElements with this step by step tutorial."
-updated: 2025-03-10
+updated: 2025-03-11
 background: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2672"
 background_alt: "A laptop displaying a code editor, placed on a white desk with an external monitor behind it and a smartphone beside it"
 popularity: 1
@@ -17,24 +17,36 @@ tags:
     twitch setup,
     stream customization,
     chat overlay,
-    streamelements widget,
+    streamelements widgets,
+    custom chat widget twitch,
+    free streamelements chat widget,
+    how to make chat widgets for twitch,
+    chat bubbles streamelements,
+    streamelements custom widgets,
+    custom chat streamelements,
+    streamelements custom chat,
+    stream chat widget,
+    twitch chat overlay,
+    twitch setup,
+    stream customization,
   ]
 keywords:
   [
-    twitch chat widget,
-    streamelements chat widget,
-    chat widget tutorial,
-    custom chat widget,
-    twitch chat,
-    streamelements,
+    streamelements widgets,
+    custom chat widget twitch,
+    free streamelements chat widget,
+    how to make chat widgets for twitch,
+    chat bubbles streamelements,
+    streamelements custom widgets,
+    custom chat streamelements,
+    streamelements custom chat,
+    streamelements custom chat widget,
+    stream chat widget,
     twitch chat overlay,
-    streamelements tutorial,
-    custom stream overlay,
-    create chat widget for twitch,
-    stream setup guide,
+    twitch customization tutorial,
     stream elements chat setup,
     customize chat widget,
-    twitch customization tutorial,
+    create chat widget for twitch,
   ]
 ---
 
@@ -79,7 +91,7 @@ Let's get started.
 
 ## Getting The Base Code In StreamElements
 
-Open up your [StreamElements Overlays Dashboard](https://streamelements.com/dashboard/overlays).
+Open up your [StreamElements Overlays Dashboard](https://streamelements.com/dashboard/overlays){:target="\_blank" rel="noopener noreferrer"}.
 
 Click on "New overlay" to create a new overlay.
 
@@ -87,11 +99,11 @@ Give the overlay a new name, like "Custom Chat".
 
 Expand Settings and click "Open editor".
 
-Navigate to [StreamElements' CustomChat GitHub repo](https://github.com/StreamElements/widgets/tree/master/CustomChat).
+Navigate to [StreamElements' CustomChat GitHub repo](https://github.com/StreamElements/widgets/tree/master/CustomChat){:target="\_blank" rel="noopener noreferrer"}.
 
 ### Add the base HTML
 
-Copy the code from [StreamElements' custom chat widget.html](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.html) and paste it in the HTML section.
+Copy the code from [StreamElements' custom chat widget.html](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.html){:target="\_blank" rel="noopener noreferrer"} and paste it in the HTML section.
 
 It should look like this:
 
@@ -102,7 +114,7 @@ It should look like this:
 
 ### Add the base CSS
 
-Copy the code from [StreamElements' custom chat widget.css](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.css) and paste it in the CSS section.
+Copy the code from [StreamElements' custom chat widget.css](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.css){:target="\_blank" rel="noopener noreferrer"} and paste it in the CSS section.
 
 It should look like this:
 
@@ -173,7 +185,7 @@ It should look like this:
 
 ### Add the base JS
 
-Copy the code from [StreamElements' custom chat widget.js](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.js) and paste it in the JS section.
+Copy the code from [StreamElements' custom chat widget.js](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.js){:target="\_blank" rel="noopener noreferrer"} and paste it in the JS section.
 
 It should look like this:
 
@@ -475,7 +487,7 @@ $(removeSelector).remove();
 
 ### Add the base FIELDS
 
-Copy the code from [StreamElements' custom chat widget.json](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.json) and paste it in the FIELDS section.
+Copy the code from [StreamElements' custom chat widget.json](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.json){:target="\_blank" rel="noopener noreferrer"} and paste it in the FIELDS section.
 
 It should look like this:
 
@@ -1190,7 +1202,7 @@ In order to really make sure we can mess with the code in StreamElements without
 
 ### Organize your code
 
-Install and open up [Visual Studio Code](https://code.visualstudio.com).
+Install and open up [Visual Studio Code](https://code.visualstudio.com){:target="\_blank" rel="noopener noreferrer"}.
 
 Create a new folder called "CustomChatWidget" or however you have named your chat widget.
 
@@ -1204,7 +1216,7 @@ Create a file named `widget.json`. Copy the code from FIELDS into this file.
 
 ### Upload your code to GitHub
 
-Sign up for or log in to your existing [GitHub account](https://github.com).
+Sign up for or log in to your existing [GitHub account](https://github.com){:target="\_blank" rel="noopener noreferrer"}.
 
 In GitHub, create a new private repository called "streamelements-widgets" or something similar that allows users to easily find your custom StreamElements widgets in case you'd like to share the code.
 
@@ -1252,7 +1264,7 @@ Copy the code from each section in the Editor and paste it in its designated `.t
 
 Include instructions in a `README.txt` file if needed.
 
-Compress (zip) the entire folder with [7ZIP](https://7-zip.org).
+Compress (zip) the entire folder with [7ZIP](https://7-zip.org){:target="\_blank" rel="noopener noreferrer"}.
 
 Then simply upload the compressed folder to your preferred social messaging app or online shop.
 
@@ -1274,7 +1286,7 @@ Share this final link in your community and online shops.
 
 ### Apply for StreamElements' Overlay Sharing Application
 
-If you're eligible, you can apply for [Streamelements' One-Click Overlay Sharing Application](https://docs.google.com/forms/d/e/1FAIpQLSdece7hRCA9F3TRh5dLMIygUd5PlWa4xfb1wraW46yvyqs2Ww/viewform).
+If you're eligible, you can apply for [Streamelements' One-Click Overlay Sharing Application](https://docs.google.com/forms/d/e/1FAIpQLSdece7hRCA9F3TRh5dLMIygUd5PlWa4xfb1wraW46yvyqs2Ww/viewform){:target="\_blank" rel="noopener noreferrer"}.
 
 > <i class="bi bi-pencil-fill"></i>&nbsp;&nbsp;Note: This application only applies to businesses and eligible participants of exclusive SE Community programs.
 
@@ -1292,23 +1304,10 @@ Thanks for reading.
 
 <br>
 
-<details>
-    <summary>Sources</summary>
+**Sources**
 
-    <br>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C4ldas [@c4ldas]. (2023, October 31). <i>I don't want to disappoint anyone, but I should say that to avoid frustrations... I'm not sure when submitted widgets are going to be released again, it seems they are not working on that anymore.</i> [Reply] StreamElements Discord.</span>
 
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C4ldas [@c4ldas]. (2023, October 31). <i>I don't want to disappoint anyone, but I should say that to avoid frustrations... I'm not sure when submitted widgets are going to be released again, it seems they are not working on that anymore.</i> [Reply] StreamElements Discord.</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C4ldas [@c4ldas]. (2023, October 31). <i>Sharing link is for companies who sell widgets, SE partners or people who shared widgets with the community.</i> [Reply] StreamElements Discord.</span>
 
-    <br>
-    <br>
-
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C4ldas [@c4ldas]. (2023, October 31). <i>Sharing link is for companies who sell widgets, SE partners or people who shared widgets with the community.</i> [Reply] StreamElements Discord.</span>
-
-    <br>
-    <br>
-
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;StreamElements. (n.d.). <i>Custom Widgets.</i> StreamElements Developer Portal. https://dev.streamelements.com/docs/api-docs/775038fd4f4a9-stream-elements-custom-widgets</span>
-
-</details>
-
-<br>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;StreamElements. (n.d.). <i>Custom Widgets.</i> StreamElements Developer Portal. [https://dev.streamelements.com/docs/api-docs/775038fd4f4a9-stream-elements-custom-widgets](https://dev.streamelements.com/docs/api-docs/775038fd4f4a9-stream-elements-custom-widgets){:target="\_blank" rel="noopener noreferrer"}</span>

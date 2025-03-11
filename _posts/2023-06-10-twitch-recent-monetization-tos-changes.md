@@ -3,7 +3,7 @@ layout: post
 title: "Twitch's New Monetization & TOS Changes: What You Need To Know"
 subtitle: "On 6 June 2023, Twitch introduced significant updates to their Terms of Service and Monetized Streamer Agreement. These changes sparked backlash from the community, as creators face new monetization rules and restrictions."
 description: "On 6 June 2023, Twitch introduced significant updates to their Terms of Service and Monetized Streamer Agreement. These changes sparked backlash from the community, as creators face new monetization rules and restrictions."
-updated: 2025-03-09
+updated: 2025-03-11
 background: "https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
 background_alt: "A top-down shot of a black headset and phone on a white desk with pink and blue lighting"
 categories: [streaming]
@@ -85,7 +85,7 @@ Let's go over what the updates actually entail, and then see how this plays into
 
 The first update applies to advertisements.
 
-[Section 12 of their Terms of Service](https://www.twitch.tv/p/en/legal/terms-of-service/#12-advertisements) states that "[t]hird-party advertising networks are not allowed to serve advertising through the Twitch Services", which can mean to include embedded advertisements or banner ads.
+[Section 12 of their Terms of Service](https://www.twitch.tv/p/en/legal/terms-of-service/#12-advertisements){:target="\_blank" rel="noopener noreferrer"} states that "[t]hird-party advertising networks are not allowed to serve advertising through the Twitch Services", which can mean to include embedded advertisements or banner ads.
 
 Burn-in ads and audio are now not allowed. These include embedded advertisements and banner ads.
 
@@ -115,7 +115,7 @@ The second update applies to simulcasting.
 
 Simulcasting, or multistreaming, is where you stream to multiple platforms at the same time.
 
-You are allowed to multistream to mobile-first competitors like Instagram and TikTok. Previously, this was not allowed for Twitch Affiliates and Partners when it came to direct competitors like YouTube and Facebook. [Section 11 of their Terms of Service](https://www.twitch.tv/p/en/legal/terms-of-service/#11-simulcasting) first stated that "[w]hen you are streaming live on the Twitch Services you may not simultaneously live stream or broadcast (“Simulcast”) on any other “Twitch-like Service,” meaning any web-based network, platform, or service that supports live streaming of user generated content."
+You are allowed to multistream to mobile-first competitors like Instagram and TikTok. Previously, this was not allowed for Twitch Affiliates and Partners when it came to direct competitors like YouTube and Facebook. [Section 11 of their Terms of Service](https://www.twitch.tv/p/en/legal/terms-of-service/#11-simulcasting){:target="\_blank" rel="noopener noreferrer"} first stated that "[w]hen you are streaming live on the Twitch Services you may not simultaneously live stream or broadcast (“Simulcast”) on any other “Twitch-like Service,” meaning any web-based network, platform, or service that supports live streaming of user generated content."
 
 But as of October 2023, Twitch has updated its policy to **allow simulcasting** for all creators, **regardless of contract status**. Now, Section 11 states that "[w]hen you are streaming live on the Twitch Services you may simultaneously live stream or broadcast (“Simulcast”) on any other network, platform, or service that supports live streaming of user generated content."
 
@@ -135,7 +135,7 @@ So, despite the apparent loosening of rules, Twitch’s strategy of maintaining 
 
 The third update applies to minimum content requirements, which flew a bit under the radar.
 
-Section 2.1 of the [Monetized Streamer Agreement](https://www.twitch.tv/p/en/legal/monetized-streamer-agreement) applies to both Affiliates and Partners, and used to state that they must "provide a consistent amount of live content, program quality live content, regularly interact with and engage viewers of your Twitch Channel, and respond to live viewers of your Twitch Channel via Twitch chat."
+Section 2.1 of the [Monetized Streamer Agreement](https://www.twitch.tv/p/en/legal/monetized-streamer-agreement){:target="\_blank" rel="noopener noreferrer"} applies to both Affiliates and Partners, and used to state that they must "provide a consistent amount of live content, program quality live content, regularly interact with and engage viewers of your Twitch Channel, and respond to live viewers of your Twitch Channel via Twitch chat."
 
 But what can be considered a consistent amount of content?
 
@@ -191,20 +191,20 @@ _Thanks for reading!_
 
 **Sources**
 
-<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Devin Nash. (2023, June 7). <i>Twitch's Ambition to Control Your Content.</i> [Video.] YouTube. [https://www.youtube.com/watch?v=sOfmWFr_sm4](https://www.youtube.com/watch?v=sOfmWFr_sm4)</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Devin Nash. (2023, June 7). <i>Twitch's Ambition to Control Your Content.</i> [Video.] YouTube. [https://www.youtube.com/watch?v=sOfmWFr_sm4](https://www.youtube.com/watch?v=sOfmWFr_sm4){:target="\_blank" rel="noopener noreferrer"}</span>
 
-<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Devin Nash [@DevinNash]. (2023, June 7). <i>Twitch hasn't walked back forced platform exclusivity for all creators.</i> [Tweet.] Twitter. [https://twitter.com/DevinNash/status/1666563595897847810](https://twitter.com/DevinNash/status/1666563595897847810)</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Devin Nash [@DevinNash]. (2023, June 7). <i>Twitch hasn't walked back forced platform exclusivity for all creators.</i> [Tweet.] Twitter. [https://twitter.com/DevinNash/status/1666563595897847810](https://twitter.com/DevinNash/status/1666563595897847810){:target="\_blank" rel="noopener noreferrer"}</span>
 
-<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Downs, N. (2023, June 6). <i>Let’s Take A Minute To Talk About Twitch’s New Branded Content Guidelines.</i> Medium. [https://medium.com/@MyLawyerFriend/lets-take-a-minute-to-talk-about-twitch-s-new-branded-content-guidelines-8cda2cc43c92](https://medium.com/@MyLawyerFriend/lets-take-a-minute-to-talk-about-twitch-s-new-branded-content-guidelines-8cda2cc43c92)</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Downs, N. (2023, June 6). <i>Let’s Take A Minute To Talk About Twitch’s New Branded Content Guidelines.</i> Medium. [https://medium.com/@MyLawyerFriend/lets-take-a-minute-to-talk-about-twitch-s-new-branded-content-guidelines-8cda2cc43c92](https://medium.com/@MyLawyerFriend/lets-take-a-minute-to-talk-about-twitch-s-new-branded-content-guidelines-8cda2cc43c92){:target="\_blank" rel="noopener noreferrer"}</span>
 
-<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Downs, N. (2023, June 8). <i>Let’s Take A Minute To Talk About Twitch’s New Monetized Streamer Agreement.</i> Medium. [https://medium.com/@MyLawyerFriend/lets-take-a-minute-to-talk-about-twitch-s-new-monetized-streamer-agreement-a948cd2d8ba4](https://medium.com/@MyLawyerFriend/lets-take-a-minute-to-talk-about-twitch-s-new-monetized-streamer-agreement-a948cd2d8ba4)</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Downs, N. (2023, June 8). <i>Let’s Take A Minute To Talk About Twitch’s New Monetized Streamer Agreement.</i> Medium. [https://medium.com/@MyLawyerFriend/lets-take-a-minute-to-talk-about-twitch-s-new-monetized-streamer-agreement-a948cd2d8ba4](https://medium.com/@MyLawyerFriend/lets-take-a-minute-to-talk-about-twitch-s-new-monetized-streamer-agreement-a948cd2d8ba4){:target="\_blank" rel="noopener noreferrer"}</span>
 
-<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitch. (2023, June 8). <i>Terms of Service.</i> Twitch. [https://www.twitch.tv/p/en/legal/terms-of-service/#12-advertisements](https://www.twitch.tv/p/en/legal/terms-of-service/#12-advertisements)</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitch. (2023, June 8). <i>Terms of Service.</i> Twitch. [https://www.twitch.tv/p/en/legal/terms-of-service/#12-advertisements](https://www.twitch.tv/p/en/legal/terms-of-service/#12-advertisements){:target="\_blank" rel="noopener noreferrer"}</span>
 
-<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitch. (2023, June 6). <i>2023 Updated Monetized Streamer Agreement.</i> Twitch Support. [https://help.twitch.tv/s/article/2023-updated-monetized-streamer-agreement](https://help.twitch.tv/s/article/2023-updated-monetized-streamer-agreement)</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitch. (2023, June 6). <i>2023 Updated Monetized Streamer Agreement.</i> Twitch Support. [https://help.twitch.tv/s/article/2023-updated-monetized-streamer-agreement](https://help.twitch.tv/s/article/2023-updated-monetized-streamer-agreement){:target="\_blank" rel="noopener noreferrer"}</span>
 
-<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitch. (2023, June 6). <i>Branded Content Guidelines.</i> Twitch Support. [https://help.twitch.tv/s/article/branded-content-policy](https://help.twitch.tv/s/article/branded-content-policy)</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitch. (2023, June 6). <i>Branded Content Guidelines.</i> Twitch Support. [https://help.twitch.tv/s/article/branded-content-policy](https://help.twitch.tv/s/article/branded-content-policy){:target="\_blank" rel="noopener noreferrer"}</span>
 
-<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitch [@Twitch]. (2023, June 6). <i>Today’s branded content policy update was overly broad. This created confusion and frustration, and we apologize for that.</i> [Tweet.] Twitter. [https://twitter.com/Twitch/status/1666183145526538240](https://twitter.com/Twitch/status/1666183145526538240)</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitch [@Twitch]. (2023, June 6). <i>Today’s branded content policy update was overly broad. This created confusion and frustration, and we apologize for that.</i> [Tweet.] Twitter. [https://twitter.com/Twitch/status/1666183145526538240](https://twitter.com/Twitch/status/1666183145526538240){:target="\_blank" rel="noopener noreferrer"}</span>
 
-<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitch [@Twitch]. (2023, June 8). <i>Our revised branded content policy gives you more flexibility. You can now incorporate non-Twitch advertisements as long as it follows the guidelines. Additionally, you can advertise on a limited basis (3%) per broadcast. </i> [Tweet.] Twitter. [https://twitter.com/Twitch/status/1666232059840494594](https://twitter.com/Twitch/status/1666232059840494594)</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitch [@Twitch]. (2023, June 8). <i>Our revised branded content policy gives you more flexibility. You can now incorporate non-Twitch advertisements as long as it follows the guidelines. Additionally, you can advertise on a limited basis (3%) per broadcast. </i> [Tweet.] Twitter. [https://twitter.com/Twitch/status/1666232059840494594](https://twitter.com/Twitch/status/1666232059840494594){:target="\_blank" rel="noopener noreferrer"}</span>

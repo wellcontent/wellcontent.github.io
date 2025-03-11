@@ -6,6 +6,19 @@ description: "An Obsidian daily planner template to organize your daily schedule
 external_url-kofi: "https://ko-fi.com/s/5c7228661d"
 cover: "/img/templates/obsidian-daily-planner.webp"
 categories: [templates]
+tags:
+  [
+    obsidian,
+    obsidian template,
+    daily planner,
+    productivity,
+    task management,
+    time blocking,
+    note-taking,
+    organization,
+    content workflow,
+    journaling,
+  ]
 ---
 
 ### Questions?

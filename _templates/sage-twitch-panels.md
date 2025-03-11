@@ -6,6 +6,16 @@ description: "Cute sage stream panels for your Twitch channel."
 external_url-kofi: "https://ko-fi.com/s/8ea204c470"
 cover: "/img/templates/sage-twitch-panels.webp"
 categories: [templates]
+tags:
+  [
+    Twitch,
+    streaming,
+    channel design,
+    stream panels,
+    graphics,
+    customization,
+    cute,
+  ]
 ---
 
 ### Questions?

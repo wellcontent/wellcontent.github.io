@@ -3,7 +3,7 @@ layout: post
 title: "Best Free Writing Apps For Your Content Workflow"
 subtitle: "Need to get your thoughts on paper or get writing done? Look no further! Here's a list with the best distraction-free writing apps to optimize your content workflow - not to mention they're completely free."
 description: Need to get your thoughts on paper or get writing done? Look no further! Here's a list with the best distraction-free writing apps to optimize your content workflow - not to mention they're completely free.
-updated: 2025-03-10
+updated: 2025-03-11
 background: "/img/posts/04_750x500.webp"
 background_alt: "A wooden desk with two stacked notebooks, a pen, and a cup of coffee"
 categories: [blogging]
@@ -73,7 +73,7 @@ The following writing apps are for online use. If you enjoy working in the cloud
 
 <br>
 
-### 1. [Google Docs](https://www.google.com/docs/about/)
+### 1. Google Docs
 
 Google Docs is a free online document editor, which allows you to easily collaborate with other users.
 
@@ -83,7 +83,7 @@ You can permit others to edit the document you're working on - and work on it at
 
 Google Docs is also good for when you need access to your documents for editing at any given time since everything's stored in the cloud. Just make sure you have internet access. But this can be a hurdle when you want to write somewhere where you either have patchy connection or don't have internet. You have up to 15GB of data in your Google account for use with Google Docs. That's pretty nice storage for a free online text editor.
 
-One big downside for me is that there's no native dark mode. Google, please. Dark mode helps relax your eyes while writing. The workaround? Install the [Dark Reader extension](https://darkreader.org/) to enable dark mode in Google Docs.
+One big downside for me is that there's no native dark mode. Google, please. Dark mode helps relax your eyes while writing. The workaround? Install the [Dark Reader extension](https://darkreader.org/){:target="\_blank" rel="noopener noreferrer"} to enable dark mode in Google Docs.
 
 - **Pros**: device/account sync, cloud service, autosave, easy real-time online collaboration
 - **Cons**: account needed, online-only, no native dark mode, formatting can change when downloading files
@@ -93,7 +93,7 @@ One big downside for me is that there's no native dark mode. Google, please. Dar
 
 <br>
 
-### 2. [Notion](https://www.notion.so/)
+### 2. Notion
 
 Notion is more of a visual note-taking program and is free for personal use. It goes far beyond simple note-taking because it also functions as an online workplace for roadmaps, trackers, wikis, and task lists.
 
@@ -115,7 +115,7 @@ A huge plus is that it has native dark mode! Thank everything good in life. Hone
 
 <br>
 
-### 3. [Simplenote](https://simplenote.com/)
+### 3. Simplenote
 
 Simplenote is a free and _simple_ (hehe) note-taking application. It fully supports Markdown, which is a markup language for creating formatted text using plain text. If you have a Jekyll blog (like this one!) and you enjoy writing in Markdown as opposed to HTML, an app with Markdown support will improve your workflow.
 
@@ -139,13 +139,13 @@ The following writing apps are for offline use. If you enjoy more secure note-ta
 
 <br>
 
-### 4. [Obsidian](https://obsidian.md/)
+### 4. Obsidian
 
 Obsidian is an open-source knowledge base with full Markdown support. It's very minimalistic, so it won't distract you with extras you don't need.
 
 ![obsidian.webp](/img/posts/obsidian.webp)
 
-You can switch between 'editing' and 'reading' view, and even have split view. The dark theme is incredibly calming for the eyes while writing. Obsidian also comes with core plugins and many community plugins that enhance your writing experience. Examples are [Day Planner](https://github.com/lynchjames/obsidian-day-planner), [Kanban](https://github.com/mgmeyers/obsidian-kanban), and [Calendar](https://github.com/liamcain/obsidian-calendar-plugin).
+You can switch between 'editing' and 'reading' view, and even have split view. The dark theme is incredibly calming for the eyes while writing. Obsidian also comes with core plugins and many community plugins that enhance your writing experience. Examples are [Day Planner](https://github.com/lynchjames/obsidian-day-planner){:target="\_blank" rel="noopener noreferrer"}, [Kanban](https://github.com/mgmeyers/obsidian-kanban){:target="\_blank" rel="noopener noreferrer"}, and [Calendar](https://github.com/liamcain/obsidian-calendar-plugin){:target="\_blank" rel="noopener noreferrer"}.
 
 Obsidian allows me to focus exclusively on my writing. I used this app to write this list, and I use it daily to structure both my day and my content schedule. It is my current personal favorite.
 
@@ -165,7 +165,7 @@ I personally like to have my entire content workflow in one place, so I don't ne
 
 <br>
 
-### 5. [Standard Notes](https://standardnotes.com/)
+### 5. Standard Notes
 
 Standard Notes is a free secure note-taking app. It uses end-to-end encryption to protect your notes and files. Plain text, Rich text, and Markdown are supported. It also features spreadsheets, code, and task lists.
 
@@ -183,7 +183,7 @@ If you are privacy conscious and need an app that allows for more secure note-ta
 
 <br>
 
-### 6. [MarkText](https://github.com/marktext/marktext)
+### 6. MarkText
 
 MarkText, as the name implies, is a Markdown text editor. It features a clean interface for ease of use.
 
@@ -199,7 +199,7 @@ MarkText includes various editing modes for distraction-free writing: Typewriter
 
 <br>
 
-### 7. [Notepad++](https://notepad-plus-plus.org/)
+### 7. Notepad++
 
 Notepad++ isn't your standard writing app, nor is it your standard Notepad. It is a source code and text editor, so it can easily be used as a Notepad replacer to take simple notes.
 

@@ -3,7 +3,7 @@ layout: post
 title: "Prevent Hate Raids & Harassment On Twitch"
 subtitle: "As a streamer on Twitch, you're likely going to have to deal with harassment at some point. Here are simple tools and recommendations to protect yourself against harassment on Twitch."
 description: As a streamer on Twitch, you're likely going to have to deal with harassment at some point. Here are simple tools and recommendations to protect yourself against harassment on Twitch.
-updated: 2025-03-10
+updated: 2025-03-11
 author: Chloe
 background: "/img/posts/03_750x500.webp"
 background_alt: "A green plant wall with a reddish pink neon sign saying 'breathe' in cursive"
@@ -85,7 +85,7 @@ Always, always, ALWAYS turn on two-factor authentication (2FA) to secure your ac
 
 Twitch offers two-factor authentication via SMS or authenticator app. Using the authenticator app is recommended if you wish to keep your phone number private.
 
-You can enable and adjust 2FA in your [Security and Privacy Settings](https://www.twitch.tv/settings/security).
+You can enable and adjust 2FA in your [Security and Privacy Settings](https://www.twitch.tv/settings/security){:target="\_blank" rel="noopener noreferrer"}.
 
 <br>
 
@@ -109,7 +109,7 @@ On Twitch you're able to block words and sentences. These can for example includ
 
 Consider adding common misspellings so that bad actors can't circumvent the blocked words.
 
-You can block specific words in your chat bot(s) and in your channel's [Moderation Settings](https://dashboard.twitch.tv/settings/moderation).
+You can block specific words in your chat bot(s) and in your channel's [Moderation Settings](https://dashboard.twitch.tv/settings/moderation){:target="\_blank" rel="noopener noreferrer"}.
 
 <br>
 
@@ -119,7 +119,7 @@ Blocking another user is helpful if they are making you uncomfortable in any way
 
 You can block users by clicking on their username in the chatroom, then the **⋮ Three Vertical Dots icon** and **Block [Username]**. Or by typing /block [username] in chat.
 
-You can see a list of blocked users in your [Security and Privacy Settings](https://www.twitch.tv/settings/security) page.
+You can see a list of blocked users in your [Security and Privacy Settings](https://www.twitch.tv/settings/security){:target="\_blank" rel="noopener noreferrer"} page.
 
 Blocking another user will:
 
@@ -138,7 +138,7 @@ Blocking another user will:
 
 On Twitch, you can block whispers (direct messages) from strangers. Strangers are those who are not your friend, someone you follow, someone you subscribe to, or one of your mods or editors. They won't be able to whisper you unless you whisper them first.
 
-Toggle **Block Whispers from Strangers** in your [Security and Privacy Settings](https://www.twitch.tv/settings/security) page to only allow people you know to whisper you.
+Toggle **Block Whispers from Strangers** in your [Security and Privacy Settings](https://www.twitch.tv/settings/security){:target="\_blank" rel="noopener noreferrer"} page to only allow people you know to whisper you.
 
 <br>
 
@@ -174,15 +174,15 @@ Moderation bots allow you to run your stream without having to worry as much abo
 
 For general moderation and other features, it is recommended to have at least one moderation bot active in your channel. The following bots are great options:
 
-- #### [StreamElements](https://streamelements.com/)
+- #### [StreamElements](https://streamelements.com/){:target="\_blank" rel="noopener noreferrer"}
 
-- #### [Moobot](https://moo.bot/)
+- #### [Moobot](https://moo.bot/){:target="\_blank" rel="noopener noreferrer"}
 
-- #### [WizeBot](https://wizebot.tv/)
+- #### [WizeBot](https://wizebot.tv/){:target="\_blank" rel="noopener noreferrer"}
 
-- #### [Nightbot](https://nightbot.tv/)
+- #### [Nightbot](https://nightbot.tv/){:target="\_blank" rel="noopener noreferrer"}
 
-- #### [Streamlabs Cloudbot](https://streamlabs.com/cloudbot/)
+- #### [Streamlabs Cloudbot](https://streamlabs.com/cloudbot/){:target="\_blank" rel="noopener noreferrer"}
 
 <br>
 
@@ -190,9 +190,9 @@ For general moderation and other features, it is recommended to have at least on
 
 For that extra bit of protection from harassment and hate raids specifically, you can look into the following moderation bot:
 
-- #### [Sery_Bot](https://serycodes.carrd.co/)
+- #### [Sery_Bot](https://serycodes.carrd.co/){:target="\_blank" rel="noopener noreferrer"}
 
-  Sery_Bot is a moderation bot by [SeryCodes](https://twitter.com/SeryCodes) that provides anti-hate raid and anti-follow bot protections.
+  Sery_Bot is a moderation bot by [SeryCodes](https://twitter.com/SeryCodes){:target="\_blank" rel="noopener noreferrer"} that provides anti-hate raid and anti-follow bot protections.
 
 <br>
 
@@ -200,13 +200,13 @@ For that extra bit of protection from harassment and hate raids specifically, yo
 
 Automated tools are helpful to take some of the load off of you as a creator and streamer, so you can focus your energy on other things.
 
-- ### [Twitch AutoMod](https://dashboard.twitch.tv/settings/moderation/automod)
+- ### [Twitch AutoMod](https://dashboard.twitch.tv/settings/moderation/automod){:target="\_blank" rel="noopener noreferrer"}
 
   Twitch's integrated AutoMod uses machine learning to detect potentially inappropriate or harmful messages. Moderators will be able to review these messages first, before they are visible to anyone else in chat.
 
-- ### [Twitch Tools by @CommanderRoot](https://twitch-tools.rootonline.de/)
+- ### [Twitch Tools by @CommanderRoot](https://twitch-tools.rootonline.de/){:target="\_blank" rel="noopener noreferrer"}
 
-  [CommanderRoot](https://twitter.com/commanderroot) provides streamer tools that are especially helpful against bots and fake accounts. Definitely check out the Follower Remover and Blocklist Manager.
+  [CommanderRoot](https://twitter.com/commanderroot){:target="\_blank" rel="noopener noreferrer"} provides streamer tools that are especially helpful against bots and fake accounts. Definitely check out the Follower Remover and Blocklist Manager.
 
 <br>
 
@@ -216,7 +216,7 @@ If you have an Elgato Stream Deck, you can set up Multi-Actions. These are usefu
 
 With hate raids specifically, they can come in clutch.
 
-Below is an example of [GlitchedinOrbit](https://twitch.tv/glitchedinorbit)'s anti-hate raid multi-action on the Elgato Stream Deck.
+Below is an example of [GlitchedinOrbit](https://twitch.tv/glitchedinorbit){:target="\_blank" rel="noopener noreferrer"}'s anti-hate raid multi-action on the Elgato Stream Deck.
 
 ![GlitchedinOrbit's Elgato Stream Deck Multi-Action](/img/posts/elgato-stream-deck-multi-action.webp){:class="img-responsive"}
 
@@ -237,7 +237,7 @@ Below is an example of [GlitchedinOrbit](https://twitch.tv/glitchedinorbit)'s an
 - disable camera/webcam in OBS
 - switch to a BRB scene (optional)
 
-If you don't have a physical Stream Deck, not to worry! You can use [streamer.bot](https://streamer.bot/) to set up multi-actions in a single command. [Nutty](https://youtube.com/nuttylmao) has a great [tutorial video](https://www.youtube.com/watch?v=DbYHzpaTAAY) for this.
+If you don't have a physical Stream Deck, not to worry! You can use [streamer.bot](https://streamer.bot/){:target="\_blank" rel="noopener noreferrer"} to set up multi-actions in a single command. [Nutty](https://youtube.com/nuttylmao){:target="\_blank" rel="noopener noreferrer"} has a great [tutorial video](https://www.youtube.com/watch?v=DbYHzpaTAAY){:target="\_blank" rel="noopener noreferrer"} for this.
 
 <br>
 
@@ -247,7 +247,7 @@ Twitch has an integrated tool called 'Suspicious User Detection'. It helps ident
 
 You can also manually add users that you'd like to track more closely. Do this through the **ᗢ Suspicious User Activity widget** in Mod View, or through the **⚐ Manage Suspicious User icon** in the user's Viewer Card.
 
-Suspicious User Detection is turned on by default, but you can adjust the settings in your channel's [Moderation Settings](https://dashboard.twitch.tv/settings/moderation).
+Suspicious User Detection is turned on by default, but you can adjust the settings in your channel's [Moderation Settings](https://dashboard.twitch.tv/settings/moderation){:target="\_blank" rel="noopener noreferrer"}.
 
 <br>
 
@@ -255,7 +255,7 @@ Suspicious User Detection is turned on by default, but you can adjust the settin
 
 It is recommended to turn on email verification for chatters. This will prevent potential bad actors from spamming or trolling. They often don't verify their accounts, because it's too much work to do so if they only wish to harass streamers.
 
-Below is an overview of [GlitchedinOrbit](https://twitch.tv/glitchedinorbit)'s chat verification settings.
+Below is an overview of [GlitchedinOrbit](https://twitch.tv/glitchedinorbit){:target="\_blank" rel="noopener noreferrer"}'s chat verification settings.
 
 ![GlitchedinOrbit's Twitch Chat Verification Settings](/img/posts/twitch-chat-verification-settings.webp){:class="img-responsive"}
 

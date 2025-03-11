@@ -3,7 +3,7 @@ layout: post
 title: "Improve Accessibility & User Experience On Twitch"
 subtitle: "Want to make your Twitch stream more accessible or are you having a hard time navigating Twitch? This article lists helpful ways to improve accessibility and user experience on the site."
 description: Want to make your Twitch stream more accessible or are you having a hard time navigating Twitch? This article lists helpful ways to improve accessibility and user experience on the site.
-updated: 2025-03-10
+updated: 2025-03-11
 background: "/img/posts/05_750x500.webp"
 background_alt: "A phone, laptop, and desktop computer with coding and design programs open on a desk with fairy lights"
 popularity: 3
@@ -85,7 +85,7 @@ The default font size on Twitch is 13px. I've opted for 14px myself, and that's 
 
 Go to the settings in Twitch chat and click on Chat Appearance to change the font size.
 
-Alternatively, change font size in [BetterTTV](https://betterttv.com/) or [FrankerfaceZ](https://www.frankerfacez.com/).
+Alternatively, change font size in [BetterTTV](https://betterttv.com/){:target="\_blank" rel="noopener noreferrer"} or [FrankerfaceZ](https://www.frankerfacez.com/){:target="\_blank" rel="noopener noreferrer"}.
 
 <br>
 
@@ -93,7 +93,7 @@ Alternatively, change font size in [BetterTTV](https://betterttv.com/) or [Frank
 
 The default font family on Twitch is Inter. But it's possible to change font styles if you don't like the native font or if you have a hard time reading it.
 
-Open the [FrankerfaceZ](https://www.frankerfacez.com/) settings, scroll down to Chat and click on Appearance. In Font Family, select your preferred font style.
+Open the [FrankerfaceZ](https://www.frankerfacez.com/){:target="\_blank" rel="noopener noreferrer"} settings, scroll down to Chat and click on Appearance. In Font Family, select your preferred font style.
 
 For example, select Open Sans or Nunito Sans for a nice reading experience. Or opt for OpenDyslexic as a dyslexia-friendly choice. Or change it to Custom and enter google:IBM Plex Mono for that sweet coding look.
 
@@ -101,7 +101,7 @@ For example, select Open Sans or Nunito Sans for a nice reading experience. Or o
 
 ## Configure Chat Box Width
 
-Use [FrankerFaceZ](https://www.frankerfacez.com/) to set the width of the chat box on desktop. You can find this under Chat, Appearance, and then Width.
+Use [FrankerFaceZ](https://www.frankerfacez.com/){:target="\_blank" rel="noopener noreferrer"} to set the width of the chat box on desktop. You can find this under Chat, Appearance, and then Width.
 
 The default size seems to be ~340px (on 1440p). I set mine to 400px. Together with the font size increase, it has lessened the reading strain on my eyes.
 
@@ -121,13 +121,13 @@ It can get tedious when screen readers have to read out all visual elements like
 
 For emotes, scroll down to Chat and click on Emotes. Then, scroll until you see Display Emotes, and switch this from Enabled to Disabled.
 
-For badges, open the [FrankerfaceZ](https://www.frankerfacez.com/) settings, scroll down to Chat and click on Badges. Under Visibility, untick the badge categories that you want to disable.
+For badges, open the [FrankerfaceZ](https://www.frankerfacez.com/){:target="\_blank" rel="noopener noreferrer"} settings, scroll down to Chat and click on Badges. Under Visibility, untick the badge categories that you want to disable.
 
 <br>
 
 ## Use Chat Pronouns
 
-Configure your (preferred) pronouns using [Twitch Chat Pronouns](https://pronouns.alejo.io/) in the [FrankerfaceZ](https://www.frankerfacez.com/) settings. Click on Add-Ons, scroll down to Pronouns, and enable the add-on. To set your pronouns, go to the Pronouns website.
+Configure your (preferred) pronouns using [Twitch Chat Pronouns](https://pronouns.alejo.io/){:target="\_blank" rel="noopener noreferrer"} in the [FrankerfaceZ](https://www.frankerfacez.com/){:target="\_blank" rel="noopener noreferrer"} settings. Click on Add-Ons, scroll down to Pronouns, and enable the add-on. To set your pronouns, go to the Pronouns website.
 
 If other people have their pronouns set up, you can see those as well! I use She/They, and I always get very excited when I see others' pronouns in channels.
 
@@ -139,13 +139,13 @@ It makes life so much easier and more inclusive. Plus, it adds an extra personal
 
 Closed captions make streams easier to follow for people with any hearing issues. And for those who need/want to watch the stream muted.
 
-There are multiple Extensions on Twitch that allow for closed captioning. These include [Stream Closed Captioner](https://dashboard.twitch.tv/extensions/h1ekceo16erc49snp0sine3k9ccbh9-1.6.4) and [Closed Captions for Streams](https://dashboard.twitch.tv/extensions/xxwoffr2lnpxrgpq228mawvdgxetip-1.0.1).
+There are multiple Extensions on Twitch that allow for closed captioning. These include [Stream Closed Captioner](https://dashboard.twitch.tv/extensions/h1ekceo16erc49snp0sine3k9ccbh9-1.6.4){:target="\_blank" rel="noopener noreferrer"} and [Closed Captions for Streams](https://dashboard.twitch.tv/extensions/xxwoffr2lnpxrgpq228mawvdgxetip-1.0.1){:target="\_blank" rel="noopener noreferrer"}.
 
 The downside of these extensions is that they show as either an Overlay or Component. An Overlay Extension displays on top of the whole video as a transparent overlay. A Component Extension displays as part of the video, taking up part of the screen. Viewers can hide Component Extensions, while they can't hide Overlays.[^1]
 
-Instead, consider using the [Cloud Closed Captioning](https://obsproject.com/forum/resources/closed-captioning-via-google-speech-recognition.833/) plugin for OBS. This is my personal favorite. Viewers can turn the captions on or off in the stream video player itself. Font, size, and color can be fully customized by the viewer. It allows the viewer more control over captions, which is why I like this plugin.
+Instead, consider using the [Cloud Closed Captioning](https://obsproject.com/forum/resources/closed-captioning-via-google-speech-recognition.833/){:target="\_blank" rel="noopener noreferrer"} plugin for OBS. This is my personal favorite. Viewers can turn the captions on or off in the stream video player itself. Font, size, and color can be fully customized by the viewer. It allows the viewer more control over captions, which is why I like this plugin.
 
-If you want to display closed captions natively on stream (so as an overlay within your broadcasting software), consider using [Pixel Chat](https://pixelchat.tv/) or [Web Captioner](https://webcaptioner.com/).
+If you want to display closed captions natively on stream (so as an overlay within your broadcasting software), consider using [Pixel Chat](https://pixelchat.tv/){:target="\_blank" rel="noopener noreferrer"} or [Web Captioner](https://webcaptioner.com/){:target="\_blank" rel="noopener noreferrer"}.
 
 Speech recognition software is not always as sophisticated as it could be. Nonetheless, captions are a good tool to make streams more accessible.
 
@@ -155,9 +155,9 @@ Speech recognition software is not always as sophisticated as it could be. Nonet
 
 It's important to have the correct color contrast to make sure users can read everything. This is relevant for your stream overlays and description panels.
 
-The contrast ratio for text against a background should be at least 4.5:1.[^2] You can check contrast using [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/) or [Coolors' Contrast Checker](https://coolors.co/contrast-checker).
+The contrast ratio for text against a background should be at least 4.5:1.[^2] You can check contrast using [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/){:target="\_blank" rel="noopener noreferrer"} or [Coolors' Contrast Checker](https://coolors.co/contrast-checker){:target="\_blank" rel="noopener noreferrer"}.
 
-If you want to set a minimum contrast for chat, you can. In the [FrankerfaceZ](https://www.frankerfacez.com/) settings, click on Chat, then go to Appearance, and scroll down to Colors. Under Minimum Contrast, set your desired value. The default value is 4.5.
+If you want to set a minimum contrast for chat, you can. In the [FrankerfaceZ](https://www.frankerfacez.com/){:target="\_blank" rel="noopener noreferrer"} settings, click on Chat, then go to Appearance, and scroll down to Colors. Under Minimum Contrast, set your desired value. The default value is 4.5.
 
 <br>
 
@@ -179,7 +179,7 @@ As a best practice, keep the text as is and add links within regular sentences t
 
 I get very annoyed when videos autoplay without my consent. Fortunately, it's possible to disable autoplay for streams.
 
-In the [FrankerfaceZ](https://www.frankerfacez.com/) settings, scroll down to Player and click on General. Under Playback, tick the box that says "Do not automatically start playing videos or streams".
+In the [FrankerfaceZ](https://www.frankerfacez.com/){:target="\_blank" rel="noopener noreferrer"} settings, scroll down to Player and click on General. Under Playback, tick the box that says "Do not automatically start playing videos or streams".
 
 Additionally, you can opt to disable auto-play of the next recommended video after a video finishes.
 
@@ -233,9 +233,9 @@ As a viewer, you have a few options.
 
 Subscribe to your favorite creators to support them and not get ads on their channels. (That's if they're nice and have ads disabled for subscribers.)
 
-It's also possible to get [Twitch Turbo](https://www.twitch.tv/turbo) to disable ads site-wide, while still supporting the creators you watch. You'll still count as a viewer for the ad impression, even when you won't see the ad yourself.[^4]
+It's also possible to get [Twitch Turbo](https://www.twitch.tv/turbo){:target="\_blank" rel="noopener noreferrer"} to disable ads site-wide, while still supporting the creators you watch. You'll still count as a viewer for the ad impression, even when you won't see the ad yourself.[^4]
 
-If you can't or don't want to spend any money (no judgment here), download [TTV.LOL](https://ttv.lol/)or [Twitch Adblock](https://github.com/cleanlock/VideoAdBlockForTwitch) to disable ads on Twitch.
+If you can't or don't want to spend any money (no judgment here), download [TTV.LOL](https://ttv.lol/){:target="\_blank" rel="noopener noreferrer"}or [Twitch Adblock](https://github.com/cleanlock/VideoAdBlockForTwitch){:target="\_blank" rel="noopener noreferrer"} to disable ads on Twitch.
 
 <br>
 
@@ -243,19 +243,19 @@ If you can't or don't want to spend any money (no judgment here), download [TTV.
 
 Channel tags are there to indicate what your stream is about or what viewers can expect. Current accessibility tags include Color Blind, Closed Captions, Dyslexia, and Neurodivergent, among others.
 
-Find what you need within [all available stream tags](https://www.twitch.tv/directory/all/tags), or set custom warning tags such as 'Motion Sickness' and 'Epilepsy' in the [Stream Manager](https://dashboard.twitch.tv/stream-manager).
+Find what you need within [all available stream tags](https://www.twitch.tv/directory/all/tags){:target="\_blank" rel="noopener noreferrer"}, or set custom warning tags such as 'Motion Sickness' and 'Epilepsy' in the [Stream Manager](https://dashboard.twitch.tv/stream-manager){:target="\_blank" rel="noopener noreferrer"}.
 
 <br>
 
 ## Bonus: Use Multi-Actions
 
-This tip requires you to have an [Elgato Stream Deck](https://amzn.to/3xdWEk9). It supports something called 'multi-actions'. With one press of a button, you can set up your entire streaming setup or content creation workflow.
+This tip requires you to have an [Elgato Stream Deck](https://amzn.to/3xdWEk9){:target="\_blank" rel="noopener noreferrer"}. It supports something called 'multi-actions'. With one press of a button, you can set up your entire streaming setup or content creation workflow.
 
 For example, I use multi-actions for stream. If I want to have everything I need, I press one button. It opens OBS, my game launcher, Lofi Girl on YouTube, and my Twitch Dashboard. It also moves all open programs to a specific location.
 
 Then, when I'm ready to go live, the multi-action starts the stream, sends out a tweet, and changes my Twitter handle.
 
-If you're able to invest in a Stream Deck, it will make your workflow and life so much easier! If you don't mind getting free software instead of dropping cash on a Stream Deck, you can download [streamer.bot](https://streamer.bot/) or [Touch Portal](https://www.touch-portal.com/).
+If you're able to invest in a Stream Deck, it will make your workflow and life so much easier! If you don't mind getting free software instead of dropping cash on a Stream Deck, you can download [streamer.bot](https://streamer.bot/){:target="\_blank" rel="noopener noreferrer"} or [Touch Portal](https://www.touch-portal.com/){:target="\_blank" rel="noopener noreferrer"}.
 
 <br>
 
@@ -273,7 +273,7 @@ _Thanks for reading!_
 
 <hr>
 
-[^1]: [Get started with Twitch Extensions](https://dev.twitch.tv/docs/extensions)
-[^2]: [Understanding Success Criterion 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum)
-[^3]: [Usability & Web Accessibility: Links](https://usability.yale.edu/web-accessibility/articles/links#link-text)
-[^4]: [Twitch Turbo Guide: Benefits](https://help.twitch.tv/s/article/twitch-turbo-guide#Benefits)
+[^1]: [Get started with Twitch Extensions](https://dev.twitch.tv/docs/extensions){:target="\_blank" rel="noopener noreferrer"}
+[^2]: [Understanding Success Criterion 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum){:target="\_blank" rel="noopener noreferrer"}
+[^3]: [Usability & Web Accessibility: Links](https://usability.yale.edu/web-accessibility/articles/links#link-text){:target="\_blank" rel="noopener noreferrer"}
+[^4]: [Twitch Turbo Guide: Benefits](https://help.twitch.tv/s/article/twitch-turbo-guide#Benefits){:target="\_blank" rel="noopener noreferrer"}

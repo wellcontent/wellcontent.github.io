@@ -6,6 +6,19 @@ description: "Premade bear-inspired pixel art sub badges to make your stream cut
 external_url-kofi: "https://ko-fi.com/s/41ba923440"
 cover: "/img/templates/bear-cafe-sub-badges.webp"
 categories: [templates]
+tags:
+  [
+    streaming,
+    sub badges,
+    pixel art,
+    stream customization,
+    cute,
+    streamer tools,
+    twitch,
+    sub emotes,
+    stream design,
+    badges,
+  ]
 order: 6
 ---
 

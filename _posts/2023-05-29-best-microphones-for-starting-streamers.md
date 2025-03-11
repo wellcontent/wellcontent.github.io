@@ -3,7 +3,7 @@ layout: post
 title: "Best Microphones Under $100 For Starting Streamers"
 subtitle: "Feeling overwhelmed by all the microphone choices for streaming, and don't know what to choose? Look no further than this guide."
 description: Feeling overwhelmed by all the microphone choices for streaming, and don't know what to choose? Look no further than this guide.
-updated: 2025-03-10
+updated: 2025-03-11
 background: "https://images.unsplash.com/photo-1650513737281-882e597ee5e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
 background_alt: "A black Rode microphone mounted on a stand, captured in a close-up shot with a blurred background"
 categories: [streaming]
@@ -38,8 +38,6 @@ keywords:
   ]
 ---
 
-_Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links._
-
 ![A black Rode microphone mounted on a stand, captured in a close-up shot with a blurred background](https://images.unsplash.com/photo-1650513737281-882e597ee5e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80)
 
 **Jump to section**:
@@ -49,6 +47,7 @@ _Disclaimer: this post contains affiliate links, so I may receive a commission i
   - [Polar pattern](#polar-pattern)
   - [Frequency response](#frequency-response)
   - [Sample rate](#sample-rate)
+- [Overview](#overview)
 - [Condenser Microphones](#condenser-microphones)
   - [Blue Snowball iCE](#blue-snowball-ice)
   - [Blue Yeti Nano](#blue-yeti-nano)
@@ -71,27 +70,27 @@ _Disclaimer: this post contains affiliate links, so I may receive a commission i
 
 ## Introduction
 
-Audio is the **most important factor** in a livestream. It's even a standard in the FILM industry that audio is more important than video. That's because it makes up the majority of the experience of those who consume the movie.
+When you're starting as a streamer, it's easy to get caught up in your camera or lighting setup. But there's one thing you can't overlook: audio.
 
-You cannot mask bad audio in post-processing. If you have bad input, the damage is already done. You CAN enhance great audio in post. But that's not possible if you're streaming live content.
+Audio is the **most important factor** in a livestream. In fact, it's often said that audio is more important than video in the film industry.
 
-So instead, aim for getting good sounding audio from the get-go. I swear, it's possible to do so with affordable options.
+You can't mask bad audio in post-production. If your audio is poor from the start, the damage is done. But getting good audio is completely achievable with the right gear. And yes, you can do so without breaking the bank.
 
 This guide lists the best microphones to start your livestream. All recommended gear is high quality and $100 maximum.
 
-While I don't personally own all of the equipment featured in this list, I do know what I need to look for in equipment because I have over 5 years of streaming experience and over 6 years of content creation experience.
-
-Expect to see only quality recommendations here. The aim was to find a balance between price and quality of the product.
+While I don't own every microphone on this list, I’ve spent over 5 years streaming and 6 years creating content, so I know what to look for in a microphone. Expect only the best recommendations here, balancing price and performance.
 
 Let's get into it.
+
+_Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links._
 
 <br>
 
 ## Terminology
 
-Before I list the best microphones under $100, it's important to go over some common terminology for audio. Terms often used are **polar pattern**, **frequency response**, and **sample rate**.
+Before I list the best microphones under $100, let's cover some common audio terminology. Understanding these terms—like **polar pattern**, **frequency response**, and **sample rate**—will help you make a more informed decision.
 
-If you already know about these terms, you can [skip to the next section](#condenser-microphones).
+If you're already familiar with these terms, feel free to [skip ahead to the recommendations](#overview).
 
 <br>
 
@@ -142,6 +141,27 @@ Be aware that measurement equipment and an anechoic chamber (a specially constru
 ### Sample rate
 
 Sample rate is simply the rate at which audio is converted. The most common rate is 44.1 kHz or 16 bit. But the standard in professional audio contexts such as audio for video is 48 kHz or 24 bit. Sound with 48 kHz is a closer recreation of the original audio source, so it sounds more natural. And the extra headroom is nice to have to avoid clipping.
+
+<br>
+
+## Overview
+
+| **Microphone**                                              | **Type**             | **Price Range** | **Polar Pattern**         | **Key Features**                                       |
+| ----------------------------------------------------------- | -------------------- | --------------- | ------------------------- | ------------------------------------------------------ |
+| [Blue Snowball iCE](#blue-snowball-ice)                     | Condenser            | $40-$50         | Cardioid                  | Compact, Plug 'n play, Cute design, Affordable         |
+| [Blue Yeti Nano](#blue-yeti-nano)                           | Condenser            | $80-$100        | Cardioid, Omnidirectional | Compact, Physical mute button, Affordable              |
+| [Razer Seiren Mini](#razer-seiren-mini)                     | Condenser            | $35-$50         | Supercardioid             | Compact, Cute design, Affordable, Plug 'n play         |
+| [Elgato Wave:1](#elgato-wave1)                              | Condenser            | $80-$100        | Cardioid                  | Lewitt tech, Compact, Comes with audio mixing software |
+| [Rode NT-USB Mini](#rode-nt-usb-mini)                       | Condenser            | $100            | Cardioid                  | Good build, Magnetic stand, Zero latency monitoring    |
+| [Samson C01u Pro](#samson-c01u-pro)                         | Condenser            | $50-$60         | Supercardioid             | Good noise cancellation, Full metal body               |
+| [Rode SmartLav+](#rode-smartlav)                            | Lavalier (Condenser) | $50-$90         | Omnidirectional           | Compact, Works with smartphones, Discrete              |
+| [Sony ECMLV1](#sony-ecmlv1)                                 | Lavalier (Condenser) | $30             | Omnidirectional           | Compact, Works with smartphones, Affordable            |
+| [Samson Q2u](#samson-q2u)                                   | Dynamic              | $40-$60         | Cardioid                  | XLR & USB, Headphone jack, All metal body              |
+| [Audio-Technica ATR2100x-USB](#audio-technica-atr2100x-usb) | Dynamic              | $80-$90         | Cardioid                  | XLR & USB, Plug 'n play, Headphone jack                |
+| [Audio-Technica AT2005USB](#audio-technica-at2005usb)       | Dynamic              | $60-$80         | Cardioid                  | XLR & USB, Physical mute switch                        |
+| [Behringer XM8500](#behringer-xm8500)                       | Dynamic              | $20-$30         | Cardioid                  | Affordable, All metal body                             |
+| [Rode PodMic](#rode-podmic)                                 | Dynamic              | $100            | Cardioid                  | Great build, Decent plosive rejection, All metal body  |
+| [Shure SM58](#shure-sm58)                                   | Dynamic              | $100            | Cardioid                  | Great noise rejection, No handling noise, Durable      |
 
 <br>
 
@@ -525,23 +545,10 @@ _Thanks for reading!_
 
 <br>
 
-<details>
-    <summary>Sources</summary>
+**Sources**
 
-    <br>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Andertons, "Microphone Polar Patterns Explained." (2020). [https://blog.andertons.co.uk/learn/microphone-polar-patterns-explained](https://blog.andertons.co.uk/learn/microphone-polar-patterns-explained){:target="\_blank" rel="noopener noreferrer"}</span>
 
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Andertons, "Microphone Polar Patterns Explained." (2020). https://blog.andertons.co.uk/learn/microphone-polar-patterns-explained</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shure, "MIC BASICS: WHAT IS FREQUENCY RESPONSE?" (2017). [https://www.shure.com/en-US/performance-production/louder/mic-basics-frequency-response](https://www.shure.com/en-US/performance-production/louder/mic-basics-frequency-response){:target="\_blank" rel="noopener noreferrer"}</span>
 
-    <br>
-    <br>
-
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shure, "MIC BASICS: WHAT IS FREQUENCY RESPONSE?" (2017). https://www.shure.com/en-US/performance-production/louder/mic-basics-frequency-response</span>
-
-    <br>
-    <br>
-
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YouTube, Podcastage. https://www.youtube.com/@podcastage.</span>
-
-</details>
-
-<br>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YouTube, Podcastage. [https://www.youtube.com/@podcastage](https://www.youtube.com/@podcastage){:target="\_blank" rel="noopener noreferrer"}</span>

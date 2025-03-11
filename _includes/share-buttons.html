@@ -66,6 +66,11 @@ include.pageurl %} {% else %} {% assign pageurl = page.url %} {% endif %}
     height: 14px;
     margin-top: 11px;
   }
+  @media (max-width: 768px) {
+    #share-buttons {
+      display: inline-block; /* Ensure it is not set to 'none' */
+    }
+  }
 </style>
 
 <span style="color: white"></span>

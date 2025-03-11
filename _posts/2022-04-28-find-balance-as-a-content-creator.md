@@ -3,7 +3,7 @@ layout: post
 title: "7 Tips For Content Creators To Make Balance A Priority"
 subtitle: "Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content."
 description: Struggling to find balance as a content creator? It can be difficult to draw the line between 'on' and 'off' time. This article lists how you can improve your mental wellbeing while creating content.
-updated: 2025-03-10
+updated: 2025-03-11
 background: "/img/posts/02_750x500.webp"
 background_alt: "Wooden table with a glass of black tea and a brown teapot on a wooden tray"
 categories: [wellbeing]
@@ -37,8 +37,6 @@ redirect_from:
   - "/find-balance-as-a-content-creator"
 ---
 
-_Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links._
-
 ![Wooden table with a glass of black tea and a brown teapot on a wooden tray](/img/posts/02_750x500.webp)
 
 **Jump to section**:
@@ -67,6 +65,8 @@ All tips are taken from research and personal experience.
 
 Take a deep breath. Let's hop in.
 
+_Disclaimer: this post contains affiliate links, so I may receive a commission if you choose to make a purchase through any of those links._
+
 <br>
 
 ## 1. Do What You Love
@@ -83,17 +83,17 @@ Thus, you need to create content in the field that you love.
 
 There's a Japanese concept called _ikigai_. This is your 'purpose in life' or 'reason to live', so to speak.
 
-The Western interpretation, especially in Héctor García's [Ikigai: The Japanese Secret to a Long and Happy Life](https://amzn.to/3v07skt), is more specific. It encapsulates ikigai as what you love, what you're good at, what you can be paid for, and what the world needs.
+The Western interpretation, especially in Héctor García's [Ikigai: The Japanese Secret to a Long and Happy Life](https://amzn.to/3v07skt){:target="\_blank" rel="noopener noreferrer"}, is more specific. It encapsulates ikigai as what you love, what you're good at, what you can be paid for, and what the world needs.
 
 In essence, you found your ikigai if you can find pleasure and satisfaction in what you do and you’re good at it.
 
 But, while the book is a good read, your ikigai doesn't need to entail a combination or any of these four things per se.
 
-I can highly recommend two books for an authentic Japanese perspective on ikigai. Namely, [Ikigai: The Japanese Art of a Meaningful Life](https://amzn.to/3v1cz3G) by Yukari Mitsuhashi and [The Little Book of Ikigai](https://amzn.to/3uZyicl) by Ken Mogi.
+I can highly recommend two books for an authentic Japanese perspective on ikigai. Namely, [Ikigai: The Japanese Art of a Meaningful Life](https://amzn.to/3v1cz3G){:target="\_blank" rel="noopener noreferrer"} by Yukari Mitsuhashi and [The Little Book of Ikigai](https://amzn.to/3uZyicl){:target="\_blank" rel="noopener noreferrer"} by Ken Mogi.
 
 According to Mogi and Mitsuhashi, you can find your ikigai in a wide range of conditions.
 
-Research has indicated that you are less likely to experience depression and more likely to measure well-being if you have a sense of ikigai. [<sup>[1]</sup>](https://link.springer.com/article/10.1007/s11469-019-00150-w) [<sup>[2]</sup>](https://doi.org/10.11236/jph.59.7_433) [<sup>[3]</sup>](https://doi.org/10.1007/s11469-022-00764-7)
+Research has indicated that you are less likely to experience depression and more likely to measure well-being if you have a sense of ikigai. [<sup>[1]</sup>](https://link.springer.com/article/10.1007/s11469-019-00150-w){:target="\_blank" rel="noopener noreferrer"} [<sup>[2]</sup>](https://doi.org/10.11236/jph.59.7_433){:target="\_blank" rel="noopener noreferrer"} [<sup>[3]</sup>](https://doi.org/10.1007/s11469-022-00764-7){:target="\_blank" rel="noopener noreferrer"}
 
 Invest time in discovering your ikigai.
 
@@ -215,7 +215,7 @@ It's a win-win for everyone.
 
 Additionally, find ways to manage your energy.
 
-I like to use [The Spoon Theory](https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory), coined by Christine Miserandino.
+I like to use [The Spoon Theory](https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory){:target="\_blank" rel="noopener noreferrer"}, coined by Christine Miserandino.
 
 It's a metaphor to describe the amount of energy someone has available for daily tasks. This energy can be physical or mental.
 
@@ -273,11 +273,11 @@ There are many ways in which you can create a workflow specialized for you.
 
 Examples could be setting 'office hours' to manage your time, creating a to-do list, or setting deadlines for yourself.
 
-[The 80/20 Principle: The Secret to Achieving More with Less](https://amzn.to/38y9DCR) by Richard Koch has had a great impact on my workflow.
+[The 80/20 Principle: The Secret to Achieving More with Less](https://amzn.to/38y9DCR){:target="\_blank" rel="noopener noreferrer"} by Richard Koch has had a great impact on my workflow.
 
 It entails that 20% percent of your time accounts for 80% of results. Vice versa, sometimes 80% of the time you spend accounts for only 20% of results.
 
-Greg McKeown's [Essentialism: The Disciplined Pursuit of Less](https://amzn.to/3vR6sOL) provided a similar insight.
+Greg McKeown's [Essentialism: The Disciplined Pursuit of Less](https://amzn.to/3vR6sOL){:target="\_blank" rel="noopener noreferrer"} provided a similar insight.
 
 You can increase your effectiveness simply by identifying what you're wasting time on and what you should be focusing on instead.
 
@@ -289,7 +289,7 @@ Maybe this works for you too.
 
 It has also helped me to make use of templates or pre-made assets to take the load off of having to start from scratch every single time.
 
-You can look into [Ko-fi](https://ko-fi.com/explore), [Fiverr](https://go.fiverr.com/visit/?bta=405967&brand=fiverrcpa), or [Etsy](https://etsy.com) for this.
+You can look into [Ko-fi](https://ko-fi.com/explore){:target="\_blank" rel="noopener noreferrer"}, [Fiverr](https://go.fiverr.com/visit/?bta=405967&brand=fiverrcpa){:target="\_blank" rel="noopener noreferrer"}, or [Etsy](https://etsy.com){:target="\_blank" rel="noopener noreferrer"} for this.
 
 Whatever you do, it's important to adapt a workflow to your needs specifically.
 
@@ -311,27 +311,10 @@ _Thanks for reading!_
 
 <br>
 
-<details>
-    <summary>Sources</summary>
+**Sources**
 
-    <br>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fido, Dean, Yasuhiro Kotera, and Kenichi Asano. "English translation and validation of the Ikigai-9 in a UK Sample." <i>International Journal of Mental Health and Addiction</i> 18 (2019): 1352–1359. [https://doi.org/10.1007/s11469-019-00150-w](https://doi.org/10.1007/s11469-019-00150-w){:target="\_blank" rel="noopener noreferrer"}.</span>
 
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fido, Dean, Yasuhiro Kotera, and Kenichi Asano. "English translation and validation of the Ikigai-9 in a UK Sample." <i>International Journal of Mental Health and Addiction</i> 18 (2019): 1352–1359. https://doi.org/10.1007/s11469-019-00150-w.</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Imai, Tadanori, Hisao Osada, and Yoshimitsu Nishimura. "The reliability and validity of a new scale for measuring the concept of Ikigai (Ikigai-9)." <i>Japanese Journal of Public Health</i> 59, no. 7 (2012): 433–439. [https://doi.org/10.11236/jph.59.7_433](https://doi.org/10.11236/jph.59.7_433){:target="\_blank" rel="noopener noreferrer"}.</span>
 
-    <br>
-    <br>
-
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Imai, Tadanori, Hisao Osada, and Yoshimitsu Nishimura. "The reliability and validity of a new scale for measuring the concept of Ikigai (Ikigai-9)." <i>Japanese Journal of Public Health</i> 59, no. 7 (2012): 433–439. https://doi.org/10.11236/jph.59.7_433.</span>
-
-    <br>
-    <br>
-
-    <span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wilkes, Juliet, Gulcan Garip, Yasuhiro Kotera, and Dean Fido. "Can Ikigai Predict Anxiety, Depression, and Well-being?" <i>International Journal of Mental Health and Addiction</i> (2022): 1-13. https://doi.org/10.1007/s11469-022-00764-7.</span>
-
-</details>
-
-<br>
-
-<hr>
-
-<span style="font-size:14px;">Last updated on {{ 'now' | date: '%B %d, %Y' }}</span>
+<span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wilkes, Juliet, Gulcan Garip, Yasuhiro Kotera, and Dean Fido. "Can Ikigai Predict Anxiety, Depression, and Well-being?" <i>International Journal of Mental Health and Addiction</i> (2022): 1-13. [https://doi.org/10.1007/s11469-022-00764-7](https://doi.org/10.1007/s11469-022-00764-7){:target="\_blank" rel="noopener noreferrer"}.</span>

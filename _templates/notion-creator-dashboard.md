@@ -7,6 +7,20 @@ external_url-kofi: "https://ko-fi.com/s/549f4f149a"
 external_url-gumroad: "https://glitchedinorbit.gumroad.com/l/notion-creator-dashboard"
 cover: "/img/templates/notion-creator-dashboard.webp"
 categories: [templates]
+tags:
+  [
+    notion,
+    notion template,
+    content planning,
+    creator tools,
+    productivity,
+    content creators,
+    youtubers,
+    digital planner,
+    organization,
+    content workflow,
+  ]
+
 order: 1
 ---
 
