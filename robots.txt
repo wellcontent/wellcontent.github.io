@@ -24,14 +24,20 @@ layout: none
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 User-agent: *
+Allow: /blog/
+Allow: /guides/
+Allow: /templates/
 Disallow: /tags/
 Disallow: /category/
 Disallow: /search/
 Disallow: /posts/
 Disallow: /posts/page2/
+
 Sitemap: {{ site.url }}/sitemap.xml
 
 User-agent: Twitterbot
 Disallow: *
-Allow: /img
-Allow: /posts
+Allow: /img/
+Allow: /blog/
+Allow: /guides/
+Allow: /templates/

@@ -1,0 +1,234 @@
+I"�1<p><img src="https://images.unsplash.com/photo-1633265486064-086b219458ec?fit=crop&amp;w=1170&amp;h=780&amp;q=80" alt="Close-up view of a golden lock next to two golden credit cards on a white keyboard" /></p>
+
+<p><strong>Jump to section</strong>:</p>
+
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#protect-your-accounts">Protect Your Accounts</a>
+    <ul>
+      <li><a href="#enable-2fa-or-mfa">Enable 2FA or MFA</a></li>
+      <li><a href="#use-strong-unique-passwords">Use strong, unique passwords</a></li>
+      <li><a href="#be-careful-with-third-party-apps">Be careful with third-party apps</a></li>
+    </ul>
+  </li>
+  <li><a href="#protect-your-finances">Protect Your Finances</a>
+    <ul>
+      <li><a href="#set-up-a-paypal-business-account">Set up a PayPal Business account</a></li>
+      <li><a href="#use-alternative-payment-methods">Use alternative payment methods</a></li>
+    </ul>
+  </li>
+  <li><a href="#protect-your-ip-address">Protect Your IP Address</a>
+    <ul>
+      <li><a href="#use-a-vpn">Use a VPN</a></li>
+      <li><a href="#avoid-direct-connections">Avoid direct connections</a></li>
+      <li><a href="#consider-using-a-proxy-server">Consider using a proxy server</a></li>
+    </ul>
+  </li>
+  <li><a href="#protect-your-physical-address">Protect Your Physical Address</a>
+    <ul>
+      <li><a href="#never-share-your-address">Never share your address</a></li>
+      <li><a href="#use-secure-alternatives-for-gifts-and-mail">Use secure alternatives for gifts and mail</a></li>
+    </ul>
+  </li>
+  <li><a href="#protect-your-location">Protect Your Location</a>
+    <ul>
+      <li><a href="#avoid-location-specific-content">Avoid location-specific content</a></li>
+      <li><a href="#dont-share-real-time-location-updates">Don’t share real-time location updates</a></li>
+      <li><a href="#avoid-publicly-sharing-travel-plans">Avoid publicly sharing travel plans</a></li>
+      <li><a href="#turn-off-geotags">Turn off geotags</a></li>
+    </ul>
+  </li>
+  <li><a href="#protect-your-physical-safety">Protect Your Physical Safety</a>
+    <ul>
+      <li><a href="#be-aware-of-your-surroundings">Be aware of your surroundings</a></li>
+      <li><a href="#set-boundaries-at-events">Set boundaries at events</a></li>
+      <li><a href="#stay-connected">Stay connected</a></li>
+    </ul>
+  </li>
+  <li><a href="#general-tips">General Tips</a>
+    <ul>
+      <li><a href="#be-cautious-with-personal-information">Be cautious with personal information</a></li>
+      <li><a href="#use-nicknames-or-screen-names">Use nicknames or screen names</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion">Conclusion</a></li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>As a streamer, building your online presence is exciting, but it also comes with risks to your privacy and safety.</p>
+
+<p>Unfortunately, the more popular you become, the more vulnerable you may be to unwanted attention and security risks.</p>
+
+<p>This guide offers practical steps to help you protect your personal information, finances, and physical safety while you grow your community. By following these tips, you can focus on creating great content without compromising your privacy.</p>
+
+<p>Your security matters, and it’s essential to take proactive measures to protect both your online presence and your personal life.</p>
+
+<p><br /></p>
+
+<h2 id="protect-your-accounts">Protect Your Accounts</h2>
+
+<h3 id="enable-2fa-or-mfa">Enable 2FA or MFA</h3>
+
+<p>Always enable at least two-factor authentication (2FA) on every platform you use, whether it’s Twitch, Discord, Twitter, or others. This significantly reduces the chances of someone gaining unauthorized access to your accounts.</p>
+
+<p>If possible, use an authenticator app like <strong><a href="https://www.authy.com/" target="\_blank" rel="noopener noreferrer">Authy</a></strong> or <strong>Google Authenticator</strong> for added security over email or text-based 2FA.</p>
+
+<p>Even better, use multi-factor authentication (MFA) where possible.</p>
+
+<h3 id="use-strong-unique-passwords">Use strong, unique passwords</h3>
+
+<p>Don’t reuse passwords across accounts. Use a password manager like <strong><a href="https://bitwarden.com/" target="\_blank" rel="noopener noreferrer">Bitwarden</a></strong> or <strong>LastPass</strong> to store and generate secure passwords.</p>
+
+<p>Alternatively, use <a href="https://blog.1password.com/passkeys-vs-passwords-differences/" target="\_blank" rel="noopener noreferrer">passkeys</a> instead of passwords for even more added security.</p>
+
+<h3 id="be-careful-with-third-party-apps">Be careful with third-party apps</h3>
+
+<p>Only authorize trusted third-party apps to connect with your accounts, and regularly review the apps that have access to your social media or streaming profiles.</p>
+
+<p><br /></p>
+
+<h2 id="protect-your-finances">Protect Your Finances</h2>
+
+<h3 id="set-up-a-paypal-business-account">Set up a PayPal Business account</h3>
+
+<p>A PayPal Business account helps keep your real name and address private when handling transactions like tips or invoices.</p>
+
+<h3 id="use-alternative-payment-methods">Use alternative payment methods</h3>
+
+<p>Consider services like <strong>StreamElements</strong>, <strong>Ko-fi</strong>, or <strong>Patreon</strong>, which offer chargeback protection and additional layers of protection by not exposing your real name or location.</p>
+
+<blockquote>
+  <p>Don’t use PayPal directly for transactions.</p>
+</blockquote>
+
+<p>Chargebacks (when a buyer disputes a payment) can be an issue for streamers, especially with digital goods or services like tips.</p>
+
+<p>If a viewer claims a chargeback on a donation, PayPal often sides with the buyer, even if the payment was for a service like a tip or subscription. This will leave you responsible for the refund (and <a href="https://www.paypal.com/us/business/paypal-business-fees#statement-12" target="\_blank" rel="noopener noreferrer">chargeback fee</a>), and you lose the funds.</p>
+
+<p><br /></p>
+
+<h2 id="protect-your-ip-address">Protect Your IP Address</h2>
+
+<h3 id="use-a-vpn">Use a VPN</h3>
+
+<p>A VPN masks your real IP address, ensuring that anyone who might try to track you cannot find your location or other sensitive data.</p>
+
+<p>This is especially important on public Wi-Fi networks, like at airports or on trains. Choose a reputable VPN service with strong security features.</p>
+
+<h3 id="avoid-direct-connections">Avoid direct connections</h3>
+
+<p>Don’t let viewers or users join your games or chat via direct connections that could expose your IP. Use platforms that have built-in protections against revealing personal data.</p>
+
+<h3 id="consider-using-a-proxy-server">Consider using a proxy server</h3>
+
+<p>If you’re a gamer and you stream gameplay, a proxy can hide your real IP address and make it harder for potential griefers or stalkers to identify you.</p>
+
+<p><br /></p>
+
+<h2 id="protect-your-physical-address">Protect Your Physical Address</h2>
+
+<h3 id="never-share-your-address">Never share your address</h3>
+
+<p>It’s crucial to never share your personal address with random people online, whether through messages, emails, or even in stream chats.</p>
+
+<p>If you do get potentially reputable documents or links (like a contract), verify with a contact person that it’s legitimate.</p>
+
+<h3 id="use-secure-alternatives-for-gifts-and-mail">Use secure alternatives for gifts and mail</h3>
+
+<p>If you wish to receive gifts from your viewers, platforms like <strong>Throne</strong> or an <strong>Amazon Wishlist</strong> (with the “Share my delivery address with sellers” option disabled) offer a secure alternative to sharing your home address.</p>
+
+<p>You can also set up a P.O. Box for mail deliveries.</p>
+
+<p><br /></p>
+
+<h2 id="protect-your-location">Protect Your Location</h2>
+
+<h3 id="avoid-location-specific-content">Avoid location-specific content</h3>
+
+<p>Even seemingly innocuous photos of your neighborhood or the exterior of your home can reveal your location.</p>
+
+<p>Avoid sharing images with recognizable landmarks or clues that could be used to track you down.</p>
+
+<h3 id="dont-share-real-time-location-updates">Don’t share real-time location updates</h3>
+
+<p>It’s important not to post pictures or updates about your current location in real time.</p>
+
+<p>If you’re attending a convention or traveling, hold off on posting until you’re safely back home. This prevents revealing your exact whereabouts to strangers, which could be unsafe.</p>
+
+<h3 id="avoid-publicly-sharing-travel-plans">Avoid publicly sharing travel plans</h3>
+
+<p>If you’re going on vacation or attending an event, consider delaying posts until after you return to avoid revealing when you’re not home.</p>
+
+<blockquote>
+  <p>Be cautious about sharing upcoming travel details on social media.</p>
+</blockquote>
+
+<p>When possible, avoid using public transportation or rideshare services for traveling alone to and from events where you’re recognized. Private transportation provides more control over your safety.</p>
+
+<p>If private transportation isn’t an option, always travel with others or make sure you have an emergency contact.</p>
+
+<h3 id="turn-off-geotags">Turn off geotags</h3>
+
+<p>Ensure that geotagging is turned off on your phone and social media platforms to avoid accidentally sharing your location when posting pictures or updates.</p>
+
+<p><br /></p>
+
+<h2 id="protect-your-physical-safety">Protect Your Physical Safety</h2>
+
+<h3 id="be-aware-of-your-surroundings">Be aware of your surroundings</h3>
+
+<p>Constantly assess your environment for any signs of stalking or strange behavior. If you notice someone who is persistently following you or watching you, take note of it and inform someone you trust immediately.</p>
+
+<h3 id="set-boundaries-at-events">Set boundaries at events</h3>
+
+<p>It’s common for fans to approach you at conventions or other public events.</p>
+
+<p>However, if you notice people following you or making you uncomfortable, don’t hesitate to seek assistance from event staff or security. It’s essential to have trusted friends or fellow streamers with you for safety.</p>
+
+<p>Establishing personal boundaries with your fans and viewers is key. While being approachable is part of the streaming culture, you should also feel comfortable asserting your limits.</p>
+
+<blockquote>
+  <p>Encourage your audience to respect your privacy and set clear boundaries about what is acceptable.</p>
+</blockquote>
+
+<p>If you’re uncomfortable with physical contact, make your preferences clear—whether that means no hugs, only high-fives, or asking first before a handshake.</p>
+
+<p>Also, consider having an <strong>emergency plan</strong> ahead of time. Know the nearest exits, locations of security, and a designated spot or contact if something feels off.</p>
+
+<p>You’re never obligated to interact in ways that make you feel uncomfortable. If you experience <a href="https://wellcontent.io/prevent-harassment-hate-raids-twitch">harassment</a>, report it immediately to the relevant platform or person/authorities.</p>
+
+<!-- <div class="alert alert-primary" role="alert">
+  <strong>Get your <a href="https://ko-fi.com/glitchedinorbit/shop/template" target="_blank" rel="noopener noreferrer">Event Checklist & Emergency Plan</a> template.</strong><br>
+</div> -->
+
+<h3 id="stay-connected">Stay connected</h3>
+
+<p>At the very least, always have a contact person, a group of friends, or a reliable support network that can help out if needed. Fill them in if if you notice anything suspicious or feel uncomfortable.</p>
+
+<p>For larger events or high-profile appearances, hiring professional security may be a good choice, especially if you have a significant following or anticipate drawing attention.</p>
+
+<p><br /></p>
+
+<h2 id="general-tips">General Tips</h2>
+
+<h3 id="be-cautious-with-personal-information">Be cautious with personal information</h3>
+
+<p>Avoid sharing sensitive personal details such as your full name, family members’ names, or anything that could be used to locate or identify you.</p>
+
+<h3 id="use-nicknames-or-screen-names">Use nicknames or screen names</h3>
+
+<p>When possible, keep your real name and other identifying details out of the public eye by using a pseudonym or online persona that’s not connected to your personal identity.</p>
+
+<p><br /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>By implementing these strategies, you can help safeguard your privacy and safety while continuing to engage with your community as a streamer.</p>
+
+<p>Always remember that your security should be a priority, and it’s okay to take extra precautions when necessary.</p>
+
+<p><em>Thanks for reading!</em></p>
+:ET
