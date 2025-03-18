@@ -1,4 +1,4 @@
-I"�1<p><img src="https://images.unsplash.com/photo-1633265486064-086b219458ec?fit=crop&amp;w=1170&amp;h=780&amp;q=80" alt="Close-up view of a golden lock next to two golden credit cards on a white keyboard" /></p>
+I"E3<p><img src="https://images.unsplash.com/photo-1633265486064-086b219458ec?fit=crop&amp;w=1170&amp;h=780&amp;q=80" alt="Close-up view of a golden lock next to two golden credit cards on a white keyboard" /></p>
 
 <p><strong>Jump to section</strong>:</p>
 
@@ -74,13 +74,13 @@
 
 <p>Always enable at least two-factor authentication (2FA) on every platform you use, whether it’s Twitch, Discord, Twitter, or others. This significantly reduces the chances of someone gaining unauthorized access to your accounts.</p>
 
-<p>If possible, use an authenticator app like <strong><a href="https://www.authy.com/" target="\_blank" rel="noopener noreferrer">Authy</a></strong> or <strong><a href="">Google Authenticator</a></strong> for added security over email or text-based 2FA.</p>
+<p>If possible, use an authenticator app like <strong><a href="https://www.authy.com/" target="\_blank" rel="noopener noreferrer">Authy</a></strong> or <strong>Google Authenticator</strong> for added security over email or text-based 2FA.</p>
 
 <p>Even better, use multi-factor authentication (MFA) where possible.</p>
 
 <h3 id="use-strong-unique-passwords">Use strong, unique passwords</h3>
 
-<p>Don’t reuse passwords across accounts. Use a password manager like <strong>1Password</strong> or <strong>LastPass</strong> to store and generate secure passwords.</p>
+<p>Don’t reuse passwords across accounts. Use a password manager like <strong><a href="https://bitwarden.com/" target="\_blank" rel="noopener noreferrer">Bitwarden</a></strong> or <strong><a href="https://www.lastpass.com/" target="\_blank" rel="noopener noreferrer">LastPass</a></strong> to store and generate secure passwords.</p>
 
 <p>Alternatively, use <a href="https://blog.1password.com/passkeys-vs-passwords-differences/" target="\_blank" rel="noopener noreferrer">passkeys</a> instead of passwords for even more added security.</p>
 
@@ -98,7 +98,7 @@
 
 <h3 id="use-alternative-payment-methods">Use alternative payment methods</h3>
 
-<p>Consider services like <strong>StreamElements</strong>, <strong>Ko-fi</strong>, or <strong>Patreon</strong>, which offer chargeback protection and additional layers of protection by not exposing your real name or location.</p>
+<p>Consider services like <strong><a href="https://streamelements.com/" target="\_blank" rel="noopener noreferrer">StreamElements</a></strong>, <strong><a href="https://ko-fi.com/" target="\_blank" rel="noopener noreferrer">Ko-fi</a></strong>, or <strong><a href="https://www.patreon.com/" target="\_blank" rel="noopener noreferrer">Patreon</a></strong>, which offer chargeback protection and additional layers of protection by not exposing your real name or location.</p>
 
 <blockquote>
   <p>Don’t use PayPal directly for transactions.</p>
@@ -138,7 +138,7 @@
 
 <h3 id="use-secure-alternatives-for-gifts-and-mail">Use secure alternatives for gifts and mail</h3>
 
-<p>If you wish to receive gifts from your viewers, platforms like <strong>Throne</strong> or an <strong>Amazon Wishlist</strong> (with the “Share my delivery address with sellers” option disabled) offer a secure alternative to sharing your home address.</p>
+<p>If you wish to receive gifts from your viewers, platforms like <strong><a href="https://throne.com/" target="\_blank" rel="noopener noreferrer">Throne</a></strong> or an <strong>Amazon Wishlist</strong> (with the “Share my delivery address with sellers” option disabled) offer a secure alternative to sharing your home address.</p>
 
 <p>You can also set up a P.O. Box for mail deliveries.</p>
 
@@ -200,9 +200,9 @@
 
 <p>You’re never obligated to interact in ways that make you feel uncomfortable. If you experience <a href="https://wellcontent.io/prevent-harassment-hate-raids-twitch">harassment</a>, report it immediately to the relevant platform or person/authorities.</p>
 
-<!-- <div class="alert alert-primary" role="alert">
-  <strong>Get your <a href="https://ko-fi.com/glitchedinorbit/shop/template" target="_blank" rel="noopener noreferrer">Event Checklist & Emergency Plan</a> template.</strong><br>
-</div> -->
+<div class="alert alert-primary" role="alert">
+  <strong>Get your <a href="https://ko-fi.com/s/cd97f82ced" target="_blank" rel="noopener noreferrer">Event Checklist &amp; Emergency Plan</a> template.</strong><br />
+</div>
 
 <h3 id="stay-connected">Stay connected</h3>
 

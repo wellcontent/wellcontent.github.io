@@ -206,9 +206,9 @@ Also, consider having an **emergency plan** ahead of time. Know the nearest exit
 
 You're never obligated to interact in ways that make you feel uncomfortable. If you experience [harassment](https://wellcontent.io/prevent-harassment-hate-raids-twitch), report it immediately to the relevant platform or person/authorities.
 
-<!-- <div class="alert alert-primary" role="alert">
-  <strong>Get your <a href="https://ko-fi.com/glitchedinorbit/shop/template" target="_blank" rel="noopener noreferrer">Event Checklist & Emergency Plan</a> template.</strong><br>
-</div> -->
+<div class="alert alert-primary" role="alert">
+  <strong>Get your <a href="https://ko-fi.com/s/cd97f82ced" target="_blank" rel="noopener noreferrer">Event Checklist & Emergency Plan</a> template.</strong><br>
+</div>
 
 ### Stay connected
 
