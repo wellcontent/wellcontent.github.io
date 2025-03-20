@@ -1,54 +1,45 @@
 <!-- Footer -->
 
 <footer>
-  
+  <hr>
+  <br>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 mx-auto">
-        <ul class="list-inline text-center">
-          
-          <!--  {% include newsletter.html %} -->
-
-          <hr>
-
-          <br>
-
-          <!-- Short introduction to Well&Content -->
-          <p class="card-text">
-            At Well&Content, you'll find resources for every stage of your creative journey.
+    <div class="row justify-content-center"> <!-- Center the content horizontally -->
+      <div class="col-lg-12 col-md-12 mx-auto text-center"> <!-- Center the content within the column -->
+        
+        <!-- Short introduction to Well&Content -->
+        <p class="card-text">
+          At Well&Content, you'll find resources for every stage of your creative journey.
+        </p>
+        
+        <!-- Resources for Creators -->
+        <div class="footer-section">
+          <h4>Creator Resources</h4>
+          <p>
+            <a class="footer-resources-link" href="/templates">Templates</a> |
+            <a class="footer-resources-link" href="/guides">Guides</a> |
+            <a class="footer-resources-link" style="text-decoration: none" href="/blog"><strong>Posts:</strong></a><a class="footer-resources-link" href="/streaming">Streaming</a><a class="footer-resources-link" href="/wellbeing">Wellbeing</a><a class="footer-resources-link" href="/blogging">Blogging</a>
           </p>
+        </div>
+        
+        <!-- Mental Health Resources -->
+        <div class="footer-section">
+          <h4>Mental Health</h4>
+          <p>
+            <a class="footer-resources-link" href="https://safeinourworld.org/" target="_blank" rel="noopener noreferrer">Safe In Our World</a> |
+            <a class="footer-resources-link" href="https://www.mind.org.uk/" target="_blank" rel="noopener noreferrer">Mind</a> |
+            <a class="footer-resources-link" href="https://www.thetrevorproject.org/" target="_blank" rel="noopener noreferrer">The Trevor Project</a> |
+            <a class="footer-resources-link" href="https://suicidepreventionlifeline.org/" target="_blank" rel="noopener noreferrer">Lifeline</a>
+          </p>
+        </div>
+        
+        <hr class="dark-mode"> <!-- Use the horizontal line outside the list -->
+
+        <ul class="list-inline text-center">
+          <li class="list-inline-item">
+            <p class="copyright">&copy; Well&Content {{ 'now' | date: "%Y" }}</p>
+          </li>
           
-          <!-- Resources for Creators -->
-          <div class="footer-section">
-            <h5>Creator Resources</h5>
-            <p>
-              <a class="footer-resources-link" href="/templates">Templates</a> |
-              <a class="footer-resources-link" href="/guides">Guides</a> |
-              <a class="footer-resources-link" style="text-decoration: none" href="/blog"><strong>Posts:</strong></a><a class="footer-resources-link" href="/streaming">Streaming</a><a class="footer-resources-link" href="/wellbeing">Wellbeing</a><a class="footer-resources-link" href="/blogging">Blogging</a>
-            </p>
-          </div>
-          
-          <br>
-          
-          <!-- Mental Health Resources -->
-          <div class="footer-section">
-            <h5>Mental Health</h5>
-            <p>
-              <a class="footer-resources-link" href="https://safeinourworld.org/">Safe In Our World</a> |
-              <a class="footer-resources-link" href="https://www.mind.org.uk/">Mind</a> |
-              <a class="footer-resources-link" href="https://www.thetrevorproject.org/">The Trevor Project</a> |
-              <a class="footer-resources-link" href="https://suicidepreventionlifeline.org/">Lifeline</a>
-            </p>
-          </div>
-
-          <hr>
-
-          <br>
-
-          <br>
-
-          <p class="copyright list-inline-item">&copy; Well&Content {{ 'now' | date: "%Y" }}</p>
-
           <li class="list-inline-item">
             <a class="footer-link" href="{{"/legal-disclosure" | relative_url }}">Legal Disclosure</a>
           </li>
@@ -63,7 +54,7 @@
 
           {% if site.twitter_username %}
           <li class="list-inline-item">
-            <a class="footer-link" href="https://twitter.com/{{ site.twitter_username }}">
+            <a class="footer-link" href="https://twitter.com/{{ site.twitter_username }}" aria-label="Follow me on Twitter" target="_blank" rel="noopener noreferrer">
               <span class="fa-stack fa-lg">
                 <i class="bi bi-twitter"></i>
               </span>
@@ -73,72 +64,18 @@
 
           {% if site.email %}
           <li class="list-inline-item">
-            <a class="footer-link" href="mailto:{{ site.email | encode_email }}">
+            <a class="footer-link" href="mailto:{{ site.email | encode_email }}" aria-label="Send me an email"
               <span class="fa-stack fa-lg">
                 <i class="bi bi-envelope"></i>
               </span>
             </a>
           </li>
           {% endif %}
-          
-          <!--
-          {% if site.twitter_username %}
-          <li class="list-inline-item">
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          
-          {% if site.facebook_username %}
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com/{{ site.facebook_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          
-          {% if site.linkedin_username %}
-          <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          
-          {% if site.github_username %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          
-          {% if site.instagram_username %}
-          <li class="list-inline-item">
-            <a href="https://instagram.com/{{ site.instagram_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          -->
-
         </ul>
+        
+        
+
+        <br><br> <!-- Move the breaks outside the list -->
       </div>
     </div>
   </div>

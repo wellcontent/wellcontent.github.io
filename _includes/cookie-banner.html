@@ -10,3 +10,74 @@
   <button id="reject-cookies" class="btn btn-secondary">Reject</button>
   <!-- <button id="manage-cookies" class="btn btn-secondary">Manage</button> -->
 </div>
+
+<!-- Cookie banner script -->
+<!-- <script defer>
+  document.addEventListener("DOMContentLoaded", function () {
+    const cookieBanner = document.getElementById("cookie-banner");
+    const acceptCookiesBtn = document.getElementById("accept-cookies");
+    const rejectCookiesBtn = document.getElementById("reject-cookies");
+    /* const manageCookiesBtn = document.getElementById("manage-cookies"); */
+
+    // Get the current cookie consent status and timestamp from localStorage
+    const cookiesAccepted = localStorage.getItem("cookiesAccepted");
+    const consentTimestamp = localStorage.getItem("consentTimestamp");
+
+    // Set duration for 6 months (in milliseconds)
+    const sixMonthsInMillis = 6 * 30 * 24 * 60 * 60 * 1000; // 6 months in milliseconds /* 30 * 1000; */ // 30 seconds in milliseconds to debug
+
+    // Check if the user has already accepted cookies and if consent is still valid (less than 6 months old)
+    if (
+      !cookiesAccepted ||
+      !consentTimestamp ||
+      Date.now() - consentTimestamp > sixMonthsInMillis
+    ) {
+      cookieBanner.style.display = "flex"; // Show the banner if no consent or if consent has expired
+    } else if (cookiesAccepted === "true") {
+      // If cookies have been accepted and consent is still valid, load Google Analytics
+      loadGoogleAnalytics();
+    }
+
+    // Handle accept cookies button
+    acceptCookiesBtn.addEventListener("click", function () {
+      localStorage.setItem("cookiesAccepted", "true");
+      localStorage.setItem("consentTimestamp", Date.now()); // Store the timestamp when consent is given
+      cookieBanner.style.display = "none"; // Hide the banner
+
+      // Dynamically inject Google Analytics
+      loadGoogleAnalytics();
+    });
+
+    // Handle reject cookies button
+    rejectCookiesBtn.addEventListener("click", function () {
+      localStorage.setItem("cookiesAccepted", "false");
+      localStorage.setItem("advertisingCookies", "false"); // Reject advertising cookies
+      localStorage.setItem("consentTimestamp", Date.now()); // Store the timestamp when consent is rejected
+      cookieBanner.style.display = "none"; // Hide the banner
+    });
+
+    // Handle manage cookies button (optional)
+    /* manageCookiesBtn.addEventListener("click", function () {
+      alert("Cookie management functionality coming soon!");
+    });*/
+  });
+
+  // Function to dynamically load the Google Analytics script
+  function loadGoogleAnalytics() {
+    const scriptTag1 = document.createElement("script");
+    scriptTag1.async = true;
+    scriptTag1.src =
+      "https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}";
+    scriptTag1.onload = function () {
+      const scriptTag2 = document.createElement("script");
+      scriptTag2.innerHTML = window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "{{ site.google_analytics }}");
+      document.body.appendChild(scriptTag2);
+    };
+    document.body.appendChild(scriptTag1);
+  }
+</script> -->

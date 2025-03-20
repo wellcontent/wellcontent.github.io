@@ -11,7 +11,7 @@
   />
 
   {% if page.keywords %}
-  <meta name="keywords" content="{{ page.keywords }}" />
+  <meta name="keywords" content="{{ page.keywords | escape }}" />
   {% else %}
   <meta name="keywords" content="{{ site.keywords | join: ', ' }}" />
   {% endif %}
@@ -22,25 +22,18 @@
     %}
   </title>
 
+  <!-- Preconnect for faster font loading -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Load Google Fonts -->
   <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:wght@400;700&family=Poppins:wght@400;700&family=Sen:wght@400;700&display=swap"
     rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@400;700&display=swap"
+    as="font"
   />
 
-  <noscript>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:wght@400;700&family=Poppins:wght@400;700&family=Sen:wght@400;700&display=swap"
-    />
-  </noscript>
-
-  <!--
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" as="style">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" type='text/css'>
-  -->
-
+  <!-- Main Stylesheet -->
   <link rel="stylesheet" href="{{"/assets/main.css" | relative_url }}">
   <link
     rel="canonical"
@@ -48,11 +41,34 @@
   />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape
   }}" href="{{ "/feed.xml" | relative_url }}">
+
+  <!-- Preload images -->
+  {% if item.cover %}
+  <link
+    rel="preload"
+    href="{{ item.cover | replace: '.webp', '-800.webp' }}"
+    as="image"
+    type="image/webp"
+    crossorigin="anonymous"
+  />
+  {% endif %} {% if post.background %}
+  <link
+    rel="preload"
+    href="{{ post.background | replace: '.webp', '-800.webp' }}"
+    as="image"
+    type="image/webp"
+    sizes="800px"
+    crossorigin="anonymous"
+  />
+  {% endif %}
+
+  <!-- Preload Bootstrap Icons -->
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
   />
 
+  <!-- Favicon Links -->
   <link
     rel="apple-touch-icon"
     sizes="180x180"
@@ -84,28 +100,16 @@
   />
   <meta name="theme-color" content="#ffffff" />
 
-  <!-- Add this script to set the theme early -->
-  <script>
+  <!-- Theme Script - Sets the theme early -->
+  <script async>
     (function () {
       const savedTheme = localStorage.getItem("theme") || "dark"; // Default to dark
-      console.log("Getting theme from localStorage in head.html:", savedTheme);
+      //console.log("Getting theme from localStorage in head.html:", savedTheme);
       document.documentElement.classList.add(savedTheme + "-mode");
     })();
   </script>
 
-  <!-- <script>
-    (function () {
-      const savedTheme = localStorage.getItem("theme") || "dark"; // Default to dark if not found
-      console.log("Getting theme from localStorage in head.html:", savedTheme);
-      if (savedTheme === "dark") {
-        document.documentElement.classList.add("dark-mode");
-      } else {
-        document.documentElement.classList.add("light-mode"); // Apply light-mode if saved theme is not dark
-      }
-    })();
-  </script> -->
-
-  <!-- Twitter cards -->
+  <!-- Twitter Cards Metadata -->
   <meta name="twitter:site" content="@{{ site.twitter_username }}" />
   <meta name="twitter:creator" content="@{{ page.author }}" />
   <meta name="twitter:title" content="{{ page.title }}" />
@@ -121,23 +125,5 @@
   {% else %}
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="{{ site.title_background }}" />
-  {% endif %}
-
-  <!-- Google AMP Ads
-  <script data-ad-client="ca-pub-6216107086354809" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-  <script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-  </script>
-
-  <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-  -->
-
-  <!-- FontAwesome
-  <script async src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-  -->
-
-  <!-- Add this script to set the theme early -->
-
-  {% seo %}
+  {% endif %} {% seo %}
 </head>

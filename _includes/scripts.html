@@ -20,7 +20,7 @@
   
     // Apply the theme immediately based on the saved preference
     const savedTheme = localStorage.getItem('theme') || 'dark'; // Default to dark mode if no preference is saved
-    console.log("Getting theme from localStorage in scripts.html:", savedTheme);
+    //console.log("Getting theme from localStorage in scripts.html:", savedTheme);
     setTheme(savedTheme);
     
     // Helper function to apply a theme to a group of elements
@@ -35,7 +35,7 @@
     
     // Function to set the theme
     function setTheme(mode) {
-      console.log('Setting theme to:', mode);
+      //console.log('Setting theme to:', mode);
   
       // Apply mode to all relevant elements
       applyModeToElements([document.body], mode);  // Apply to body
@@ -74,8 +74,35 @@
   });
   </script>
 
-<!-- Cookie banner popup -->
-<script>
+<!-- Check LCP before loading cookie banner -->
+<!-- Before: https://pagespeed.web.dev/analysis/https-wellcontent-io/3hk8xhuo31?form_factor=mobile -->
+<!-- <script>
+  if ('PerformanceObserver' in window) {
+    const observer = new PerformanceObserver((entryList) => {
+      const entries = entryList.getEntries();
+      if (entries.length > 0) {
+        setTimeout(() => {
+          loadCookieBanner();
+        }, 500); // Delay slightly to ensure LCP is completed
+        observer.disconnect();
+      }
+    });
+    observer.observe({ type: 'largest-contentful-paint', buffered: true });
+  } else {
+    loadCookieBanner(); // Fallback for older browsers
+  }
+  
+  function loadCookieBanner() {
+    // Defer loading the actual cookie banner script
+    const scriptTag = document.createElement('script');
+    scriptTag.src = '{{ "_includes/cookie-banner.html" | relative_url }}';
+    scriptTag.defer = true;
+    document.body.appendChild(scriptTag);
+  }
+</script> -->
+
+<!-- Cookie banner script -->
+<script defer>
   document.addEventListener("DOMContentLoaded", function () {
     const cookieBanner = document.getElementById("cookie-banner");
     const acceptCookiesBtn = document.getElementById("accept-cookies");
@@ -87,10 +114,14 @@
     const consentTimestamp = localStorage.getItem("consentTimestamp");
 
     // Set duration for 6 months (in milliseconds)
-    const sixMonthsInMillis = 6 * 30 * 24 * 60 * 60 * 1000; // 6 months in milliseconds /* 30 * 1000; */ // 30 seconds in milliseconds to debug 
+    const sixMonthsInMillis = 6 * 30 * 24 * 60 * 60 * 1000; // 6 months in milliseconds /* 30 * 1000; */ // 30 seconds in milliseconds to debug
 
     // Check if the user has already accepted cookies and if consent is still valid (less than 6 months old)
-    if (!cookiesAccepted || !consentTimestamp || (Date.now() - consentTimestamp > sixMonthsInMillis)) {
+    if (
+      !cookiesAccepted ||
+      !consentTimestamp ||
+      Date.now() - consentTimestamp > sixMonthsInMillis
+    ) {
       cookieBanner.style.display = "flex"; // Show the banner if no consent or if consent has expired
     } else if (cookiesAccepted === "true") {
       // If cookies have been accepted and consent is still valid, load Google Analytics
@@ -119,25 +150,24 @@
     /* manageCookiesBtn.addEventListener("click", function () {
       alert("Cookie management functionality coming soon!");
     });*/
-  
   });
 
   // Function to dynamically load the Google Analytics script
   function loadGoogleAnalytics() {
     const scriptTag1 = document.createElement("script");
     scriptTag1.async = true;
-    scriptTag1.src = "https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}";
+    scriptTag1.src =
+      "https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}";
     scriptTag1.onload = function () {
       const scriptTag2 = document.createElement("script");
-      scriptTag2.innerHTML = `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      `;
+      scriptTag2.innerHTML = window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "{{ site.google_analytics }}");
       document.body.appendChild(scriptTag2);
     };
     document.body.appendChild(scriptTag1);
   }
 </script>
-

@@ -134,11 +134,19 @@
   @include border-radius($card-inner-border-radius);
 }
 
+// Card image wrapper for aspect ratio control
+.card-img-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; // Adjust based on your image's aspect ratio, here 16:9
+}
+
 .card-img,
 .card-img-top,
 .card-img-bottom {
   flex-shrink: 0; // For IE: https://github.com/twbs/bootstrap/issues/29396
   width: 100%; // Required because we use flexbox and this inherently applies align-self: stretch
+  height: 100%; /* Maintains aspect ratio */
 }
 
 .card-img,

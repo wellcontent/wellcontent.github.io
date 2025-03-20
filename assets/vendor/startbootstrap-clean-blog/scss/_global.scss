@@ -1,7 +1,40 @@
 // Global styling for this template
 
+// @font-face {
+//   font-family: "Poppins";
+//   src: url("/assets/fonts/poppins-regular.ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Poppins";
+//   src: url("/assets/fonts/poppins-bold.ttf") format("truetype");
+//   font-weight: bold;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Nunito";
+//   src: url("/assets/fonts/nunito-regular.ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Nunito";
+//   src: url("/assets/fonts/nunito-bold.ttf") format("truetype");
+//   font-weight: bold;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
 body {
   background-color: $gray-900;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   letter-spacing: 0.3px;
   color: $white;
@@ -34,7 +67,10 @@ p {
   }
 }
 
-.site-title {
+h1.site-title {
+  font-family: "Nunito", sans-serif; /* Ensure correct font is used */
+  font-display: swap; /* Allows fallback font */
+  will-change: transform; /* Improve font loading performance */
   letter-spacing: 0em;
 }
 
@@ -44,8 +80,8 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 h4 {

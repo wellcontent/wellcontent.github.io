@@ -60,13 +60,19 @@ layout: default
       in combined %} {% if item.order and count < 6 %}
       <div class="col d-flex mb-3">
         <div class="card text-white bg-dark h-100">
-          <img
-            class="card-img-top"
-            src="{{ item.cover }}"
-            alt="{{ item.title }}"
-          />
+          <div class="card-img-wrapper">
+            <img
+              class="card-img-top"
+              srcset="{{ item.cover | replace: '.webp', '-320.webp' }} 320w, 
+              {{ item.cover | replace: '.webp', '-480.webp' }} 480w, 
+              {{ item.cover | replace: '.webp', '-800.webp' }} 800w"
+              sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+              src="{{ item.cover }}"
+              alt="{{ item.title }}"
+            />
+          </div>
           <div class="card-body">
-            <h4 class="card-title">{{ item.title }}</h4>
+            <h3 class="card-title">{{ item.title }}</h3>
             <p class="card-text">{{ item.subtitle }}</p>
             <a
               href="{{ site.baseurl }}{{ item.url }}"
@@ -107,14 +113,20 @@ layout: default
       if count < 3 %}
       <div class="col d-flex">
         <div class="card text-white bg-dark mb-3 h-100 d-flex flex-column">
-          <img
-            class="card-img-top"
-            src="{{ post.background }}"
-            alt="{{ post.background_alt | default: post.title }}"
-            loading="lazy"
-          />
+          <div class="card-img-wrapper">
+            <img
+              class="card-img-top"
+              srcset="{{ post.background | replace: '.webp', '-320.webp' }} 320w, 
+              {{ post.background | replace: '.webp', '-480.webp' }} 480w, 
+              {{ post.background | replace: '.webp', '-800.webp' }} 800w"
+              sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+              src="{{ post.background }}"
+              alt="{{ post.background_alt | default: post.title }}"
+              loading="lazy"
+            />
+          </div>
           <div class="card-body d-flex flex-column">
-            <h4 class="card-title">{{ post.title }}</h4>
+            <h3 class="card-title">{{ post.title }}</h3>
             <p class="card-text">
               {% if post.subtitle %} {{ post.subtitle | truncatewords: 20 }} {%
               elsif post.description %} {{ post.description | truncatewords: 20
@@ -147,7 +159,7 @@ layout: default
         <div class="col-12 mx-auto">
           <div class="card bg-dark text-white shadow-sm w-100">
             <div class="card-body">
-              <h5 class="card-title">Hi, nice to meet you!</h5>
+              <h4 class="card-title">Hi, nice to meet you!</h4>
               <p class="card-text">
                 "I'm Chloe, the content creator and founder of Well&Content.
                 Since 2016, I've been navigating the world of content creation,
@@ -186,12 +198,18 @@ layout: default
           class="card text-white bg-dark d-flex flex-column h-100"
           style="min-width: 18rem; margin-bottom: 2rem"
         >
-          <img
-            class="card-img-top"
-            src="{{ post.background }}"
-            alt="{{ post.background_alt | default: post.title }}"
-            loading="lazy"
-          />
+          <div class="card-img-wrapper">
+            <img
+              class="card-img-top"
+              srcset="{{ post.background | replace: '.webp', '-320.webp' }} 320w, 
+              {{ post.background | replace: '.webp', '-480.webp' }} 480w, 
+              {{ post.background | replace: '.webp', '-800.webp' }} 800w"
+              sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+              src="{{ post.background }}"
+              alt="{{ post.background_alt | default: post.title }}"
+              loading="lazy"
+            />
+          </div>
           <div class="card-body d-flex flex-column">
             <div>
               <p class="read-time text-muted">
@@ -199,7 +217,7 @@ layout: default
               </p>
             </div>
             <div>
-              <h4 class="card-title">{{ post.title }}</h4>
+              <h3 class="card-title">{{ post.title }}</h3>
             </div>
             <div>
               <p class="card-text">
