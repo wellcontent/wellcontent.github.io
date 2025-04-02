@@ -444,3 +444,52 @@ pre code {
     display: block !important; /* Hide sidebar on mobile and vertical tablet */
   }
 }
+
+#tweet-input {
+  width: 100%;
+  min-height: fit-content;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #343a40; /* Matches code block background color */
+  border: 1px solid #50575d;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+#tweet-input::placeholder {
+  color: #a3a3a3;
+}
+#tweet-input:focus {
+  border-color: #6c757d;
+  box-shadow: 0 0 5px rgba(108, 117, 125, 0.8);
+  background-color: #343a40 !important; /* Ensure background stays the same on focus */
+  color: white !important; /* Ensure text stays white on focus */
+}
+#tweet-input.light-mode {
+  color: $gray-900;
+  background-color: $gray-300; /* Matches code block background color */
+  border: 1px solid $gray-500;
+}
+#tweet-input::placeholder.light-mode {
+  color: $gray-600;
+}
+#tweet-input:focus.light-mode {
+  border-color: $gray-500;
+  background-color: $gray-300 !important; /* Ensure background stays the same on focus */
+  color: $gray-900 !important; /* Ensure text stays white on focus */
+}
+#results {
+  margin-top: 50px;
+  /* padding: 10px; */
+  border: none;
+}
+.optimization-message {
+  color: orange;
+}
+.positive-message {
+  color: yellowgreen;
+}
+.deduction-message {
+  color: orangered;
+}

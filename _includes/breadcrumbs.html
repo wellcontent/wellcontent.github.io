@@ -60,6 +60,14 @@
       <a href="{{ site.baseurl }}{{ site.breadcrumbs.about }}">About</a>
       {% else %} About {% endif %}
     </li>
+
+    <!-- Tools Breadcrumb -->
+    <!-- {% elsif page.url contains '/tools/' %}
+    <li class="breadcrumb-item">
+      {% if page.url != '/tools/' %}
+      <a href="{{ site.baseurl }}{{ site.breadcrumbs.tools }}">Tools</a>
+      {% else %} Tools {% endif %}
+    </li> -->
     {% endif %}
   </ol>
 </nav>

@@ -9,15 +9,17 @@ background: ""
 
 ## Hi, I'm Chloe!
 
-I'm the person behind **Well&Content**. I began creating content on [Twitch](https://twitch.tv/glitchedinorbit) in 2016 and on [YouTube](https://youtube.com/glitchedinorbit) in 2020. Well&Content is a resource hub to help streamers and content creators enhance their productivity and well-being.
+I'm the person behind **Well&Content**. I began creating content on [Twitch](https://twitch.tv/glitchedinorbit) in 2016 and on [YouTube](https://youtube.com/glitchedinorbit) in 2020. Well&Content is a resource hub to help neurodivergent creators thrive in their creative journey.
 
 ### My Mission
 
-I aim to support creators like you with actionable guides, customizable templates, and insightful posts to help you thrive in your journey—mentally, digitally, physically, and financially.
+I aim to support neurodivergent creators like you with actionable guides, customizable templates, and insightful posts that focus on mental, physical, digital, and financial well-being.
 
 ### My Story
 
-Burnout from streaming led me to prioritize my mental health and start this project, fueled by my passion for mental health and content creation. My mission is to share insights and resources to help you care for your physical, mental, digital, and financial well-being.
+My journey has been shaped by my experiences and recovery from **an eating disorder (ED)**, **anxiety**, and **depression**, as well as ongoing **chronic pain** and **chronic fatigue**. Recently, I've also been diagnosed with **ADHD**, which has helped me better understand my creative process and the unique challenges that come with it.
+
+Burnout from content creation, alongside my mental health struggles, led me to prioritize my well-being and start Well&Content. I want to share the tools, insights, and support that have helped me navigate my neurodivergent journey, so that you can thrive creatively and sustainably.
 
 ### What I Offer
 
