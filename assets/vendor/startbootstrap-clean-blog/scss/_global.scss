@@ -493,3 +493,20 @@ pre code {
 .deduction-message {
   color: orangered;
 }
+
+:root {
+  --alert-primary: #526d59;
+  --alert-secondary: #383d41;
+  --alert-success: #526d59;
+  --alert-info: #0c5460;
+  --alert-warning: #856404;
+  --alert-danger: #721c24;
+  --alert-light: #617365;
+  --alert-dark: #1b1e21;
+}
+
+.callout {
+  background-color: transparent;
+  border-left: 5px solid $primary;
+  color: inherit;
+}

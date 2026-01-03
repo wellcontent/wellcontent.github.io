@@ -8,6 +8,7 @@ background_alt: "Close-up view of a goal review planner with three pens on a woo
 categories: [wellbeing]
 tags:
   [
+    productivity,
     neurodivergent productivity,
     gentle productivity,
     creator mental health,

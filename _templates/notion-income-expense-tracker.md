@@ -15,7 +15,7 @@ tags:
     personal finance,
     money management,
     organization,
-    Notion,
+    notion,
     productivity,
     financial planning,
   ]
