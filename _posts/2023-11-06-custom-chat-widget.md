@@ -2,7 +2,8 @@
 layout: post
 title: "How to Create a Custom Chat Widget in StreamElements (Tutorial)"
 subtitle: "Ever wanted to create a chat widget for your stream, but don't know where to start? I'll help you to create your own custom chat widget in StreamElements with this step by step tutorial."
-updated: 2025-03-11
+description: "A step-by-step tutorial to create your own StreamElements chat widget."
+updated: 2026-01-04
 background: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2672"
 background_alt: "A laptop displaying a code editor, placed on a white desk with an external monitor behind it and a smartphone beside it"
 popularity: 1
@@ -57,66 +58,55 @@ keywords:
 **Jump to section**:
 
 - [Introduction](#introduction)
-- [Getting The Base Code In StreamElements](#getting-the-base-code-in-streamelements)
-  - [Add the base HTML](#add-the-base-html)
-  - [Add the base CSS](#add-the-base-css)
-  - [Add the base JS](#add-the-base-js)
-  - [Add the base FIELDS](#add-the-base-fields)
-- [Customizing Your Widget In StreamElements](#customizing-your-widget-in-streamelements)
-  - [Add your custom FIELDS](#add-your-custom-fields)
-  - [Add your custom CSS](#add-your-custom-css)
-  - [Add your custom DATA](#add-your-custom-data)
-- [Backing Up Your Code](#backing-up-your-code)
-  - [Organize your code](#organize-your-code)
-  - [Upload your code to GitHub](#upload-your-code-to-github)
-- [Sharing And Selling Your StreamElements Widgets](#sharing-and-selling-your-streamelements-widgets)
-  - [Share some text files](#share-some-text-files)
-  - [Share your widget in the StreamElements Discord](#share-your-widget-in-the-streamelements-discord)
-  - [Apply for StreamElements' Overlay Sharing Application](#apply-for-streamelements-overlay-sharing-application)
-- [To Wrap Up](#to-wrap-up)
+- [Adding the Base Code](#adding-the-base-code)
+  - [HTML](#html)
+  - [CSS](#css)
+  - [JS](#js)
+  - [Fields](#fields)
+- [Customizing Your Widget in StreamElements](#customizing-your-widget-in-streamelements)
+  - [Custom CSS](#custom-css)
+  - [Custom Fields](#custom-fields)
+  - [Custom Data](#custom-data)
+- [Backing Up Your Widget](#backing-up-your-widget)
+  - [Organize locally](#organize-locally)
+  - [Upload to GitHub](#upload-to-github)
+- [Sharing and Selling Your Widget](#sharing-and-selling-your-widget)
+- [Conclusion](#conclusion)
 
 <br>
 
 ## Introduction
 
-Creating your own chat widget for your Twitch stream is a fulfilling endeavor. It allows you to add your own flair and customization to your stream.
+Creating your own Twitch chat widget is a fun way to add personality and style to your stream.
 
-However, in my journey of creating a custom StreamElements widget, I found a distinct lack of guided tutorials to do so. So I wanted to share what I've learned and how I created a custom chat widget in StreamElements.
+While StreamElements offers many widgets, I noticed a lack of beginner-friendly tutorials for building a fully custom chat widget. This guide walks you step-by-step through the process, so you can create, customize, and safely back up your widget.
 
-If you're interested in creating your own chat widget, feel free to follow along and modify the code as you see fit.
-
-Let's get started.
+Let's get started!
 
 <br>
 
-## Getting The Base Code In StreamElements
+## Adding the Base Code
 
-Open up your [StreamElements Overlays Dashboard](https://streamelements.com/dashboard/overlays){:target="\_blank" rel="noopener noreferrer"}.
+1. Open your [StreamElements Overlays Dashboard](https://streamelements.com/dashboard/overlays){:target="\_blank" rel="noopener noreferrer"}.
 
-Click on "New overlay" to create a new overlay.
+2. Click on **New overlay** and give it a name (e.g. `Custom Chat`).
 
-Give the overlay a new name, like "Custom Chat".
+3. Expand **Settings** and click **Open editor**.
 
-Expand Settings and click "Open editor".
+4. Navigate to the [StreamElements' CustomChat GitHub repo](https://github.com/StreamElements/widgets/tree/master/CustomChat){:target="\_blank" rel="noopener noreferrer"}.
 
-Navigate to [StreamElements' CustomChat GitHub repo](https://github.com/StreamElements/widgets/tree/master/CustomChat){:target="\_blank" rel="noopener noreferrer"}.
+### HTML
 
-### Add the base HTML
-
-Copy the code from [StreamElements' custom chat widget.html](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.html){:target="\_blank" rel="noopener noreferrer"} and paste it in the HTML section.
-
-It should look like this:
+Copy the code from [widget.html](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.html){:target="\_blank" rel="noopener noreferrer"}:
 
 ```html
 <script src="//cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.12.0/js/md5.min.js"></script>
 <div class="main-container"></div>
 ```
 
-### Add the base CSS
+### CSS
 
-Copy the code from [StreamElements' custom chat widget.css](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.css){:target="\_blank" rel="noopener noreferrer"} and paste it in the CSS section.
-
-It should look like this:
+Copy the code from [widget.css](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.css){:target="\_blank" rel="noopener noreferrer"}:
 
 ```css
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
@@ -181,565 +171,153 @@ It should look like this:
 }
 ```
 
+_You'll add more custom styling later._
+
 <!-- {: .language-css .copy-code} -->
 
-### Add the base JS
+### JS
 
-Copy the code from [StreamElements' custom chat widget.js](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.js){:target="\_blank" rel="noopener noreferrer"} and paste it in the JS section.
+Copy the code from [widget.js](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.js){:target="\_blank" rel="noopener noreferrer"}. This handles incoming messages, badges, emotes, animations, and other logic.
 
-It should look like this:
+### Fields
 
-```js
-let totalMessages = 0,
-  messagesLimit = 0,
-  nickColor = "user",
-  removeSelector,
-  addition,
-  customNickColor,
-  channelName,
-  provider;
-let animationIn = "bounceIn";
-let animationOut = "bounceOut";
-let hideAfter = 60;
-let hideCommands = "no";
-let ignoredUsers = [];
-window.addEventListener("onEventReceived", function (obj) {
-  if (obj.detail.event.listener === "widget-button") {
-    if (obj.detail.event.field === "testMessage") {
-      let emulated = new CustomEvent("onEventReceived", {
-        detail: {
-          listener: "message",
-          event: {
-            service: "twitch",
-            data: {
-              time: Date.now(),
-              tags: {
-                "badge-info": "",
-                badges: "moderator/1,partner/1",
-                color: "#5B99FF",
-                "display-name": "StreamElements",
-                emotes: "25:46-50",
-                flags: "",
-                id: "43285909-412c-4eee-b80d-89f72ba53142",
-                mod: "1",
-                "room-id": "85827806",
-                subscriber: "0",
-                "tmi-sent-ts": "1579444549265",
-                turbo: "0",
-                "user-id": "100135110",
-                "user-type": "mod",
-              },
-              nick: channelName,
-              userId: "100135110",
-              displayName: channelName,
-              displayColor: "#5B99FF",
-              badges: [
-                {
-                  type: "moderator",
-                  version: "1",
-                  url: "https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/3",
-                  description: "Moderator",
-                },
-                {
-                  type: "partner",
-                  version: "1",
-                  url: "https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/3",
-                  description: "Verified",
-                },
-              ],
-              channel: channelName,
-              text: "Howdy! My name is Bill and I am here to serve Kappa",
-              isAction: !1,
-              emotes: [
-                {
-                  type: "twitch",
-                  name: "Kappa",
-                  id: "25",
-                  gif: !1,
-                  urls: {
-                    1: "https://static-cdn.jtvnw.net/emoticons/v1/25/1.0",
-                    2: "https://static-cdn.jtvnw.net/emoticons/v1/25/1.0",
-                    4: "https://static-cdn.jtvnw.net/emoticons/v1/25/3.0",
-                  },
-                  start: 46,
-                  end: 50,
-                },
-              ],
-              msgId: "43285909-412c-4eee-b80d-89f72ba53142",
-            },
-            renderedText:
-              'Howdy! My name is Bill and I am here to serve <img src="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0" srcset="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 1x, https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 2x, https://static-cdn.jtvnw.net/emoticons/v1/25/3.0 4x" title="Kappa" class="emote">',
-          },
-        },
-      });
-      window.dispatchEvent(emulated);
-    }
-    return;
-  }
-  if (obj.detail.listener === "delete-message") {
-    const msgId = obj.detail.event.msgId;
-    $(`.message-row[data-msgid=${msgId}]`).remove();
-    return;
-  } else if (obj.detail.listener === "delete-messages") {
-    const sender = obj.detail.event.userId;
-    $(`.message-row[data-sender=${sender}]`).remove();
-    return;
-  }
-
-if (obj.detail.listener !== "message") return;
-let data = obj.detail.event.data;
-if (data.text.startsWith("!") && hideCommands === "yes") return;
-if (ignoredUsers.indexOf(data.nick) !== -1) return;
-let message = attachEmotes(data);
-let badges = "",
-badge;
-if (provider === "mixer") {
-data.badges.push({ url: data.avatar });
-}
-for (let i = 0; i < data.badges.length; i++) {
-badge = data.badges[i];
-badges += `<img alt="" src="${badge.url}" class="badge ${badge.type}-icon"> `;
-}
-let username = data.displayName + ":";
-if (nickColor === "user") {
-const color =
-data.displayColor !== ""
-? data.displayColor
-: "#" + md5(username).slice(26);
-username = `<span style="color:${color}">${username}</span>`;
-} else if (nickColor === "custom") {
-const color = customNickColor;
-username = `<span style="color:${color}">${username}</span>`;
-} else if (nickColor === "remove") {
-username = "";
-}
-addMessage(username, badges, message, data.isAction, data.userId, data.msgId);
-});
-
-window.addEventListener("onWidgetLoad", function (obj) {
-const fieldData = obj.detail.fieldData;
-animationIn = fieldData.animationIn;
-animationOut = fieldData.animationOut;
-hideAfter = fieldData.hideAfter;
-messagesLimit = fieldData.messagesLimit;
-nickColor = fieldData.nickColor;
-customNickColor = fieldData.customNickColor;
-hideCommands = fieldData.hideCommands;
-channelName = obj.detail.channel.username;
-fetch(
-"https://api.streamelements.com/kappa/v2/channels/" +
-obj.detail.channel.id +
-"/"
-)
-.then((response) => response.json())
-.then((profile) => {
-provider = profile.provider;
-});
-if (fieldData.alignMessages === "block") {
-addition = "prepend";
-removeSelector = ".message-row:nth-child(n+" + (messagesLimit + 1) + ")";
-} else {
-addition = "append";
-removeSelector =
-".message-row:nth-last-child(n+" + (messagesLimit + 1) + ")";
-}
-
-ignoredUsers = fieldData.ignoredUsers
-.toLowerCase()
-.replace(" ", "")
-.split(",");
-});
-
-function attachEmotes(message) {
-let text = html_encode(message.text);
-let data = message.emotes;
-if (typeof message.attachment !== "undefined") {
-if (typeof message.attachment.media !== "undefined") {
-if (typeof message.attachment.media.image !== "undefined") {
-text = `${message.text}<img src="${message.attachment.media.image.src}">`;
-}
-}
-}
-return text.replace(/([^\s]\*)/gi, function (m, key) {
-let result = data.filter((emote) => {
-return html_encode(emote.name) === key;
-});
-if (typeof result[0] !== "undefined") {
-let url = result[0]["urls"][1];
-if (provider === "twitch") {
-return `<img class="emote" " src="${url}"/>`;
-} else {
-if (typeof result[0].coords === "undefined") {
-result[0].coords = { x: 0, y: 0 };
-}
-let x = parseInt(result[0].coords.x);
-let y = parseInt(result[0].coords.y);
-
-        let width = "{emoteSize}px";
-        let height = "auto";
-
-        if (provider === "mixer") {
-          console.log(result[0]);
-          if (result[0].coords.width) {
-            width = `${result[0].coords.width}px`;
-          }
-          if (result[0].coords.height) {
-            height = `${result[0].coords.height}px`;
-          }
-        }
-        return `<div class="emote" style="width: ${width}; height:${height}; display: inline-block; background-image: url(${url}); background-position: -${x}px -${y}px;"></div>`;
-      }
-    } else return key;
-
-});
-}
-
-function html_encode(e) {
-return e.replace(/[<>"^]/g, function (e) {
-return "&#" + e.charCodeAt(0) + ";";
-});
-}
-
-function addMessage(username, badges, message, isAction, uid, msgId) {
-totalMessages += 1;
-let actionClass = "";
-if (isAction) {
-actionClass = "action";
-}
-const element = $.parseHTML(`
-    <div data-sender="${uid}" data-msgid="${msgId}" class="message-row {animationIn} animated" id="msg-${totalMessages}">
-<div class="user-box ${actionClass}">${badges}${username}</div>
-<div class="user-message ${actionClass}">${message}</div>
-</div>`);
-if (addition === "append") {
-if (hideAfter !== 999) {
-$(element)
-.appendTo(".main-container")
-.delay(hideAfter _ 1000)
-.queue(function () {
-$(this)
-.removeClass(animationIn)
-.addClass(animationOut)
-.delay(1000)
-.queue(function () {
-$(this).remove();
-})
-.dequeue();
-});
-} else {
-$(element).appendTo(".main-container");
-}
-} else {
-if (hideAfter !== 999) {
-$(element)
-.prependTo(".main-container")
-.delay(hideAfter _ 1000)
-.queue(function () {
-$(this)
-.removeClass(animationIn)
-.addClass(animationOut)
-.delay(1000)
-.queue(function () {
-$(this).remove();
-})
-.dequeue();
-});
-} else {
-$(element).prependTo(".main-container");
-}
-}
-
-if (totalMessages > messagesLimit) {
-removeRow();
-}
-}
-
-function removeRow() {
-if (!$(removeSelector).length) {
-    return;
-  }
-  if (animationOut !== "none" || !$(removeSelector).hasClass(animationOut)) {
-if (hideAfter !== 999) {
-$(removeSelector).dequeue();
-} else {
-$(removeSelector)
-.addClass(animationOut)
-.delay(1000)
-.queue(function () {
-$(this).remove().dequeue();
-});
-}
-return;
-}
-
-$(removeSelector).animate(
-{
-height: 0,
-opacity: 0,
-},
-"slow",
-function () {
-$(removeSelector).remove();
-}
-);
-}
-```
-
-### Add the base FIELDS
-
-Copy the code from [StreamElements' custom chat widget.json](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.json){:target="\_blank" rel="noopener noreferrer"} and paste it in the FIELDS section.
-
-It should look like this:
-
-```json
-{
-  "testMessage": {
-    "type": "button",
-    "label": "Test message",
-    "value": "Test message",
-    "group": "Test"
-  },
-  "fontName": {
-    "type": "text",
-    "label": "Font name",
-    "value": "Montserrat",
-    "group": "Typography"
-  },
-  "fontSize": {
-    "type": "number",
-    "label": "Font size",
-    "value": 24,
-    "group": "Typography"
-  },
-  "fontWeight": {
-    "label": "Font Weight",
-    "type": "dropdown",
-    "value": "400",
-    "options": {
-      "100": "Thin (100)",
-      "300": "Light (300)",
-      "400": "Regular (400)",
-      "500": "Medium (500)",
-      "700": "Bold (700)",
-      "900": "Black (900)"
-    },
-    "group": "Typography"
-  },
-  "fontColor": {
-    "type": "colorpicker",
-    "label": "Font Color",
-    "value": "rgba(255,255,255,1)",
-    "group": "Typography"
-  },
-  "textShadow": {
-    "type": "text",
-    "label": "Text shadow",
-    "value": "rgb(0, 0, 0) 1px 1px 1px",
-    "group": "Typography"
-  },
-  "emoteSize": {
-    "type": "number",
-    "label": "Emote size",
-    "value": 24,
-    "group": "Typography"
-  },
-  "alignMessages": {
-    "label": "Align Messages",
-    "type": "dropdown",
-    "value": "flex",
-    "options": {
-      "flex": "Bottom",
-      "block": "Top"
-    },
-    "group": "Typography"
-  },
-  "nickColor": {
-    "type": "dropdown",
-    "label": "Nickname color:",
-    "value": "user",
-    "options": {
-      "user": "as on twitch",
-      "messagecolor": "same as message text",
-      "custom": "specified below",
-      "remove": "Remove username"
-    },
-    "group": "Typography"
-  },
-  "customNickColor": {
-    "type": "colorpicker",
-    "label": "Custom nickname color:",
-    "value": "rgba(0,255,0,1)",
-    "group": "Typography"
-  },
-  "displayBadges": {
-    "type": "dropdown",
-    "label": "Display Badges",
-    "value": "inline",
-    "options": {
-      "inline": "Yes",
-      "none": "No"
-    },
-    "group": "Settings"
-  },
-  "messagesLimit": {
-    "type": "number",
-    "label": "Messages limit",
-    "value": 4,
-    "group": "Settings"
-  },
-  "hideAfter": {
-    "type": "number",
-    "label": "Hide after seconds (999 to disable)",
-    "value": 999,
-    "group": "Settings"
-  },
-  "hideCommands": {
-    "label": "Hide lines starting with ! (!command)",
-    "type": "dropdown",
-    "value": "yes",
-    "options": {
-      "yes": "Yes",
-      "no": "No"
-    },
-    "group": "Settings"
-  },
-  "ignoredUsers": {
-    "label": "Ignored users (comma separated)",
-    "type": "text",
-    "value": "StreamElements,OtherBot",
-    "group": "Settings"
-  },
-  "backgroundColor": {
-    "type": "colorpicker",
-    "label": "Background color:",
-    "value": "rgba(0,0,0,0)",
-    "group": "Settings"
-  },
-  "animationIn": {
-    "type": "dropdown",
-    "label": "Animation In:",
-    "value": "none",
-    "options": {
-      "none": "None",
-      "bounceIn": "bounceIn",
-      "bounceInDown": "bounceInDown",
-      "bounceInLeft": "bounceInLeft",
-      "bounceInRight": "bounceInRight",
-      "bounceInUp": "bounceInUp",
-      "fadeIn": "fadeIn",
-      "fadeInDown": "fadeInDown",
-      "fadeInDownBig": "fadeInDownBig",
-      "fadeInLeft": "fadeInLeft",
-      "fadeInLeftBig": "fadeInLeftBig",
-      "fadeInRight": "fadeInRight",
-      "fadeInRightBig": "fadeInRightBig",
-      "fadeInUp": "fadeInUp",
-      "fadeInUpBig": "fadeInUpBig",
-      "flipInX": "flipInX",
-      "flipInY": "flipInY",
-      "lightSpeedIn": "lightSpeedIn",
-      "rotateIn": "rotateIn",
-      "rotateInDownLeft": "rotateInDownLeft",
-      "rotateInDownRight": "rotateInDownRight",
-      "rotateInUpLeft": "rotateInUpLeft",
-      "rotateInUpRight": "rotateInUpRight",
-      "slideInUp": "slideInUp",
-      "slideInDown": "slideInDown",
-      "slideInLeft": "slideInLeft",
-      "slideInRight": "slideInRight",
-      "zoomIn": "zoomIn",
-      "zoomInDown": "zoomInDown",
-      "zoomInLeft": "zoomInLeft",
-      "zoomInRight": "zoomInRight",
-      "zoomInUp": "zoomInUp",
-      "jackInTheBox": "jackInTheBox",
-      "rollIn": "rollIn"
-    },
-    "group": "Settings"
-  },
-  "animationOut": {
-    "type": "dropdown",
-    "label": "Animation Out:",
-    "value": "none",
-    "options": {
-      "none": "None",
-      "bounceOut": "bounceOut",
-      "bounceOutDown": "bounceOutDown",
-      "bounceOutLeft": "bounceOutLeft",
-      "bounceOutRight": "bounceOutRight",
-      "bounceOutUp": "bounceOutUp",
-      "fadeOut": "fadeOut",
-      "fadeOutDown": "fadeOutDown",
-      "fadeOutDownBig": "fadeOutDownBig",
-      "fadeOutLeft": "fadeOutLeft",
-      "fadeOutLeftBig": "fadeOutLeftBig",
-      "fadeOutRight": "fadeOutRight",
-      "fadeOutRightBig": "fadeOutRightBig",
-      "fadeOutUp": "fadeOutUp",
-      "fadeOutUpBig": "fadeOutUpBig",
-      "flipOutX": "flipOutX",
-      "flipOutY": "flipOutY",
-      "lightSpeedOut": "lightSpeedOut",
-      "rotateOut": "rotateOut",
-      "rotateOutDownLeft": "rotateOutDownLeft",
-      "rotateOutDownRight": "rotateOutDownRight",
-      "rotateOutUpLeft": "rotateOutUpLeft",
-      "rotateOutUpRight": "rotateOutUpRight",
-      "slideOutUp": "slideOutUp",
-      "slideOutDown": "slideOutDown",
-      "slideOutLeft": "slideOutLeft",
-      "slideOutRight": "slideOutRight",
-      "zoomOut": "zoomOut",
-      "zoomOutDown": "zoomOutDown",
-      "zoomOutLeft": "zoomOutLeft",
-      "zoomOutRight": "zoomOutRight",
-      "zoomOutUp": "zoomOutUp",
-      "rollOut": "rollOut"
-    },
-    "group": "Settings"
-  },
-  "widgetName": {
-    "type": "hidden",
-    "value": "Custom chat"
-  },
-  "widgetAuthor": {
-    "type": "hidden",
-    "value": "lx"
-  },
-  "widgetVersion": {
-    "type": "hidden",
-    "value": "1.0"
-  },
-  "widgetUpdateUrl": {
-    "type": "hidden",
-    "value": "https://github.com/StreamElements/widgets/blob/master/CustomChat/"
-  }
-}
-```
-
-You have now added the base code for your widget in StreamElements. You can start experimenting with the overlay settings from here, or keep following along to add more customization.
+Copy the code from [widget.json](https://github.com/StreamElements/widgets/blob/master/CustomChat/widget.json){:target="\_blank" rel="noopener noreferrer"}. This defines the settings you’ll see in the StreamElements editor (fonts, colors, animations, and more).
 
 <br>
 
-## Customizing Your Widget In StreamElements
+## Customizing Your Widget in StreamElements
 
-To really give the chat widget your own flair, let's start customizing.
+Now that the base is set, you can make your widget unique.
 
-We'll be going for a cute minimal look, like this:
+Here’s a quick example of a minimal, clean style:
 
 ![](/img/posts/custom-chat-widget-tutorial.png)
 
-As you can see, I've added some new username and message box styling. In order to achieve this, we need to change the CSS.
+### Custom CSS
 
-I've also added some new fields in the left sidebar.
+We'll tackle the CSS portion of the chat widget, so let's add properties in between `@import` and `* {` that allow full control over the way our widget looks.
 
-Let's start there first.
+```css
+/* Reset default browser styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
-### Add your custom FIELDS
+/* Set base font size and prevent scrolling */
+html {
+  overflow: hidden;
+  font-size: var(--baseFontSize);
+}
+```
 
-For the Test Message, I decided to change the "Test" field to a "Preview" field.
+From the `.main-container` section, delete everything except for the following:
 
-Here's the code for that:
+```css
+/* Main container for all chat messages */
+.main-container{
+  display:{{alignMessages}};
+  flex-direction: column;
+  justify-content: flex-end;
+  height:98%;
+}
+```
+
+The `user-box` section applies to everything regarding the box where the username is. From this section, change and delete some properties:
+
+```css
+/* Username box styling */
+.user-box{
+  position: absolute;
+  background-color: {{userbackgroundColor}};
+  font-size:{{fontSize}}px;
+  font-weight: 800;
+  z-index: 99;
+  top: 2%;
+  padding: 18px;
+  margin-top: auto;
+  left: {{sliderNickname}}%;
+  text-align: left;
+  width: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.user-box > span{
+  font-size:{{fontSize}}px;
+  text-align: left;
+  margin-right: 20px;
+}
+```
+
+Both the `.message-row` and `.user-message` apply to the box and actual message underneath the username. From this section, change and delete some properties as well:
+
+```css
+/* Message box styling */
+.message-row{
+  position: relative;
+  flex: 0 0 auto;
+  margin-bottom:20px;
+  vertical-align: baseline;
+  padding-top: 40px;
+  padding-right: 18px;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.user-message{
+  display:inline-block;
+  font-size:{{fontSize}}px;
+  background-color: {{messagebackgroundColor}};
+  height: auto;
+  top: 5.5%;
+  max-width:95%;
+  position: relative;
+  word-wrap: break-word;
+  padding: 18px;
+  left: {{sliderMessage}}%;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+```
+
+Lastly, set the properties for `.badge`, `.emote`, and `.action`:
+
+```css
+/* Badges, emotes, and /me actions */
+.badge{
+  display: {{displayBadges}};
+  height: 1em;
+  position: relative;
+  line-height: 1em;
+  vertical-align: middle;
+  top: -0.1em;
+}
+
+.emote{
+  height: {emoteSize}px;
+  vertical-align: middle;
+  background-repeat:no-repeat;
+}
+
+.action{
+  font-style: italic;
+}
+```
+
+### Custom Fields
+
+Organize your widget settings in the StreamElements Editor by updating the Fields:
+
+- Rename **Test Message** to **Preview**.
+- Group global styles (font, color, size) into a `Global Styles` section.
+- Add `Username Styles` (nickname color, background, badges, position).
+- Add `Message Settings` (message limit, hide after seconds, ignored users).
+- Add `About` (widget name, author, version).
 
 ```json
   "testMessage": {
@@ -748,13 +326,6 @@ Here's the code for that:
     "value": "Test message",
     "group": "Preview"
   },
-```
-
-Then for the overall styling, I decided to add a "Global Styles" field.
-
-It looks like this:
-
-```json
   "fontName": {
     "type": "text",
     "label": "Font name",
@@ -902,13 +473,6 @@ It looks like this:
     "value": 0,
     "group": "Global Styles"
   },
-```
-
-To customize the username box, let's add "Username Styles".
-
-It looks like this:
-
-```json
   "nickColor": {
     "type": "dropdown",
     "label": "Username color",
@@ -953,13 +517,6 @@ It looks like this:
     "value": 0,
     "group": "Username Styles"
   },
-```
-
-For the message box, let's add "Message Settings".
-
-It looks like this:
-
-```json
   "messagesLimit": {
     "type": "number",
     "label": "Message limit",
@@ -988,13 +545,6 @@ It looks like this:
     "value": "StreamElements,OtherBot",
     "group": "Message Settings"
   },
-```
-
-Lastly, let's add an "About" section that includes information about the widget.
-
-It looks like this:
-
-```json
   "widgetName": {
     "label": "Custom Chat",
     "type": "hidden",
@@ -1019,126 +569,9 @@ It looks like this:
   }
 ```
 
-### Add your custom CSS
+### Custom Data
 
-Next, we'll tackle the CSS portion of the chat widget.
-
-So let's add properties in between `@import` and `* {` that allow full control over the way our widget looks.
-
-```css
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  overflow: hidden;
-  font-size: var(--baseFontSize);
-}
-```
-
-From the `.main-container` section, let's delete everything except for the following:
-
-```css
-.main-container{
-  display:{{alignMessages}};
-  flex-direction: column;
-  justify-content: flex-end;
-  height:98%;
-}
-```
-
-The `user-box` section applies to everything regarding the box where the username is. From this section, let's change and delete some properties:
-
-```css
-/* Username box */
-.user-box{
-  position: absolute;
-  background-color: {{userbackgroundColor}};
-  font-size:{{fontSize}}px;
-  font-weight: 800;
-  z-index: 99;
-  top: 2%;
-  padding: 18px;
-  margin-top: auto;
-  left: {{sliderNickname}}%;
-  text-align: left;
-  width: block;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-radius: 10px;
-  text-transform: uppercase;
-}
-
-.user-box > span{
-  font-size:{{fontSize}}px;
-  text-align: left;
-  margin-right: 20px;
-}
-```
-
-Both the `.message-row` and `.user-message` apply to the box and actual message underneath the username. From this section, let's change and delete some properties as well:
-
-```css
-/* Message box */
-.message-row{
-  position: relative;
-  flex: 0 0 auto;
-  margin-bottom:20px;
-  vertical-align: baseline;
-  padding-top: 40px;
-  padding-right: 18px;
-  text-align: left;
-  margin-right: 20px;
-}
-
-.user-message{
-  display:inline-block;
-  font-size:{{fontSize}}px;
-  background-color: {{messagebackgroundColor}};
-  height: auto;
-  top: 5.5%;
-  max-width:95%;
-  position: relative;
-  word-wrap: break-word;
-  padding: 18px;
-  left: {{sliderMessage}}%;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-radius: 10px;
-}
-```
-
-Lastly, let's set properties for the custom stuff regarding `.badge`, `.emote`, and `.action`, like so:
-
-```css
-/* Custom stuff */
-.badge{
-  display: {{displayBadges}};
-  height: 1em;
-  position: relative;
-  line-height: 1em;
-  vertical-align: middle;
-  top: -0.1em;
-}
-
-.emote{
-  height: {emoteSize}px;
-  vertical-align: middle;
-  background-repeat:no-repeat;
-}
-
-.action{
-  font-style: italic;
-}
-```
-
-We'll leave the HTML and JS sections as they are.
-
-### Add your custom DATA
-
-We still need to add the DATA, so let's do that. This code will display in one single line:
+Add the configuration to control events, font, animations, colors, and limits:
 
 ```json
 {
@@ -1190,117 +623,62 @@ We still need to add the DATA, so let's do that. This code will display in one s
 }
 ```
 
-You've now completed the custom chat widget!
-
-Customize it as you see fit from the overlay settings in StreamElements, or with your own CSS in the editor.
+Customize the settings directly in the StreamElements editor for live updates.
 
 <br>
 
-## Backing Up Your Code
+## Backing Up Your Widget
 
 In order to really make sure we can mess with the code in StreamElements without losing our working widget prototype, let's make a backup of our code.
 
-### Organize your code
+### Organize locally
 
-Install and open up [Visual Studio Code](https://code.visualstudio.com){:target="\_blank" rel="noopener noreferrer"}.
+1. Create a new folder: `CustomChatWidget`.
 
-Create a new folder called "CustomChatWidget" or however you have named your chat widget.
+2. Create and save files with the code: `widget.html`, `widget.css`, `widget.js`, and `widget.json`.
 
-In this folder, create a file named `widget.css`. Copy the code from CSS into this file.
+### Upload to GitHub
 
-Create a file named `widget.html`. Copy the code from HTML into this file.
+1. Create a repository on [GitHub](https://github.com){:target="\_blank" rel="noopener noreferrer"}.\*
 
-Create a file named `widget.js`. Copy the code from JS into this file.
+2. Commit your `widget.html`, `widget.css`, `widget.js`, and `widget.json` files.
 
-Create a file named `widget.json`. Copy the code from FIELDS into this file.
-
-### Upload your code to GitHub
-
-Sign up for or log in to your existing [GitHub account](https://github.com){:target="\_blank" rel="noopener noreferrer"}.
-
-In GitHub, create a new private repository called "streamelements-widgets" or something similar that allows users to easily find your custom StreamElements widgets in case you'd like to share the code.
-
-> <i class="bi bi-pencil-fill"></i>&nbsp;&nbsp;Note: You can always make your repository public later in case you wish to share your code.
-
-Back in Visual Studio Code, open up Source Control (Ctrl+Shift+G) to connect your GitHub repository.
-
-When connected, simply put the `widget.css`, `widget.html`, `widget.js`, and `widget.json` files in your current repository. Click the "Commit" button in Source Control commit the code to GitHub.
-
-Back in StreamElements, under the Fields tab, scroll all the way to the bottom to include your own widget update URL.
-
-It should look like this:
+3. Paste the GitHub repository link into your StreamElements Widget Update URL.
 
 ```json
-  },
   "widgetUpdateUrl": {
     "type": "hidden",
     "value": "https://github.com/{your-github-repository}"
   }
 ```
 
-Commit your updated code to GitHub as necessary.
+<i class="bi bi-pencil-fill"></i>&nbsp;&nbsp;\*You can always make your repository public in case you wish to share your code.
 
 <br>
 
-## Sharing And Selling Your StreamElements Widgets
+## Sharing and Selling Your Widget
 
-Perhaps you'd love to share your widgets with your community or via an online shop.
+Currently, sharing StreamElements widgets is not fully streamlined, but you can:
 
-Unfortunately, there currently isn't really an easy way to share your StreamElements overlays.
+1. **Share code as text files**: create .txt files for HTML, CSS, JS, Fields, and Data, then zip and share.
 
-But we do have some workarounds.
+2. **Share on the StreamElements Discord**: follow the guidelines in #widget-share.\*\*
 
-### Share some text files
+3. **Apply for StreamElements’ Overlay Sharing**: for eligible users, apply via [their form](https://docs.google.com/forms/d/e/1FAIpQLSdece7hRCA9F3TRh5dLMIygUd5PlWa4xfb1wraW46yvyqs2Ww/viewform){:target="\_blank" rel="noopener noreferrer"}.\*\*\*
 
-You can simply copy the code from the overlay and paste it in separate text files. This is by far the most feasible way to share the widget code for most people.
+<i class="bi bi-pencil-fill"></i>&nbsp;&nbsp;\*\*According to one of the Discord members, there's a backlog of applications that hasn't been approved yet. So it's uncertain how long approval will take and if this method even works.
 
-Create a new folder with your chat widget's name.
+<i class="bi bi-pencil-fill"></i>&nbsp;&nbsp;\*\*\*This application only applies to businesses and eligible participants of exclusive SE Community programs.
 
-Inside this folder, create five `.txt` files. Name them as follows: `css.txt`, `data.txt`, `fields.txt`, `html.txt`, and `js.txt`.
+<br>
 
-Go to the existing StreamElements widget overlay page.
+## Conclusion
 
-Copy the code from each section in the Editor and paste it in its designated `.txt` file.
+You’ve built your custom Twitch chat widget! 🎉
 
-Include instructions in a `README.txt` file if needed.
+From here, you can continue tweaking CSS, animations, and field settings to make it truly yours.
 
-Compress (zip) the entire folder with [7ZIP](https://7-zip.org){:target="\_blank" rel="noopener noreferrer"}.
-
-Then simply upload the compressed folder to your preferred social messaging app or online shop.
-
-### Share your widget in the StreamElements Discord
-
-You can also try sharing your widget on the StreamElements Discord server, after applying in `#widget-share`.
-
-> <i class="bi bi-pencil-fill"></i>&nbsp;&nbsp;Note: According to one of the Discord members, there's a backlog of applications that hasn't been approved yet. So it's uncertain how long approval will take and if this method even works.
-
-After approval, you should be able to share your overlay link.
-
-To do so, copy the full overlay link into a text editor.
-
-Rename the link to include `/dashboard/overlays/share` instead of `/overlay`, and to exclude the `/editor?er=1` part.
-
-So starting from `https://streamelements.com/overlay/<code>/editor?er=1`, it should now look like `https://streamelements.com/dashboard/overlays/share/<code>`.
-
-Share this final link in your community and online shops.
-
-### Apply for StreamElements' Overlay Sharing Application
-
-If you're eligible, you can apply for [Streamelements' One-Click Overlay Sharing Application](https://docs.google.com/forms/d/e/1FAIpQLSdece7hRCA9F3TRh5dLMIygUd5PlWa4xfb1wraW46yvyqs2Ww/viewform){:target="\_blank" rel="noopener noreferrer"}.
-
-> <i class="bi bi-pencil-fill"></i>&nbsp;&nbsp;Note: This application only applies to businesses and eligible participants of exclusive SE Community programs.
-
-After approval, you should be able to share your overlay link.
-
-## To Wrap Up
-
-Congrats on making it all the way through.
-
-I hope you found this step by step tutorial helpful.
-
-I'm pretty sure the code can look better. And I'd love to integrate events for follows, subs, bits, etc., but I don't know how to do that yet. So please let me know if you have any tips!
-
-Thanks for reading.
+Happy streaming!
 
 <br>
 
