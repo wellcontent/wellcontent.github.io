@@ -177,7 +177,7 @@ background: ""
 <!-- Fallback for templates with no category -->
 <!-- {% assign uncategorised = site.templates | where_exp: "t", "t.category == nil or
 t.category == ''" %} -->
-{% assign uncategorised = "" | split: "" %} {% for t in site.templates %} {% if
+<!-- {% assign uncategorised = "" | split: "" %} {% for t in site.templates %} {% if
 t.category == nil or t.category == "" %} {% assign uncategorised = uncategorised
 | push: t %} {% endif %} {% endfor %}
 <div class="tmpl-section" data-category="other">
@@ -213,7 +213,7 @@ t.category == nil or t.category == "" %} {% assign uncategorised = uncategorised
     </div>
     {% endfor %}
   </div>
-</div>
+</div> -->
 
 <p class="tmpl-empty" id="tmpl-empty-msg">
   No templates in this category yet — check back soon.
