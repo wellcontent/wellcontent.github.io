@@ -5,7 +5,7 @@ subtitle: "Turn your analytics into clear, readable reports — automatically."
 description: "A local desktop app that converts creator analytics (CSV files) into structured Markdown reports and dashboards. Currently in development."
 category: Coming Soon
 external_url-kofi: "https://ko-fi.com/glitchedinorbit"
-cover: "/img/templates/automated-creator-reports.png"
+cover: "/img/templates/automated-creator-reports.webp"
 categories: [creator-tools]
 tags:
   [
