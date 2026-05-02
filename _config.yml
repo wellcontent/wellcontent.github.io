@@ -40,7 +40,7 @@ collections:
 breadcrumbs:
   home: "/"
   templates: "/templates"
-  # guides: "/guides"
+  guides: "/guides"
   posts: "/blog"
   about: "/about"
 
