@@ -175,8 +175,7 @@ background: ""
 {% endfor %}
 
 <!-- Fallback for templates with no category -->
-{% assign uncategorised = site.templates | where_exp: "t", "t.category == nil or
-t.category == ''" %} {% if uncategorised.size > 0 %}
+{% assign uncategorised = site.templates | where_exp: "t", "t.category == nil or t.category == ''" %} {% if uncategorised.size > 0 %}
 <div class="tmpl-section" data-category="other">
   <p class="tmpl-section-title">Other</p>
   <div class="row row-cols-1 row-cols-md-3 g-4">
