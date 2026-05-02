@@ -3,6 +3,7 @@ layout: template
 title: "Notion Media Kit & Rate Card"
 subtitle: "Stand out for sponsorship opportunities with Notion."
 description: "A Notion media kit and rate card template to stand out for sponsorship opportunities."
+category: Notion
 external_url-kofi: "https://ko-fi.com/s/36518664df"
 cover: "/img/templates/notion-media-kit-rate-card.webp"
 categories: [templates]

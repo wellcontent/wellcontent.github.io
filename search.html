@@ -41,7 +41,7 @@ description: Search Well&Content for posts, templates, and guides.
 </div>
 
 <!-- Display Search Results for Guides -->
-<div id="search-guides" class="search-section">
+<!-- <div id="search-guides" class="search-section">
   <h3 class="search-section-header">Guides</h3>
   <ul id="search-results-guides">
     {% for guide in site.guides %}
@@ -57,7 +57,7 @@ description: Search Well&Content for posts, templates, and guides.
     </li>
     {% endfor %}
   </ul>
-</div>
+</div> -->
 
 <!-- Display Search Results for Templates -->
 <div id="search-templates" class="search-section">
@@ -95,30 +95,22 @@ description: Search Well&Content for posts, templates, and guides.
 
     // Display the query in the title
     if (query) {
-      document.getElementById(
-        "search-query-title"
-      ).textContent = `Results for: "${query}"`;
+      document.getElementById("search-query-title").textContent =
+        `Results for: "${query}"`;
 
       // Get all sections (posts, guides, and templates)
       const sections = [
         {
           id: "search-posts",
           results: document.querySelectorAll(
-            "#search-results-posts .search-post"
+            "#search-results-posts .search-post",
           ),
           sectionName: "Posts",
         },
         {
-          id: "search-guides",
-          results: document.querySelectorAll(
-            "#search-results-guides .search-post"
-          ),
-          sectionName: "Guides",
-        },
-        {
           id: "search-templates",
           results: document.querySelectorAll(
-            "#search-results-templates .search-post"
+            "#search-results-templates .search-post",
           ),
           sectionName: "Templates",
         },
@@ -170,7 +162,7 @@ description: Search Well&Content for posts, templates, and guides.
         if (resultsFound) {
           document.getElementById(id).style.display = "block"; // Show section
           document.querySelector(
-            `#${id} .search-section-header`
+            `#${id} .search-section-header`,
           ).style.display = "block"; // Show section header
         } else {
           document.getElementById(id).style.display = "none"; // Hide section if no results found

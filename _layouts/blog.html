@@ -54,6 +54,27 @@ layout: default
     </div>
   </header>
 
+  <!-- Intro copy -->
+  <div class="container">
+    <div class="tmpl-intro">
+      <p>
+        Every post here is written with neurodivergent creators in mind —
+        whether you're a streamer, writer, artist, or anyone building something
+        online while navigating a brain that works differently.
+      </p>
+      <p>
+        You won't find hustle culture or toxic productivity advice here. What
+        you will find are honest guides on burnout, consistency, tools that
+        actually help, and the kind of practical thinking that fits around real
+        energy levels — not idealised ones.
+      </p>
+      <p>
+        Browse everything below, or filter by category to find what's most
+        relevant to where you are right now.
+      </p>
+    </div>
+  </div>
+
   <!-- Row with responsive columns -->
   <div class="container">
     <div class="row row-cols-1 row-cols-md-3 g-4 d-flex" id="posts-container">
@@ -97,7 +118,7 @@ layout: default
 
       // Set the "All" button as active by default
       const allButton = document.querySelector(
-        '.filter-btn[data-category="all"]'
+        '.filter-btn[data-category="all"]',
       );
       if (allButton) {
         allButton.classList.add("active");
@@ -125,7 +146,7 @@ layout: default
 
             // Log the categories of the current post during filtering
             console.log(
-              `Post ${index + 1} Categories: ${categories.join(", ")}`
+              `Post ${index + 1} Categories: ${categories.join(", ")}`,
             );
 
             // Check if the post's categories include the selected category or show all
@@ -134,14 +155,14 @@ layout: default
               console.log(
                 `Post ${
                   index + 1
-                } shown because it matches category "${category}"`
+                } shown because it matches category "${category}"`,
               );
             } else {
               post.style.display = "none";
               console.log(
                 `Post ${
                   index + 1
-                } hidden because it does not match category "${category}"`
+                } hidden because it does not match category "${category}"`,
               );
             }
           });

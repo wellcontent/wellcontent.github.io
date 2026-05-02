@@ -1,5 +1,7 @@
 // Custom color variables
 
+$white: #fff;
+$black: #212529;
 $teal: #80cbc4;
 $purple: #b39ddb;
 $indigo: #9fa8da;
@@ -7,7 +9,11 @@ $blue: #90caf9;
 $green: #9ed1ab;
 $light-green: #badec3;
 $dark-green: #35a758;
+$yellow: #f4e3a1;
+$warning: #f4e3a1;
+$info: #90caf9;
 
-$primary: $green;
-/* $light: $light-green; */
-$primary-light-mode: #6baf84;
+// $primary: $green;
+// $primary-light-mode: #6baf84;
+$primary: $white;
+$primary-light-mode: $black;

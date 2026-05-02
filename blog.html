@@ -6,6 +6,294 @@ description: A knowledge base for content creators.
 background: ""
 ---
 
+<style>
+  .blog-intro {
+    max-width: 600px;
+    margin-bottom: 2.5rem;
+  }
+  .blog-intro p {
+    font-size: 15px;
+    line-height: 1.75;
+    color: #aaa;
+    margin-bottom: 0.75rem;
+  }
+
+  .blog-filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  .blog-filter-btn {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: transparent;
+    color: #aaa;
+    cursor: pointer;
+    transition: all 0.15s;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .blog-filter-btn:hover,
+  .blog-filter-btn.active {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 2.5rem;
+  }
+
+  .post-card {
+    background: #1a1a1a;
+    border: 0.5px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.15s;
+  }
+  .post-card:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .post-card-img-wrap {
+    overflow: hidden;
+  }
+  .post-card-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .post-card:hover .post-card-img {
+    transform: scale(1.02);
+  }
+
+  .post-card-body {
+    padding: 1rem 1.1rem 1.2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .post-card-meta {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  .post-card-cat {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #888;
+  }
+  .post-card-dot {
+    font-size: 10px;
+    color: #555;
+  }
+  .post-card-read {
+    font-size: 10px;
+    color: #888;
+  }
+  .post-card-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.35;
+    margin-bottom: 0.4rem;
+  }
+  .post-card-excerpt {
+    font-size: 12.5px;
+    color: #aaa;
+    line-height: 1.55;
+    flex: 1;
+    margin-bottom: 1rem;
+  }
+  .post-card-link {
+    font-size: 12px;
+    color: #aaa;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 1px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: auto;
+    transition: color 0.15s;
+  }
+  .post-card-link:hover {
+    color: #fff;
+  }
+
+  .blog-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.08);
+  }
+  .blog-pagination .page-info {
+    font-size: 12px;
+    color: #888;
+  }
+</style>
+
+<!-- Intro copy -->
+<div class="blog-intro">
+  <p>
+    Every post here is written with neurodivergent creators in mind — whether
+    you're a streamer, writer, artist, or anyone building something online while
+    navigating a brain that works differently.
+  </p>
+  <p>
+    You won't find hustle culture or toxic productivity advice here. What you
+    will find are honest guides on burnout, consistency, tools that actually
+    help, and the kind of practical thinking that fits around real energy levels
+    — not idealised ones.
+  </p>
+  <p>
+    Browse everything below, or filter by category to find what's most relevant
+    to where you are right now.
+  </p>
+</div>
+
+<!-- Category filters -->
+<div class="blog-filters">
+  <a
+    href="/blog/"
+    class="blog-filter-btn {% unless page.url contains '?cat' %}active{% endunless %}"
+  >
+    All
+  </a>
+  {% assign all_cats = site.posts | map: "category" | compact | uniq | sort %}
+  {% for cat in all_cats %}
+
+  <a
+    href="/blog/?cat={{ cat | slugify }}"
+    class="blog-filter-btn"
+    data-cat="{{ cat | slugify }}"
+  >
+    {{ cat }}
+  </a>
+  {% endfor %}
+</div>
+
+<!-- Posts grid -->
+<div class="posts-grid" id="posts-grid">
+  {% for post in paginator.posts %}
+  <div class="post-card" data-cat="{{ post.category | slugify }}">
+    {% if post.background %}
+    <div class="post-card-img-wrap">
+      <img
+        class="post-card-img"
+        srcset="{{ post.background | replace: '.webp', '-320.webp' }} 320w,
+                {{ post.background | replace: '.webp', '-480.webp' }} 480w,
+                {{ post.background | replace: '.webp', '-800.webp' }} 800w"
+        sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+        src="{{ post.background }}"
+        alt="{{ post.background_alt | default: post.title }}"
+        loading="lazy"
+      />
+    </div>
+    {% endif %}
+    <div class="post-card-body">
+      <div class="post-card-meta">
+        {% if post.category %}
+        <span class="post-card-cat">{{ post.category }}</span>
+        <span class="post-card-dot">·</span>
+        {% endif %}
+        <span class="post-card-read">
+          {% include read_time.html content=post.content %}
+        </span>
+      </div>
+      <h2 class="post-card-title">{{ post.title }}</h2>
+      <p class="post-card-excerpt">
+        {% if post.subtitle %}{{ post.subtitle | truncatewords: 18 }} {% elsif
+        post.description %}{{ post.description | truncatewords: 18 }} {% else
+        %}{{ post.excerpt | strip_html | truncatewords: 18 }}{% endif %}
+      </p>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="post-card-link">
+        Continue reading →
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- Pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="blog-pagination">
+  <div>
+    {% if paginator.previous_page %}
+
+    <a
+      class="btn btn-outline-primary btn-sm"
+      href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+    >
+      &larr; Newer posts
+    </a>
+    {% endif %}
+  </div>
+  <span class="page-info">
+    Page {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  <div>
+    {% if paginator.next_page %}
+
+    <a
+      class="btn btn-outline-primary btn-sm"
+      href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+    >
+      Older posts &rarr;
+    </a>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
+
+<script>
+  // Client-side category filtering for the current page of posts
+  const filterBtns = document.querySelectorAll(".blog-filter-btn");
+  const cards = document.querySelectorAll(".post-card");
+
+  // Read ?cat= from URL on load and apply filter
+  const params = new URLSearchParams(window.location.search);
+  const activeCat = params.get("cat") || "all";
+
+  function applyFilter(cat) {
+    filterBtns.forEach((btn) => {
+      btn.classList.toggle(
+        "active",
+        btn.dataset.cat === cat || (!btn.dataset.cat && cat === "all"),
+      );
+    });
+    cards.forEach((card) => {
+      const show = cat === "all" || card.dataset.cat === cat;
+      card.style.display = show ? "" : "none";
+    });
+  }
+
+  applyFilter(activeCat);
+
+  filterBtns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      const cat = btn.dataset.cat || "all";
+      history.pushState({}, "", cat === "all" ? "/blog/" : `/blog/?cat=${cat}`);
+      applyFilter(cat);
+    });
+  });
+</script>
+
 <!-- Posts Card Layout -->
 <div class="card-deck h-100">
   {% for post in site.posts %}

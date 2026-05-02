@@ -1,34 +1,38 @@
 ---
 layout: page
 title: About
-description: Continuous improvement and helping others drives my journey.
+description: Creating things online is hard. Doing it with a brain that works differently is harder. Hi, I'm Chloe — and I've been figuring this out since 2016.
 permalink: /about
 #redirect_to: /about
 background: ""
 ---
 
-## Hi, I'm Chloe!
+**Hi, I'm Chloe**
 
-I'm the person behind **Well&Content**. I began creating content on [Twitch](https://twitch.tv/glitchedinorbit) in 2016 and on [YouTube](https://youtube.com/glitchedinorbit) in 2020. Well&Content is a resource hub to help neurodivergent creators thrive in their creative journey.
+I'm the person behind Well&Content. I started streaming on [Twitch](https://twitch.tv/glitchedinorbit) in 2016, added [YouTube](https://youtube.com/glitchedinorbit) to the mix in 2020, and somewhere along the way realized that almost none of the advice out there was written for someone like me.
 
-### My Mission
+Well&Content exists because I needed it to — and because I'm pretty sure you do too.
 
-I aim to support neurodivergent creators like you with actionable guides, customizable templates, and insightful posts that focus on mental, physical, digital, and financial well-being.
+## A bit about me
 
-### My Story
+I've been creating online long enough to know what burnout feels like from the inside — and long enough to have built my way back from it more than once.
 
-My journey has been shaped by my experiences and recovery from **an eating disorder (ED)**, **anxiety**, and **depression**, as well as ongoing **chronic pain** and **chronic fatigue**. Recently, I've also been diagnosed with **ADHD**, which has helped me better understand my creative process and the unique challenges that come with it.
+A relatively recent ADHD diagnosis helped a lot of things click into place, including why so many productivity systems had always felt like they were designed for someone else entirely. It reframed not just how I approach creating, but why I'd always found the standard advice so exhausting to follow.
 
-Burnout from content creation, alongside my mental health struggles, led me to prioritize my well-being and start Well&Content. I want to share the tools, insights, and support that have helped me navigate my neurodivergent journey, so that you can thrive creatively and sustainably.
+Stepping back and slowing down was the best creative decision I ever made. Well&Content grew out of that period — a place to share the tools, systems, and thinking that have actually helped me create more sustainably.
 
-### What I Offer
+None of it is perfect. Most of it is a work in progress. But it's honest, and it's built around how neurodivergent brains actually work — not how we're told they should.
 
-- **[Templates](https://wellcontent.io/templates)**: Streamline your workflow with tools like the Notion Creator Dashboard and Income & Expense Tracker.
-- **[Guides](https://wellcontent.io/guides)**: Resources like OBS Studio 101 to support your growth.
-- **[Posts](https://wellcontent.io/blog)**: Articles on content creation, streaming tips, and mental health.
+## What you'll find here
 
-### Let’s Connect
+- **[Templates](https://wellcontent.io/templates)** — practical tools like the Notion Creator Dashboard and Income & Expense Tracker, designed to reduce friction and decision fatigue rather than add to it.
+- **[Guides](https://wellcontent.io/guides)** — honest, practical resources covering streaming setup, content creation, and wellbeing. No hustle culture, no toxic productivity.
+- **[Posts](https://wellcontent.io/blog)** — articles on the stuff that actually comes up: burnout, consistency, mental health, creative sustainability, and the financial side of being a creator.
 
-Follow me on [Twitter](https://twitter.com/glitchedinorbit) or email me at [info.wellcontent@gmail.com](mailto:info.wellcontent@gmail.com). I'd love to hear from you!
+## Let's connect
 
-<a href="https://twitter.com/glitchedinorbit" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="text-decoration: none"> <i class="bi bi-twitter"></i> Follow me on Twitter</a>
+I genuinely love hearing from people who find this place useful — or who have thoughts on what would make it more so.
+
+You can find me on [Twitter](https://twitter.com/glitchedinorbit) or drop me an email at [info.wellcontent@gmail.com](mailto:info.wellcontent@gmail.com). I read everything, even when I'm slow to reply.
+
+You're in the right place.

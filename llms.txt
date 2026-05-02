@@ -1,0 +1,48 @@
+# Well&Content
+
+Resources, tools, and support for neurodivergent creators.
+
+> https://wellcontent.io
+
+## About
+
+Well&Content provides templates, guides, and blog posts designed around neurodivergent workflows — helping streamers, writers, artists, and content creators build sustainably without burnout.
+
+Founded by Chloe, a content creator navigating ADHD and the realities of creating online since 2016.
+
+## Templates
+
+Free and low-cost productivity tools designed for neurodivergent creators:
+
+- Content Energy Planner — plan your content based on your actual energy levels
+- Creator 3-Day Reset Plan — a gentle reset for when you're feeling stuck or burnt out
+- Notion Creator Dashboard — organize your content strategy in one place
+- Notion Income & Expense Tracker — track your creator finances without overwhelm
+- Obsidian Daily Planner — flexible daily structure that works on any energy level
+- Obsidian Weekly Review — end-of-week reflection without pressure
+- OBS Studio Preset — start streaming immediately with minimal setup
+- OBS Studio 101 — comprehensive guide to setting up OBS without the overwhelm
+- Comfy Chat Widget — calming stream overlay for neurodivergent streamers
+
+> https://wellcontent.io/templates
+
+## Blog
+
+Articles on burnout, consistency, wellbeing, and sustainable content creation:
+
+- Rethinking Productivity Advice For Neurodivergent Creators
+- Use The PayPal Buffer System To Protect Your Creator Income
+- Financial Sustainability Tips For Neurodivergent Streamers
+- Protecting Your Privacy As A Streamer
+- How to Add a Custom Chat Widget to Your Stream
+
+> https://wellcontent.io/blog
+
+## Contact
+
+Email: info.wellcontent@gmail.com
+Twitter: @glitchedinorbit
+
+---
+
+This site is built for neurodivergent creators who want to build sustainably. All templates and guides focus on flexible systems that work with your energy, not against it.

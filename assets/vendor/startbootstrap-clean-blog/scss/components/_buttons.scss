@@ -18,9 +18,11 @@
   &:hover,
   &:focus,
   &:active {
-    color: $white;
-    background-color: lighten($primary, 7.5) !important;
-    border-color: lighten($primary, 7.5) !important;
+    color: $black;
+    background-color: $gray-500 !important;
+    border-color: $gray-500 !important;
+    // background-color: darken($primary, 9.5) !important;
+    // border-color: darken($primary, 9.5) !important;
   }
 }
 

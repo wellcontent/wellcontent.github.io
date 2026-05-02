@@ -1,5 +1,6 @@
 ---
 layout: template
+category: Notion
 title: "Notion Creator Dashboard"
 subtitle: "Organize your content strategy with Notion."
 description: "A notion creator dashboard template to organize your content strategy."

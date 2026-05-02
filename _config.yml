@@ -36,13 +36,13 @@ collections:
   templates:
     output: true
   guides:
-    output: true
+    output: false
 breadcrumbs:
   home: "/"
-  templates: "/templates"
-  guides: "/guides"
-  posts: "/blog"
-  about: "/about"
+  templates: "/templates/"
+  # guides: "/guides/"
+  posts: "/blog/"
+  about: "/about/"
 
 # Social Profiles
 twitter_username: glitchedinorbit

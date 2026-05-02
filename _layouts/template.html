@@ -29,6 +29,7 @@ layout: default
               {{ page.subtitle }}
             </h2>
 
+            {% unless page.category == "Coming Soon" %}
             <!-- Ko-fi link -->
             {% if page.external_url-kofi %}
             <a
@@ -73,7 +74,7 @@ layout: default
               rel="noopener noreferrer"
               >Get the template on Gumroad</a
             >
-            {% endif %}
+            {% endif %} {% endunless %}
           </div>
         </div>
       </div>

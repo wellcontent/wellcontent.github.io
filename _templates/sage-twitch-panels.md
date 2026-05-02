@@ -3,6 +3,7 @@ layout: template
 title: "Sage Twitch Panels"
 subtitle: "Cute sage stream panels for your channel!"
 description: "Cute sage stream panels for your Twitch channel."
+category: Streaming
 external_url-kofi: "https://ko-fi.com/s/8ea204c470"
 cover: "/img/templates/sage-twitch-panels.webp"
 categories: [templates]

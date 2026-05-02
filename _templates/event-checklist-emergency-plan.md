@@ -3,6 +3,7 @@ layout: template
 title: "Event Checklist & Emergency Plan"
 subtitle: "Stay organized for every part of your event experience."
 description: "Two ready-to-use, editable PDF templates to help streamers and content creators stay on top of their event preparation, safety, and follow-up."
+category: Streaming
 external_url-kofi: "https://ko-fi.com/s/cd97f82ced"
 cover: "/img/templates/event-checklist-emergency-plan.webp"
 categories: [templates]
