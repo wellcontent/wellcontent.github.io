@@ -288,9 +288,12 @@ layout: default
 
     <!-- Row with responsive columns -->
     <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
-      {% assign combined = site.templates | concat: site.guides %} {% assign
+      <!-- {% assign combined = site.templates | concat: site.guides %} {% assign
       combined = combined | sort: "order" %} {% assign count = 0 %} {% for item
-      in combined %} {% if item.order and count < 6 %}
+      in combined %} {% if item.order and count < 6 %} -->
+      {% assign combined = site.templates %} {% assign combined = combined |
+      sort: "order" %} {% assign count = 0 %} {% for item in combined %} {% if
+      item.order and count < 6 %}
       <div class="col d-flex mb-3">
         <div class="card text-white bg-dark h-100">
           <div class="card-img-wrapper">
