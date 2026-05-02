@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: template
 title: "OBS Studio 101"
 subtitle: "Set up your streaming environment without the overwhelm."
 description: "A free OBS Studio guide for neurodivergent creators — clear, structured, and written so you can get streaming without the setup anxiety."
