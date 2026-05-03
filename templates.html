@@ -100,6 +100,15 @@ background: ""
   }
 </style>
 
+<!-- DEBUG: Template Count -->
+<div class="debug-info">
+  <strong>DEBUG INFO:</strong><br />
+  Total templates: {{ site.templates | size }}<br />
+  {% for template in site.templates %} - {{ template.title }} | ID: {{
+  template.id }} | Category: {{ template.category }}<br />
+  {% endfor %}
+</div>
+
 <!-- Intro copy -->
 <div class="tmpl-intro">
   <p>
@@ -175,11 +184,11 @@ background: ""
 {% endfor %}
 
 <!-- Fallback for templates with no category -->
-<!-- {% assign uncategorised = site.templates | where_exp: "t", "t.category == nil or
-t.category == ''" %} -->
-<!-- {% assign uncategorised = "" | split: "" %} {% for t in site.templates %} {% if
-t.category == nil or t.category == "" %} {% assign uncategorised = uncategorised
-| push: t %} {% endif %} {% endfor %}
+{% comment %} {% assign uncategorised = site.templates | where_exp: "t",
+"t.category == nil or t.category == ''" %} {% endcomment %} {% assign
+uncategorised = "" | split: "" %} {% for t in site.templates %} {% if t.category
+== nil or t.category == "" %} {% assign uncategorised = uncategorised | push: t
+%} {% endif %} {% endfor %}
 <div class="tmpl-section" data-category="other">
   <p class="tmpl-section-title">Other</p>
   <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -213,16 +222,16 @@ t.category == nil or t.category == "" %} {% assign uncategorised = uncategorised
     </div>
     {% endfor %}
   </div>
-</div> -->
+</div>
 
-<!-- <p class="tmpl-empty" id="tmpl-empty-msg">
+<p class="tmpl-empty" id="tmpl-empty-msg">
   No templates in this category yet — check back soon.
-</p> -->
+</p>
 
 <script>
   const filterBtns = document.querySelectorAll(".tmpl-filter-btn");
   const sections = document.querySelectorAll(".tmpl-section");
-  // const emptyMsg = document.getElementById("tmpl-empty-msg");
+  const emptyMsg = document.getElementById("tmpl-empty-msg");
 
   filterBtns.forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -238,40 +247,7 @@ t.category == nil or t.category == "" %} {% assign uncategorised = uncategorised
         if (show) visible++;
       });
 
-      //emptyMsg.style.display = visible === 0 ? "block" : "none";
+      emptyMsg.style.display = visible === 0 ? "block" : "none";
     });
   });
 </script>
-
-<!--
----
-layout: page
-title: Templates
-permalink: /templates/
-description: Optimize your productivity and workflow with all-in-one templates.
-background: ""
----
-
-<div class="row row-cols-1 row-cols-md-3 g-4 d-flex">
-  {% for template in site.templates %}
-  <div class="col">
-    <div class="card text-white bg-dark mb-3">
-      <img
-        class="card-img-top"
-        src="{{ template.cover }}"
-        alt="{{ template.title }}"
-      />
-      <div class="card-body">
-        <h4 class="card-title">{{ template.title }}</h4>
-        <p class="card-text">{{ template.subtitle }}</p>
-        <a
-          href="{{ site.baseurl }}{{ template.url }}"
-          class="btn btn-secondary stretched-link"
-        >
-          Download Now
-        </a>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-</div> -->
