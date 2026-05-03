@@ -161,7 +161,7 @@ background: ""
           <p class="card-text">{{ template.subtitle }}</p>
 
           <a
-            href="{{ site.baseurl }}{{ template.url }}"
+            href="{{ template.url | relative_url }}"
             class="btn btn-secondary stretched-link mt-auto"
           >
             Download now
