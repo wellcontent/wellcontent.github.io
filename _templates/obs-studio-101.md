@@ -7,7 +7,7 @@ category: Streaming
 external_url-gumroad: "https://glitchedinorbit.gumroad.com/l/obs-studio-guide"
 external_url-kofi: "https://ko-fi.com/s/23f1b5bcb9"
 cover: "/img/guides/obs-studio-101.png"
-categories: [guides]
+categories: [templates]
 tags: [streaming, streamer tools, twitch, obs, obs studio, neurodivergent]
 ---
 
